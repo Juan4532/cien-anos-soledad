@@ -307,7 +307,12 @@
       "tipo": "mentor_discipulo", "subtipo": "legado intelectual",
       "origen": "JOSE_ARCADIO_SEGUNDO", "destino": "AURELIANO_BABILONIA",
       "inicio": null, "fin": "EVT_MUERTE_GEMELOS",
-      "notas": "José Arcadio Segundo enseña a Aureliano a leer y escribir, y le muestra los pergaminos de Melquíades, asegurándose de que alguien continúe su labor de descifrarlos. Muere diciéndole que 3000 personas fueron masacradas." }
+      "notas": "José Arcadio Segundo enseña a Aureliano a leer y escribir, y le muestra los pergaminos de Melquíades, asegurándose de que alguien continúe su labor de descifrarlos. Muere diciéndole que 3000 personas fueron masacradas." },
+
+    { "id": "REL_HERMANOS_CRESPI",
+      "tipo": "otro", "subtipo": "hermanos",
+      "origen": "PIETRO_CRESPI", "destino": "BRUNO_CRESPI",
+      "inicio": null, "fin": null, "notas": null }
 
   ]
 }

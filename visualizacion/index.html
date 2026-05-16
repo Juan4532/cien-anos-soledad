@@ -372,6 +372,10 @@
         <div class="rels-title">Relaciones</div>
         <div id="panel-rels-list"></div>
       </div>
+      <div style="margin-top:1.25rem">
+        <div class="rels-title">Eventos</div>
+        <div id="panel-evts-list"></div>
+      </div>
     </aside>
 
     <div id="leyenda"><div class="ley-title">Generaciones</div></div>
@@ -501,6 +505,7 @@ const RELACIONES = [
   { id: 'REL_AMISTAD_AURELIANO_GABRIEL',          tipo: 'amistad',          subtipo: 'amigos intelectuales',        origen: 'AURELIANO_BABILONIA',          destino: 'GABRIEL_MARQUEZ',           notas: 'Gabriel es el único que cree en el relato de la masacre.' },
   { id: 'REL_MENTOR_MELQUIADES_JAB',              tipo: 'mentor_discipulo', subtipo: 'maestro y aprendiz',          origen: 'MELQUIADES',                   destino: 'JOSE_ARCADIO_BUENDIA_FUNDADOR', notas: 'Melquíades introduce a JAB en la ciencia, la alquimia, la astrología y la daguerrotipia.' },
   { id: 'REL_MENTOR_JA_SEG_AUR_BAB',             tipo: 'mentor_discipulo', subtipo: 'legado intelectual',          origen: 'JOSE_ARCADIO_SEGUNDO',         destino: 'AURELIANO_BABILONIA',       notas: 'José Arcadio Segundo enseña a Aureliano a leer y le muestra los pergaminos.' },
+  { id: 'REL_HERMANOS_CRESPI',                   tipo: 'otro',             subtipo: 'hermanos',                    origen: 'PIETRO_CRESPI',                destino: 'BRUNO_CRESPI',              notas: null },
 ];
 
 const EVENTOS = [
@@ -735,6 +740,38 @@ function openPanel(node) {
     list.appendChild(item);
   });
   if (!list.children.length) list.innerHTML = '<span style="font-size:.75rem;color:rgba(255,255,255,.2)">Sin relaciones registradas</span>';
+
+  // Eventos del personaje
+  const evtsList = document.getElementById('panel-evts-list');
+  evtsList.innerHTML = '';
+  const charEvts = EVENTOS.filter(e => e.participantes.includes(d.id));
+  if (!charEvts.length) {
+    evtsList.innerHTML = '<span style="font-size:.75rem;color:rgba(255,255,255,.2)">Sin eventos registrados</span>';
+  } else {
+    charEvts.forEach(evt => {
+      const c    = TIPO_C[evt.tipo] || '#888';
+      const item = document.createElement('div');
+      item.className = 'rel-item';
+      item.innerHTML = `
+        <span class="rel-dot" style="background:${c}"></span>
+        <div class="rel-body">
+          <span class="rel-name">${evt.titulo}</span>
+          <span class="rel-type">Cap. ${evt.capitulo} · ${tipoLabel(evt.tipo)}</span>
+        </div>`;
+      item.addEventListener('click', () => {
+        document.querySelector('.tab-btn[data-view="cronologia"]').click();
+        setTimeout(() => {
+          const card = document.querySelector(`.evt-card[data-id="${evt.id}"]`);
+          if (!card) return;
+          card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          card.classList.add('open');
+          card.style.borderColor = c;
+          setTimeout(() => { card.style.borderColor = ''; }, 1800);
+        }, 200);
+      });
+      evtsList.appendChild(item);
+    });
+  }
 
   panel.classList.add('visible');
   highlight(node);
