@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "lugares.schema.json",
+  "title": "Lugar",
+  "description": "Un lugar mencionado en Cien años de soledad",
+  "type": "object",
+  "required": ["id", "nombre", "tipo", "capitulo_aparicion"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_]+$",
+      "description": "Identificador único. Ejemplos: MACONDO, RIOHACHA, CASA_BUENDIA, CUARTO_MELQUIADES"
+    },
+    "nombre": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Nombre canónico del lugar"
+    },
+    "tipo": {
+      "type": "string",
+      "enum": ["casa", "habitacion", "calle", "pueblo", "ciudad", "region", "pais", "edificio", "imaginario"],
+      "description": "Categoría del lugar"
+    },
+    "descripcion": {
+      "type": "string",
+      "description": "Descripción breve, sin reproducir el texto"
+    },
+    "capitulo_aparicion": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 20,
+      "description": "Capítulo en que se menciona por primera vez"
+    },
+    "real": {
+      "type": "boolean",
+      "description": "true si corresponde a un lugar geográfico real (e.g. Riohacha, Santa Marta)"
+    },
+    "coordenadas_reales": {
+      "description": "Coordenadas geográficas reales. Solo si real = true",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "required": ["lat", "lon"],
+          "additionalProperties": false,
+          "properties": {
+            "lat": { "type": "number", "minimum": -90,  "maximum": 90  },
+            "lon": { "type": "number", "minimum": -180, "maximum": 180 }
+          }
+        }
+      ]
+    },
+    "coordenadas_macondo": {
+      "description": "Posición en el mapa imaginario de Macondo (sistema de coordenadas propio, píxeles o unidades narrativas)",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "required": ["x", "y"],
+          "additionalProperties": false,
+          "properties": {
+            "x": { "type": "number" },
+            "y": { "type": "number" },
+            "nota": {
+              "type": "string",
+              "description": "Aclaración sobre cómo se fijó la posición"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

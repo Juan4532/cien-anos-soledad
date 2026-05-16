@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "simbolos.schema.json",
+  "title": "Símbolo",
+  "description": "Un motivo o símbolo recurrente en Cien años de soledad",
+  "type": "object",
+  "required": ["id", "nombre", "descripcion"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^SIM_[A-Z0-9_]+$",
+      "description": "Identificador único. Prefijo SIM_. Ejemplo: SIM_MARIPOSAS_AMARILLAS"
+    },
+    "nombre": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Nombre del símbolo o motivo"
+    },
+    "categoria": {
+      "type": "string",
+      "enum": [
+        "animal", "clima", "objeto", "color",
+        "numero", "sueño", "fenomeno", "enfermedad", "otro"
+      ],
+      "description": "Categoría del símbolo"
+    },
+    "descripcion": {
+      "type": "string",
+      "description": "Descripción del símbolo: qué es y cómo se manifiesta en la novela"
+    },
+    "interpretacion": {
+      "type": ["string", "null"],
+      "description": "Lectura crítica o simbólica: qué representa según la crítica o el análisis del editor"
+    },
+    "apariciones": {
+      "type": "array",
+      "description": "Lista de apariciones del símbolo a lo largo de la novela",
+      "items": {
+        "type": "object",
+        "required": ["capitulo"],
+        "additionalProperties": false,
+        "properties": {
+          "capitulo": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20
+          },
+          "evento": {
+            "type": ["string", "null"],
+            "pattern": "^EVT_[A-Z0-9_]+$",
+            "description": "ID del evento al que está ligada esta aparición, si aplica"
+          },
+          "personajes": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9_]+$"
+            },
+            "uniqueItems": true,
+            "description": "IDs de personajes asociados a esta aparición concreta"
+          },
+          "contexto": {
+            "type": "string",
+            "description": "Descripción breve de la aparición, sin reproducir el texto"
+          }
+        }
+      }
+    }
+  }
+}

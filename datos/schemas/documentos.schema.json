@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "documentos.schema.json",
+  "title": "Documento",
+  "description": "Un objeto textual o visual mencionado en Cien años de soledad",
+  "type": "object",
+  "required": ["id", "tipo", "titulo", "capitulo"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^DOC_[A-Z0-9_]+$",
+      "description": "Identificador único. Prefijo DOC_. Ejemplo: DOC_PERGAMINOS_MELQUIADES"
+    },
+    "tipo": {
+      "type": "string",
+      "enum": [
+        "pergamino", "carta", "edicto", "libro",
+        "mapa", "daguerrotipo", "contrato", "decreto",
+        "diario", "poema", "otro"
+      ],
+      "description": "Tipo de documento u objeto textual/visual"
+    },
+    "titulo": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Nombre o descripción corta del documento"
+    },
+    "capitulo": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 20,
+      "description": "Capítulo en que se menciona o aparece por primera vez"
+    },
+    "autor": {
+      "type": ["string", "null"],
+      "pattern": "^[A-Z][A-Z0-9_]+$",
+      "description": "ID del personaje autor. Null si desconocido o colectivo"
+    },
+    "receptor": {
+      "type": ["string", "null"],
+      "pattern": "^[A-Z][A-Z0-9_]+$",
+      "description": "ID del personaje destinatario, si aplica"
+    },
+    "fecha": {
+      "description": "Fecha de creación o envío del documento",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "required": ["valor", "tipo"],
+          "additionalProperties": false,
+          "properties": {
+            "valor": { "type": "string" },
+            "tipo": {
+              "type": "string",
+              "enum": ["absoluta", "relativa", "inferida"]
+            }
+          }
+        }
+      ]
+    },
+    "contenido_resumido": {
+      "type": "string",
+      "description": "Síntesis del contenido. Prohibido reproducir el texto literal de la novela"
+    },
+    "relevancia_narrativa": {
+      "type": "string",
+      "description": "Papel que desempeña el documento en la trama o en la estructura de la novela"
+    }
+  }
+}

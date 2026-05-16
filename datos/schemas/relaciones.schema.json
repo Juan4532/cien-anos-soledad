@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "relaciones.schema.json",
+  "title": "Relación",
+  "description": "Una arista del grafo de personajes de Cien años de soledad",
+  "type": "object",
+  "required": ["id", "tipo", "origen", "destino"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^REL_[A-Z0-9_]+$",
+      "description": "Identificador único. Prefijo REL_. Ejemplo: REL_JOSE_ARCADIO_PADRE_AURELIANO"
+    },
+    "tipo": {
+      "type": "string",
+      "enum": [
+        "parental", "marital", "amorosa",
+        "conflicto", "mentor_discipulo", "comercial",
+        "politica", "amistad", "otro"
+      ],
+      "description": "Naturaleza de la relación"
+    },
+    "subtipo": {
+      "type": ["string", "null"],
+      "description": "Precisión del tipo. Ejemplos: 'padre', 'madre', 'amante', 'enemigo', 'socio'"
+    },
+    "origen": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_]+$",
+      "description": "ID del personaje que inicia o sostiene la relación (en relaciones parentales: el progenitor)"
+    },
+    "destino": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_]+$",
+      "description": "ID del personaje receptor de la relación"
+    },
+    "inicio": {
+      "type": ["string", "null"],
+      "pattern": "^EVT_[A-Z0-9_]+$",
+      "description": "ID del evento donde comienza la relación. Null si es desde el inicio de la novela o indeterminado"
+    },
+    "fin": {
+      "type": ["string", "null"],
+      "pattern": "^EVT_[A-Z0-9_]+$",
+      "description": "ID del evento donde termina la relación. Null si dura hasta el final o es indeterminada"
+    },
+    "notas": {
+      "type": ["string", "null"],
+      "description": "Matices, ambigüedades o contexto relevante de la relación"
+    }
+  }
+}

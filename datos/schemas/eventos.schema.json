@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "eventos.schema.json",
+  "title": "Evento",
+  "description": "Un acontecimiento narrado en Cien años de soledad",
+  "type": "object",
+  "required": ["id", "titulo", "capitulo", "tipo"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^EVT_[A-Z0-9_]+$",
+      "description": "Identificador único. Prefijo EVT_. Ejemplo: EVT_FUNDACION_MACONDO"
+    },
+    "titulo": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Nombre breve del evento"
+    },
+    "tipo": {
+      "type": "string",
+      "enum": [
+        "nacimiento", "muerte", "boda", "separacion",
+        "llegada", "partida", "guerra", "masacre",
+        "descubrimiento", "invencion", "vision", "sueño",
+        "acuerdo", "conflicto", "milagro", "desastre",
+        "otro"
+      ],
+      "description": "Categoría del evento"
+    },
+    "capitulo": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 20,
+      "description": "Capítulo donde se narra el evento"
+    },
+    "fecha": {
+      "description": "Fecha del evento. Puede ser nula, absoluta, relativa o inferida",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "required": ["valor", "tipo"],
+          "additionalProperties": false,
+          "properties": {
+            "valor": {
+              "type": "string",
+              "description": "Texto de la fecha, e.g. '1820', 'año 3 de Macondo', 'poco después de la guerra'"
+            },
+            "tipo": {
+              "type": "string",
+              "enum": ["absoluta", "relativa", "inferida"]
+            }
+          }
+        }
+      ]
+    },
+    "participantes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z][A-Z0-9_]+$"
+      },
+      "uniqueItems": true,
+      "description": "IDs de personajes que participan o están directamente implicados"
+    },
+    "lugar": {
+      "type": ["string", "null"],
+      "pattern": "^[A-Z][A-Z0-9_]+$",
+      "description": "ID del lugar donde ocurre el evento"
+    },
+    "descripcion": {
+      "type": "string",
+      "description": "Resumen breve del evento, sin reproducir el texto original"
+    }
+  }
+}

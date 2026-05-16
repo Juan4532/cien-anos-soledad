@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "personajes.schema.json",
+  "title": "Personaje",
+  "description": "Un personaje de Cien años de soledad",
+  "type": "object",
+  "required": ["id", "nombre", "capitulo_aparicion"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_]+$",
+      "description": "Identificador único estable. Formato NOMBRE_APELLIDO_DESAMBIGUADOR"
+    },
+    "nombre": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Nombre canónico tal como aparece mayoritariamente en la novela"
+    },
+    "nombres_alternativos": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true,
+      "description": "Apodos, alias o variantes ortográficas"
+    },
+    "generacion": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 7,
+      "description": "Generación dentro del árbol Buendía (1 = fundadores)"
+    },
+    "genero": {
+      "type": "string",
+      "enum": ["masculino", "femenino", "desconocido"],
+      "description": "Género del personaje"
+    },
+    "nacimiento": { "$ref": "#/definitions/fecha_flexible" },
+    "muerte":     { "$ref": "#/definitions/fecha_flexible" },
+    "capitulo_aparicion": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 20,
+      "description": "Capítulo en que el personaje aparece por primera vez"
+    },
+    "descripcion": {
+      "type": "string",
+      "description": "Rasgos físicos y psicológicos breves, sin reproducir el texto"
+    },
+    "referencias": {
+      "type": "array",
+      "description": "Recursos externos (Wikipedia, estudios críticos…)",
+      "items": {
+        "type": "object",
+        "required": ["fuente"],
+        "additionalProperties": false,
+        "properties": {
+          "fuente": {
+            "type": "string",
+            "description": "Nombre de la fuente, e.g. 'Wikipedia (es)'"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "fecha_flexible": {
+      "description": "Fecha que puede ser nula, absoluta, relativa o inferida",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "required": ["valor", "tipo"],
+          "additionalProperties": false,
+          "properties": {
+            "valor": {
+              "type": "string",
+              "description": "Texto de la fecha, e.g. '1820', 'año 3 de Macondo', 'antes de la guerra'"
+            },
+            "tipo": {
+              "type": "string",
+              "enum": ["absoluta", "relativa", "inferida"],
+              "description": "absoluta: año real; relativa: anclada a evento narrativo; inferida: deducida por el editor"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
