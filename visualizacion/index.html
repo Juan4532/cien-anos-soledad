@@ -79,12 +79,48 @@
 
     #cy { width: 100%; height: 100%; display: block; }
 
-    #graph-controls {
+    #graph-controls-wrap {
       position: absolute;
       bottom: 1.5rem; right: 1.5rem;
-      display: flex; gap: 0.4rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0.5rem;
       z-index: 100;
     }
+
+    #graph-controls { display: flex; gap: 0.4rem; }
+
+    #edge-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      justify-content: flex-end;
+      max-width: 420px;
+    }
+
+    .edge-chip {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.09);
+      color: rgba(255,255,255,0.45);
+      padding: 0.25rem 0.55rem;
+      font-size: 0.65rem;
+      cursor: pointer;
+      border-radius: 2px;
+      font-family: 'Inter', sans-serif;
+      letter-spacing: 0.06em;
+      transition: all 0.15s;
+    }
+    .edge-chip .chip-dot {
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .edge-chip.active  { background: rgba(255,255,255,0.09); color: rgba(255,255,255,0.85); border-color: rgba(255,255,255,0.2); }
+    .edge-chip.inactive { opacity: 0.35; }
 
     .btn {
       background: rgba(255,255,255,0.05);
@@ -381,10 +417,12 @@
     <div id="leyenda"><div class="ley-title">Generaciones</div></div>
     <div id="ley-edges"><div class="ley-title">Relaciones</div></div>
 
-    <div id="graph-controls">
-      <button class="btn" id="btn-fit">Encuadrar</button>
-      <button class="btn active" id="btn-all">Todos</button>
-      <button class="btn" id="btn-parental">Solo árbol familiar</button>
+    <div id="graph-controls-wrap">
+      <div id="edge-filters"></div>
+      <div id="graph-controls">
+        <button class="btn" id="btn-fit">Encuadrar</button>
+        <button class="btn active" id="btn-all">Todos</button>
+      </div>
     </div>
   </div>
 
@@ -700,6 +738,7 @@ const cy = cytoscape({
         'line-style':         e => ['amorosa','conflicto'].includes(e.data('tipo')) ? 'dashed' : 'solid',
         'line-dash-pattern': [6, 4],
         'curve-style': 'bezier',
+        'control-point-step-size': 40,
         'transition-property': 'opacity, width',
         'transition-duration': '0.18s',
       },
@@ -818,17 +857,55 @@ cy.on('pan zoom',         () => tooltip.classList.remove('show'));
 
 // Controles grafo ─────────────────────────────────────────────────────────────
 
+const EDGE_LABELS = {
+  parental:         'Familia',
+  marital:          'Matrimonio',
+  amorosa:          'Amorosa',
+  conflicto:        'Conflicto',
+  amistad:          'Amistad',
+  mentor_discipulo: 'Mentor',
+  politica:         'Política',
+  otro:             'Otro',
+};
+
+const activeEdgeTypes = new Set(Object.keys(EDGE_C));
+
+function applyEdgeFilter() {
+  cy.edges().forEach(e => {
+    activeEdgeTypes.has(e.data('tipo')) ? e.show() : e.hide();
+  });
+}
+
+// Construir chips de filtro
+const edgeFiltersEl = document.getElementById('edge-filters');
+Object.entries(EDGE_C).forEach(([tipo, color]) => {
+  const chip = document.createElement('button');
+  chip.className = 'edge-chip active';
+  chip.dataset.tipo = tipo;
+  chip.innerHTML = `<span class="chip-dot" style="background:${color}"></span>${EDGE_LABELS[tipo] || tipo}`;
+  chip.addEventListener('click', function () {
+    if (activeEdgeTypes.has(tipo)) {
+      activeEdgeTypes.delete(tipo);
+      this.classList.replace('active', 'inactive');
+    } else {
+      activeEdgeTypes.add(tipo);
+      this.classList.replace('inactive', 'active');
+    }
+    applyEdgeFilter();
+    document.getElementById('btn-all').classList.remove('active');
+  });
+  edgeFiltersEl.appendChild(chip);
+});
+
 document.getElementById('btn-fit').addEventListener('click', () => cy.animate({ fit: { padding: 40 } }, { duration: 450 }));
 document.getElementById('btn-all').addEventListener('click', function () {
+  Object.keys(EDGE_C).forEach(t => activeEdgeTypes.add(t));
+  document.querySelectorAll('.edge-chip').forEach(c => {
+    c.classList.remove('inactive');
+    c.classList.add('active');
+  });
   cy.elements().show();
   this.classList.add('active');
-  document.getElementById('btn-parental').classList.remove('active');
-});
-document.getElementById('btn-parental').addEventListener('click', function () {
-  cy.elements().show();
-  cy.edges().filter(e => e.data('tipo') !== 'parental').hide();
-  this.classList.add('active');
-  document.getElementById('btn-all').classList.remove('active');
 });
 
 // Leyenda grafo ───────────────────────────────────────────────────────────────
