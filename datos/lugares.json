@@ -1,0 +1,11 @@
+{
+  "_schema": {
+    "id":          "string       — ID único en mayúsculas, e.g. MACONDO, RIOHACHA, CASA_BUENDIA",
+    "nombre":      "string",
+    "tipo":        "string       — pueblo | ciudad | region | casa | habitacion | imaginario",
+    "descripcion": "string",
+    "real":        "boolean      — true si corresponde a un lugar geográfico real",
+    "coordenadas": "object | null — {lat: number, lon: number} solo si real = true"
+  },
+  "lugares": []
+}

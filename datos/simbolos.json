@@ -1,0 +1,16 @@
+{
+  "_schema": {
+    "id":          "string  — ID único, e.g. SIM_MARIPOSAS_AMARILLAS",
+    "nombre":      "string",
+    "categoria":   "string  — animal | clima | objeto | color | numero | sueño | otro",
+    "descripcion": "string  — significado o función simbólica en la novela",
+    "apariciones": [
+      {
+        "capitulo":   "integer",
+        "personajes": ["string — IDs de personajes asociados a esta aparición"],
+        "contexto":   "string  — descripción breve, sin reproducir el texto"
+      }
+    ]
+  },
+  "simbolos": []
+}

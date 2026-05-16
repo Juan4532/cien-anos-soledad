@@ -1,0 +1,13 @@
+{
+  "_schema": {
+    "id":              "string        — ID único, e.g. EVT_FUNDACION_MACONDO",
+    "titulo":          "string        — descripción breve del evento",
+    "capitulo":        "integer       — capítulo donde ocurre (1–20)",
+    "fecha":           "string | null — absoluta (e.g. '1820') o relativa (e.g. 'año 3 de Macondo')",
+    "fecha_inferida":  "boolean       — true si la fecha no es explícita en el texto",
+    "personajes":      ["string       — IDs de personajes involucrados"],
+    "lugar":           "string | null — ID del lugar donde ocurre",
+    "descripcion":     "string        — resumen sin reproducir el texto original"
+  },
+  "eventos": []
+}

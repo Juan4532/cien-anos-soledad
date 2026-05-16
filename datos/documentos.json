@@ -1,0 +1,13 @@
+{
+  "_schema": {
+    "id":           "string       — ID único, e.g. DOC_PERGAMINOS_MELQUIADES",
+    "tipo":         "string       — pergamino | carta | edicto | libro | mapa | otro",
+    "titulo":       "string",
+    "autor":        "string | null — ID del personaje autor",
+    "destinatario": "string | null — ID del personaje destinatario",
+    "fecha":        "string | null — fecha de creación o envío",
+    "capitulo":     "integer | null — capítulo en que se menciona",
+    "descripcion":  "string        — contenido resumido, sin reproducir el texto original"
+  },
+  "documentos": []
+}

@@ -1,0 +1,13 @@
+{
+  "_schema": {
+    "id":              "string        — ID único, e.g. REL_001",
+    "origen":          "string        — ID del personaje origen de la relación",
+    "destino":         "string        — ID del personaje destino",
+    "tipo":            "string        — parental | marital | amorosa | conflicto | amistad | mentor | otro",
+    "subtipo":         "string | null — e.g. 'padre', 'madre', 'hijo', 'amante', 'enemigo'",
+    "descripcion":     "string | null — matices o contexto de la relación",
+    "capitulo_inicio": "integer | null",
+    "capitulo_fin":    "integer | null — null si dura hasta el final o es indeterminada"
+  },
+  "relaciones": []
+}

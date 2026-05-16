@@ -1,0 +1,13 @@
+{
+  "_schema": {
+    "id":                "string  — ID único, formato NOMBRE_APELLIDO_DESAMBIGUADOR",
+    "nombre":            "string  — nombre completo tal como aparece en la novela",
+    "apodos":            ["string"],
+    "generacion":        "integer — generación Buendía (1 = fundadores)",
+    "descripcion":       "string  — rasgos físicos y psicológicos breves",
+    "nacimiento":        "string | null — fecha relativa o absoluta; sufijo '(inferida)' si no es explícita",
+    "muerte":            "string | null",
+    "capitulo_aparicion": "integer — capítulo en que aparece por primera vez (1–20)"
+  },
+  "personajes": []
+}
