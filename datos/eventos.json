@@ -2,7 +2,7 @@
   "_schema": {
     "id":            "string  — ID único, prefijo EVT_",
     "titulo":        "string  — nombre breve del evento",
-    "tipo":          "string  — nacimiento | muerte | boda | separacion | llegada | partida | guerra | masacre | descubrimiento | invencion | vision | sueño | acuerdo | conflicto | milagro | desastre | otro",
+    "tipo":          "string  — nacimiento | muerte | boda | separacion | llegada | partida | guerra | descubrimiento | invencion | vision | sueño | acuerdo | conflicto | milagro | desastre | otro",
     "capitulo":      "integer — capítulo donde ocurre (1–20, aprox.)",
     "fecha":         "object | null — {valor: string, tipo: 'absoluta'|'relativa'|'inferida'}",
     "participantes": ["string — IDs de personajes implicados"],
@@ -473,7 +473,7 @@
     {
       "id": "EVT_EXTERMINIO_17_AURELIANOS",
       "titulo": "Exterminio de los 17 hijos del Coronel Aureliano",
-      "tipo": "masacre",
+      "tipo": "muerte",
       "capitulo": 13,
       "fecha": null,
       "participantes": ["AURELIANO_BUENDIA_CORONEL", "AURELIANO_AMADOR", "AURELIANO_TRISTE"],
@@ -603,7 +603,7 @@
     {
       "id": "EVT_MASACRE_BANANERA",
       "titulo": "Masacre de los trabajadores huelguistas",
-      "tipo": "masacre",
+      "tipo": "muerte",
       "capitulo": 17,
       "fecha": null,
       "participantes": ["JOSE_ARCADIO_SEGUNDO"],
