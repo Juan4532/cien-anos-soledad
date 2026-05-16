@@ -32,13 +32,73 @@
     },
     {
       "id": "EVT_PRIMERA_VISITA_GITANOS",
-      "titulo": "Primera visita de los gitanos de Melquíades",
+      "titulo": "Primera visita de los gitanos: el imán de Melquíades",
       "tipo": "llegada",
       "capitulo": 1,
       "fecha": null,
       "participantes": ["MELQUIADES", "JOSE_ARCADIO_BUENDIA_FUNDADOR"],
       "lugar": "MACONDO",
-      "descripcion": "Melquíades y su banda de gitanos llegan a Macondo exhibiendo inventos: imán, lentes de aumento, telescopio, laboratorio de alquimia. Inauguran el intercambio entre el pueblo y el mundo exterior."
+      "descripcion": "Melquíades y su banda de gitanos llegan a Macondo exhibiendo un imán. José Arcadio Buendía, fascinado, los sigue arrastrando ollas, cazuelas y tenazas. Intercambia sus mulas y una partida de chivos por dos lingotes imantados, convencido de que con ellos podrá sacar oro del subsuelo."
+    },
+    {
+      "id": "EVT_SEGUNDA_VISITA_GITANOS",
+      "titulo": "Segunda visita de los gitanos: catalejo y lupa gigante",
+      "tipo": "llegada",
+      "capitulo": 1,
+      "fecha": null,
+      "participantes": ["MELQUIADES", "JOSE_ARCADIO_BUENDIA_FUNDADOR"],
+      "lugar": "MACONDO",
+      "descripcion": "Melquíades regresa con un catalejo y una lupa del tamaño de un tambor. Declara que 'la ciencia ha eliminado las distancias'. José Arcadio Buendía intercambia los imanes y tres monedas coloniales por la lupa, fascinado por sus posibilidades militares."
+    },
+    {
+      "id": "EVT_JAB_GUERRA_SOLAR",
+      "titulo": "José Arcadio Buendía experimenta con la lupa como arma solar",
+      "tipo": "otro",
+      "capitulo": 1,
+      "fecha": null,
+      "participantes": ["JOSE_ARCADIO_BUENDIA_FUNDADOR"],
+      "lugar": "MACONDO",
+      "descripcion": "José Arcadio Buendía usa la lupa para concentrar los rayos del sol y prende fuego a una pila de material. Se quema. Redacta un manual sobre la 'guerra solar' y lo envía a las autoridades militares sin obtener respuesta."
+    },
+    {
+      "id": "EVT_JAB_TIERRA_REDONDA",
+      "titulo": "José Arcadio Buendía proclama que la tierra es redonda",
+      "tipo": "descubrimiento",
+      "capitulo": 1,
+      "fecha": null,
+      "participantes": ["JOSE_ARCADIO_BUENDIA_FUNDADOR", "URSULA_IGUARAN", "MELQUIADES"],
+      "lugar": "MACONDO",
+      "descripcion": "Usando el catalejo y un astrolabio, José Arcadio Buendía concluye que la tierra es redonda como una naranja. Úrsula, convencida de que ha enloquecido, destroza el astrolabio. Melquíades, de regreso, lo avala públicamente y le regala un globo terráqueo."
+    },
+    {
+      "id": "EVT_REGALO_LABORATORIO_ALQUIMIA",
+      "titulo": "Melquíades regala el laboratorio de alquimia",
+      "tipo": "otro",
+      "capitulo": 1,
+      "fecha": null,
+      "participantes": ["MELQUIADES", "JOSE_ARCADIO_BUENDIA_FUNDADOR"],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Como muestra de amistad y admiración por el espíritu científico de José Arcadio Buendía, Melquíades le regala un completo laboratorio de alquimia. Allí pasará largas horas José Arcadio intentando transmutar metales."
+    },
+    {
+      "id": "EVT_JAB_FUNDE_MONEDAS",
+      "titulo": "José Arcadio Buendía funde los doblones de oro de Úrsula",
+      "tipo": "otro",
+      "capitulo": 1,
+      "fecha": null,
+      "participantes": ["JOSE_ARCADIO_BUENDIA_FUNDADOR", "URSULA_IGUARAN"],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "En su empeño alquímico, José Arcadio Buendía funde los treinta doblones de oro que Úrsula había heredado y guardado toda la vida. El resultado es un chicharrón carbonizado que no pudo desprenderse del fondo del caldero."
+    },
+    {
+      "id": "EVT_GITANOS_DENTADURA_POSTIZA",
+      "titulo": "Melquíades regresa rejuvenecido con dentadura postiza",
+      "tipo": "llegada",
+      "capitulo": 1,
+      "fecha": null,
+      "participantes": ["MELQUIADES", "JOSE_ARCADIO_BUENDIA_FUNDADOR"],
+      "lugar": "MACONDO",
+      "descripcion": "Melquíades regresa a Macondo con una dentadura postiza que lleva en el bolsillo y solo se pone para hablar. Presenta la dentadura como el último invento de los sabios de Memphis. José Arcadio Buendía, encantado, pierde interés en la alquimia."
     },
     {
       "id": "EVT_TOQUE_HIELO",
@@ -46,9 +106,59 @@
       "tipo": "descubrimiento",
       "capitulo": 1,
       "fecha": null,
-      "participantes": ["AURELIANO_BUENDIA_CORONEL", "JOSE_ARCADIO_BUENDIA_FUNDADOR"],
+      "participantes": ["AURELIANO_BUENDIA_CORONEL", "JOSE_ARCADIO_BUENDIA_FUNDADOR", "JOSE_ARCADIO_HIJO"],
       "lugar": "MACONDO",
-      "descripcion": "José Arcadio Buendía lleva a sus hijos a la carpa de los gitanos donde hay un bloque de hielo. El Coronel Aureliano coloca la mano y la retira creyendo que está ardiendo. Este momento abre la primera frase de la novela."
+      "descripcion": "José Arcadio Buendía lleva a sus hijos a la carpa de los gitanos donde hay un bloque de hielo. José Arcadio (hijo) se niega a tocarlo. El Coronel Aureliano coloca la mano y la retira en el acto creyendo que está ardiendo. Este momento abre la primera frase de la novela."
+    },
+    {
+      "id": "EVT_EXPEDICION_NORTE",
+      "titulo": "Expedición de José Arcadio Buendía hacia el norte",
+      "tipo": "otro",
+      "capitulo": 1,
+      "fecha": null,
+      "participantes": ["JOSE_ARCADIO_BUENDIA_FUNDADOR"],
+      "lugar": "MACONDO",
+      "descripcion": "José Arcadio Buendía organiza una expedición hacia el norte con herramientas, brújula y mapas, buscando una ruta que una Macondo con los grandes inventos del mundo. La expedición dura varios meses."
+    },
+    {
+      "id": "EVT_GALEON_SELVA",
+      "titulo": "La expedición descubre un galeón español en la selva",
+      "tipo": "descubrimiento",
+      "capitulo": 1,
+      "fecha": null,
+      "participantes": ["JOSE_ARCADIO_BUENDIA_FUNDADOR"],
+      "lugar": null,
+      "descripcion": "Durante la expedición al norte, el grupo encuentra en medio de la selva un galeón español varado sobre tierra firme, cubierto de flores silvestres y con su mástil intacto. El hallazgo revela que en ese lugar alguna vez hubo mar."
+    },
+    {
+      "id": "EVT_JAB_ENCUENTRA_MAR",
+      "titulo": "La expedición llega al mar por el norte",
+      "tipo": "descubrimiento",
+      "capitulo": 1,
+      "fecha": null,
+      "participantes": ["JOSE_ARCADIO_BUENDIA_FUNDADOR"],
+      "lugar": null,
+      "descripcion": "Continuando la expedición, José Arcadio Buendía llega a un mar de aguas grises 'color de ceniza' batidas por olas ruidosas. Grita que Macondo está rodeada de agua. Acampa dos noches en la orilla y regresa convencido de que el pueblo nunca tendrá salida al mar."
+    },
+    {
+      "id": "EVT_PRIMERA_MUERTE_MELQUIADES",
+      "titulo": "Primera muerte de Melquíades (en Singapur)",
+      "tipo": "muerte",
+      "capitulo": 1,
+      "fecha": null,
+      "participantes": ["MELQUIADES"],
+      "lugar": null,
+      "descripcion": "Un gitano armenio informa a José Arcadio Buendía de que Melquíades ha muerto de fiebres en los pantanos de Singapur. Esta es su primera muerte; en el capítulo 2 regresa porque no pudo soportar la soledad."
+    },
+    {
+      "id": "EVT_GITANOS_NUEVOS",
+      "titulo": "Nueva generación de gitanos llega a Macondo",
+      "tipo": "llegada",
+      "capitulo": 1,
+      "fecha": null,
+      "participantes": ["JOSE_ARCADIO_BUENDIA_FUNDADOR"],
+      "lugar": "MACONDO",
+      "descripcion": "Una nueva tanda de gitanos, sin Melquíades, llega a Macondo con loros multicolores, una gallina que ponía huevos de oro al son de la pandereta, un mono amaestrado que adivinaba el pensamiento, y otros prodigios. José Arcadio Buendía los recibe con frialdad."
     },
     {
       "id": "EVT_RELACION_PILAR_JOSE_ARCADIO",
