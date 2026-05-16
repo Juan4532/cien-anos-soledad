@@ -14,21 +14,21 @@
       "id": "EVT_MATANZA_AGUILAR",
       "titulo": "José Arcadio Buendía mata a Prudencio Aguilar",
       "tipo": "conflicto",
-      "capitulo": 1,
+      "capitulo": 2,
       "fecha": { "valor": "antes de la fundación de Macondo", "tipo": "relativa" },
       "participantes": ["JOSE_ARCADIO_BUENDIA_FUNDADOR", "PRUDENCIO_AGUILAR"],
       "lugar": "RIOHACHA",
-      "descripcion": "Tras una pelea de gallos, Prudencio Aguilar pone en duda la virilidad de José Arcadio Buendía. Éste lo mata con una lanza. El fantasma del muerto acosa a la pareja, lo que los impulsa a abandonar el pueblo."
+      "descripcion": "JAB gana una pelea de gallos a Prudencio Aguilar, quien insulta públicamente su virilidad (Úrsula aún no consumaba el matrimonio). JAB regresa con la lanza de su abuelo y se la clava en la garganta. Esa noche entra al cuarto y obliga a Úrsula a quitarse el pantalón de castidad."
     },
     {
       "id": "EVT_FUNDACION_MACONDO",
       "titulo": "Fundación de Macondo",
       "tipo": "otro",
-      "capitulo": 1,
+      "capitulo": 2,
       "fecha": { "valor": "inicio de la novela, siglo XIX aprox.", "tipo": "inferida" },
       "participantes": ["JOSE_ARCADIO_BUENDIA_FUNDADOR", "URSULA_IGUARAN"],
       "lugar": "MACONDO",
-      "descripcion": "Tras dos años de peregrinación, José Arcadio Buendía sueña con una ciudad de espejos llamada Macondo y funda el pueblo en el lugar donde acamparon junto al río."
+      "descripcion": "Al cabo de la travesía, la expedición acampa junto a un río pedregoso de aguas frías. Esa noche JAB sueña que se levanta una ciudad ruidosa con casas de paredes de espejo cuyo nombre, Macondo, tiene resonancia sobrenatural. Al día siguiente convence a los suyos de que nunca encontrarán el mar y funda la aldea talando árboles junto a la orilla."
     },
     {
       "id": "EVT_PRIMERA_VISITA_GITANOS",
@@ -152,33 +152,123 @@
     },
     {
       "id": "EVT_GITANOS_NUEVOS",
-      "titulo": "Nueva generación de gitanos llega a Macondo",
+      "titulo": "Los gitanos regresan con la estera voladora",
       "tipo": "llegada",
-      "capitulo": 1,
+      "capitulo": 2,
       "fecha": null,
-      "participantes": ["JOSE_ARCADIO_BUENDIA_FUNDADOR"],
+      "participantes": ["JOSE_ARCADIO_BUENDIA_FUNDADOR", "JOSE_ARCADIO_HIJO", "PILAR_TERNERA"],
       "lugar": "MACONDO",
-      "descripcion": "Una nueva tanda de gitanos, sin Melquíades, llega a Macondo con loros multicolores, una gallina que ponía huevos de oro al son de la pandereta, un mono amaestrado que adivinaba el pensamiento, y otros prodigios. José Arcadio Buendía los recibe con frialdad."
+      "descripcion": "Los mismos saltimbanquis y malabaristas que llevaron el hielo regresan cuando Amaranta cumple sus cuarenta días de nacida. Esta vez traen una estera voladora y otros juegos de artificio; los vecinos desentierran sus últimos pedacitos de oro para volar sobre las casas. José Arcadio (hijo) y Pilar Ternera viven horas de desahogo entre la muchedumbre, comportándose como dos novios dichosos."
     },
     {
       "id": "EVT_RELACION_PILAR_JOSE_ARCADIO",
       "titulo": "Relación entre José Arcadio y Pilar Ternera",
       "tipo": "otro",
-      "capitulo": 1,
+      "capitulo": 2,
       "fecha": null,
       "participantes": ["JOSE_ARCADIO_HIJO", "PILAR_TERNERA"],
       "lugar": "MACONDO",
-      "descripcion": "José Arcadio (hijo) se obsesiona con Pilar Ternera, a quien conoce por su olor a humo. La visita de noche. Ella queda embarazada."
+      "descripcion": "Pilar Ternera, mujer alegre y deslenguada que adivina el porvenir con las barajas y llegó a Macondo con el éxodo fundacional, despierta una obsesión en José Arcadio (hijo) por su olor a humo. Él la visita de noche entrando por la puerta que ella deja entornada. Aureliano (hermano) se entera y vive el amor vicariamente a través de sus relatos."
     },
     {
       "id": "EVT_PARTIDA_JOSE_ARCADIO_GITANOS",
       "titulo": "José Arcadio se marcha con los gitanos",
       "tipo": "partida",
-      "capitulo": 1,
+      "capitulo": 2,
       "fecha": null,
       "participantes": ["JOSE_ARCADIO_HIJO"],
       "lugar": "MACONDO",
-      "descripcion": "Tras una noche con una joven gitana, José Arcadio (hijo) abandona Macondo con los gitanos sin avisar a su familia. Úrsula lo busca infructuosamente."
+      "descripcion": "El sábado siguiente a su noche con la joven gitana, José Arcadio (hijo) se amarra un trapo rojo en la cabeza y se va con la farándula sin avisar a nadie. Úrsula lo descubre ausente y sale a buscarlo; preguntando el camino se aleja tanto de la aldea que ya no piensa en regresar."
+    },
+    {
+      "id": "EVT_MATRIMONIO_JAB_URSULA",
+      "titulo": "Boda de José Arcadio Buendía y Úrsula Iguarán",
+      "tipo": "boda",
+      "capitulo": 2,
+      "fecha": { "valor": "antes de la fundación de Macondo", "tipo": "relativa" },
+      "participantes": ["JOSE_ARCADIO_BUENDIA_FUNDADOR", "URSULA_IGUARAN"],
+      "lugar": "RIOHACHA",
+      "descripcion": "JAB y Úrsula, primos criados juntos, se casan a pesar de la oposición familiar por miedo a engendrar hijos con cola de cerdo (ya había un precedente en la familia). La boda se celebra con fiesta de banda y cohetes durante tres días. Úrsula, aterrorizada por los pronósticos de su madre, lleva un pantalón de lona con hebilla de hierro para impedir la consumación; así pasan varios meses."
+    },
+    {
+      "id": "EVT_FANTASMA_PRUDENCIO",
+      "titulo": "El fantasma de Prudencio Aguilar acosa a los Buendía",
+      "tipo": "otro",
+      "capitulo": 2,
+      "fecha": { "valor": "poco después de la muerte de Prudencio Aguilar", "tipo": "relativa" },
+      "participantes": ["JOSE_ARCADIO_BUENDIA_FUNDADOR", "URSULA_IGUARAN", "PRUDENCIO_AGUILAR"],
+      "lugar": "RIOHACHA",
+      "descripcion": "El fantasma de Prudencio Aguilar aparece repetidamente: junto a la tinaja intentando taponarse el cuello con esparto, en el baño lavándose la sangre, paseando bajo la lluvia. JAB le grita que lo matará cada vez que regrese; el muerto no se va. Conmovido por su soledad, JAB le promete marcharse del pueblo para siempre y le pide que descanse."
+    },
+    {
+      "id": "EVT_TRAVESIA_SIERRA",
+      "titulo": "Travesía de la sierra: el éxodo fundacional",
+      "tipo": "otro",
+      "capitulo": 2,
+      "fecha": { "valor": "antes de la fundación de Macondo", "tipo": "relativa" },
+      "participantes": ["JOSE_ARCADIO_BUENDIA_FUNDADOR", "URSULA_IGUARAN"],
+      "lugar": null,
+      "descripcion": "JAB lidera un grupo de familias jóvenes en una travesía de más de dos años a través de la sierra, huyendo del fantasma de Prudencio Aguilar y buscando el mar. Viajan en sentido contrario a Riohacha para no dejar rastro. Úrsula hace parte del camino en hamaca por las varices. Al cabo nunca encuentran el mar."
+    },
+    {
+      "id": "EVT_NACIMIENTO_JOSE_ARCADIO_HIJO",
+      "titulo": "Nacimiento de José Arcadio (hijo) durante la travesía",
+      "tipo": "nacimiento",
+      "capitulo": 2,
+      "fecha": { "valor": "a los catorce meses de travesía", "tipo": "relativa" },
+      "participantes": ["JOSE_ARCADIO_HIJO", "URSULA_IGUARAN", "JOSE_ARCADIO_BUENDIA_FUNDADOR"],
+      "lugar": null,
+      "descripcion": "Con el estómago estragado por la carne de mico y el caldo de culebra, Úrsula da a luz un hijo con todas sus partes humanas. Nace durante la travesía, antes de que la expedición llegue al lugar donde fundará Macondo."
+    },
+    {
+      "id": "EVT_NACIMIENTO_AMARANTA",
+      "titulo": "Nacimiento de Amaranta",
+      "tipo": "nacimiento",
+      "capitulo": 2,
+      "fecha": { "valor": "un jueves de enero, a las dos de la madrugada", "tipo": "relativa" },
+      "participantes": ["AMARANTA_BUENDIA", "URSULA_IGUARAN", "JOSE_ARCADIO_BUENDIA_FUNDADOR"],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Úrsula da a luz a Amaranta un jueves de enero a las dos de la madrugada. Es liviana y acuosa como una lagartija, pero con todas sus partes humanas. Aureliano, que rondaba la casa de Pilar Ternera, no se entera hasta que la casa se llena de gente."
+    },
+    {
+      "id": "EVT_JOSE_ARCADIO_GITANA",
+      "titulo": "José Arcadio (hijo) pasa la noche con la joven gitana",
+      "tipo": "otro",
+      "capitulo": 2,
+      "fecha": null,
+      "participantes": ["JOSE_ARCADIO_HIJO"],
+      "lugar": "MACONDO",
+      "descripcion": "En la feria de la estera voladora, José Arcadio (hijo) ve a la mujer más bella de su vida: una gitana muy joven, agobiada de abalorios. Se aprieta contra ella entre la multitud hasta que ella cede. Van a la carpa gitana, donde ella se desprende de sus corpiños superpuestos. Otras personas de la farándula comparten el espacio sin rubor. José Arcadio se marcha el sábado con un trapo rojo en la cabeza."
+    },
+    {
+      "id": "EVT_EMBARAZO_PILAR_JOSE_ARCADIO",
+      "titulo": "Pilar Ternera anuncia su embarazo a José Arcadio",
+      "tipo": "otro",
+      "capitulo": 2,
+      "fecha": null,
+      "participantes": ["JOSE_ARCADIO_HIJO", "PILAR_TERNERA"],
+      "lugar": "MACONDO",
+      "descripcion": "Durante la feria de la estera voladora, Pilar Ternera aprovecha el entusiasmo de José Arcadio para decirle: 'Ahora sí eres un hombre. Vas a tener un hijo.' La noticia lo encierra en casa durante días y agrava su angustia hasta que decide irse con los gitanos."
+    },
+    {
+      "id": "EVT_BUSQUEDA_URSULA",
+      "titulo": "Úrsula sale a buscar a su hijo y desaparece",
+      "tipo": "partida",
+      "capitulo": 2,
+      "fecha": null,
+      "participantes": ["URSULA_IGUARAN", "JOSE_ARCADIO_BUENDIA_FUNDADOR"],
+      "lugar": "MACONDO",
+      "descripcion": "Al descubrir que José Arcadio (hijo) se ha ido con los gitanos, Úrsula sale a buscarlo siguiendo el camino que le van indicando. Se aleja tanto que ya no piensa en regresar. JAB forma un grupo para buscarla; pescadores indígenas señalan por señas que no la han visto pasar. Vuelven a la aldea tres días después sin haberla encontrado."
+    },
+    {
+      "id": "EVT_REGRESO_URSULA",
+      "titulo": "Regreso de Úrsula con la ruta de la ciénaga",
+      "tipo": "llegada",
+      "capitulo": 2,
+      "fecha": { "valor": "casi cinco meses después de su partida", "tipo": "relativa" },
+      "participantes": ["URSULA_IGUARAN", "JOSE_ARCADIO_BUENDIA_FUNDADOR"],
+      "lugar": "MACONDO",
+      "descripcion": "Úrsula regresa exaltada y rejuvenecida, con ropas de un estilo desconocido en la aldea, acompañada de hombres y mujeres de piel parda que hablan su misma lengua. Viene del otro lado de la ciénaga, a solo dos días de camino, donde hay pueblos con correo mensual y máquinas del bienestar. Ha descubierto la ruta que su marido no encontró: Macondo queda conectada con el mundo."
     },
     {
       "id": "EVT_LLEGADA_REBECA",
