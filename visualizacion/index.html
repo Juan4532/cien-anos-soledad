@@ -91,6 +91,7 @@
 
     #graph-controls { display: flex; gap: 0.4rem; }
 
+    #gen-filters,
     #edge-filters {
       display: flex;
       flex-wrap: wrap;
@@ -418,6 +419,7 @@
     <div id="ley-edges"><div class="ley-title">Relaciones</div></div>
 
     <div id="graph-controls-wrap">
+      <div id="gen-filters"></div>
       <div id="edge-filters"></div>
       <div id="graph-controls">
         <button class="btn" id="btn-fit">Encuadrar</button>
@@ -869,14 +871,52 @@ const EDGE_LABELS = {
 };
 
 const activeEdgeTypes = new Set(Object.keys(EDGE_C));
+const activeGens      = new Set([...Object.keys(GEN).map(k => k === 'null' ? null : Number(k) || k)]);
+// null key in GEN needs special handling: store as the string 'null' in the Set
+activeGens.delete(null);
+activeGens.add('null');
 
-function applyEdgeFilter() {
+function nodeGenKey(n) {
+  const g = n.data('generacion');
+  return g == null ? 'null' : String(g);
+}
+
+function applyFilters() {
+  cy.nodes().forEach(n => {
+    activeGens.has(nodeGenKey(n)) ? n.show() : n.hide();
+  });
   cy.edges().forEach(e => {
-    activeEdgeTypes.has(e.data('tipo')) ? e.show() : e.hide();
+    const srcOk  = activeGens.has(nodeGenKey(e.source()));
+    const tgtOk  = activeGens.has(nodeGenKey(e.target()));
+    const typeOk = activeEdgeTypes.has(e.data('tipo'));
+    (srcOk && tgtOk && typeOk) ? e.show() : e.hide();
   });
 }
 
-// Construir chips de filtro
+// Chips de generación
+const genFiltersEl = document.getElementById('gen-filters');
+Object.entries(GEN).forEach(([gen, c]) => {
+  const key   = gen === 'null' ? 'null' : gen;
+  const label = gen === 'null' ? 'Otros' : c.label.replace(' generación', 'ª');
+  const chip  = document.createElement('button');
+  chip.className = 'edge-chip active';
+  chip.dataset.gen = key;
+  chip.innerHTML = `<span class="chip-dot" style="background:${c.border}"></span>${label}`;
+  chip.addEventListener('click', function () {
+    if (activeGens.has(key)) {
+      activeGens.delete(key);
+      this.classList.replace('active', 'inactive');
+    } else {
+      activeGens.add(key);
+      this.classList.replace('inactive', 'active');
+    }
+    applyFilters();
+    document.getElementById('btn-all').classList.remove('active');
+  });
+  genFiltersEl.appendChild(chip);
+});
+
+// Chips de tipo de arista
 const edgeFiltersEl = document.getElementById('edge-filters');
 Object.entries(EDGE_C).forEach(([tipo, color]) => {
   const chip = document.createElement('button');
@@ -891,7 +931,7 @@ Object.entries(EDGE_C).forEach(([tipo, color]) => {
       activeEdgeTypes.add(tipo);
       this.classList.replace('inactive', 'active');
     }
-    applyEdgeFilter();
+    applyFilters();
     document.getElementById('btn-all').classList.remove('active');
   });
   edgeFiltersEl.appendChild(chip);
@@ -900,6 +940,7 @@ Object.entries(EDGE_C).forEach(([tipo, color]) => {
 document.getElementById('btn-fit').addEventListener('click', () => cy.animate({ fit: { padding: 40 } }, { duration: 450 }));
 document.getElementById('btn-all').addEventListener('click', function () {
   Object.keys(EDGE_C).forEach(t => activeEdgeTypes.add(t));
+  Object.keys(GEN).forEach(k => activeGens.add(k === 'null' ? 'null' : k));
   document.querySelectorAll('.edge-chip').forEach(c => {
     c.classList.remove('inactive');
     c.classList.add('active');
