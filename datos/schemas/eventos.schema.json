@@ -21,7 +21,7 @@
       "type": "string",
       "enum": [
         "nacimiento", "muerte", "boda", "separacion",
-        "llegada", "partida", "guerra", "masacre",
+        "llegada", "partida", "guerra",
         "descubrimiento", "invencion", "vision", "sueño",
         "acuerdo", "conflicto", "milagro", "desastre",
         "otro"
@@ -72,6 +72,11 @@
     "descripcion": {
       "type": "string",
       "description": "Resumen breve del evento, sin reproducir el texto original"
+    },
+    "orden_cronologico": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Posición en la línea de tiempo real, independiente del capítulo narrativo"
     }
   }
 }
