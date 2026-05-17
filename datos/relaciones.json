@@ -1,318 +1,554 @@
 {
   "_schema": {
-    "id":      "string  — ID único, prefijo REL_",
-    "tipo":    "string  — parental | marital | amorosa | conflicto | mentor_discipulo | comercial | politica | amistad | otro",
+    "id": "string  — ID único, prefijo REL_",
+    "tipo": "string  — familiar | marital | amorosa | conflicto | mentor_discipulo | comercial | politica | amistad | otro",
     "subtipo": "string | null — 'padre', 'madre', 'amante', 'enemigo', etc.",
-    "origen":  "string  — ID del personaje que inicia la relación (en parental: el progenitor)",
+    "origen": "string  — ID del personaje que inicia la relación (en familiar: el progenitor)",
     "destino": "string  — ID del personaje receptor",
-    "inicio":  "string | null — ID del evento donde comienza. Null si desde el inicio o indeterminado",
-    "fin":     "string | null — ID del evento donde termina. Null si dura hasta el final o es indeterminada",
-    "notas":   "string | null — matices, ambigüedades o contexto relevante"
+    "inicio": "string | null — ID del evento donde comienza. Null si desde el inicio o indeterminado",
+    "fin": "string | null — ID del evento donde termina. Null si dura hasta el final o es indeterminada",
+    "notas": "string | null — matices, ambigüedades o contexto relevante"
   },
   "relaciones": [
-
-    { "id": "REL_JAB_PADRE_JOSE_ARCADIO_HIJO",
-      "tipo": "parental", "subtipo": "padre",
-      "origen": "JOSE_ARCADIO_BUENDIA_FUNDADOR", "destino": "JOSE_ARCADIO_HIJO",
-      "inicio": null, "fin": null, "notas": null },
-
-    { "id": "REL_JAB_PADRE_CORONEL",
-      "tipo": "parental", "subtipo": "padre",
-      "origen": "JOSE_ARCADIO_BUENDIA_FUNDADOR", "destino": "AURELIANO_BUENDIA_CORONEL",
-      "inicio": null, "fin": null, "notas": null },
-
-    { "id": "REL_JAB_PADRE_AMARANTA",
-      "tipo": "parental", "subtipo": "padre",
-      "origen": "JOSE_ARCADIO_BUENDIA_FUNDADOR", "destino": "AMARANTA_BUENDIA",
-      "inicio": null, "fin": null, "notas": null },
-
-    { "id": "REL_URSULA_MADRE_JOSE_ARCADIO_HIJO",
-      "tipo": "parental", "subtipo": "madre",
-      "origen": "URSULA_IGUARAN", "destino": "JOSE_ARCADIO_HIJO",
-      "inicio": null, "fin": null, "notas": null },
-
-    { "id": "REL_URSULA_MADRE_CORONEL",
-      "tipo": "parental", "subtipo": "madre",
-      "origen": "URSULA_IGUARAN", "destino": "AURELIANO_BUENDIA_CORONEL",
-      "inicio": null, "fin": null, "notas": null },
-
-    { "id": "REL_URSULA_MADRE_AMARANTA",
-      "tipo": "parental", "subtipo": "madre",
-      "origen": "URSULA_IGUARAN", "destino": "AMARANTA_BUENDIA",
-      "inicio": null, "fin": null, "notas": null },
-
-    { "id": "REL_JOSE_ARCADIO_HIJO_PADRE_ARCADIO",
-      "tipo": "parental", "subtipo": "padre",
-      "origen": "JOSE_ARCADIO_HIJO", "destino": "ARCADIO",
-      "inicio": null, "fin": null,
-      "notas": "Arcadio nunca supo que José Arcadio (hijo) era su padre. Lo criaron en la casa Buendía como un Buendía sin apellido." },
-
-    { "id": "REL_PILAR_MADRE_ARCADIO",
-      "tipo": "parental", "subtipo": "madre",
-      "origen": "PILAR_TERNERA", "destino": "ARCADIO",
-      "inicio": null, "fin": null,
-      "notas": "Identidad materna mantenida en secreto. Pilar sustituyó a Arcadio con Santa Sofía de la Piedad cuando él intentó seducirla a ella." },
-
-    { "id": "REL_CORONEL_PADRE_AURELIANO_JOSE",
-      "tipo": "parental", "subtipo": "padre",
-      "origen": "AURELIANO_BUENDIA_CORONEL", "destino": "AURELIANO_JOSE",
-      "inicio": null, "fin": null, "notas": null },
-
-    { "id": "REL_PILAR_MADRE_AURELIANO_JOSE",
-      "tipo": "parental", "subtipo": "madre",
-      "origen": "PILAR_TERNERA", "destino": "AURELIANO_JOSE",
-      "inicio": null, "fin": null, "notas": null },
-
-    { "id": "REL_ARCADIO_PADRE_REMEDIOS_BELLA",
-      "tipo": "parental", "subtipo": "padre",
-      "origen": "ARCADIO", "destino": "REMEDIOS_LA_BELLA",
-      "inicio": null, "fin": null, "notas": null },
-
-    { "id": "REL_ARCADIO_PADRE_JOSE_ARCADIO_SEGUNDO",
-      "tipo": "parental", "subtipo": "padre",
-      "origen": "ARCADIO", "destino": "JOSE_ARCADIO_SEGUNDO",
-      "inicio": null, "fin": null, "notas": null },
-
-    { "id": "REL_ARCADIO_PADRE_AURELIANO_SEGUNDO",
-      "tipo": "parental", "subtipo": "padre",
-      "origen": "ARCADIO", "destino": "AURELIANO_SEGUNDO",
-      "inicio": null, "fin": null, "notas": null },
-
-    { "id": "REL_SANTA_SOFIA_MADRE_REMEDIOS_BELLA",
-      "tipo": "parental", "subtipo": "madre",
-      "origen": "SANTA_SOFIA_DE_LA_PIEDAD", "destino": "REMEDIOS_LA_BELLA",
-      "inicio": null, "fin": null, "notas": null },
-
-    { "id": "REL_SANTA_SOFIA_MADRE_JOSE_ARCADIO_SEGUNDO",
-      "tipo": "parental", "subtipo": "madre",
-      "origen": "SANTA_SOFIA_DE_LA_PIEDAD", "destino": "JOSE_ARCADIO_SEGUNDO",
-      "inicio": null, "fin": null, "notas": null },
-
-    { "id": "REL_SANTA_SOFIA_MADRE_AURELIANO_SEGUNDO",
-      "tipo": "parental", "subtipo": "madre",
-      "origen": "SANTA_SOFIA_DE_LA_PIEDAD", "destino": "AURELIANO_SEGUNDO",
-      "inicio": null, "fin": null, "notas": null },
-
-    { "id": "REL_CORONEL_PADRE_AURELIANO_TRISTE",
-      "tipo": "parental", "subtipo": "padre",
-      "origen": "AURELIANO_BUENDIA_CORONEL", "destino": "AURELIANO_TRISTE",
-      "inicio": null, "fin": null,
-      "notas": "Uno de los 17 hijos del Coronel engendrados con 17 mujeres distintas durante la guerra." },
-
-    { "id": "REL_CORONEL_PADRE_AURELIANO_CENTENO",
-      "tipo": "parental", "subtipo": "padre",
-      "origen": "AURELIANO_BUENDIA_CORONEL", "destino": "AURELIANO_CENTENO",
-      "inicio": null, "fin": null,
-      "notas": "Uno de los 17 hijos del Coronel." },
-
-    { "id": "REL_CORONEL_PADRE_AURELIANO_AMADOR",
-      "tipo": "parental", "subtipo": "padre",
-      "origen": "AURELIANO_BUENDIA_CORONEL", "destino": "AURELIANO_AMADOR",
-      "inicio": null, "fin": null,
-      "notas": "Único superviviente del exterminio de los 17 aurelianos. Escapa refugiándose con los indios. Muerto finalmente por policías ante la puerta de la casa Buendía." },
-
-    { "id": "REL_AURELIANO_SEG_PADRE_JOSE_ARCADIO_QUINTO",
-      "tipo": "parental", "subtipo": "padre",
-      "origen": "AURELIANO_SEGUNDO", "destino": "JOSE_ARCADIO_QUINTO",
-      "inicio": null, "fin": null, "notas": null },
-
-    { "id": "REL_FERNANDA_MADRE_JOSE_ARCADIO_QUINTO",
-      "tipo": "parental", "subtipo": "madre",
-      "origen": "FERNANDA_DEL_CARPIO", "destino": "JOSE_ARCADIO_QUINTO",
-      "inicio": null, "fin": null, "notas": null },
-
-    { "id": "REL_AURELIANO_SEG_PADRE_MEME",
-      "tipo": "parental", "subtipo": "padre",
-      "origen": "AURELIANO_SEGUNDO", "destino": "MEME",
-      "inicio": null, "fin": null, "notas": null },
-
-    { "id": "REL_FERNANDA_MADRE_MEME",
-      "tipo": "parental", "subtipo": "madre",
-      "origen": "FERNANDA_DEL_CARPIO", "destino": "MEME",
-      "inicio": null, "fin": null, "notas": null },
-
-    { "id": "REL_AURELIANO_SEG_PADRE_AMARANTA_URSULA",
-      "tipo": "parental", "subtipo": "padre",
-      "origen": "AURELIANO_SEGUNDO", "destino": "AMARANTA_URSULA",
-      "inicio": null, "fin": null, "notas": null },
-
-    { "id": "REL_FERNANDA_MADRE_AMARANTA_URSULA",
-      "tipo": "parental", "subtipo": "madre",
-      "origen": "FERNANDA_DEL_CARPIO", "destino": "AMARANTA_URSULA",
-      "inicio": null, "fin": null, "notas": null },
-
-    { "id": "REL_MEME_MADRE_AURELIANO_BABILONIA",
-      "tipo": "parental", "subtipo": "madre",
-      "origen": "MEME", "destino": "AURELIANO_BABILONIA",
-      "inicio": null, "fin": null,
-      "notas": "Meme nunca volvió a hablar tras su separación forzada de Mauricio. Su hijo fue criado por Fernanda en secreto." },
-
-    { "id": "REL_MAURICIO_PADRE_AURELIANO_BABILONIA",
-      "tipo": "parental", "subtipo": "padre",
-      "origen": "MAURICIO_BABILONIA", "destino": "AURELIANO_BABILONIA",
-      "inicio": null, "fin": null,
-      "notas": "Las monjas solo conocían el apellido materno de Meme; bautizaron al niño con ese nombre." },
-
-    { "id": "REL_AURELIANO_BABILONIA_PADRE_AURELIANO_ULTIMO",
-      "tipo": "parental", "subtipo": "padre",
-      "origen": "AURELIANO_BABILONIA", "destino": "AURELIANO_ULTIMO",
-      "inicio": "EVT_AMOR_AURELIANO_AMARANTA_URSULA", "fin": null,
-      "notas": "Producto del incesto entre sobrino y tía. Nace con cola de cerdo, el signo de la maldición familiar." },
-
-    { "id": "REL_AMARANTA_URSULA_MADRE_AURELIANO_ULTIMO",
-      "tipo": "parental", "subtipo": "madre",
-      "origen": "AMARANTA_URSULA", "destino": "AURELIANO_ULTIMO",
-      "inicio": "EVT_AMOR_AURELIANO_AMARANTA_URSULA", "fin": null,
-      "notas": "Muere en el parto al día siguiente del nacimiento. No sabía que Aureliano Babilonia era su sobrino." },
-
-    { "id": "REL_MATRIMONIO_JAB_URSULA",
-      "tipo": "marital", "subtipo": "esposos",
-      "origen": "JOSE_ARCADIO_BUENDIA_FUNDADOR", "destino": "URSULA_IGUARAN",
-      "inicio": null, "fin": "EVT_MUERTE_JOSE_ARCADIO_BUENDIA",
-      "notas": "Son primos. Úrsula lleva cinturón de castidad los primeros meses ante el miedo al incesto. El matrimonio es el eje de la fundación de Macondo." },
-
-    { "id": "REL_MATRIMONIO_JOSE_ARCADIO_REBECA",
-      "tipo": "marital", "subtipo": "esposos",
-      "origen": "JOSE_ARCADIO_HIJO", "destino": "REBECA",
-      "inicio": "EVT_MATRIMONIO_JOSE_ARCADIO_REBECA", "fin": "EVT_MUERTE_JOSE_ARCADIO_HIJO",
-      "notas": "Boda imprevista que sorprende a la familia. Úrsula no los deja vivir en la casa." },
-
-    { "id": "REL_MATRIMONIO_CORONEL_REMEDIOS",
-      "tipo": "marital", "subtipo": "esposos",
-      "origen": "AURELIANO_BUENDIA_CORONEL", "destino": "REMEDIOS_MOSCOTE",
-      "inicio": "EVT_MATRIMONIO_AURELIANO_REMEDIOS", "fin": "EVT_MUERTE_REMEDIOS_MOSCOTE",
-      "notas": "Remedios tiene nueve años cuando el Coronel se enamora de ella. Se casan tras su primera menstruación. Su muerte lo devuelve a la soledad de la infancia." },
-
-    { "id": "REL_MATRIMONIO_AURELIANO_SEG_FERNANDA",
-      "tipo": "marital", "subtipo": "esposos",
-      "origen": "AURELIANO_SEGUNDO", "destino": "FERNANDA_DEL_CARPIO",
-      "inicio": "EVT_MATRIMONIO_AURELIANO_SEG_FERNANDA", "fin": null,
-      "notas": "Matrimonio de conveniencia social. Aureliano Segundo mantiene toda la vida su relación con Petra Cotes." },
-
-    { "id": "REL_MATRIMONIO_AMARANTA_URSULA_GASTON",
-      "tipo": "marital", "subtipo": "esposos",
-      "origen": "AMARANTA_URSULA", "destino": "GASTON",
-      "inicio": "EVT_REGRESO_AMARANTA_URSULA", "fin": "EVT_AMOR_AURELIANO_AMARANTA_URSULA",
-      "notas": "Gastón, belga, acepta con ecuanimidad la infidelidad y regresa a Bruselas sin escenas." },
-
-    { "id": "REL_AMOR_JOSE_ARCADIO_PILAR",
-      "tipo": "amorosa", "subtipo": "amantes",
-      "origen": "JOSE_ARCADIO_HIJO", "destino": "PILAR_TERNERA",
-      "inicio": "EVT_RELACION_PILAR_JOSE_ARCADIO", "fin": "EVT_PARTIDA_JOSE_ARCADIO_GITANOS",
-      "notas": "José Arcadio la visita de noche guiado por su olor. De esta unión nace Arcadio." },
-
-    { "id": "REL_AMOR_CORONEL_PILAR",
-      "tipo": "amorosa", "subtipo": "amantes",
-      "origen": "AURELIANO_BUENDIA_CORONEL", "destino": "PILAR_TERNERA",
-      "inicio": "EVT_RELACION_PILAR_CORONEL", "fin": null,
-      "notas": "Pilar se ofrece como intermediaria amorosa y acaban teniendo una noche juntos. De esta unión nace Aureliano José." },
-
-    { "id": "REL_AMOR_AURELIANO_JOSE_AMARANTA",
-      "tipo": "amorosa", "subtipo": "atracción incestuosa no consumada",
-      "origen": "AURELIANO_JOSE", "destino": "AMARANTA_BUENDIA",
-      "inicio": null, "fin": null,
-      "notas": "Aureliano José se mete en la cama de Amaranta primero por miedo y luego por deseo. Amaranta lo rechaza definitivamente tras rozar el límite. Ella lo abandona cerrando por fin la puerta de su dormitorio." },
-
-    { "id": "REL_AMOR_AMARANTA_PIETRO",
-      "tipo": "amorosa", "subtipo": "amor no correspondido (Amaranta rechaza a Pietro)",
-      "origen": "AMARANTA_BUENDIA", "destino": "PIETRO_CRESPI",
-      "inicio": "EVT_LLEGADA_PIETRO_CRESPI", "fin": "EVT_SUICIDIO_PIETRO_CRESPI",
-      "notas": "Amaranta se enamora de Pietro pero lo rechaza cruelmente cuando él le propone matrimonio, impulsada por un deseo de castigarle y protegerse de ser herida. Pietro Crespi se suicida." },
-
-    { "id": "REL_AMOR_REBECA_PIETRO",
-      "tipo": "amorosa", "subtipo": "novios",
-      "origen": "REBECA", "destino": "PIETRO_CRESPI",
-      "inicio": "EVT_LLEGADA_PIETRO_CRESPI", "fin": "EVT_MATRIMONIO_JOSE_ARCADIO_REBECA",
-      "notas": "Rebeca espera durante años la boda que Amaranta boicotea en repetidas ocasiones. Finalmente Rebeca se casa con José Arcadio (hijo) en lugar de con Pietro." },
-
-    { "id": "REL_AMOR_AMARANTA_GERINELDO",
-      "tipo": "amorosa", "subtipo": "amor rechazado",
-      "origen": "GERINELDO_MARQUEZ", "destino": "AMARANTA_BUENDIA",
-      "inicio": null, "fin": null,
-      "notas": "Gerineldo Márquez la corteja. Amaranta lo rechaza alegando que lo matarán en la guerra, pero en realidad es su muro autoimpuesto contra el amor. Cuando envejece, le echa de menos." },
-
-    { "id": "REL_AMOR_ARCADIO_SANTA_SOFIA",
-      "tipo": "amorosa", "subtipo": "pareja",
-      "origen": "ARCADIO", "destino": "SANTA_SOFIA_DE_LA_PIEDAD",
-      "inicio": null, "fin": "EVT_FUSILAMIENTO_ARCADIO",
-      "notas": "Santa Sofía sustituye a Pilar Ternera en el engaño que esta tendió a Arcadio. Acaban enamorados. Tienen tres hijos juntos." },
-
-    { "id": "REL_AMOR_AURELIANO_SEG_PETRA",
-      "tipo": "amorosa", "subtipo": "amantes duraderos",
-      "origen": "AURELIANO_SEGUNDO", "destino": "PETRA_COTES",
-      "inicio": null, "fin": "EVT_MUERTE_GEMELOS",
-      "notas": "Relación que dura toda la vida de Aureliano Segundo, paralela a su matrimonio con Fernanda. La fidelidad de Petra al final, cuando Aureliano está enfermo y arruinado, convierte la pasión en amor tranquilo y solidario." },
-
-    { "id": "REL_AMOR_MEME_MAURICIO",
-      "tipo": "amorosa", "subtipo": "amantes",
-      "origen": "MEME", "destino": "MAURICIO_BABILONIA",
-      "inicio": "EVT_AMOR_MEME_MAURICIO", "fin": "EVT_DISPARO_MAURICIO",
-      "notas": "Meme piensa en Mauricio hasta su muerte sin haber vuelto a ser feliz." },
-
-    { "id": "REL_AMOR_AURELIANO_AMARANTA_URSULA",
-      "tipo": "amorosa", "subtipo": "amantes incestuosos",
-      "origen": "AURELIANO_BABILONIA", "destino": "AMARANTA_URSULA",
-      "inicio": "EVT_AMOR_AURELIANO_AMARANTA_URSULA", "fin": "EVT_MUERTE_AMARANTA_URSULA",
-      "notas": "Sobrino y tía. Ninguno de los dos sabía con certeza el vínculo de sangre. Su unión produce el niño con cola de cerdo que cumple la profecía." },
-
-    { "id": "REL_AMOR_AURELIANO_NIGROMANTA",
-      "tipo": "amorosa", "subtipo": "amantes",
-      "origen": "AURELIANO_BABILONIA", "destino": "NIGROMANTA",
-      "inicio": null, "fin": "EVT_AMOR_AURELIANO_AMARANTA_URSULA",
-      "notas": "Aureliano paga con el dinero de su tía a Nigromanta. Luego se hacen amantes gratuitamente hasta que él le confiesa su amor por Amaranta Úrsula." },
-
-    { "id": "REL_CONFLICTO_JAB_AGUILAR",
-      "tipo": "conflicto", "subtipo": "duelo mortal",
-      "origen": "JOSE_ARCADIO_BUENDIA_FUNDADOR", "destino": "PRUDENCIO_AGUILAR",
-      "inicio": "EVT_MATANZA_AGUILAR", "fin": null,
-      "notas": "El fantasma de Aguilar acosa a la pareja Buendía con una tristeza tan profunda que despierta compasión. Finalmente, en su demencia, JAB convierte el fantasma en compañero de charla." },
-
-    { "id": "REL_CONFLICTO_AMARANTA_REBECA",
-      "tipo": "conflicto", "subtipo": "rivalidad femenina",
-      "origen": "AMARANTA_BUENDIA", "destino": "REBECA",
-      "inicio": "EVT_LLEGADA_PIETRO_CRESPI", "fin": null,
-      "notas": "Amaranta boicotea la boda de Rebeca en repetidas ocasiones: deja que las polillas devoren el vestido, inyecta arsénico en su café (nunca llega a dárselo). Solo la muerte de Remedios Moscote frena el plan." },
-
-    { "id": "REL_POLITICA_CORONEL_CONSERVADORES",
-      "tipo": "politica", "subtipo": "oposición armada",
-      "origen": "AURELIANO_BUENDIA_CORONEL", "destino": "APOLINAR_MOSCOTE",
-      "inicio": "EVT_PRIMERA_GUERRA_LIBERAL", "fin": "EVT_RENDICION_CORONEL",
-      "notas": "El Coronel pierde 32 levantamientos en 20 años de guerra civil. Al final firma la rendición reconociendo que solo luchaba por orgullo." },
-
-    { "id": "REL_AMISTAD_CORONEL_GERINELDO",
-      "tipo": "amistad", "subtipo": "camaradas de guerra",
-      "origen": "AURELIANO_BUENDIA_CORONEL", "destino": "GERINELDO_MARQUEZ",
-      "inicio": "EVT_PRIMERA_GUERRA_LIBERAL", "fin": "EVT_MUERTE_GERINELDO_MARQUEZ",
-      "notas": "Amistad que sobrevive incluso al episodio en que el Coronel condena a Gerineldo a muerte por alta traición y luego lo libera. Con el tiempo el Coronel lo percibe como un extraño." },
-
-    { "id": "REL_AMISTAD_CORONEL_MONCADA",
-      "tipo": "amistad", "subtipo": "amigos en bandos opuestos",
-      "origen": "AURELIANO_BUENDIA_CORONEL", "destino": "JOSE_RAQUEL_MONCADA",
-      "inicio": null, "fin": "EVT_EJECUCION_MONCADA",
-      "notas": "Amigos a pesar de ser rivales políticos. Almuerzan juntos en casa de Úrsula antes de que el Coronel ordene su ejecución." },
-
-    { "id": "REL_AMISTAD_AURELIANO_GABRIEL",
-      "tipo": "amistad", "subtipo": "amigos intelectuales",
-      "origen": "AURELIANO_BABILONIA", "destino": "GABRIEL_MARQUEZ",
-      "inicio": null, "fin": null,
-      "notas": "Gabriel es el único que cree en el relato de la masacre que vivió José Arcadio Segundo, porque sabe que el Coronel Aureliano fue amigo de su propio tatarabuelo Gerineldo Márquez." },
-
-    { "id": "REL_MENTOR_MELQUIADES_JAB",
-      "tipo": "mentor_discipulo", "subtipo": "maestro y aprendiz",
-      "origen": "MELQUIADES", "destino": "JOSE_ARCADIO_BUENDIA_FUNDADOR",
-      "inicio": "EVT_PRIMERA_VISITA_GITANOS", "fin": "EVT_MUERTE_MELQUIADES",
-      "notas": "Melquíades introduce a JAB en la ciencia, la alquimia, la astrología y la daguerrotipia. Le regala un laboratorio completo como recompensa por descubrir que la tierra es redonda." },
-
-    { "id": "REL_MENTOR_JOSE_ARCADIO_SEG_AURELIANO_BAB",
-      "tipo": "mentor_discipulo", "subtipo": "legado intelectual",
-      "origen": "JOSE_ARCADIO_SEGUNDO", "destino": "AURELIANO_BABILONIA",
-      "inicio": null, "fin": "EVT_MUERTE_GEMELOS",
-      "notas": "José Arcadio Segundo enseña a Aureliano a leer y escribir, y le muestra los pergaminos de Melquíades, asegurándose de que alguien continúe su labor de descifrarlos. Muere diciéndole que 3000 personas fueron masacradas." },
-
-    { "id": "REL_HERMANOS_CRESPI",
-      "tipo": "otro", "subtipo": "hermanos",
-      "origen": "PIETRO_CRESPI", "destino": "BRUNO_CRESPI",
-      "inicio": null, "fin": null, "notas": null }
-
+    {
+      "id": "REL_JAB_PADRE_JOSE_ARCADIO_HIJO",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "JOSE_ARCADIO_BUENDIA_FUNDADOR",
+      "destino": "JOSE_ARCADIO_HIJO",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_JAB_PADRE_CORONEL",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "JOSE_ARCADIO_BUENDIA_FUNDADOR",
+      "destino": "AURELIANO_BUENDIA_CORONEL",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_JAB_PADRE_AMARANTA",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "JOSE_ARCADIO_BUENDIA_FUNDADOR",
+      "destino": "AMARANTA_BUENDIA",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_URSULA_MADRE_JOSE_ARCADIO_HIJO",
+      "tipo": "familiar",
+      "subtipo": "madre",
+      "origen": "URSULA_IGUARAN",
+      "destino": "JOSE_ARCADIO_HIJO",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_URSULA_MADRE_CORONEL",
+      "tipo": "familiar",
+      "subtipo": "madre",
+      "origen": "URSULA_IGUARAN",
+      "destino": "AURELIANO_BUENDIA_CORONEL",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_URSULA_MADRE_AMARANTA",
+      "tipo": "familiar",
+      "subtipo": "madre",
+      "origen": "URSULA_IGUARAN",
+      "destino": "AMARANTA_BUENDIA",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_JOSE_ARCADIO_HIJO_PADRE_ARCADIO",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "JOSE_ARCADIO_HIJO",
+      "destino": "ARCADIO",
+      "inicio": null,
+      "fin": null,
+      "notas": "Arcadio nunca supo que José Arcadio (hijo) era su padre. Lo criaron en la casa Buendía como un Buendía sin apellido."
+    },
+    {
+      "id": "REL_PILAR_MADRE_ARCADIO",
+      "tipo": "familiar",
+      "subtipo": "madre",
+      "origen": "PILAR_TERNERA",
+      "destino": "ARCADIO",
+      "inicio": null,
+      "fin": null,
+      "notas": "Identidad materna mantenida en secreto. Pilar sustituyó a Arcadio con Santa Sofía de la Piedad cuando él intentó seducirla a ella."
+    },
+    {
+      "id": "REL_CORONEL_PADRE_AURELIANO_JOSE",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "AURELIANO_BUENDIA_CORONEL",
+      "destino": "AURELIANO_JOSE",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_PILAR_MADRE_AURELIANO_JOSE",
+      "tipo": "familiar",
+      "subtipo": "madre",
+      "origen": "PILAR_TERNERA",
+      "destino": "AURELIANO_JOSE",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_ARCADIO_PADRE_REMEDIOS_BELLA",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "ARCADIO",
+      "destino": "REMEDIOS_LA_BELLA",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_ARCADIO_PADRE_JOSE_ARCADIO_SEGUNDO",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "ARCADIO",
+      "destino": "JOSE_ARCADIO_SEGUNDO",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_ARCADIO_PADRE_AURELIANO_SEGUNDO",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "ARCADIO",
+      "destino": "AURELIANO_SEGUNDO",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_SANTA_SOFIA_MADRE_REMEDIOS_BELLA",
+      "tipo": "familiar",
+      "subtipo": "madre",
+      "origen": "SANTA_SOFIA_DE_LA_PIEDAD",
+      "destino": "REMEDIOS_LA_BELLA",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_SANTA_SOFIA_MADRE_JOSE_ARCADIO_SEGUNDO",
+      "tipo": "familiar",
+      "subtipo": "madre",
+      "origen": "SANTA_SOFIA_DE_LA_PIEDAD",
+      "destino": "JOSE_ARCADIO_SEGUNDO",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_SANTA_SOFIA_MADRE_AURELIANO_SEGUNDO",
+      "tipo": "familiar",
+      "subtipo": "madre",
+      "origen": "SANTA_SOFIA_DE_LA_PIEDAD",
+      "destino": "AURELIANO_SEGUNDO",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_CORONEL_PADRE_AURELIANO_TRISTE",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "AURELIANO_BUENDIA_CORONEL",
+      "destino": "AURELIANO_TRISTE",
+      "inicio": null,
+      "fin": null,
+      "notas": "Uno de los 17 hijos del Coronel engendrados con 17 mujeres distintas durante la guerra."
+    },
+    {
+      "id": "REL_CORONEL_PADRE_AURELIANO_CENTENO",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "AURELIANO_BUENDIA_CORONEL",
+      "destino": "AURELIANO_CENTENO",
+      "inicio": null,
+      "fin": null,
+      "notas": "Uno de los 17 hijos del Coronel."
+    },
+    {
+      "id": "REL_CORONEL_PADRE_AURELIANO_AMADOR",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "AURELIANO_BUENDIA_CORONEL",
+      "destino": "AURELIANO_AMADOR",
+      "inicio": null,
+      "fin": null,
+      "notas": "Único superviviente del exterminio de los 17 aurelianos. Escapa refugiándose con los indios. Muerto finalmente por policías ante la puerta de la casa Buendía."
+    },
+    {
+      "id": "REL_AURELIANO_SEG_PADRE_JOSE_ARCADIO_QUINTO",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "AURELIANO_SEGUNDO",
+      "destino": "JOSE_ARCADIO_QUINTO",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_FERNANDA_MADRE_JOSE_ARCADIO_QUINTO",
+      "tipo": "familiar",
+      "subtipo": "madre",
+      "origen": "FERNANDA_DEL_CARPIO",
+      "destino": "JOSE_ARCADIO_QUINTO",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_AURELIANO_SEG_PADRE_MEME",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "AURELIANO_SEGUNDO",
+      "destino": "MEME",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_FERNANDA_MADRE_MEME",
+      "tipo": "familiar",
+      "subtipo": "madre",
+      "origen": "FERNANDA_DEL_CARPIO",
+      "destino": "MEME",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_AURELIANO_SEG_PADRE_AMARANTA_URSULA",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "AURELIANO_SEGUNDO",
+      "destino": "AMARANTA_URSULA",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_FERNANDA_MADRE_AMARANTA_URSULA",
+      "tipo": "familiar",
+      "subtipo": "madre",
+      "origen": "FERNANDA_DEL_CARPIO",
+      "destino": "AMARANTA_URSULA",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_MEME_MADRE_AURELIANO_BABILONIA",
+      "tipo": "familiar",
+      "subtipo": "madre",
+      "origen": "MEME",
+      "destino": "AURELIANO_BABILONIA",
+      "inicio": null,
+      "fin": null,
+      "notas": "Meme nunca volvió a hablar tras su separación forzada de Mauricio. Su hijo fue criado por Fernanda en secreto."
+    },
+    {
+      "id": "REL_MAURICIO_PADRE_AURELIANO_BABILONIA",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "MAURICIO_BABILONIA",
+      "destino": "AURELIANO_BABILONIA",
+      "inicio": null,
+      "fin": null,
+      "notas": "Las monjas solo conocían el apellido materno de Meme; bautizaron al niño con ese nombre."
+    },
+    {
+      "id": "REL_AURELIANO_BABILONIA_PADRE_AURELIANO_ULTIMO",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "AURELIANO_BABILONIA",
+      "destino": "AURELIANO_ULTIMO",
+      "inicio": "EVT_AMOR_AURELIANO_AMARANTA_URSULA",
+      "fin": null,
+      "notas": "Producto del incesto entre sobrino y tía. Nace con cola de cerdo, el signo de la maldición familiar."
+    },
+    {
+      "id": "REL_AMARANTA_URSULA_MADRE_AURELIANO_ULTIMO",
+      "tipo": "familiar",
+      "subtipo": "madre",
+      "origen": "AMARANTA_URSULA",
+      "destino": "AURELIANO_ULTIMO",
+      "inicio": "EVT_AMOR_AURELIANO_AMARANTA_URSULA",
+      "fin": null,
+      "notas": "Muere en el parto al día siguiente del nacimiento. No sabía que Aureliano Babilonia era su sobrino."
+    },
+    {
+      "id": "REL_MATRIMONIO_JAB_URSULA",
+      "tipo": "marital",
+      "subtipo": "esposos",
+      "origen": "JOSE_ARCADIO_BUENDIA_FUNDADOR",
+      "destino": "URSULA_IGUARAN",
+      "inicio": null,
+      "fin": "EVT_MUERTE_JOSE_ARCADIO_BUENDIA",
+      "notas": "Son primos. Úrsula lleva cinturón de castidad los primeros meses ante el miedo al incesto. El matrimonio es el eje de la fundación de Macondo."
+    },
+    {
+      "id": "REL_MATRIMONIO_JOSE_ARCADIO_REBECA",
+      "tipo": "marital",
+      "subtipo": "esposos",
+      "origen": "JOSE_ARCADIO_HIJO",
+      "destino": "REBECA",
+      "inicio": "EVT_MATRIMONIO_JOSE_ARCADIO_REBECA",
+      "fin": "EVT_MUERTE_JOSE_ARCADIO_HIJO",
+      "notas": "Boda imprevista que sorprende a la familia. Úrsula no los deja vivir en la casa."
+    },
+    {
+      "id": "REL_MATRIMONIO_CORONEL_REMEDIOS",
+      "tipo": "marital",
+      "subtipo": "esposos",
+      "origen": "AURELIANO_BUENDIA_CORONEL",
+      "destino": "REMEDIOS_MOSCOTE",
+      "inicio": "EVT_MATRIMONIO_AURELIANO_REMEDIOS",
+      "fin": "EVT_MUERTE_REMEDIOS_MOSCOTE",
+      "notas": "Remedios tiene nueve años cuando el Coronel se enamora de ella. Se casan tras su primera menstruación. Su muerte lo devuelve a la soledad de la infancia."
+    },
+    {
+      "id": "REL_MATRIMONIO_AURELIANO_SEG_FERNANDA",
+      "tipo": "marital",
+      "subtipo": "esposos",
+      "origen": "AURELIANO_SEGUNDO",
+      "destino": "FERNANDA_DEL_CARPIO",
+      "inicio": "EVT_MATRIMONIO_AURELIANO_SEG_FERNANDA",
+      "fin": null,
+      "notas": "Matrimonio de conveniencia social. Aureliano Segundo mantiene toda la vida su relación con Petra Cotes."
+    },
+    {
+      "id": "REL_MATRIMONIO_AMARANTA_URSULA_GASTON",
+      "tipo": "marital",
+      "subtipo": "esposos",
+      "origen": "AMARANTA_URSULA",
+      "destino": "GASTON",
+      "inicio": "EVT_REGRESO_AMARANTA_URSULA",
+      "fin": "EVT_AMOR_AURELIANO_AMARANTA_URSULA",
+      "notas": "Gastón, belga, acepta con ecuanimidad la infidelidad y regresa a Bruselas sin escenas."
+    },
+    {
+      "id": "REL_AMOR_JOSE_ARCADIO_PILAR",
+      "tipo": "amorosa",
+      "subtipo": "amantes",
+      "origen": "JOSE_ARCADIO_HIJO",
+      "destino": "PILAR_TERNERA",
+      "inicio": "EVT_RELACION_PILAR_JOSE_ARCADIO",
+      "fin": "EVT_PARTIDA_JOSE_ARCADIO_GITANOS",
+      "notas": "José Arcadio la visita de noche guiado por su olor. De esta unión nace Arcadio."
+    },
+    {
+      "id": "REL_AMOR_CORONEL_PILAR",
+      "tipo": "amorosa",
+      "subtipo": "amantes",
+      "origen": "AURELIANO_BUENDIA_CORONEL",
+      "destino": "PILAR_TERNERA",
+      "inicio": "EVT_RELACION_PILAR_CORONEL",
+      "fin": null,
+      "notas": "Pilar se ofrece como intermediaria amorosa y acaban teniendo una noche juntos. De esta unión nace Aureliano José."
+    },
+    {
+      "id": "REL_AMOR_AURELIANO_JOSE_AMARANTA",
+      "tipo": "amorosa",
+      "subtipo": "atracción incestuosa no consumada",
+      "origen": "AURELIANO_JOSE",
+      "destino": "AMARANTA_BUENDIA",
+      "inicio": null,
+      "fin": null,
+      "notas": "Aureliano José se mete en la cama de Amaranta primero por miedo y luego por deseo. Amaranta lo rechaza definitivamente tras rozar el límite. Ella lo abandona cerrando por fin la puerta de su dormitorio."
+    },
+    {
+      "id": "REL_AMOR_AMARANTA_PIETRO",
+      "tipo": "amorosa",
+      "subtipo": "amor no correspondido (Amaranta rechaza a Pietro)",
+      "origen": "AMARANTA_BUENDIA",
+      "destino": "PIETRO_CRESPI",
+      "inicio": "EVT_LLEGADA_PIETRO_CRESPI",
+      "fin": "EVT_SUICIDIO_PIETRO_CRESPI",
+      "notas": "Amaranta se enamora de Pietro pero lo rechaza cruelmente cuando él le propone matrimonio, impulsada por un deseo de castigarle y protegerse de ser herida. Pietro Crespi se suicida."
+    },
+    {
+      "id": "REL_AMOR_REBECA_PIETRO",
+      "tipo": "amorosa",
+      "subtipo": "novios",
+      "origen": "REBECA",
+      "destino": "PIETRO_CRESPI",
+      "inicio": "EVT_LLEGADA_PIETRO_CRESPI",
+      "fin": "EVT_MATRIMONIO_JOSE_ARCADIO_REBECA",
+      "notas": "Rebeca espera durante años la boda que Amaranta boicotea en repetidas ocasiones. Finalmente Rebeca se casa con José Arcadio (hijo) en lugar de con Pietro."
+    },
+    {
+      "id": "REL_AMOR_AMARANTA_GERINELDO",
+      "tipo": "amorosa",
+      "subtipo": "amor rechazado",
+      "origen": "GERINELDO_MARQUEZ",
+      "destino": "AMARANTA_BUENDIA",
+      "inicio": null,
+      "fin": null,
+      "notas": "Gerineldo Márquez la corteja. Amaranta lo rechaza alegando que lo matarán en la guerra, pero en realidad es su muro autoimpuesto contra el amor. Cuando envejece, le echa de menos."
+    },
+    {
+      "id": "REL_AMOR_ARCADIO_SANTA_SOFIA",
+      "tipo": "amorosa",
+      "subtipo": "pareja",
+      "origen": "ARCADIO",
+      "destino": "SANTA_SOFIA_DE_LA_PIEDAD",
+      "inicio": null,
+      "fin": "EVT_FUSILAMIENTO_ARCADIO",
+      "notas": "Santa Sofía sustituye a Pilar Ternera en el engaño que esta tendió a Arcadio. Acaban enamorados. Tienen tres hijos juntos."
+    },
+    {
+      "id": "REL_AMOR_AURELIANO_SEG_PETRA",
+      "tipo": "amorosa",
+      "subtipo": "amantes duraderos",
+      "origen": "AURELIANO_SEGUNDO",
+      "destino": "PETRA_COTES",
+      "inicio": null,
+      "fin": "EVT_MUERTE_GEMELOS",
+      "notas": "Relación que dura toda la vida de Aureliano Segundo, paralela a su matrimonio con Fernanda. La fidelidad de Petra al final, cuando Aureliano está enfermo y arruinado, convierte la pasión en amor tranquilo y solidario."
+    },
+    {
+      "id": "REL_AMOR_MEME_MAURICIO",
+      "tipo": "amorosa",
+      "subtipo": "amantes",
+      "origen": "MEME",
+      "destino": "MAURICIO_BABILONIA",
+      "inicio": "EVT_AMOR_MEME_MAURICIO",
+      "fin": "EVT_DISPARO_MAURICIO",
+      "notas": "Meme piensa en Mauricio hasta su muerte sin haber vuelto a ser feliz."
+    },
+    {
+      "id": "REL_AMOR_AURELIANO_AMARANTA_URSULA",
+      "tipo": "amorosa",
+      "subtipo": "amantes incestuosos",
+      "origen": "AURELIANO_BABILONIA",
+      "destino": "AMARANTA_URSULA",
+      "inicio": "EVT_AMOR_AURELIANO_AMARANTA_URSULA",
+      "fin": "EVT_MUERTE_AMARANTA_URSULA",
+      "notas": "Sobrino y tía. Ninguno de los dos sabía con certeza el vínculo de sangre. Su unión produce el niño con cola de cerdo que cumple la profecía."
+    },
+    {
+      "id": "REL_AMOR_AURELIANO_NIGROMANTA",
+      "tipo": "amorosa",
+      "subtipo": "amantes",
+      "origen": "AURELIANO_BABILONIA",
+      "destino": "NIGROMANTA",
+      "inicio": null,
+      "fin": "EVT_AMOR_AURELIANO_AMARANTA_URSULA",
+      "notas": "Aureliano paga con el dinero de su tía a Nigromanta. Luego se hacen amantes gratuitamente hasta que él le confiesa su amor por Amaranta Úrsula."
+    },
+    {
+      "id": "REL_CONFLICTO_JAB_AGUILAR",
+      "tipo": "conflicto",
+      "subtipo": "duelo mortal",
+      "origen": "JOSE_ARCADIO_BUENDIA_FUNDADOR",
+      "destino": "PRUDENCIO_AGUILAR",
+      "inicio": "EVT_MATANZA_AGUILAR",
+      "fin": null,
+      "notas": "El fantasma de Aguilar acosa a la pareja Buendía con una tristeza tan profunda que despierta compasión. Finalmente, en su demencia, JAB convierte el fantasma en compañero de charla."
+    },
+    {
+      "id": "REL_CONFLICTO_AMARANTA_REBECA",
+      "tipo": "conflicto",
+      "subtipo": "rivalidad femenina",
+      "origen": "AMARANTA_BUENDIA",
+      "destino": "REBECA",
+      "inicio": "EVT_LLEGADA_PIETRO_CRESPI",
+      "fin": null,
+      "notas": "Amaranta boicotea la boda de Rebeca en repetidas ocasiones: deja que las polillas devoren el vestido, inyecta arsénico en su café (nunca llega a dárselo). Solo la muerte de Remedios Moscote frena el plan."
+    },
+    {
+      "id": "REL_POLITICA_CORONEL_CONSERVADORES",
+      "tipo": "politica",
+      "subtipo": "oposición armada",
+      "origen": "AURELIANO_BUENDIA_CORONEL",
+      "destino": "APOLINAR_MOSCOTE",
+      "inicio": "EVT_PRIMERA_GUERRA_LIBERAL",
+      "fin": "EVT_RENDICION_CORONEL",
+      "notas": "El Coronel pierde 32 levantamientos en 20 años de guerra civil. Al final firma la rendición reconociendo que solo luchaba por orgullo."
+    },
+    {
+      "id": "REL_AMISTAD_CORONEL_GERINELDO",
+      "tipo": "amistad",
+      "subtipo": "camaradas de guerra",
+      "origen": "AURELIANO_BUENDIA_CORONEL",
+      "destino": "GERINELDO_MARQUEZ",
+      "inicio": "EVT_PRIMERA_GUERRA_LIBERAL",
+      "fin": "EVT_MUERTE_GERINELDO_MARQUEZ",
+      "notas": "Amistad que sobrevive incluso al episodio en que el Coronel condena a Gerineldo a muerte por alta traición y luego lo libera. Con el tiempo el Coronel lo percibe como un extraño."
+    },
+    {
+      "id": "REL_AMISTAD_CORONEL_MONCADA",
+      "tipo": "amistad",
+      "subtipo": "amigos en bandos opuestos",
+      "origen": "AURELIANO_BUENDIA_CORONEL",
+      "destino": "JOSE_RAQUEL_MONCADA",
+      "inicio": null,
+      "fin": "EVT_EJECUCION_MONCADA",
+      "notas": "Amigos a pesar de ser rivales políticos. Almuerzan juntos en casa de Úrsula antes de que el Coronel ordene su ejecución."
+    },
+    {
+      "id": "REL_AMISTAD_AURELIANO_GABRIEL",
+      "tipo": "amistad",
+      "subtipo": "amigos intelectuales",
+      "origen": "AURELIANO_BABILONIA",
+      "destino": "GABRIEL_MARQUEZ",
+      "inicio": null,
+      "fin": null,
+      "notas": "Gabriel es el único que cree en el relato de la masacre que vivió José Arcadio Segundo, porque sabe que el Coronel Aureliano fue amigo de su propio tatarabuelo Gerineldo Márquez."
+    },
+    {
+      "id": "REL_MENTOR_MELQUIADES_JAB",
+      "tipo": "mentor_discipulo",
+      "subtipo": "maestro y aprendiz",
+      "origen": "MELQUIADES",
+      "destino": "JOSE_ARCADIO_BUENDIA_FUNDADOR",
+      "inicio": "EVT_PRIMERA_VISITA_GITANOS",
+      "fin": "EVT_MUERTE_MELQUIADES",
+      "notas": "Melquíades introduce a JAB en la ciencia, la alquimia, la astrología y la daguerrotipia. Le regala un laboratorio completo como recompensa por descubrir que la tierra es redonda."
+    },
+    {
+      "id": "REL_MENTOR_JOSE_ARCADIO_SEG_AURELIANO_BAB",
+      "tipo": "mentor_discipulo",
+      "subtipo": "legado intelectual",
+      "origen": "JOSE_ARCADIO_SEGUNDO",
+      "destino": "AURELIANO_BABILONIA",
+      "inicio": null,
+      "fin": "EVT_MUERTE_GEMELOS",
+      "notas": "José Arcadio Segundo enseña a Aureliano a leer y escribir, y le muestra los pergaminos de Melquíades, asegurándose de que alguien continúe su labor de descifrarlos. Muere diciéndole que 3000 personas fueron masacradas."
+    },
+    {
+      "id": "REL_HERMANOS_CRESPI",
+      "tipo": "familiar",
+      "subtipo": "hermanos",
+      "origen": "PIETRO_CRESPI",
+      "destino": "BRUNO_CRESPI",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    }
   ]
 }

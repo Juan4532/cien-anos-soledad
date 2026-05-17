@@ -547,35 +547,35 @@ const PERSONAJES = [
 ];
 
 const RELACIONES = [
-  { id: 'REL_JAB_PADRE_JOSE_ARCADIO_HIJO',        tipo: 'parental',         subtipo: 'padre',                       origen: 'JOSE_ARCADIO_BUENDIA_FUNDADOR', destino: 'JOSE_ARCADIO_HIJO',         notas: null },
-  { id: 'REL_JAB_PADRE_CORONEL',                  tipo: 'parental',         subtipo: 'padre',                       origen: 'JOSE_ARCADIO_BUENDIA_FUNDADOR', destino: 'AURELIANO_BUENDIA_CORONEL', notas: null },
-  { id: 'REL_JAB_PADRE_AMARANTA',                 tipo: 'parental',         subtipo: 'padre',                       origen: 'JOSE_ARCADIO_BUENDIA_FUNDADOR', destino: 'AMARANTA_BUENDIA',          notas: null },
-  { id: 'REL_URSULA_MADRE_JOSE_ARCADIO_HIJO',     tipo: 'parental',         subtipo: 'madre',                       origen: 'URSULA_IGUARAN',               destino: 'JOSE_ARCADIO_HIJO',         notas: null },
-  { id: 'REL_URSULA_MADRE_CORONEL',               tipo: 'parental',         subtipo: 'madre',                       origen: 'URSULA_IGUARAN',               destino: 'AURELIANO_BUENDIA_CORONEL', notas: null },
-  { id: 'REL_URSULA_MADRE_AMARANTA',              tipo: 'parental',         subtipo: 'madre',                       origen: 'URSULA_IGUARAN',               destino: 'AMARANTA_BUENDIA',          notas: null },
-  { id: 'REL_JOSE_ARCADIO_HIJO_PADRE_ARCADIO',    tipo: 'parental',         subtipo: 'padre',                       origen: 'JOSE_ARCADIO_HIJO',            destino: 'ARCADIO',                   notas: 'Arcadio nunca supo que José Arcadio (hijo) era su padre.' },
-  { id: 'REL_PILAR_MADRE_ARCADIO',               tipo: 'parental',         subtipo: 'madre',                       origen: 'PILAR_TERNERA',                destino: 'ARCADIO',                   notas: 'Identidad materna mantenida en secreto.' },
-  { id: 'REL_CORONEL_PADRE_AURELIANO_JOSE',       tipo: 'parental',         subtipo: 'padre',                       origen: 'AURELIANO_BUENDIA_CORONEL',    destino: 'AURELIANO_JOSE',            notas: null },
-  { id: 'REL_PILAR_MADRE_AURELIANO_JOSE',         tipo: 'parental',         subtipo: 'madre',                       origen: 'PILAR_TERNERA',                destino: 'AURELIANO_JOSE',            notas: null },
-  { id: 'REL_ARCADIO_PADRE_REMEDIOS_BELLA',       tipo: 'parental',         subtipo: 'padre',                       origen: 'ARCADIO',                      destino: 'REMEDIOS_LA_BELLA',         notas: null },
-  { id: 'REL_ARCADIO_PADRE_JOSE_ARCADIO_SEGUNDO', tipo: 'parental',         subtipo: 'padre',                       origen: 'ARCADIO',                      destino: 'JOSE_ARCADIO_SEGUNDO',      notas: null },
-  { id: 'REL_ARCADIO_PADRE_AURELIANO_SEGUNDO',    tipo: 'parental',         subtipo: 'padre',                       origen: 'ARCADIO',                      destino: 'AURELIANO_SEGUNDO',         notas: null },
-  { id: 'REL_SANTA_SOFIA_MADRE_REMEDIOS_BELLA',   tipo: 'parental',         subtipo: 'madre',                       origen: 'SANTA_SOFIA_DE_LA_PIEDAD',     destino: 'REMEDIOS_LA_BELLA',         notas: null },
-  { id: 'REL_SANTA_SOFIA_MADRE_JA_SEGUNDO',       tipo: 'parental',         subtipo: 'madre',                       origen: 'SANTA_SOFIA_DE_LA_PIEDAD',     destino: 'JOSE_ARCADIO_SEGUNDO',      notas: null },
-  { id: 'REL_SANTA_SOFIA_MADRE_AUR_SEGUNDO',      tipo: 'parental',         subtipo: 'madre',                       origen: 'SANTA_SOFIA_DE_LA_PIEDAD',     destino: 'AURELIANO_SEGUNDO',         notas: null },
-  { id: 'REL_CORONEL_PADRE_AURELIANO_TRISTE',     tipo: 'parental',         subtipo: 'padre',                       origen: 'AURELIANO_BUENDIA_CORONEL',    destino: 'AURELIANO_TRISTE',          notas: 'Uno de los 17 hijos del Coronel engendrados durante la guerra.' },
-  { id: 'REL_CORONEL_PADRE_AURELIANO_CENTENO',    tipo: 'parental',         subtipo: 'padre',                       origen: 'AURELIANO_BUENDIA_CORONEL',    destino: 'AURELIANO_CENTENO',         notas: 'Uno de los 17 hijos del Coronel.' },
-  { id: 'REL_CORONEL_PADRE_AURELIANO_AMADOR',     tipo: 'parental',         subtipo: 'padre',                       origen: 'AURELIANO_BUENDIA_CORONEL',    destino: 'AURELIANO_AMADOR',          notas: 'Único superviviente del exterminio de los 17 aurelianos.' },
-  { id: 'REL_AURELIANO_SEG_PADRE_JA_QUINTO',      tipo: 'parental',         subtipo: 'padre',                       origen: 'AURELIANO_SEGUNDO',            destino: 'JOSE_ARCADIO_QUINTO',       notas: null },
-  { id: 'REL_FERNANDA_MADRE_JA_QUINTO',           tipo: 'parental',         subtipo: 'madre',                       origen: 'FERNANDA_DEL_CARPIO',          destino: 'JOSE_ARCADIO_QUINTO',       notas: null },
-  { id: 'REL_AURELIANO_SEG_PADRE_MEME',           tipo: 'parental',         subtipo: 'padre',                       origen: 'AURELIANO_SEGUNDO',            destino: 'MEME',                      notas: null },
-  { id: 'REL_FERNANDA_MADRE_MEME',                tipo: 'parental',         subtipo: 'madre',                       origen: 'FERNANDA_DEL_CARPIO',          destino: 'MEME',                      notas: null },
-  { id: 'REL_AURELIANO_SEG_PADRE_AMARANTA_URSULA',tipo: 'parental',         subtipo: 'padre',                       origen: 'AURELIANO_SEGUNDO',            destino: 'AMARANTA_URSULA',           notas: null },
-  { id: 'REL_FERNANDA_MADRE_AMARANTA_URSULA',     tipo: 'parental',         subtipo: 'madre',                       origen: 'FERNANDA_DEL_CARPIO',          destino: 'AMARANTA_URSULA',           notas: null },
-  { id: 'REL_MEME_MADRE_AURELIANO_BABILONIA',     tipo: 'parental',         subtipo: 'madre',                       origen: 'MEME',                         destino: 'AURELIANO_BABILONIA',       notas: 'Meme nunca volvió a hablar. Su hijo fue criado por Fernanda en secreto.' },
-  { id: 'REL_MAURICIO_PADRE_AURELIANO_BABILONIA', tipo: 'parental',         subtipo: 'padre',                       origen: 'MAURICIO_BABILONIA',           destino: 'AURELIANO_BABILONIA',       notas: 'Las monjas bautizaron al niño con el apellido materno de Meme.' },
-  { id: 'REL_AUR_BAB_PADRE_AURELIANO_ULTIMO',     tipo: 'parental',         subtipo: 'padre',                       origen: 'AURELIANO_BABILONIA',          destino: 'AURELIANO_ULTIMO',          notas: 'Producto del incesto entre sobrino y tía. Nace con cola de cerdo.' },
-  { id: 'REL_AMARANTA_URSULA_MADRE_AUR_ULTIMO',   tipo: 'parental',         subtipo: 'madre',                       origen: 'AMARANTA_URSULA',              destino: 'AURELIANO_ULTIMO',          notas: 'Muere en el parto. No sabía que Aureliano Babilonia era su sobrino.' },
+  { id: 'REL_JAB_PADRE_JOSE_ARCADIO_HIJO',        tipo: 'familiar',         subtipo: 'padre',                       origen: 'JOSE_ARCADIO_BUENDIA_FUNDADOR', destino: 'JOSE_ARCADIO_HIJO',         notas: null },
+  { id: 'REL_JAB_PADRE_CORONEL',                  tipo: 'familiar',         subtipo: 'padre',                       origen: 'JOSE_ARCADIO_BUENDIA_FUNDADOR', destino: 'AURELIANO_BUENDIA_CORONEL', notas: null },
+  { id: 'REL_JAB_PADRE_AMARANTA',                 tipo: 'familiar',         subtipo: 'padre',                       origen: 'JOSE_ARCADIO_BUENDIA_FUNDADOR', destino: 'AMARANTA_BUENDIA',          notas: null },
+  { id: 'REL_URSULA_MADRE_JOSE_ARCADIO_HIJO',     tipo: 'familiar',         subtipo: 'madre',                       origen: 'URSULA_IGUARAN',               destino: 'JOSE_ARCADIO_HIJO',         notas: null },
+  { id: 'REL_URSULA_MADRE_CORONEL',               tipo: 'familiar',         subtipo: 'madre',                       origen: 'URSULA_IGUARAN',               destino: 'AURELIANO_BUENDIA_CORONEL', notas: null },
+  { id: 'REL_URSULA_MADRE_AMARANTA',              tipo: 'familiar',         subtipo: 'madre',                       origen: 'URSULA_IGUARAN',               destino: 'AMARANTA_BUENDIA',          notas: null },
+  { id: 'REL_JOSE_ARCADIO_HIJO_PADRE_ARCADIO',    tipo: 'familiar',         subtipo: 'padre',                       origen: 'JOSE_ARCADIO_HIJO',            destino: 'ARCADIO',                   notas: 'Arcadio nunca supo que José Arcadio (hijo) era su padre.' },
+  { id: 'REL_PILAR_MADRE_ARCADIO',               tipo: 'familiar',         subtipo: 'madre',                       origen: 'PILAR_TERNERA',                destino: 'ARCADIO',                   notas: 'Identidad materna mantenida en secreto.' },
+  { id: 'REL_CORONEL_PADRE_AURELIANO_JOSE',       tipo: 'familiar',         subtipo: 'padre',                       origen: 'AURELIANO_BUENDIA_CORONEL',    destino: 'AURELIANO_JOSE',            notas: null },
+  { id: 'REL_PILAR_MADRE_AURELIANO_JOSE',         tipo: 'familiar',         subtipo: 'madre',                       origen: 'PILAR_TERNERA',                destino: 'AURELIANO_JOSE',            notas: null },
+  { id: 'REL_ARCADIO_PADRE_REMEDIOS_BELLA',       tipo: 'familiar',         subtipo: 'padre',                       origen: 'ARCADIO',                      destino: 'REMEDIOS_LA_BELLA',         notas: null },
+  { id: 'REL_ARCADIO_PADRE_JOSE_ARCADIO_SEGUNDO', tipo: 'familiar',         subtipo: 'padre',                       origen: 'ARCADIO',                      destino: 'JOSE_ARCADIO_SEGUNDO',      notas: null },
+  { id: 'REL_ARCADIO_PADRE_AURELIANO_SEGUNDO',    tipo: 'familiar',         subtipo: 'padre',                       origen: 'ARCADIO',                      destino: 'AURELIANO_SEGUNDO',         notas: null },
+  { id: 'REL_SANTA_SOFIA_MADRE_REMEDIOS_BELLA',   tipo: 'familiar',         subtipo: 'madre',                       origen: 'SANTA_SOFIA_DE_LA_PIEDAD',     destino: 'REMEDIOS_LA_BELLA',         notas: null },
+  { id: 'REL_SANTA_SOFIA_MADRE_JA_SEGUNDO',       tipo: 'familiar',         subtipo: 'madre',                       origen: 'SANTA_SOFIA_DE_LA_PIEDAD',     destino: 'JOSE_ARCADIO_SEGUNDO',      notas: null },
+  { id: 'REL_SANTA_SOFIA_MADRE_AUR_SEGUNDO',      tipo: 'familiar',         subtipo: 'madre',                       origen: 'SANTA_SOFIA_DE_LA_PIEDAD',     destino: 'AURELIANO_SEGUNDO',         notas: null },
+  { id: 'REL_CORONEL_PADRE_AURELIANO_TRISTE',     tipo: 'familiar',         subtipo: 'padre',                       origen: 'AURELIANO_BUENDIA_CORONEL',    destino: 'AURELIANO_TRISTE',          notas: 'Uno de los 17 hijos del Coronel engendrados durante la guerra.' },
+  { id: 'REL_CORONEL_PADRE_AURELIANO_CENTENO',    tipo: 'familiar',         subtipo: 'padre',                       origen: 'AURELIANO_BUENDIA_CORONEL',    destino: 'AURELIANO_CENTENO',         notas: 'Uno de los 17 hijos del Coronel.' },
+  { id: 'REL_CORONEL_PADRE_AURELIANO_AMADOR',     tipo: 'familiar',         subtipo: 'padre',                       origen: 'AURELIANO_BUENDIA_CORONEL',    destino: 'AURELIANO_AMADOR',          notas: 'Único superviviente del exterminio de los 17 aurelianos.' },
+  { id: 'REL_AURELIANO_SEG_PADRE_JA_QUINTO',      tipo: 'familiar',         subtipo: 'padre',                       origen: 'AURELIANO_SEGUNDO',            destino: 'JOSE_ARCADIO_QUINTO',       notas: null },
+  { id: 'REL_FERNANDA_MADRE_JA_QUINTO',           tipo: 'familiar',         subtipo: 'madre',                       origen: 'FERNANDA_DEL_CARPIO',          destino: 'JOSE_ARCADIO_QUINTO',       notas: null },
+  { id: 'REL_AURELIANO_SEG_PADRE_MEME',           tipo: 'familiar',         subtipo: 'padre',                       origen: 'AURELIANO_SEGUNDO',            destino: 'MEME',                      notas: null },
+  { id: 'REL_FERNANDA_MADRE_MEME',                tipo: 'familiar',         subtipo: 'madre',                       origen: 'FERNANDA_DEL_CARPIO',          destino: 'MEME',                      notas: null },
+  { id: 'REL_AURELIANO_SEG_PADRE_AMARANTA_URSULA',tipo: 'familiar',         subtipo: 'padre',                       origen: 'AURELIANO_SEGUNDO',            destino: 'AMARANTA_URSULA',           notas: null },
+  { id: 'REL_FERNANDA_MADRE_AMARANTA_URSULA',     tipo: 'familiar',         subtipo: 'madre',                       origen: 'FERNANDA_DEL_CARPIO',          destino: 'AMARANTA_URSULA',           notas: null },
+  { id: 'REL_MEME_MADRE_AURELIANO_BABILONIA',     tipo: 'familiar',         subtipo: 'madre',                       origen: 'MEME',                         destino: 'AURELIANO_BABILONIA',       notas: 'Meme nunca volvió a hablar. Su hijo fue criado por Fernanda en secreto.' },
+  { id: 'REL_MAURICIO_PADRE_AURELIANO_BABILONIA', tipo: 'familiar',         subtipo: 'padre',                       origen: 'MAURICIO_BABILONIA',           destino: 'AURELIANO_BABILONIA',       notas: 'Las monjas bautizaron al niño con el apellido materno de Meme.' },
+  { id: 'REL_AUR_BAB_PADRE_AURELIANO_ULTIMO',     tipo: 'familiar',         subtipo: 'padre',                       origen: 'AURELIANO_BABILONIA',          destino: 'AURELIANO_ULTIMO',          notas: 'Producto del incesto entre sobrino y tía. Nace con cola de cerdo.' },
+  { id: 'REL_AMARANTA_URSULA_MADRE_AUR_ULTIMO',   tipo: 'familiar',         subtipo: 'madre',                       origen: 'AMARANTA_URSULA',              destino: 'AURELIANO_ULTIMO',          notas: 'Muere en el parto. No sabía que Aureliano Babilonia era su sobrino.' },
   { id: 'REL_MATRIMONIO_JAB_URSULA',              tipo: 'marital',          subtipo: 'esposos',                     origen: 'JOSE_ARCADIO_BUENDIA_FUNDADOR', destino: 'URSULA_IGUARAN',           notas: 'Son primos. El matrimonio es el eje de la fundación de Macondo.' },
   { id: 'REL_MATRIMONIO_JOSE_ARCADIO_REBECA',     tipo: 'marital',          subtipo: 'esposos',                     origen: 'JOSE_ARCADIO_HIJO',            destino: 'REBECA',                    notas: 'Boda imprevista que sorprende a la familia. Úrsula no los deja vivir en la casa.' },
   { id: 'REL_MATRIMONIO_CORONEL_REMEDIOS',        tipo: 'marital',          subtipo: 'esposos',                     origen: 'AURELIANO_BUENDIA_CORONEL',    destino: 'REMEDIOS_MOSCOTE',          notas: 'Remedios tiene nueve años cuando el Coronel se enamora de ella.' },
@@ -701,7 +701,7 @@ const GEN = {
 };
 
 const EDGE_C = {
-  parental:         '#666',
+  familiar:         '#666',
   marital:          '#E05090',
   amorosa:          '#E03050',
   conflicto:        '#CC2020',
@@ -796,10 +796,10 @@ const cy = cytoscape({
       style: {
         'line-color':         e => EDGE_C[e.data('tipo')] || EDGE_C.otro,
         'target-arrow-color': e => EDGE_C[e.data('tipo')] || EDGE_C.otro,
-        'target-arrow-shape': e => e.data('tipo') === 'parental' ? 'triangle' : 'none',
+        'target-arrow-shape': e => e.data('tipo') === 'familiar' ? 'triangle' : 'none',
         'arrow-scale': 0.7,
-        'width':   e => e.data('tipo') === 'parental' ? 1 : 1.4,
-        'opacity': e => e.data('tipo') === 'parental' ? 0.28 : 0.58,
+        'width':   e => e.data('tipo') === 'familiar' ? 1 : 1.4,
+        'opacity': e => e.data('tipo') === 'familiar' ? 0.28 : 0.58,
         'line-style':         e => ['amorosa','conflicto'].includes(e.data('tipo')) ? 'dashed' : 'solid',
         'line-dash-pattern': [6, 4],
         'curve-style': 'bezier',
@@ -923,7 +923,7 @@ cy.on('pan zoom',         () => tooltip.classList.remove('show'));
 // Controles grafo ─────────────────────────────────────────────────────────────
 
 const EDGE_LABELS = {
-  parental:         'Familia',
+  familiar:         'Familia',
   marital:          'Matrimonio',
   amorosa:          'Amorosa',
   conflicto:        'Conflicto',
@@ -1024,12 +1024,12 @@ Object.entries(GEN).forEach(([gen, c]) => {
   leyenda.appendChild(r);
 });
 
-[['parental','Filiación'],['marital','Matrimonio'],['amorosa','Amor / Deseo'],
+[['familiar','Filiación'],['marital','Matrimonio'],['amorosa','Amor / Deseo'],
  ['conflicto','Conflicto'],['amistad','Amistad'],['mentor_discipulo','Mentor']].forEach(([tipo, label]) => {
   const isDash = ['amorosa','conflicto'].includes(tipo);
   const r = document.createElement('div');
   r.className = 'ley-row';
-  r.innerHTML = `<svg width="18" height="10" style="flex-shrink:0"><line x1="0" y1="5" x2="18" y2="5" stroke="${EDGE_C[tipo]}" stroke-width="${tipo==='parental'?1:1.5}" stroke-dasharray="${isDash?'4 3':'none'}" opacity="${tipo==='parental'?.5:.85}"/></svg><span class="ley-label">${label}</span>`;
+  r.innerHTML = `<svg width="18" height="10" style="flex-shrink:0"><line x1="0" y1="5" x2="18" y2="5" stroke="${EDGE_C[tipo]}" stroke-width="${tipo==='familiar'?1:1.5}" stroke-dasharray="${isDash?'4 3':'none'}" opacity="${tipo==='familiar'?.5:.85}"/></svg><span class="ley-label">${label}</span>`;
   leyEdges.appendChild(r);
 });
 

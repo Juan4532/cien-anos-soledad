@@ -15,7 +15,7 @@
     "tipo": {
       "type": "string",
       "enum": [
-        "parental", "marital", "amorosa",
+        "familiar", "marital", "amorosa",
         "conflicto", "mentor_discipulo", "comercial",
         "politica", "amistad", "otro"
       ],
@@ -28,7 +28,7 @@
     "origen": {
       "type": "string",
       "pattern": "^[A-Z][A-Z0-9_]+$",
-      "description": "ID del personaje que inicia o sostiene la relación (en relaciones parentales: el progenitor)"
+      "description": "ID del personaje que inicia o sostiene la relación (en relaciones familiares: el progenitor o hermano)"
     },
     "destino": {
       "type": "string",
