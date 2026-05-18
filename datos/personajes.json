@@ -1,19 +1,24 @@
 {
   "_schema": {
-    "id":                "string  — ID único, formato NOMBRE_APELLIDO_DESAMBIGUADOR",
-    "nombre":            "string  — nombre completo tal como aparece en la novela",
-    "apodos":            ["string"],
-    "generacion":        "integer — generación Buendía (1 = fundadores)",
-    "descripcion":       "string  — rasgos físicos y psicológicos breves",
-    "nacimiento":        "string | null — fecha relativa o absoluta; sufijo '(inferida)' si no es explícita",
-    "muerte":            "string | null",
+    "id": "string  — ID único, formato NOMBRE_APELLIDO_DESAMBIGUADOR",
+    "nombre": "string  — nombre completo tal como aparece en la novela",
+    "apodos": [
+      "string"
+    ],
+    "generacion": "integer — generación Buendía (1 = fundadores)",
+    "descripcion": "string  — rasgos físicos y psicológicos breves",
+    "nacimiento": "string | null — fecha relativa o absoluta; sufijo '(inferida)' si no es explícita",
+    "muerte": "string | null",
     "capitulo_aparicion": "integer — sección del resumen en que aparece por primera vez (aproximado; corregir al trabajar con el texto de la novela)"
   },
   "personajes": [
     {
       "id": "JOSE_ARCADIO_BUENDIA_FUNDADOR",
       "nombre": "José Arcadio Buendía",
-      "nombres_alternativos": ["el fundador", "el patriarca"],
+      "nombres_alternativos": [
+        "el fundador",
+        "el patriarca"
+      ],
       "generacion": 1,
       "genero": "masculino",
       "nacimiento": null,
@@ -35,13 +40,16 @@
     {
       "id": "AURELIANO_BUENDIA_CORONEL",
       "nombre": "Aureliano Buendía",
-      "nombres_alternativos": ["el Coronel", "Aurelito"],
+      "nombres_alternativos": [
+        "el Coronel",
+        "Aurelito"
+      ],
       "generacion": 2,
       "genero": "masculino",
       "nacimiento": null,
       "muerte": null,
       "capitulo_aparicion": 1,
-      "descripcion": "Segundo hijo de JAB y Úrsula, primer ser humano nacido en Macondo. Silencioso y retraído, con capacidades presientes desde niño. Se convierte en coronel liberal, pierde 32 levantamientos armados, engendra 17 hijos con 17 mujeres, sobrevive 14 intentos de asesinato. Firma la rendición y pasa sus últimos años haciendo pececitos de oro en el taller. Muere apoyado en el castaño del patio, olvidado por todos."
+      "descripcion": "Segundo hijo de José Arcadio Buendía y Úrsula, primer ser humano nacido en Macondo. Silencioso y retraído, con capacidades presientes desde niño. Se convierte en coronel liberal, pierde 32 levantamientos armados, engendra 17 hijos con 17 mujeres, sobrevive 14 intentos de asesinato. Firma la rendición y pasa sus últimos años haciendo pececitos de oro en el taller. Muere apoyado en el castaño del patio, olvidado por todos."
     },
     {
       "id": "AMARANTA_BUENDIA",
@@ -52,7 +60,7 @@
       "nacimiento": null,
       "muerte": null,
       "capitulo_aparicion": 2,
-      "descripcion": "Hija de JAB y Úrsula. Ama a Pietro Crespi pero lo rechaza cruelmente llevando a su suicidio. También rechaza a Gerineldo Márquez. Se quema la mano con carbones y lleva una venda negra hasta su muerte como penitencia. Muere virgen, tras coser su propio sudario, sabiendo el día exacto de su muerte."
+      "descripcion": "Hija de José Arcadio Buendía y Úrsula. Ama a Pietro Crespi pero lo rechaza cruelmente llevando a su suicidio. También rechaza a Gerineldo Márquez. Se quema la mano con carbones y lleva una venda negra hasta su muerte como penitencia. Muere virgen, tras coser su propio sudario, sabiendo el día exacto de su muerte."
     },
     {
       "id": "REBECA",
@@ -96,7 +104,7 @@
       "nacimiento": null,
       "muerte": null,
       "capitulo_aparicion": 4,
-      "descripcion": "Magistrado enviado por el gobierno para gobernar Macondo. JAB lo expulsa pero regresa con soldados y acaba quedándose. Conservador convencido. Padre de Remedios y Amparo Moscote. Manipula las elecciones locales a favor de los conservadores, detonando la guerra civil."
+      "descripcion": "Magistrado enviado por el gobierno para gobernar Macondo. José Arcadio Buendía lo expulsa pero regresa con soldados y acaba quedándose. Conservador convencido. Padre de Remedios y Amparo Moscote. Manipula las elecciones locales a favor de los conservadores, detonando la guerra civil."
     },
     {
       "id": "REMEDIOS_MOSCOTE",
@@ -107,7 +115,7 @@
       "nacimiento": null,
       "muerte": null,
       "capitulo_aparicion": 4,
-      "descripcion": "Hija menor de Don Apolinar Moscote. El Coronel Aureliano se enamora de ella cuando tiene 9 años y se casan tras su primera menstruación. Serena y tranquila, cuida a JAB atado al árbol y acepta a Aureliano José como propio. Muere joven a causa de una infección tras un aborto espontáneo de gemelos. Su daguerrotipo queda colgado en la pared de la casa."
+      "descripcion": "Hija menor de Don Apolinar Moscote. El Coronel Aureliano se enamora de ella cuando tiene 9 años y se casan tras su primera menstruación. Serena y tranquila, cuida a José Arcadio Buendía atado al árbol y acepta a Aureliano José como propio. Muere joven a causa de una infección tras un aborto espontáneo de gemelos. Su daguerrotipo queda colgado en la pared de la casa."
     },
     {
       "id": "ARCADIO",
@@ -139,13 +147,15 @@
       "genero": "femenino",
       "nacimiento": null,
       "muerte": null,
-      "capitulo_aparicion": 4,
+      "capitulo_aparicion": 6,
       "descripcion": "Joven virgen a quien Pilar Ternera paga para que vaya en su lugar a la cama de Arcadio. Se convierte en su esposa. Madre de Remedios la Bella, José Arcadio Segundo y Aureliano Segundo. Trabaja incansablemente en la casa Buendía durante décadas sin quejarse, tratada más como sirvienta que como matriarca. Al final abandona la casa agotada y no se vuelve a saber de ella."
     },
     {
       "id": "GERINELDO_MARQUEZ",
       "nombre": "Gerineldo Márquez",
-      "nombres_alternativos": ["el coronel Gerineldo Márquez"],
+      "nombres_alternativos": [
+        "el coronel Gerineldo Márquez"
+      ],
       "generacion": null,
       "genero": "masculino",
       "nacimiento": null,
@@ -156,7 +166,9 @@
     {
       "id": "JOSE_RAQUEL_MONCADA",
       "nombre": "José Raquel Moncada",
-      "nombres_alternativos": ["el general Moncada"],
+      "nombres_alternativos": [
+        "el general Moncada"
+      ],
       "generacion": null,
       "genero": "masculino",
       "nacimiento": null,
@@ -167,7 +179,9 @@
     {
       "id": "REMEDIOS_LA_BELLA",
       "nombre": "Remedios la Bella",
-      "nombres_alternativos": ["Remedios"],
+      "nombres_alternativos": [
+        "Remedios"
+      ],
       "generacion": 4,
       "genero": "femenino",
       "nacimiento": null,
@@ -222,7 +236,10 @@
     {
       "id": "MEME",
       "nombre": "Meme",
-      "nombres_alternativos": ["Renata Remedios", "Renata"],
+      "nombres_alternativos": [
+        "Renata Remedios",
+        "Renata"
+      ],
       "generacion": 5,
       "genero": "femenino",
       "nacimiento": null,
@@ -238,7 +255,7 @@
       "genero": "masculino",
       "nacimiento": null,
       "muerte": null,
-      "capitulo_aparicion": 12,
+      "capitulo_aparicion": 14,
       "descripcion": "Mecánico pobre de la compañía bananera. Amante de Meme. Siempre rodeado de mariposas amarillas que anuncian su presencia. Recibe un disparo de un guardia cuando intenta colarse por el techo del baño para ver a Meme, quedándole paralítico de por vida. Muere de viejo, solo, atormentado por los recuerdos y las mariposas."
     },
     {
@@ -260,7 +277,7 @@
       "genero": "femenino",
       "nacimiento": null,
       "muerte": null,
-      "capitulo_aparicion": 11,
+      "capitulo_aparicion": 14,
       "descripcion": "Hija menor de Aureliano Segundo y Fernanda. Vital, hermosa y resuelta. Estudia en Bruselas y regresa con su esposo Gastón, convencida de poder revivir Macondo. Se enamora de su sobrino Aureliano Babilonia sin saber que lo es. Muere desangrada tras dar a luz al último Buendía, el niño con cola de cerdo."
     },
     {
@@ -294,7 +311,7 @@
       "nacimiento": null,
       "muerte": null,
       "capitulo_aparicion": 1,
-      "descripcion": "Vecino de Riohacha. En una pelea de gallos pone en evidencia públicamente la supuesta impotencia de José Arcadio Buendía. Este lo mata con una lanza. Su fantasma persigue al matrimonio Buendía con una tristeza tan profunda que provoca compasión, no terror, forzándoles a abandonar su pueblo y fundar Macondo. JAB sigue hablando con su espectro hasta el final de su vida."
+      "descripcion": "Vecino de Riohacha. En una pelea de gallos pone en evidencia públicamente la supuesta impotencia de José Arcadio Buendía. Este lo mata con una lanza. Su fantasma persigue al matrimonio Buendía con una tristeza tan profunda que provoca compasión, no terror, forzándoles a abandonar su pueblo y fundar Macondo. José Arcadio Buendía sigue hablando con su espectro hasta el final de su vida."
     },
     {
       "id": "FRANCISCO_EL_HOMBRE",
@@ -310,7 +327,9 @@
     {
       "id": "PADRE_NICANOR",
       "nombre": "Padre Nicanor",
-      "nombres_alternativos": ["el padre Nicanor"],
+      "nombres_alternativos": [
+        "el padre Nicanor"
+      ],
       "generacion": null,
       "genero": "masculino",
       "nacimiento": null,
@@ -370,7 +389,7 @@
       "genero": "masculino",
       "nacimiento": null,
       "muerte": null,
-      "capitulo_aparicion": 11,
+      "capitulo_aparicion": 12,
       "descripcion": "Uno de los 17 hijos del Coronel Aureliano Buendía. Único superviviente de la noche en que los 17 hermanos fueron cazados uno a uno por la marca de ceniza en la frente. Se refugia con los indios. Reaparece años después hecho jirones en la puerta de la casa Buendía, donde nadie lo reconoce, y es abatido por dos policías en el acto."
     },
     {
@@ -438,6 +457,237 @@
       "muerte": null,
       "capitulo_aparicion": 1,
       "descripcion": "Matriarca de la familia Buendía. Prima y esposa de José Arcadio Buendía. Voz de la razón y sustento real de la familia. Emprendedora, incansable y longeva (vive más de 110 años). Pierde la vista en su vejez pero lo disimula memorizando distancias y rutinas."
+    },
+    {
+      "id": "CATAURE",
+      "nombre": "Cataure",
+      "nombres_alternativos": [],
+      "generacion": null,
+      "genero": "masculino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 3,
+      "descripcion": "Indio guajiro, hermano de Visitación. Llegó a Macondo huyendo de la peste del insomnio que asolaba su tribu. Desapareció en la noche en que reconoció la enfermedad en los ojos de Rebeca, sin despedirse ni dar explicaciones."
+    },
+    {
+      "id": "MAGNIFICO_VISBAL",
+      "nombre": "Magnífico Visbal",
+      "nombres_alternativos": [],
+      "generacion": null,
+      "genero": "masculino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 4,
+      "descripcion": "Amigo de la infancia de Aureliano Buendía e hijo de uno de los fundadores de Macondo. Acompaña al Coronel en sus salidas a la tienda de Catarino."
+    },
+    {
+      "id": "DOCTOR_ALIRIO_NOGUERA",
+      "nombre": "Alirio Noguera",
+      "nombres_alternativos": [
+        "el doctor Noguera",
+        "el falso homeópata"
+      ],
+      "generacion": null,
+      "genero": "masculino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 5,
+      "descripcion": "Médico homeópata fraudulento que llega a Macondo con un diploma falso de Leipzig y glóbulos de azúcar. En realidad es un agitador federalista que escapó a Curazao disfrazado de cura tras ser capturado en la primera aventura liberal. Recluta a la juventud de Macondo para un plan de asesinatos individuales contra funcionarios conservadores y sus familias. Aureliano lo rechaza llamándolo matarife. Fusilado en la plaza por el ejército conservador sin juicio previo."
+    },
+    {
+      "id": "GREGORIO_STEVENSON",
+      "nombre": "Gregorio Stevenson",
+      "nombres_alternativos": [
+        "el coronel Stevenson"
+      ],
+      "generacion": null,
+      "genero": "masculino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 6,
+      "descripcion": "Coronel liberal enviado por el Coronel Aureliano Buendía para negociar la rendición de Macondo. Llega disfrazado de anciana montada en un burro cargado de escobas. Usa un pescadito de oro como salvoconducto. Arcadio lo encarcela por no traer carta escrita. Logra convencer a Arcadio de darle armas y defiende el cuartel solo con veinte cartuchos disparando por distintas ventanas antes de morir en la reconquista conservadora."
+    },
+    {
+      "id": "ROQUE_CARNICERO",
+      "nombre": "Roque Carnicero",
+      "nombres_alternativos": [
+        "el capitán Carnicero"
+      ],
+      "generacion": null,
+      "genero": "masculino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 6,
+      "descripcion": "Capitán del ejército conservador, especialista en ejecuciones sumarias. Dirige el pelotón que fusila a Arcadio. Su nombre propio es una coincidencia irónica con su oficio. Aparecerá más adelante en relación directa con el Coronel Aureliano Buendía."
+    },
+    {
+      "id": "CAPITAN_AQUILES_RICARDO",
+      "nombre": "Aquiles Ricardo",
+      "nombres_alternativos": [],
+      "generacion": null,
+      "genero": "masculino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 8,
+      "descripcion": "Capitán comandante de la guarnición conservadora de Macondo durante el período de paz. Los liberales lo señalan como provocador. Mata a Aureliano José de un tiro en la espalda al intentar registrarlo en la puerta del teatro; muere él mismo cuatro horas antes, abatido por dos balas de origen desconocido."
+    },
+    {
+      "id": "EL_CACHORRO",
+      "nombre": "Padre Coronel",
+      "nombres_alternativos": [
+        "El Cachorro"
+      ],
+      "generacion": null,
+      "genero": "masculino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 8,
+      "descripcion": "Sacerdote veterano de la primera guerra federalista que reemplaza al padre Nicanor Reyna, consumido por las fiebres hepáticas. El pueblo lo apoda El Cachorro."
+    },
+    {
+      "id": "DON_MELCHOR_ESCALONA",
+      "nombre": "Melchor Escalona",
+      "nombres_alternativos": [
+        "don Melchor Escalona"
+      ],
+      "generacion": null,
+      "genero": "masculino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 8,
+      "descripcion": "Maestro viejo enviado desde la ciénaga para hacerse cargo de la escuela restaurada de Macondo. Conocido por hacer caminar de rodillas a los alumnos desaplicados y darles ají picante a los lenguaraces, con la aprobación de los padres."
+    },
+    {
+      "id": "CARMELITA_MONTIEL",
+      "nombre": "Carmelita Montiel",
+      "nombres_alternativos": [],
+      "generacion": null,
+      "genero": "femenino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 8,
+      "descripcion": "Joven virgen de veinte años que vive en casa de Pilar Ternera. Estaba destinada a ser la compañera de Aureliano José, pero la noche en que lo esperaba con la cama preparada con hojas de romero, él fue al teatro y lo mataron."
+    },
+    {
+      "id": "GENERAL_TEOFILO_VARGAS",
+      "nombre": "Teófilo Vargas",
+      "nombres_alternativos": [],
+      "generacion": null,
+      "genero": "masculino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 9,
+      "descripcion": "General rebelde, indio puro, montaraz, analfabeto. Dotado de una malicia taciturna y una vocación mesiánica que suscita fanatismo en sus hombres. En la segunda asamblea de comandantes rebeldes se adelanta al Coronel y se apodera del mando central. Muere despedazado a machetazos en una emboscada."
+    },
+    {
+      "id": "VIUDA_MONCADA",
+      "nombre": "Viuda de Moncada",
+      "nombres_alternativos": [],
+      "generacion": null,
+      "genero": "femenino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 9,
+      "descripcion": "Esposa del general Moncada, vive en Manaure. Cuando el Coronel va a entregarle los objetos personales de su marido, le niega el paso: «Usted mandará en su guerra, pero yo mando en mi casa.» El Coronel manda saquear y quemar la casa."
+    },
+    {
+      "id": "PADRE_ANTONIO_ISABEL",
+      "nombre": "Padre Antonio Isabel",
+      "nombres_alternativos": [],
+      "generacion": null,
+      "genero": "masculino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 10,
+      "descripcion": "Párroco de Macondo, sucesor de El Cachorro. Cría gallos de pelea en el patio de la curia y enseña catecismo y teología mientras los cuida. Tutor de José Arcadio Segundo para su primera comunión. Manifiesta desde joven los primeros síntomas del delirio senil: llega a creer que el Diablo ganó la rebelión contra Dios y ocupa el trono celestial."
+    },
+    {
+      "id": "DON_FERNANDO",
+      "nombre": "Don Fernando",
+      "nombres_alternativos": [],
+      "generacion": null,
+      "genero": "masculino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 11,
+      "descripcion": "Padre de Fernanda del Carpio. Aristocrata venido a menos de una ciudad de 32 campanarios. Viste siempre de negro con cuello laminado y leontina de oro; pasa los días encerrado en su despacho. Mandó educar a Fernanda como reina y la entregó a Aureliano Segundo cuando un militar desconocido acudió a su casa. Se comunica con su hija solo por carta. Muere y es enviado a Macondo en un ataúd de plomo lleno de perlas vivas, en una caja de Navidad."
+    },
+    {
+      "id": "ARGENIDA",
+      "nombre": "Argénida",
+      "nombres_alternativos": [],
+      "generacion": null,
+      "genero": "femenino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 7,
+      "descripcion": "Vieja sirvienta que acompaña a Rebeca en su encierro voluntario. Es la única persona con quien Rebeca tiene contacto con el mundo exterior; actúa como intermediaria cuando los hijos del Coronel restauran la fachada de la casa."
+    },
+    {
+      "id": "CAMILA_SAGASTUME",
+      "nombre": "Camila Sagastume",
+      "nombres_alternativos": ["La Elefanta"],
+      "generacion": null,
+      "genero": "femenino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 13,
+      "descripcion": "Conocida en todo el país como 'La Elefanta'. Mujer gigantesca y maciza, de rostro hermoso y manos finas, directora de una academia de canto. Aprendió a comer como disciplina moral, no deportiva: quien tiene la conciencia en orden puede comer sin tregua. Compite con Aureliano Segundo en un duelo gastronómico que dura hasta el martes; se detiene voluntariamente para no propiciar la muerte del adversario."
+    },
+    {
+      "id": "MISTER_HERBERT",
+      "nombre": "Míster Herbert",
+      "nombres_alternativos": [],
+      "generacion": null,
+      "genero": "masculino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 12,
+      "descripcion": "Hombre rechoncho y sonriente, empresario de globos cautivos. Llega un miércoles a Macondo, almuerza en casa de los Buendía y examina los bananos con un estilete, granatorio, calibrador, termómetro e higrómetro. Sus observaciones atraen ingenieros, agrónomos y al señor Jack Brown, desencadenando la llegada de la compañía bananera."
+    },
+    {
+      "id": "SENOR_JACK_BROWN",
+      "nombre": "Señor Jack Brown",
+      "nombres_alternativos": ["Mr. Brown"],
+      "generacion": null,
+      "genero": "masculino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 12,
+      "descripcion": "Jefe visible de la compañía bananera estadounidense. Llega en un vagón suplementario laminado de plata con poltronas de terciopelo y techo de vidrios azules, acompañado de abogados de negro y perros alemanes feroces. Instala a los funcionarios locales en el gallinero electrificado y reemplaza las autoridades de Macondo por forasteros autoritarios."
+    },
+    {
+      "id": "AURELIANO_SERRADOR",
+      "nombre": "Aureliano Serrador",
+      "nombres_alternativos": [],
+      "generacion": 3,
+      "genero": "masculino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 12,
+      "descripcion": "Uno de los 17 hijos del Coronel Aureliano Buendía. Se queda en Macondo durante el auge bananero. Muere asesinado en la noche del exterminio: alguien le dispara desde entre la muchedumbre de la Calle de los Turcos y cae dentro de un caldero de manteca hirviendo."
+    },
+    {
+      "id": "AURELIANO_ARCAYA",
+      "nombre": "Aureliano Arcaya",
+      "nombres_alternativos": [],
+      "generacion": 3,
+      "genero": "masculino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 12,
+      "descripcion": "Uno de los 17 hijos del Coronel Aureliano Buendía. Se queda en Macondo durante el auge bananero. Muere asesinado en la noche del exterminio: alguien llama a la puerta de su cuarto con el pretexto de avisarle del peligro y le espera con una descarga de máuser que le desbarata el cráneo."
+    },
+    {
+      "id": "PATRICIA_BROWN",
+      "nombre": "Patricia Brown",
+      "nombres_alternativos": [],
+      "generacion": null,
+      "genero": "femenino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 14,
+      "descripcion": "Hija del señor Jack Brown, jefe de la compañía bananera. Es una de las tres jóvenes norteamericanas que traban amistad con muchachas de Macondo. Meme aprende inglés, tenis y natación en su casa. Es la intermediaria involuntaria que facilita el primer encuentro de Meme con Mauricio Babilonia en el taller mecánico."
     }
   ]
 }

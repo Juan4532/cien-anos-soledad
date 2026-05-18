@@ -27,7 +27,7 @@
         "PRUDENCIO_AGUILAR"
       ],
       "lugar": "RIOHACHA",
-      "descripcion": "JAB gana una pelea de gallos a Prudencio Aguilar, quien insulta públicamente su virilidad (Úrsula aún no consumaba el matrimonio). JAB regresa con la lanza de su abuelo y se la clava en la garganta. Esa noche entra al cuarto y obliga a Úrsula a quitarse el pantalón de castidad.",
+      "descripcion": "José Arcadio Buendía gana una pelea de gallos a Prudencio Aguilar, quien insulta públicamente su virilidad (Úrsula aún no consumaba el matrimonio). José Arcadio Buendía regresa con la lanza de su abuelo y se la clava en la garganta. Esa noche entra al cuarto y obliga a Úrsula a quitarse el pantalón de castidad.",
       "orden_cronologico": 2
     },
     {
@@ -44,7 +44,7 @@
         "URSULA_IGUARAN"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Al cabo de la travesía, la expedición acampa junto a un río pedregoso de aguas frías. Esa noche JAB sueña que se levanta una ciudad ruidosa con casas de paredes de espejo cuyo nombre, Macondo, tiene resonancia sobrenatural. Al día siguiente convence a los suyos de que nunca encontrarán el mar y funda la aldea talando árboles junto a la orilla.",
+      "descripcion": "Al cabo de la travesía, la expedición acampa junto a un río pedregoso de aguas frías. Esa noche José Arcadio Buendía sueña que se levanta una ciudad ruidosa con casas de paredes de espejo cuyo nombre, Macondo, tiene resonancia sobrenatural. Al día siguiente convence a los suyos de que nunca encontrarán el mar y funda la aldea talando árboles junto a la orilla.",
       "orden_cronologico": 6
     },
     {
@@ -268,7 +268,7 @@
         "URSULA_IGUARAN"
       ],
       "lugar": "RIOHACHA",
-      "descripcion": "JAB y Úrsula, primos criados juntos, se casan a pesar de la oposición familiar por miedo a engendrar hijos con cola de cerdo (ya había un precedente en la familia). La boda se celebra con fiesta de banda y cohetes durante tres días. Úrsula, aterrorizada por los pronósticos de su madre, lleva un pantalón de lona con hebilla de hierro para impedir la consumación; así pasan varios meses.",
+      "descripcion": "José Arcadio Buendía y Úrsula, primos criados juntos, se casan a pesar de la oposición familiar por miedo a engendrar hijos con cola de cerdo (ya había un precedente en la familia). La boda se celebra con fiesta de banda y cohetes durante tres días. Úrsula, aterrorizada por los pronósticos de su madre, lleva un pantalón de lona con hebilla de hierro para impedir la consumación; así pasan varios meses.",
       "orden_cronologico": 1
     },
     {
@@ -286,7 +286,7 @@
         "PRUDENCIO_AGUILAR"
       ],
       "lugar": "RIOHACHA",
-      "descripcion": "El fantasma de Prudencio Aguilar aparece repetidamente: junto a la tinaja intentando taponarse el cuello con esparto, en el baño lavándose la sangre, paseando bajo la lluvia. JAB le grita que lo matará cada vez que regrese; el muerto no se va. Conmovido por su soledad, JAB le promete marcharse del pueblo para siempre y le pide que descanse.",
+      "descripcion": "El fantasma de Prudencio Aguilar aparece repetidamente: junto a la tinaja intentando taponarse el cuello con esparto, en el baño lavándose la sangre, paseando bajo la lluvia. José Arcadio Buendía le grita que lo matará cada vez que regrese; el muerto no se va. Conmovido por su soledad, José Arcadio Buendía le promete marcharse del pueblo para siempre y le pide que descanse.",
       "orden_cronologico": 3
     },
     {
@@ -303,7 +303,7 @@
         "URSULA_IGUARAN"
       ],
       "lugar": null,
-      "descripcion": "JAB lidera un grupo de familias jóvenes en una travesía de más de dos años a través de la sierra, huyendo del fantasma de Prudencio Aguilar y buscando el mar. Viajan en sentido contrario a Riohacha para no dejar rastro. Úrsula hace parte del camino en hamaca por las varices. Al cabo nunca encuentran el mar.",
+      "descripcion": "José Arcadio Buendía lidera un grupo de familias jóvenes en una travesía de más de dos años a través de la sierra, huyendo del fantasma de Prudencio Aguilar y buscando el mar. Viajan en sentido contrario a Riohacha para no dejar rastro. Úrsula hace parte del camino en hamaca por las varices. Al cabo nunca encuentran el mar.",
       "orden_cronologico": 4
     },
     {
@@ -380,7 +380,7 @@
         "JOSE_ARCADIO_BUENDIA_FUNDADOR"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Al descubrir que José Arcadio (hijo) se ha ido con los gitanos, Úrsula sale a buscarlo siguiendo el camino que le van indicando. Se aleja tanto que ya no piensa en regresar. JAB forma un grupo para buscarla; pescadores indígenas señalan por señas que no la han visto pasar. Vuelven a la aldea tres días después sin haberla encontrado.",
+      "descripcion": "Al descubrir que José Arcadio (hijo) se ha ido con los gitanos, Úrsula sale a buscarlo siguiendo el camino que le van indicando. Se aleja tanto que ya no piensa en regresar. José Arcadio Buendía forma un grupo para buscarla; pescadores indígenas señalan por señas que no la han visto pasar. Vuelven a la aldea tres días después sin haberla encontrado.",
       "orden_cronologico": 25
     },
     {
@@ -404,7 +404,7 @@
       "id": "EVT_LLEGADA_REBECA",
       "titulo": "Llegada de Rebeca a la casa Buendía",
       "tipo": "llegada",
-      "capitulo": 2,
+      "capitulo": 3,
       "fecha": null,
       "participantes": [
         "REBECA",
@@ -419,7 +419,7 @@
       "id": "EVT_PLAGA_INSOMNIO",
       "titulo": "La plaga del insomnio se extiende por Macondo",
       "tipo": "desastre",
-      "capitulo": 2,
+      "capitulo": 3,
       "fecha": null,
       "participantes": [
         "REBECA",
@@ -435,7 +435,7 @@
       "id": "EVT_REGRESO_MELQUIADES",
       "titulo": "Melquíades regresa de la muerte",
       "tipo": "llegada",
-      "capitulo": 2,
+      "capitulo": 3,
       "fecha": null,
       "participantes": [
         "MELQUIADES",
@@ -449,7 +449,7 @@
       "id": "EVT_LLEGADA_APOLINAR_MOSCOTE",
       "titulo": "Llegada de Don Apolinar Moscote como magistrado",
       "tipo": "llegada",
-      "capitulo": 2,
+      "capitulo": 3,
       "fecha": null,
       "participantes": [
         "APOLINAR_MOSCOTE"
@@ -462,7 +462,7 @@
       "id": "EVT_LLEGADA_PIETRO_CRESPI",
       "titulo": "Llegada de Pietro Crespi",
       "tipo": "llegada",
-      "capitulo": 2,
+      "capitulo": 4,
       "fecha": null,
       "participantes": [
         "PIETRO_CRESPI",
@@ -471,13 +471,13 @@
       ],
       "lugar": "CASA_BUENDIA",
       "descripcion": "El músico y técnico italiano Pietro Crespi llega para instalar y enseñar a tocar la pianola que Úrsula encargó para la inauguración de la reforma de la casa. Rebeca y Amaranta se enamoran de él.",
-      "orden_cronologico": 33
+      "orden_cronologico": null
     },
     {
       "id": "EVT_RELACION_PILAR_CORONEL",
       "titulo": "Relación entre el Coronel Aureliano y Pilar Ternera",
       "tipo": "otro",
-      "capitulo": 2,
+      "capitulo": 4,
       "fecha": null,
       "participantes": [
         "AURELIANO_BUENDIA_CORONEL",
@@ -485,13 +485,13 @@
       ],
       "lugar": "TIENDA_CATARINO",
       "descripcion": "Pilar Ternera se ofrece como intermediaria entre Aureliano y Remedios Moscote. En un episodio nocturno tienen relaciones sexuales. Ella queda embarazada de Aureliano José.",
-      "orden_cronologico": 34
+      "orden_cronologico": null
     },
     {
       "id": "EVT_MATRIMONIO_AURELIANO_REMEDIOS",
       "titulo": "Boda del Coronel Aureliano y Remedios Moscote",
       "tipo": "boda",
-      "capitulo": 3,
+      "capitulo": 5,
       "fecha": null,
       "participantes": [
         "AURELIANO_BUENDIA_CORONEL",
@@ -500,39 +500,39 @@
       ],
       "lugar": "CASA_BUENDIA",
       "descripcion": "Tras la primera menstruación de Remedios, el padre Nicanor oficia la boda en el salón de la casa. Remedios lleva el primer trozo de pastel a José Arcadio Buendía atado al castaño.",
-      "orden_cronologico": 35
+      "orden_cronologico": null
     },
     {
       "id": "EVT_LLEGADA_PADRE_NICANOR",
       "titulo": "Llegada del padre Nicanor Reyna",
       "tipo": "llegada",
-      "capitulo": 3,
+      "capitulo": 5,
       "fecha": null,
       "participantes": [
         "PADRE_NICANOR"
       ],
       "lugar": "MACONDO",
       "descripcion": "El sacerdote llega horrorizado de que el pueblo viva sin religión. Decide quedarse a hacer la obra de Dios y construir una iglesia. Intenta sin éxito probar la existencia de Dios ante José Arcadio Buendía.",
-      "orden_cronologico": 36
+      "orden_cronologico": null
     },
     {
       "id": "EVT_LEVITACION_PADRE_NICANOR",
       "titulo": "El padre Nicanor levita sobre el suelo",
       "tipo": "milagro",
-      "capitulo": 3,
+      "capitulo": 5,
       "fecha": null,
       "participantes": [
         "PADRE_NICANOR"
       ],
       "lugar": "MACONDO",
       "descripcion": "El padre Nicanor bebe una taza de chocolate y se eleva doce centímetros sobre el suelo durante varios días, recaudando así el dinero necesario para construir la iglesia.",
-      "orden_cronologico": 37
+      "orden_cronologico": null
     },
     {
       "id": "EVT_LOCURA_JOSE_ARCADIO_BUENDIA",
       "titulo": "Locura y atadura de José Arcadio Buendía al castaño",
       "tipo": "otro",
-      "capitulo": 3,
+      "capitulo": 4,
       "fecha": null,
       "participantes": [
         "JOSE_ARCADIO_BUENDIA_FUNDADOR",
@@ -541,54 +541,69 @@
       ],
       "lugar": "CASA_BUENDIA",
       "descripcion": "José Arcadio Buendía sufre un arrebato violento tras perder la noción lineal del tiempo. Diez hombres lo atan al castaño del patio, donde permanecerá hasta su muerte hablando en latín y comunicándose con el fantasma de Prudencio Aguilar.",
-      "orden_cronologico": 38
+      "orden_cronologico": null
     },
     {
       "id": "EVT_MUERTE_MELQUIADES",
       "titulo": "Muerte definitiva de Melquíades",
       "tipo": "muerte",
-      "capitulo": 3,
+      "capitulo": 4,
       "fecha": null,
       "participantes": [
         "MELQUIADES",
-        "JOSE_ARCADIO_BUENDIA_FUNDADOR"
+        "JOSE_ARCADIO_BUENDIA_FUNDADOR",
+        "URSULA_IGUARAN",
+        "ARCADIO"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Melquíades sufre un rápido proceso de envejecimiento que lo deja en estado de demencia y se ahoga en el río. Es el primer enterramiento en Macondo, lo que simbólicamente hace que el pueblo pierda la inocencia de su fundación.",
+      "descripcion": "Melquíades sufre un rápido proceso de envejecimiento y se ahoga en el río mientras Arcadio lo llevaba a bañarse. José Arcadio Buendía se niega a enterrarlo convencido de su inmortalidad y quema mercurio 72 horas junto al cadáver. Cuando este empieza a descomponerse, lo entierran con honores en el centro del nuevo cementerio, con una lápida que reza solo \"MELQUÍADES\". Es el primer entierro y el más concurrido de Macondo.",
       "orden_cronologico": 39
     },
     {
       "id": "EVT_SUICIDIO_PIETRO_CRESPI",
       "titulo": "Suicidio de Pietro Crespi",
       "tipo": "muerte",
-      "capitulo": 4,
+      "capitulo": 6,
       "fecha": null,
       "participantes": [
         "PIETRO_CRESPI",
         "AMARANTA_BUENDIA"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Cansado de esperar a Amaranta, Pietro Crespi le propone matrimonio y ella lo rechaza con crueldad. Su hermano Bruno lo encuentra muerto con las muñecas cortadas. Amaranta se quema la mano para redimir su remordimiento.",
-      "orden_cronologico": 40
+      "descripcion": "Cansado de esperar a Amaranta, Pietro Crespi le vuela a proponer matrimonio y ella lo rechaza con crueldad. Su hermano Bruno lo encuentra muerto con las muñecas cortadas.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_AMARANTA_QUEMA_MANO",
+      "titulo": "Amaranta se quema la mano con brasas",
+      "tipo": "otro",
+      "capitulo": 6,
+      "fecha": null,
+      "participantes": [
+        "AMARANTA_BUENDIA"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Tras el suicidio de Pietro Crespi, Amaranta pone la mano sobre las brasas del fogón hasta quemársela. Se cubre la mano con una venda negra que no se quitará nunca.",
+      "orden_cronologico": null
     },
     {
       "id": "EVT_REGRESO_JOSE_ARCADIO_HIJO",
       "titulo": "Regreso de José Arcadio a Macondo",
       "tipo": "llegada",
-      "capitulo": 4,
+      "capitulo": 5,
       "fecha": null,
       "participantes": [
         "JOSE_ARCADIO_HIJO"
       ],
       "lugar": "CASA_BUENDIA",
       "descripcion": "Un hombre enorme cubierto de tatuajes llega a la casa. Solo Úrsula lo reconoce como su hijo José Arcadio, desaparecido con los gitanos. Ha dado la vuelta al mundo 65 veces. Más tarde se casará con Rebeca.",
-      "orden_cronologico": 41
+      "orden_cronologico": null
     },
     {
       "id": "EVT_MATRIMONIO_JOSE_ARCADIO_REBECA",
       "titulo": "Boda de José Arcadio (hijo) y Rebeca",
       "tipo": "boda",
-      "capitulo": 4,
+      "capitulo": 5,
       "fecha": null,
       "participantes": [
         "JOSE_ARCADIO_HIJO",
@@ -597,13 +612,13 @@
       ],
       "lugar": "MACONDO",
       "descripcion": "Tras una relación furtiva, José Arcadio y Rebeca se casan, a pesar de que Úrsula no permite que los recién casados entren en la casa. El padre Nicanor aclara que no son hermanos biológicos.",
-      "orden_cronologico": 42
+      "orden_cronologico": null
     },
     {
       "id": "EVT_MUERTE_REMEDIOS_MOSCOTE",
       "titulo": "Muerte de Remedios Moscote",
       "tipo": "muerte",
-      "capitulo": 4,
+      "capitulo": 5,
       "fecha": null,
       "participantes": [
         "REMEDIOS_MOSCOTE",
@@ -611,13 +626,13 @@
       ],
       "lugar": "CASA_BUENDIA",
       "descripcion": "Remedios Moscote muere de madrugada a causa de una infección, posiblemente ligada a la pérdida de los gemelos que gestaba. Su ausencia devuelve al Coronel Aureliano a la soledad y la introspección de su infancia.",
-      "orden_cronologico": 43
+      "orden_cronologico": null
     },
     {
       "id": "EVT_NACIMIENTO_ARCADIO",
       "titulo": "Nacimiento de Arcadio",
       "tipo": "nacimiento",
-      "capitulo": 2,
+      "capitulo": 3,
       "fecha": null,
       "participantes": [
         "ARCADIO",
@@ -632,7 +647,7 @@
       "id": "EVT_NACIMIENTO_AURELIANO_JOSE",
       "titulo": "Nacimiento de Aureliano José",
       "tipo": "nacimiento",
-      "capitulo": 2,
+      "capitulo": 5,
       "fecha": null,
       "participantes": [
         "AURELIANO_JOSE",
@@ -641,7 +656,93 @@
       ],
       "lugar": "MACONDO",
       "descripcion": "Hijo del Coronel Aureliano Buendía y Pilar Ternera. Adoptado por la primera esposa del Coronel, Remedios Moscote, quien lo acepta como propio.",
-      "orden_cronologico": 31
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_SEDUCCION_JOSE_ARCADIO_REBECA",
+      "titulo": "José Arcadio seduce a Rebeca",
+      "tipo": "otro",
+      "capitulo": 5,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_HIJO",
+        "REBECA"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Obsesionada con la presencia de José Arcadio, Rebeca va a su cuarto durante la siesta y él la seduce en la hamaca. Tres días después se casan en la misa de cinco.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_PEDIDA_MANO_AMARANTA_CRESPI",
+      "titulo": "Pietro Crespi le pide matrimonio a Amaranta",
+      "tipo": "otro",
+      "capitulo": 5,
+      "fecha": null,
+      "participantes": [
+        "PIETRO_CRESPI",
+        "AMARANTA_BUENDIA"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Tras el fracaso definitivo del noviazgo con Rebeca, Pietro Crespi desarrolla afecto genuino por Amaranta y un martes le propone matrimonio. Amaranta acepta en principio pero impone un aplazamiento indefinido.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_FRAUDE_ELECTORAL",
+      "titulo": "Fraude en las elecciones conservadoras",
+      "tipo": "conflicto",
+      "capitulo": 5,
+      "fecha": null,
+      "participantes": [
+        "APOLINAR_MOSCOTE",
+        "AURELIANO_BUENDIA_CORONEL"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "El sargento del ejército sustituye papeletas rojas liberales por azules conservadoras ante la vista del corregidor Moscote, quien lo justifica como necesario para evitar reclamaciones. Aureliano presencia el fraude y declara que si fuera liberal iría a la guerra por eso.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_CONSPIRACION_NOGUERA",
+      "titulo": "La conspiración del doctor Noguera",
+      "tipo": "conflicto",
+      "capitulo": 5,
+      "fecha": null,
+      "participantes": [
+        "DOCTOR_ALIRIO_NOGUERA",
+        "AURELIANO_BUENDIA_CORONEL",
+        "GERINELDO_MARQUEZ",
+        "MAGNIFICO_VISBAL"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "El falso homeópata recluta a jóvenes de Macondo para asesinar individualmente a funcionarios conservadores y sus familias. Aureliano, horrorizado, lo rechaza y lo llama matarife. Noguera lo descarta como sentimental sin porvenir.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_OCUPACION_MILITAR_MACONDO",
+      "titulo": "El ejército conservador ocupa Macondo",
+      "tipo": "guerra",
+      "capitulo": 5,
+      "fecha": null,
+      "participantes": [
+        "APOLINAR_MOSCOTE",
+        "AURELIANO_BUENDIA_CORONEL",
+        "DOCTOR_ALIRIO_NOGUERA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Un pelotón llega de madrugada con dos piezas de artillería y establece el cuartel en la escuela. Se impone el toque de queda a las seis de la tarde y una requisa drástica de armas. El padre Nicanor recibe un culatazo al intentar impresionar a los militares con su levitación.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_FUSILAMIENTO_NOGUERA",
+      "titulo": "Fusilamiento del doctor Noguera",
+      "tipo": "muerte",
+      "capitulo": 5,
+      "fecha": null,
+      "participantes": [
+        "DOCTOR_ALIRIO_NOGUERA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Tras la ocupación militar conservadora, el ejército arresta al doctor Noguera, lo ata a un árbol de la plaza y lo fusila sin fórmula de juicio.",
+      "orden_cronologico": null
     },
     {
       "id": "EVT_PRIMERA_GUERRA_LIBERAL",
@@ -656,13 +757,13 @@
       ],
       "lugar": "MACONDO",
       "descripcion": "Denunciando el fraude electoral conservador, el Coronel Aureliano Buendía sale con veintiún hombres para unirse al ejército liberal. Arcadio es nombrado líder civil y militar de Macondo.",
-      "orden_cronologico": 44
+      "orden_cronologico": null
     },
     {
       "id": "EVT_TIRANIA_ARCADIO",
       "titulo": "Tiranía de Arcadio en Macondo",
       "tipo": "conflicto",
-      "capitulo": 5,
+      "capitulo": 6,
       "fecha": null,
       "participantes": [
         "ARCADIO",
@@ -671,21 +772,7 @@
       ],
       "lugar": "MACONDO",
       "descripcion": "Arcadio gobierna Macondo como un déspota: impone cuatro decretos diarios, fusila a un trompetista, y está a punto de ejecutar a Don Apolinar Moscote. Úrsula lo detiene y lo humilla públicamente.",
-      "orden_cronologico": 45
-    },
-    {
-      "id": "EVT_FUSILAMIENTO_ARCADIO",
-      "titulo": "Fusilamiento de Arcadio",
-      "tipo": "muerte",
-      "capitulo": 7,
-      "fecha": null,
-      "participantes": [
-        "ARCADIO",
-        "SANTA_SOFIA_DE_LA_PIEDAD"
-      ],
-      "lugar": "MACONDO",
-      "descripcion": "Arcadio es ejecutado al amanecer tras la derrota liberal. Sus últimos pensamientos son para su familia. Pide que nombren a la bebé sin nombre Úrsula y al nonato José Arcadio. Muere gritando 'Viva el partido liberal'.",
-      "orden_cronologico": 47
+      "orden_cronologico": null
     },
     {
       "id": "EVT_FUSILAMIENTO_CORONEL_SALVADO",
@@ -696,11 +783,12 @@
       "participantes": [
         "AURELIANO_BUENDIA_CORONEL",
         "JOSE_ARCADIO_HIJO",
-        "GERINELDO_MARQUEZ"
+        "GERINELDO_MARQUEZ",
+        "ROQUE_CARNICERO"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Capturado tras la derrota, el Coronel es conducido ante el paredón frente a la casa de Rebeca. En el último momento, su hermano José Arcadio cruza la calle con una escopeta y ordena no disparar, iniciando una nueva etapa de la guerra.",
-      "orden_cronologico": 46
+      "descripcion": "Conducido al paredón frente a la casa de Rebeca, los soldados sortean quién disparará. Roque Carnicero saca el as de espadas y se niega a hacerlo; sus seis hombres lo imitan. En ese momento José Arcadio cruza la calle con una escopeta y ordena que no disparen. El pelotón al completo, encabezado por Roque Carnicero, se une al bando rebelde.",
+      "orden_cronologico": null
     },
     {
       "id": "EVT_MUERTE_JOSE_ARCADIO_BUENDIA",
@@ -710,11 +798,12 @@
       "fecha": null,
       "participantes": [
         "JOSE_ARCADIO_BUENDIA_FUNDADOR",
-        "URSULA_IGUARAN"
+        "URSULA_IGUARAN",
+        "CATAURE"
       ],
       "lugar": "CASA_BUENDIA",
-      "descripcion": "José Arcadio Buendía, atado al castaño, muere al cabo de los años. Poco después del cielo caen flores amarillas sobre Macondo como último adiós al fundador.",
-      "orden_cronologico": 49
+      "descripcion": "José Arcadio Buendía muere atado al castaño del patio, acompañado únicamente por Úrsula. Esa madrugada llueven flores amarillas sobre Macondo: pétalos tan densos que al amanecer el pueblo parece cubierto de nieve dorada. Cataure, el hermano indio de Visitación, regresa para despedirse del patriarca y le dice: «He venido al sepelio del rey.» Tras el entierro desaparece de nuevo para siempre. El espíritu de Prudencio Aguilar lo espera al otro lado.",
+      "orden_cronologico": null
     },
     {
       "id": "EVT_MUERTE_JOSE_ARCADIO_HIJO",
@@ -727,36 +816,24 @@
         "REBECA"
       ],
       "lugar": "MACONDO",
-      "descripcion": "José Arcadio es asesinado de un disparo en su dormitorio. No presenta herida visible pero emana un intenso olor a pólvora que persiste incluso después de su entierro. Rebeca dice que estaba en el baño y no oyó nada.",
-      "orden_cronologico": 50
+      "descripcion": "José Arcadio es asesinado de un disparo en su dormitorio. No presenta herida visible pero emana un intenso olor a pólvora que persiste incluso después de su entierro. Un hilo de sangre sale bajo la puerta, cruza la calle y llega hasta la cocina de Úrsula para avisarla. Rebeca dice que estaba en el baño y no oyó nada.",
+      "orden_cronologico": null
     },
     {
       "id": "EVT_MUERTE_AURELIANO_JOSE",
-      "titulo": "Asesinato de Aureliano José",
+      "titulo": "Asesinato de Aureliano José en el teatro",
       "tipo": "muerte",
       "capitulo": 8,
       "fecha": null,
       "participantes": [
-        "AURELIANO_JOSE"
-      ],
-      "lugar": "MACONDO",
-      "descripcion": "Aureliano José es abatido por soldados mientras asiste a una obra de teatro. Al intentar huir del cacheo, el capitán le dispara. Es la primera muerte de un hijo del Coronel, que vendrá seguida de muchas más.",
-      "orden_cronologico": 51
-    },
-    {
-      "id": "EVT_ATENTADO_CORONEL",
-      "titulo": "Intento de asesinato del Coronel con café envenenado",
-      "tipo": "conflicto",
-      "capitulo": 8,
-      "fecha": null,
-      "participantes": [
-        "AURELIANO_BUENDIA_CORONEL",
+        "AURELIANO_JOSE",
+        "CAPITAN_AQUILES_RICARDO",
         "PILAR_TERNERA",
-        "URSULA_IGUARAN"
+        "CARMELITA_MONTIEL"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Después de que Pilar Ternera le advierte que tenga cuidado con su boca, dos días más tarde un café envenenado llega hasta el Coronel y está a punto de matarlo. Úrsula lo cuida hasta su recuperación.",
-      "orden_cronologico": 52
+      "descripcion": "Pilar Ternera le advierte que no salga esa noche y le ofrece quedarse con Carmelita Montiel. Él no capta la súplica y va al teatro. En la entrada, el capitán Aquiles Ricardo intenta cachearlo; Aureliano José, desarmado, echa a correr. El capitán le dispara en la espalda. Muere desangrado a la medianoche. Carmelita Montiel, que lo esperaba con la cama preparada de romero, encuentra en blanco los naipes de su porvenir.",
+      "orden_cronologico": null
     },
     {
       "id": "EVT_EJECUCION_MONCADA",
@@ -771,66 +848,615 @@
       ],
       "lugar": "MACONDO",
       "descripcion": "El consejo de guerra exige la ejecución de los oficiales conservadores. A pesar de las súplicas de Úrsula, el Coronel no conmuta la sentencia de su viejo amigo Moncada, quien le dice que con su odio se ha vuelto igual que sus enemigos.",
-      "orden_cronologico": 53
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_RELACION_INCESTUOSA_AMARANTA_AJ",
+      "titulo": "Relación secreta entre Amaranta y Aureliano José",
+      "tipo": "otro",
+      "capitulo": 8,
+      "fecha": null,
+      "participantes": [
+        "AMARANTA_BUENDIA",
+        "AURELIANO_JOSE"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Aureliano José, criado por Amaranta desde niño, desarrolla una atracción que ella acaba correspondiendo. Se encuentran en la oscuridad del mosquitero, se persiguen por los rincones de la casa. Amaranta corta la relación abruptamente cuando casi los sorprende Úrsula, consciente de que ha llegado demasiado lejos.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_REGRESO_SECRETO_CORONEL_CAP8",
+      "titulo": "Regreso secreto del Coronel a Macondo antes del armisticio",
+      "tipo": "guerra",
+      "capitulo": 8,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "GERINELDO_MARQUEZ",
+        "ROQUE_CARNICERO",
+        "AURELIANO_JOSE"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "En desacuerdo con los términos del armisticio, el Coronel regresa sigilosamente de madrugada con diez oficiales. Dispersan la guarnición, entierran las armas y destruyen los archivos. Al amanecer abandonan el pueblo. Aureliano José se va con su padre.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_ALZAMIENTOS_POSTARMISTICIO",
+      "titulo": "Ocho levantamientos del Coronel en un año tras el armisticio",
+      "tipo": "guerra",
+      "capitulo": 8,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL"
+      ],
+      "lugar": null,
+      "descripcion": "En el año siguiente al armisticio el Coronel intenta ocho alzamientos: cañonea Riohacha desde una goleta, ocupa una aduana fronteriza quince días, lanza un llamado a la guerra general y trata de cruzar 1500 km de selva para proclamar la guerra cerca de la capital.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_MUERTE_VISITACION",
+      "titulo": "Muerte de Visitación",
+      "tipo": "muerte",
+      "capitulo": 8,
+      "fecha": null,
+      "participantes": [
+        "VISITACION"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Visitación muere de muerte natural, el gusto que se dio después de haber renunciado a un trono por miedo al insomnio. Su última voluntad es que el sueldo ahorrado en más de veinte años se mande al Coronel para que siga la guerra. Úrsula no lo saca al creer que el Coronel está muerto.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_NOTICIAS_FALSAS_MUERTE_CORONEL",
+      "titulo": "Cuatro informes falsos de la muerte del Coronel",
+      "tipo": "otro",
+      "capitulo": 8,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "URSULA_IGUARAN",
+        "AMARANTA_BUENDIA"
+      ],
+      "lugar": null,
+      "descripcion": "En menos de dos años el gobierno anuncia cuatro veces la muerte del Coronel. El cuarto informe se tiene por cierto durante casi seis meses. Úrsula y Amaranta superponen lutos hasta que llega la noticia de que está vivo en el Caribe.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_CORONEL_FEDERALISMO_CARIBE",
+      "titulo": "El Coronel lucha por el federalismo en el Caribe y Centroamérica",
+      "tipo": "guerra",
+      "capitulo": 8,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL"
+      ],
+      "lugar": null,
+      "descripcion": "El Coronel aparece bajo nombres distintos en repúblicas del Caribe, sumado al federalismo triunfante. Su proyecto: unificar las fuerzas federalistas de América Central para barrer con los regímenes conservadores desde Alaska hasta la Patagonia. La primera noticia directa que recibe Úrsula es una carta borrosa desde Santiago de Cuba.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_MONCADA_ALCALDE_MACONDO",
+      "titulo": "General Moncada, primer alcalde de Macondo",
+      "tipo": "acuerdo",
+      "capitulo": 8,
+      "fecha": null,
+      "participantes": [
+        "JOSE_RAQUEL_MONCADA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Al terminar la guerra, Moncada es nombrado corregidor y luego primer alcalde de Macondo. Viste traje civil, sustituye militares por policías desarmados, hace respetar la amnistía y auxilia a familias de liberales muertos. Crea un ambiente de confianza que hace ver la guerra como una pesadilla del pasado.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_TEATRO_BRUNO_CRESPI",
+      "titulo": "Bruno Crespi construye un teatro en Macondo",
+      "tipo": "otro",
+      "capitulo": 8,
+      "fecha": null,
+      "participantes": [
+        "BRUNO_CRESPI"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Bruno Crespi, cuya tienda de juguetes e instrumentos musicales no cesa de prosperar, construye un vasto teatro al aire libre con escaños de madera, telón de terciopelo con máscaras griegas y tres taquillas en forma de cabezas de león. Las compañías españolas lo incluyen en sus itinerarios.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_BODA_BRUNO_CRESPI_AMPARO",
+      "titulo": "Boda de Bruno Crespi y Amparo Moscote",
+      "tipo": "boda",
+      "capitulo": 8,
+      "fecha": null,
+      "participantes": [
+        "BRUNO_CRESPI",
+        "AMPARO_MOSCOTE"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Bruno Crespi se casa con Amparo Moscote, hija de don Apolinar Moscote y hermana de Remedios.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_GEMELOS_ESCUELA_REMEDIOS_BELLA",
+      "titulo": "Los gemelos van a la escuela; Remedios empieza a ser llamada 'la Bella'",
+      "tipo": "otro",
+      "capitulo": 8,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_SEGUNDO",
+        "AURELIANO_SEGUNDO",
+        "REMEDIOS_LA_BELLA",
+        "DON_MELCHOR_ESCALONA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Aureliano Segundo y José Arcadio Segundo son los primeros alumnos en sentarse en la escuela restaurada de don Melchor Escalona. Su hermana Remedios, heredera de la belleza de Santa Sofía de la Piedad, empieza a ser conocida como Remedios la Bella.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_REGRESO_AURELIANO_JOSE",
+      "titulo": "Regreso de Aureliano José; quiere casarse con Amaranta",
+      "tipo": "llegada",
+      "capitulo": 8,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_JOSE",
+        "AMARANTA_BUENDIA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Aureliano José deserta de las tropas federalistas de Nicaragua, se enrola en un barco alemán y aparece en la cocina de la casa. Macizo, prieto y peludo como un indio. Su determinación secreta es casarse con Amaranta. Le propone matrimonio invocando que un soldado le aseguró que la guerra contra los curas se libra para que uno pueda casarse con su propia madre.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_RECHAZO_DEFINITIVO_AMARANTA_AJ",
+      "titulo": "Amaranta echa la aldaba para siempre a Aureliano José",
+      "tipo": "otro",
+      "capitulo": 8,
+      "fecha": null,
+      "participantes": [
+        "AMARANTA_BUENDIA",
+        "AURELIANO_JOSE"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Tras meses de resistencia y encuentros nocturnos, Amaranta rechaza a Aureliano José con determinación inflexible. Echa para siempre la aldaba del dormitorio. Él busca consuelo en mujeres de la tienda de Catarino y en la indiferencia fingida, pero ya ha perdido terreno irrecuperable.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_LLEGADA_17_AURELIANOS",
+      "titulo": "Los diecisiete hijos del Coronel llegan a ser bautizados",
+      "tipo": "otro",
+      "capitulo": 8,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "URSULA_IGUARAN",
+        "AMARANTA_BUENDIA",
+        "JOSE_RAQUEL_MONCADA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "En menos de doce años, diecisiete hijos del Coronel son traídos para ser bautizados, todos varones, todos con el mismo aire de soledad. Se les bautiza con el nombre de Aureliano y el apellido de la madre. Úrsula los registra en una libreta. Moncada es padrino del primero. Amaranta quiere quedarse con ellos pero las madres se oponen.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_PILAR_MADRE_DESCUBIERTA",
+      "titulo": "Aureliano José descubre que Pilar Ternera es su madre",
+      "tipo": "otro",
+      "capitulo": 8,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_JOSE",
+        "PILAR_TERNERA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Al contrario que Arcadio, que nunca conoció su origen, Aureliano José se entera de que es hijo de Pilar Ternera. Son más que madre e hijo: cómplices en la soledad. Él duerme la siesta en su casa, donde ella acoge a los amantes del vecindario.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_ATAQUE_MACONDO_CAP8",
+      "titulo": "El Coronel ataca Macondo con mil hombres",
+      "tipo": "guerra",
+      "capitulo": 8,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "JOSE_RAQUEL_MONCADA",
+        "URSULA_IGUARAN"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "El primero de octubre al amanecer, el Coronel ataca Macondo con mil hombres bien armados. La guarnición recibe orden de resistir hasta el final. A mediodía un cañonazo rebelde pulveriza la fachada de la tesorería mientras Moncada almuerza con Úrsula. A las dos de la tarde Moncada sabe que ha perdido.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_CAPTURA_MONCADA",
+      "titulo": "Captura del general Moncada al intentar huir de Macondo",
+      "tipo": "guerra",
+      "capitulo": 8,
+      "fecha": null,
+      "participantes": [
+        "JOSE_RAQUEL_MONCADA",
+        "AURELIANO_BUENDIA_CORONEL"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Moncada es capturado esa noche cuando intenta fugarse de Macondo, después de escribirle una extensa carta al Coronel recordándole los propósitos de humanizar la guerra y deseándole la victoria contra la corrupción.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_ANULACION_TITULOS_TIERRA",
+      "titulo": "El Coronel anula los títulos de tierra usurpados por José Arcadio",
+      "tipo": "acuerdo",
+      "capitulo": 8,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "REBECA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Revisando títulos de propiedad hasta cien años atrás, el Coronel descubre las tropelías legalizadas de su hermano José Arcadio. Los anula de una plumada. Visita a Rebeca para comunicárselo; ella, convertida en espectro, responde: «Se hará lo que tú dispongas. Siempre creí que eres un descastado.»",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_JUICIOS_GUERRA_CAP8",
+      "titulo": "Juicios sumarios de guerra bajo Gerineldo Márquez",
+      "tipo": "guerra",
+      "capitulo": 8,
+      "fecha": null,
+      "participantes": [
+        "GERINELDO_MARQUEZ",
+        "AURELIANO_BUENDIA_CORONEL",
+        "ROQUE_CARNICERO",
+        "URSULA_IGUARAN"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "El coronel Gerineldo Márquez preside los consejos de guerra revolucionarios que condenan y fusilan a toda la oficialidad del ejército regular prisionera. El coronel Roque Carnicero se encarga de apresurar los juicios. Úrsula y las madres de los oficiales liberales testifican en defensa de Moncada, sin éxito.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_VISITA_CORONEL_MONCADA_CARCEL",
+      "titulo": "El Coronel visita a Moncada en la celda antes del fusilamiento",
+      "tipo": "otro",
+      "capitulo": 8,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "JOSE_RAQUEL_MONCADA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Poco antes del amanecer el Coronel visita a Moncada. Le dice: «No te fusilo yo. Te fusila la revolución.» Moncada le responde: «De tanto odiar a los militares has terminado por ser igual a ellos.» Le entrega el reloj, el anillo, los lentes y la medalla para que se los mande a su esposa en Manaure.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_MUERTE_CAPITAN_AQUILES",
+      "titulo": "Muerte del capitán Aquiles Ricardo",
+      "tipo": "muerte",
+      "capitulo": 8,
+      "fecha": null,
+      "participantes": [
+        "CAPITAN_AQUILES_RICARDO"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Cuatro horas antes de que Aureliano José muera desangrado, el capitán Aquiles Ricardo es abatido por dos balas simultáneas de origen nunca establecido. Más de cuatrocientos hombres desfilan frente al teatro y descargan sus revólveres contra su cadáver.",
+      "orden_cronologico": null
     },
     {
       "id": "EVT_RENDICION_CORONEL",
-      "titulo": "El Coronel firma el armisticio",
+      "titulo": "El Coronel firma el armisticio de Neerlandia",
       "tipo": "acuerdo",
-      "capitulo": 10,
+      "capitulo": 9,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "GERINELDO_MARQUEZ"
+      ],
+      "lugar": null,
+      "descripcion": "El armisticio se firma bajo una ceiba gigantesca en Neerlandia, sin música ni celebraciones. El Coronel llega en mula embarrada, sin afeitar. Un joven coronel rebelde entrega 72 ladrillos de oro de la revolución (cubiertos de barro cocido), que el Coronel incluye en el inventario de la rendición. Lleva 32 levantamientos y casi veinte años de guerra.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_DISPARO_CORONEL",
+      "titulo": "El Coronel se dispara en el pecho y sobrevive",
+      "tipo": "otro",
+      "capitulo": 9,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "URSULA_IGUARAN",
+        "PILAR_TERNERA"
+      ],
+      "lugar": null,
+      "descripcion": "A las 3:15 h, en su tienda de campaña tras firmar el armisticio, el Coronel se dispara en el círculo de yodo que su médico le marcó en el pecho. La bala pasa sin tocar ningún órgano vital. Úrsula lo presiente en Macondo: la leche se llena de gusanos y ve el fantasma de José Arcadio Buendía. El fracaso del suicidio le devuelve el prestigio perdido.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_NACIMIENTO_GEMELOS",
+      "titulo": "Nacimiento de la hija de Arcadio",
+      "tipo": "nacimiento",
+      "capitulo": 6,
+      "fecha": null,
+      "participantes": [
+        "REMEDIOS_LA_BELLA",
+        "SANTA_SOFIA_DE_LA_PIEDAD"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Santa Sofía de la Piedad, amante de Arcadio, da a luz una niña. Aún no se le pone nombre; más adelante será conocida como Remedios la Bella.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_VACIO_GUERRA_GERINELDO",
+      "titulo": "Gerineldo Márquez siente el vacío de la guerra",
+      "tipo": "otro",
+      "capitulo": 9,
+      "fecha": null,
+      "participantes": [
+        "GERINELDO_MARQUEZ",
+        "AMARANTA_BUENDIA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "El coronel Gerineldo Márquez pierde paulatinamente el contacto real con la guerra. Las conversaciones telegráficas con el Coronel se vuelven incomprensibles. Su único refugio es el costurero de Amaranta, a quien visita cada tarde durante años contemplando cómo cose.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_RECHAZO_DEFINITIVO_GERINELDO",
+      "titulo": "Amaranta rechaza definitivamente a Gerineldo: 'ya somos demasiado viejos'",
+      "tipo": "otro",
+      "capitulo": 9,
+      "fecha": null,
+      "participantes": [
+        "AMARANTA_BUENDIA",
+        "GERINELDO_MARQUEZ"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Tras cuatro años de cortejo, Amaranta da a Gerineldo Márquez la respuesta definitiva en agosto: «Olvidémonos para siempre. Ya somos demasiado viejos para estas cosas.» Se encierra a llorar su soledad hasta la muerte.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_TELEGRAMA_LLUVIA",
+      "titulo": "El telegrama de la lluvia",
+      "tipo": "otro",
+      "capitulo": 9,
+      "fecha": null,
+      "participantes": [
+        "GERINELDO_MARQUEZ",
+        "AURELIANO_BUENDIA_CORONEL"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Gerineldo, desolado tras el rechazo de Amaranta, le telegrafía al Coronel: «Está lloviendo en Macondo.» Silencio. Luego los aparatos responden: «No seas pendejo, Gerineldo. Es natural que esté lloviendo en agosto.»",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_REGRESO_CORONEL_DECAIDO",
+      "titulo": "El Coronel regresa a Macondo completamente cambiado",
+      "tipo": "llegada",
+      "capitulo": 9,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "URSULA_IGUARAN",
+        "AMARANTA_BUENDIA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "El Coronel regresa sin escolta, envuelto en una manta a pesar del calor, con tres amantes instaladas en una misma casa. Pasa el tiempo en hamaca. Desatiende despachos, manda a la delegación política 'donde las putas'. Úrsula y Amaranta comprenden que lo han perdido para siempre.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_ASAMBLEA_Y_MUERTE_TEOFILO_VARGAS",
+      "titulo": "Teófilo Vargas toma el mando rebelde y muere en emboscada",
+      "tipo": "guerra",
+      "capitulo": 9,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "GENERAL_TEOFILO_VARGAS"
+      ],
+      "lugar": null,
+      "descripcion": "El Coronel convoca una asamblea para unificar el mando rebelde. El general Teófilo Vargas, indio puro y mesiánico, se adelanta a sus intenciones, deshace la coalición y se apodera del mando central. Quince días después es despedazado a machetazos en una emboscada. El Coronel no dio la orden, pero la consintió tácitamente, y asume el mando central.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_FRIO_INTERIOR_CORONEL",
+      "titulo": "El frío interior que perseguirá al Coronel hasta la muerte",
+      "tipo": "otro",
+      "capitulo": 9,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL"
+      ],
+      "lugar": null,
+      "descripcion": "La noche en que asume el mando central, el Coronel despierta pidiendo a gritos una manta. Un frío interior que le raya los huesos lo acompañará durante meses y luego para siempre. Es el primer síntoma físico de la corrupción del poder.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_SAQUEO_CASA_VIUDA_MONCADA",
+      "titulo": "El Coronel manda quemar la casa de la viuda de Moncada",
+      "tipo": "conflicto",
+      "capitulo": 9,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "VIUDA_MONCADA"
+      ],
+      "lugar": null,
+      "descripcion": "El Coronel va a Manaure a cumplir la última voluntad de Moncada y entregar sus objetos personales a su viuda. Ella no le permite pasar de la puerta: «Usted mandará en su guerra, pero yo mando en mi casa.» Su guardia personal saquea y reduce a cenizas la casa.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_PROPUESTAS_SOLO_PODER",
+      "titulo": "La comisión liberal propone renunciar a los ideales; 'solo luchamos por el poder'",
+      "tipo": "acuerdo",
+      "capitulo": 9,
       "fecha": null,
       "participantes": [
         "AURELIANO_BUENDIA_CORONEL",
         "GERINELDO_MARQUEZ"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Hastiado de una guerra que solo libra por orgullo, el Coronel firma la rendición sin ceremonias ni discursos y entrega 72 lingotes de oro de la rebelión. Lleva 20 años de guerra y 32 levantamientos perdidos.",
-      "orden_cronologico": 54
+      "descripcion": "Seis abogados del partido liberal piden al Coronel renunciar a la revisión de títulos de tierra, a la lucha anticlerical y a la igualdad de hijos naturales. El Coronel sonríe: «Quiere decir que solo estamos luchando por el poder.» Firma. Gerineldo Márquez lo llama traición.",
+      "orden_cronologico": null
     },
     {
-      "id": "EVT_DISPARO_CORONEL",
-      "titulo": "El Coronel se dispara en el pecho y sobrevive",
+      "id": "EVT_ARRESTO_GERINELDO",
+      "titulo": "Gerineldo Márquez arrestado y condenado a muerte por traición",
+      "tipo": "conflicto",
+      "capitulo": 9,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "GERINELDO_MARQUEZ"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Cuando Gerineldo llama traición a la firma, el Coronel le ordena entregar las armas y presentarse en el cuartel. Es condenado a muerte por los tribunales revolucionarios. El Coronel permanece insensible a las súplicas de clemencia.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_AMENAZA_URSULA_CORONEL",
+      "titulo": "Úrsula amenaza al Coronel con matarlo si fusila a Gerineldo",
+      "tipo": "conflicto",
+      "capitulo": 9,
+      "fecha": null,
+      "participantes": [
+        "URSULA_IGUARAN",
+        "AURELIANO_BUENDIA_CORONEL"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "La víspera de la ejecución, Úrsula visita al Coronel durante tres minutos: «Tan pronto como vea el cadáver, te lo juro por los huesos de mi padre y mi madre, te he de sacar de donde te metas y te mataré con mis propias manos.» Añade: «Es lo mismo que habría hecho si hubieras nacido con cola de puerco.»",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_LIBERACION_GERINELDO",
+      "titulo": "El Coronel libera a Gerineldo en el último momento",
       "tipo": "otro",
-      "capitulo": 10,
+      "capitulo": 9,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "GERINELDO_MARQUEZ"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Tras una noche de tormentosa vigilia, el Coronel aparece en la celda una hora antes de la ejecución: «Terminó la farsa, compadre. Vámonos de aquí, antes de que acaben de fusilarte los mosquitos.» Gerineldo lo recrimina: «Vale más estar muerto que verte convertido en un chafarote.»",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_DESTRUCCION_RASTROS_CORONEL",
+      "titulo": "El Coronel destruye todo rastro de su paso por el mundo",
+      "tipo": "otro",
+      "capitulo": 9,
       "fecha": null,
       "participantes": [
         "AURELIANO_BUENDIA_CORONEL",
         "URSULA_IGUARAN"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Inmediatamente después de firmar la rendición, el Coronel se dispara en el pecho en el lugar exacto que su médico le había señalado como el corazón. La bala le atraviesa el pecho sin dañar ningún órgano vital.",
-      "orden_cronologico": 55
+      "descripcion": "Antes del armisticio, el Coronel simplifica el taller de platería, regala su ropa a los ordenanzas y entierra sus armas en el patio. Solo conserva una pistola con una sola bala. Úrsula le impide destruir el daguerrotipo de Remedios Moscote: «Ese retrato dejó de pertenecerte. Es una reliquia de familia.»",
+      "orden_cronologico": null
     },
     {
-      "id": "EVT_NACIMIENTO_GEMELOS",
-      "titulo": "Nacimiento de los gemelos José Arcadio Segundo y Aureliano Segundo",
-      "tipo": "nacimiento",
-      "capitulo": 7,
+      "id": "EVT_QUEMA_VERSOS_CORONEL",
+      "titulo": "El Coronel quema sus versos en el horno de la panadería",
+      "tipo": "otro",
+      "capitulo": 9,
       "fecha": null,
       "participantes": [
-        "JOSE_ARCADIO_SEGUNDO",
-        "AURELIANO_SEGUNDO",
-        "SANTA_SOFIA_DE_LA_PIEDAD",
-        "ARCADIO"
+        "AURELIANO_BUENDIA_CORONEL",
+        "SANTA_SOFIA_DE_LA_PIEDAD"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Lleva el baúl con sus versos a la panadería y le da el primer rollo a Santa Sofía de la Piedad para encender el horno: «Arde mejor, porque son cosas muy viejas.» Ella le dice que los queme él mismo. Los quema, y destruye el baúl con una hachuela.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_PILAR_VISITA_CORONEL_ARMISTICIO",
+      "titulo": "Pilar Ternera visita al Coronel antes del armisticio; le repite 'cuídate la boca'",
+      "tipo": "vision",
+      "capitulo": 9,
+      "fecha": null,
+      "participantes": [
+        "PILAR_TERNERA",
+        "AURELIANO_BUENDIA_CORONEL"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Santa Sofía de la Piedad, viuda de Arcadio, da a luz a los gemelos varios meses después de la muerte de este. La niña se llama Remedios (la Bella).",
-      "orden_cronologico": 48
+      "descripcion": "Pilar visita al Coronel antes del armisticio. Él se asombra de cuánto ha envejecido, pero reconoce la profundidad de su lectura de barajas. Ella le repite: «Cuídate la boca.» Él le pregunta a su médico el sitio exacto del corazón; el médico lo marca con un círculo de yodo.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_PREMONICION_LECHE_URSULA",
+      "titulo": "Premonición de Úrsula: la leche con gusanos y el fantasma",
+      "tipo": "vision",
+      "capitulo": 9,
+      "fecha": null,
+      "participantes": [
+        "URSULA_IGUARAN",
+        "JOSE_ARCADIO_BUENDIA_FUNDADOR"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "En el momento exacto en que el Coronel se dispara en Neerlandia, Úrsula destapa la olla de la leche y la encuentra llena de gusanos. Grita «¡Han matado a Aureliano!» Ve el fantasma de José Arcadio Buendía empapado de lluvia, y al anochecer discos anaranjados cruzando el cielo.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_PENSIONES_GUERRA",
+      "titulo": "El Coronel amenaza con nueva guerra por las pensiones",
+      "tipo": "conflicto",
+      "capitulo": 9,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "El gobierno supedita las pensiones de los excombatientes a una comisión especial. El Coronel dicta un telegrama amenazante al presidente: si las pensiones no se resuelven en quince días, proclama la guerra a muerte. El gobierno responde con arresto domiciliario.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_ARRESTO_DOMICILIARIO_CORONEL",
+      "titulo": "Arresto domiciliario del Coronel tras el armisticio",
+      "tipo": "conflicto",
+      "capitulo": 9,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "URSULA_IGUARAN"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Ante la amenaza de nueva guerra, el gobierno rodea la casa del Coronel con guardia militar y prohíbe toda visita. Medidas similares se adoptan en todo el país contra otros caudillos. En dos meses los instigadores están muertos, exiliados o asimilados por la administración pública.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_REJUVENECIMIENTO_CASA_URSULA",
+      "titulo": "Úrsula rejuvenece la casa",
+      "tipo": "otro",
+      "capitulo": 9,
+      "fecha": null,
+      "participantes": [
+        "URSULA_IGUARAN"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Cuando sabe que su hijo vivirá, Úrsula lava y pinta la casa, cambia los muebles, restaura el jardín, siembra flores nuevas y abre puertas y ventanas. Decreta el fin de los lutos superpuestos, cambia sus trajes rigurosos por ropas juveniles. La pianola vuelve a sonar.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_GUARDIA_MUERE_REMEDIOS",
+      "titulo": "El joven comandante de la guardia muere de amor por Remedios la Bella",
+      "tipo": "muerte",
+      "capitulo": 9,
+      "fecha": null,
+      "participantes": [
+        "REMEDIOS_LA_BELLA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "El día de Año Nuevo, el joven comandante de la guardia que custodia la casa amanece muerto de amor junto a la ventana de Remedios la Bella, enloquecido por sus desaires. Es la primera víctima de la belleza de Remedios.",
+      "orden_cronologico": null
     },
     {
       "id": "EVT_EXTERMINIO_17_AURELIANOS",
       "titulo": "Exterminio de los 17 hijos del Coronel Aureliano",
       "tipo": "muerte",
-      "capitulo": 13,
+      "capitulo": 12,
       "fecha": null,
       "participantes": [
         "AURELIANO_BUENDIA_CORONEL",
-        "AURELIANO_AMADOR",
-        "AURELIANO_TRISTE"
+        "AURELIANO_TRISTE",
+        "AURELIANO_CENTENO",
+        "AURELIANO_SERRADOR",
+        "AURELIANO_ARCAYA",
+        "AURELIANO_AMADOR"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Los 17 hijos del Coronel, identificables por la cruz de ceniza que Amaranta imprimió en sus frentes, son cazados y asesinados uno a uno. Solo Aureliano Amador escapa refugiándose con los indios.",
-      "orden_cronologico": 60
+      "descripcion": "En el curso de una semana, los 17 hijos del Coronel son cazados como conejos en distintos lugares del litoral. La marca imborrable de ceniza en la frente los identifica para los asesinos. Aureliano Triste recibe un balazo en la frente; Aureliano Centeno es hallado en su hamaca con un punzón de picar hielo entre las cejas; Aureliano Serrador cae en un caldero de manteca hirviendo en la Calle de los Turcos; Aureliano Arcaya es abatido con una descarga de máuser al abrir la puerta. Solo Aureliano Amador escapa saltando la cerca de su patio y refugiándose con los indios de la sierra.",
+      "orden_cronologico": null
     },
     {
       "id": "EVT_FERROCARRIL_LLEGA",
@@ -842,42 +1468,215 @@
         "AURELIANO_TRISTE"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Aureliano Triste trae el primer tren a Macondo entre el asombro general. Con él llega la electricidad, el cine, el teléfono y, poco después, la compañía bananera y los técnicos extranjeros.",
-      "orden_cronologico": 56
+      "descripcion": "Aureliano Triste conduce el primer tren que llega a Macondo, adornado de flores y con ocho meses de retraso. La población sale a la calle atónita ante la 'cocina arrastrando un pueblo'. Úrsula ve en el esquema del ferrocarril el mismo espíritu de José Arcadio Buendía fundador, y siente que el tiempo da vueltas en redondo.",
+      "orden_cronologico": null
     },
     {
       "id": "EVT_LLEGADA_COMPANIA_BANANERA",
       "titulo": "Llegada de la compañía bananera",
       "tipo": "llegada",
-      "capitulo": 11,
+      "capitulo": 12,
+      "fecha": null,
+      "participantes": [
+        "SENOR_JACK_BROWN",
+        "MISTER_HERBERT",
+        "AURELIANO_BUENDIA_CORONEL",
+        "AURELIANO_SEGUNDO"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Tras la visita de míster Herbert, llegan ingenieros, agrónomos y topógrafos; luego el señor Jack Brown en su vagón laminado de plata. Macondo se convierte en un campamento de casas de cinc; los gringos construyen su barrio aparte cercado con malla electrificada y amanecido negro de golondrinas achicharradas. Las autoridades locales son sustituidas por forasteros autoritarios y sicarios de machete.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_CONFUSION_GEMELOS",
+      "titulo": "Los gemelos se intercambian los nombres en la escuela",
+      "tipo": "otro",
+      "capitulo": 10,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_SEGUNDO",
+        "JOSE_ARCADIO_SEGUNDO",
+        "DON_MELCHOR_ESCALONA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Los gemelos, que ya confundían a todos desde niños, optan en la escuela por intercambiarse la ropa, las esclavas con sus nombres y los propios nombres. Don Melchor Escalona pierde los estribos al descubrir la suplantación. Desde entonces nadie sabe con certeza quién es quién.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_JOSE_ARCADIO_VE_FUSILAMIENTO",
+      "titulo": "José Arcadio Segundo presencia un fusilamiento",
+      "tipo": "otro",
+      "capitulo": 10,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_SEGUNDO",
+        "GERINELDO_MARQUEZ"
+      ],
+      "lugar": null,
+      "descripcion": "Gerineldo Márquez lleva a José Arcadio Segundo a ver un fusilamiento, contra el parecer de Úrsula. El condenado permanece erguido mientras la camisa se le empapa de sangre, y sigue sonriendo cuando lo meten en el cajón de cal. El muchacho queda convencido de que lo entierran vivo. Desde entonces detesta la guerra y lo militar.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_JOSE_ARCADIO_RELIGIOSO_GALLOS",
+      "titulo": "José Arcadio Segundo se vuelve religioso y gallero bajo el padre Antonio Isabel",
+      "tipo": "otro",
+      "capitulo": 10,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_SEGUNDO",
+        "PADRE_ANTONIO_ISABEL"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Traumatizado por el fusilamiento, José Arcadio Segundo toca las campanas, ayuda en misa al padre Antonio Isabel y cría gallos de pelea en el patio de la curia. El párroco le enseña teología entre los gallos. Hace su primera comunión, queda desconcertado por las preguntas del confesionario. Pronto se convierte en experto gallero y hombre de fortuna.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_AURELIANO_SEGUNDO_PETRA_COTES",
+      "titulo": "Aureliano Segundo conoce a Petra Cotes por equivocación",
+      "tipo": "otro",
+      "capitulo": 10,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_SEGUNDO",
+        "JOSE_ARCADIO_SEGUNDO",
+        "PETRA_COTES"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Una mujer que vende números de rifa confunde a Aureliano Segundo con su hermano y lo lleva a su cuarto. Aureliano Segundo descubre que ella se acuesta alternativamente con los dos creyendo que son el mismo hombre. En lugar de aclarar el equívoco, lo prolonga. Ambos hermanos contraen una enfermedad venérea y se curan por separado. Aureliano Segundo se queda con Petra Cotes hasta la muerte.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_PROSPERIDAD_SOBRENATURAL_PETRA",
+      "titulo": "Proliferación sobrenatural de los animales de Aureliano Segundo",
+      "tipo": "otro",
+      "capitulo": 10,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_SEGUNDO",
+        "PETRA_COTES"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Los animales de Aureliano Segundo se reproducen con una fecundidad inexplicable desde que Petra Cotes los rodea. Empieza con conejos que llenan el patio en una noche, sigue con una vaca que pare trillizos. En poco tiempo Aureliano Segundo acumula una de las mayores fortunas de la ciénaga. Él atribuye la prosperidad al amor de Petra Cotes.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_CASA_EMPAPELADA_BILLETES",
+      "titulo": "Aureliano Segundo empapela la casa con billetes de a peso",
+      "tipo": "otro",
+      "capitulo": 10,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_SEGUNDO",
+        "URSULA_IGUARAN"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Harto de las reprimendas de Úrsula sobre el dinero, Aureliano Segundo cubre toda la casa —fachada, cocina, baños y dormitorios— con billetes de a peso engrudo con brocha. El pueblo se agolpa en la calle a contemplar la glorificación del despilfarro. Úrsula hace despegar los billetes y repintar la casa de blanco.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_SAN_JOSE_ORO",
+      "titulo": "El San José de yeso estaba relleno de monedas de oro",
+      "tipo": "otro",
+      "capitulo": 10,
+      "fecha": null,
+      "participantes": [
+        "URSULA_IGUARAN",
+        "AMARANTA_BUENDIA"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Al despegar los billetes de la pared, un trabajador vuelca una imagen de San José de yeso dejada por unos desconocidos durante la guerra. La imagen hueca se rompe: estaba llena de casi 200 kg de monedas de oro. Úrsula, que le había rezado sin saberlo, mete las monedas en tres sacos y las entierra en secreto esperando a que los dueños regresen.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_NAVEGACION_RIO_JOSE_ARCADIO",
+      "titulo": "José Arcadio Segundo intenta hacer navegable el río; llegan las matronas francesas",
+      "tipo": "otro",
+      "capitulo": 10,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_SEGUNDO"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Inspirado por la historia del galeón español, José Arcadio Segundo intenta hacer navegable el río rompiendo piedras y despejando el cauce. Consigue remontar una balsa de troncos tirada por veinte hombres, a bordo de la cual llegan matronas francesas que transforman los métodos amorosos del pueblo y sustituyen la tienda de Catarino por un bazar de farolitos japoneses. Proclama la hazaña como una victoria.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_GALANTE_REMEDIOS",
+      "titulo": "El caballero misterioso corteja a Remedios la Bella y se arruina",
+      "tipo": "otro",
+      "capitulo": 10,
+      "fecha": null,
+      "participantes": [
+        "REMEDIOS_LA_BELLA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Un apuesto forastero aparece cada domingo en la iglesia con una rosa amarilla para Remedios la Bella. Instala una banda frente a su ventana, noches enteras. Remedios la recibe sin malicia. El caballero se degrada progresivamente: de príncipe impecable a pendenciero harapiento. Años después muere dormido sobre las vías del tren.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_CORONEL_VEJEZ_PESCADITOS",
+      "titulo": "El Coronel se recluye a fabricar pescaditos de oro en su vejez",
+      "tipo": "otro",
+      "capitulo": 10,
       "fecha": null,
       "participantes": [
         "AURELIANO_BUENDIA_CORONEL"
       ],
       "lugar": "MACONDO",
-      "descripcion": "La compañía bananera estadounidense se instala en Macondo. Los dignatarios locales son reemplazados por gobernantes extranjeros. En ocho meses el pueblo se vuelve casi irreconocible y la producción de bananas se convierte en el motor económico.",
-      "orden_cronologico": 57
+      "descripcion": "Encerrado en su taller, el Coronel fabrica pescaditos de oro que un antiguo soldado vende por la ciénaga a cambio de monedas, que él funde de nuevo en pescaditos. El círculo vicioso exasperante es su único refugio: la concentración artesanal le otorga la paz del espíritu que la guerra le negó. «Esperando que pase mi entierro», responde a quien le saluda.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_AURELIANO_SEGUNDO_VE_MELQUIADES",
+      "titulo": "Aureliano Segundo ve el fantasma de Melquíades en el cuarto cerrado",
+      "tipo": "vision",
+      "capitulo": 10,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_SEGUNDO",
+        "MELQUIADES"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Aureliano Segundo, leyendo en el cuarto de Melquíades, ve al gitano sentado tal como lo describía la memoria hereditaria de la familia. Melquíades le habla del mundo durante años pero se niega a traducir los manuscritos: «Nadie debe conocer su sentido mientras no hayan cumplido cien años.» Úrsula entra al cuarto y no lo ve.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_NACIMIENTO_JOSE_ARCADIO_QUINTO",
+      "titulo": "Nacimiento de Jose Arcadio primer hijo de Aureliano Segundo y Fernanda",
+      "tipo": "nacimiento",
+      "capitulo": 10,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_QUINTO",
+        "AURELIANO_SEGUNDO",
+        "FERNANDA_DEL_CARPIO",
+        "URSULA_IGUARAN"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Aureliano Segundo nombra a su primer hijo José Arcadio. Úrsula pide criarlo ella misma: «Éste será cura, y si Dios me da vida, ha de llegar a ser Papa.» Se celebra con champán, cohetes y seis vacas sacrificadas para el pueblo.",
+      "orden_cronologico": null
     },
     {
       "id": "EVT_CARNAVAL_FERNANDA",
-      "titulo": "El carnaval y el encuentro de Aureliano Segundo con Fernanda",
+      "titulo": "El carnaval sangriento: Remedios reina y la masacre de los falsos beduinos",
       "tipo": "otro",
-      "capitulo": 11,
+      "capitulo": 10,
       "fecha": null,
       "participantes": [
         "AURELIANO_SEGUNDO",
         "FERNANDA_DEL_CARPIO",
-        "REMEDIOS_LA_BELLA"
+        "REMEDIOS_LA_BELLA",
+        "JOSE_ARCADIO_SEGUNDO"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Las matronas francesas organizan un carnaval donde Remedios la Bella es nombrada reina. Un grito político desata disparos y muertes. Aureliano Segundo lleva a su casa a Fernanda del Carpio, una forastera elegida entre 5000 mujeres para ser reina de Madagascar.",
-      "orden_cronologico": 58
+      "descripcion": "Las matronas francesas organizan un carnaval y Remedios la Bella es proclamada reina. Llega una comparsa rival con su propia reina: Fernanda del Carpio, seleccionada entre cinco mil mujeres para ser reina de Madagascar. Un grito de «¡Viva el coronel Aureliano Buendía!» desata disparos: los beduinos de la comparsa eran soldados del ejército regular. Mueren 9 payasos, 4 colombinas, 17 reyes de baraja y otros. José Arcadio Segundo salva a Remedios; Aureliano Segundo lleva a Fernanda en brazos a la casa.",
+      "orden_cronologico": null
     },
     {
       "id": "EVT_MATRIMONIO_AURELIANO_SEG_FERNANDA",
       "titulo": "Boda de Aureliano Segundo y Fernanda del Carpio",
       "tipo": "boda",
-      "capitulo": 12,
+      "capitulo": 10,
       "fecha": null,
       "participantes": [
         "AURELIANO_SEGUNDO",
@@ -885,40 +1684,43 @@
       ],
       "lugar": "MACONDO",
       "descripcion": "Aureliano Segundo va al pueblo de Fernanda para pedirle matrimonio. La boda dura veinte días. Él no abandona a su amante Petra Cotes y visita a Fernanda solo para mantener la apariencia familiar.",
-      "orden_cronologico": 59
+      "orden_cronologico": null
     },
     {
       "id": "EVT_ASCENSION_REMEDIOS_BELLA",
       "titulo": "Remedios la Bella asciende al cielo",
       "tipo": "milagro",
-      "capitulo": 13,
+      "capitulo": 12,
       "fecha": null,
       "participantes": [
         "REMEDIOS_LA_BELLA",
-        "FERNANDA_DEL_CARPIO"
+        "FERNANDA_DEL_CARPIO",
+        "AMARANTA_BUENDIA",
+        "URSULA_IGUARAN"
       ],
       "lugar": "CASA_BUENDIA",
-      "descripcion": "Una tarde de marzo, mientras dobla sábanas en el patio con Fernanda, Remedios la Bella palidece, asegura sentirse bien y se eleva al cielo con las sábanas ondeando. Nadie vuelve a saber de ella.",
-      "orden_cronologico": 61
+      "descripcion": "Una tarde de marzo, mientras doblan sábanas en el patio, Remedios la Bella palidece y dice sentirse mejor que nunca. Un viento de luz le arranca las sábanas a Fernanda; Amaranta trata de agarrarse para no caer. Úrsula, casi ciega, es la única que comprende la naturaleza del viento y deja ir las sábanas. Remedios la Bella se eleva y desaparece para siempre en los altos aires.",
+      "orden_cronologico": null
     },
     {
       "id": "EVT_MUERTE_CORONEL_AURELIANO",
       "titulo": "Muerte del Coronel Aureliano Buendía",
       "tipo": "muerte",
-      "capitulo": 14,
+      "capitulo": 13,
       "fecha": null,
       "participantes": [
-        "AURELIANO_BUENDIA_CORONEL"
+        "AURELIANO_BUENDIA_CORONEL",
+        "SANTA_SOFIA_DE_LA_PIEDAD"
       ],
       "lugar": "CASA_BUENDIA",
-      "descripcion": "El Coronel sale a ver pasar el desfile del circo, nostálgico de su infancia. Se apoya en el castaño del patio para orinar y muere, solo y olvidado por todos. No se descubre su cuerpo hasta el día siguiente.",
-      "orden_cronologico": 62
+      "descripcion": "El 11 de octubre, el Coronel sale por primera vez en años a ver el desfile de un circo. Al ver una mujer vestida de oro sobre un elefante, revive la tarde prodigiosa de los gitanos y el hielo. Después se apoya en el castaño del patio, mete la cabeza entre los hombros y muere de pie, solo y olvidado. La familia no se entera hasta el día siguiente, cuando Santa Sofía de la Piedad ve bajar los gallinazos.",
+      "orden_cronologico": null
     },
     {
       "id": "EVT_MUERTE_AMARANTA",
       "titulo": "Muerte de Amaranta Buendía",
       "tipo": "muerte",
-      "capitulo": 15,
+      "capitulo": 14,
       "fecha": null,
       "participantes": [
         "AMARANTA_BUENDIA",
@@ -926,13 +1728,13 @@
       ],
       "lugar": "CASA_BUENDIA",
       "descripcion": "Amaranta termina la mortaja que comenzó a coser el día que la muerte se le apareció vestida de azul. Ofrece llevar cartas a los difuntos. Se acuesta y muere en el silencio de su alcoba, todavía virgen y con la venda negra en la mano.",
-      "orden_cronologico": 63
+      "orden_cronologico": null
     },
     {
       "id": "EVT_AMOR_MEME_MAURICIO",
       "titulo": "Relación de Meme y Mauricio Babilonia",
       "tipo": "otro",
-      "capitulo": 16,
+      "capitulo": 14,
       "fecha": null,
       "participantes": [
         "MEME",
@@ -941,13 +1743,13 @@
       ],
       "lugar": "BURDEL_PILAR",
       "descripcion": "Meme se enamora del mecánico Mauricio Babilonia, rodeado siempre de mariposas amarillas. Se encuentran dos veces por semana en la casa de Pilar Ternera. La relación dura tres meses.",
-      "orden_cronologico": 64
+      "orden_cronologico": null
     },
     {
       "id": "EVT_DISPARO_MAURICIO",
       "titulo": "Mauricio Babilonia es disparado por un guardia",
       "tipo": "conflicto",
-      "capitulo": 16,
+      "capitulo": 14,
       "fecha": null,
       "participantes": [
         "MAURICIO_BABILONIA",
@@ -955,8 +1757,8 @@
         "FERNANDA_DEL_CARPIO"
       ],
       "lugar": "CASA_BUENDIA",
-      "descripcion": "Fernanda coloca un guardia bajo la ventana de Meme. Cuando Mauricio intenta trepar por el techo del baño para reunirse con ella, el guardia le dispara creyendo que roba gallinas. Queda paralítico para el resto de su vida.",
-      "orden_cronologico": 65
+      "descripcion": "Sin confrontar a su hija, Fernanda invita a almorzar al alcalde y le pide que establezca una guardia nocturna con el pretexto de que roban gallinas. Esa noche, cuando Mauricio levanta las tejas del techo del baño para reunirse con Meme, que lo espera desnuda entre alacranes y mariposas, la guardia le dispara. Un proyectil incrustado en la columna vertebral lo deja paralítico de por vida. Muere años después en la soledad, atormentado por los recuerdos y las mariposas amarillas, públicamente repudiado como ladrón de gallinas.",
+      "orden_cronologico": null
     },
     {
       "id": "EVT_MEME_AL_CONVENTO",
@@ -970,7 +1772,7 @@
       ],
       "lugar": "MACONDO",
       "descripcion": "Después del incidente con Mauricio, Meme nunca vuelve a hablar. Fernanda la lleva en un penoso viaje a un convento en el sombrío pueblo donde ella creció. Meme muere de vieja sin haber vuelto a ser feliz.",
-      "orden_cronologico": 66
+      "orden_cronologico": null
     },
     {
       "id": "EVT_NACIMIENTO_AURELIANO_BABILONIA",
@@ -986,7 +1788,7 @@
       ],
       "lugar": "MACONDO",
       "descripcion": "El hijo de Meme y Mauricio Babilonia nace en el convento. Una monja lo lleva en una canasta a la casa de los Buendía. Fernanda lo encierra en el cuarto del Coronel y le dice a todos que lo encontró flotando en una canasta.",
-      "orden_cronologico": 67
+      "orden_cronologico": null
     },
     {
       "id": "EVT_HUELGA_BANANERA",
@@ -999,7 +1801,7 @@
       ],
       "lugar": "PLANTACION_BANANERA",
       "descripcion": "José Arcadio Segundo lidera la huelga de los trabajadores que exigen condiciones dignas: atención médica, viviendas salubres y pago en dinero en lugar de vales. La compañía usa acrobacias legales para eludir toda responsabilidad.",
-      "orden_cronologico": 68
+      "orden_cronologico": null
     },
     {
       "id": "EVT_MASACRE_BANANERA",
@@ -1012,7 +1814,7 @@
       ],
       "lugar": "MACONDO",
       "descripcion": "Los soldados abren fuego sobre los trabajadores reunidos en la plaza de la estación. José Arcadio Segundo despierta en un tren cargado de cadáveres. Calcula unos 3000 muertos arrojados al mar. El gobierno niega que haya habido ninguna masacre.",
-      "orden_cronologico": 69
+      "orden_cronologico": null
     },
     {
       "id": "EVT_DILUVIO_CUATRO_ANOS",
@@ -1028,7 +1830,7 @@
       ],
       "lugar": "MACONDO",
       "descripcion": "Una lluvia que no cesa durante casi cinco años pone a Macondo al borde del olvido. La plantación bananera y la ciudad son abandonadas. La casa Buendía queda invadida de humedad. Úrsula aparece cubierta de sanguijuelas.",
-      "orden_cronologico": 70
+      "orden_cronologico": null
     },
     {
       "id": "EVT_MUERTE_GERINELDO_MARQUEZ",
@@ -1042,7 +1844,7 @@
       ],
       "lugar": "MACONDO",
       "descripcion": "El cortejo fúnebre de Gerineldo Márquez pasa bajo el aguacero del diluvio. Úrsula, presente en el velatorio, lo bendice y le dice que lo verá de nuevo cuando la lluvia pare, prediciendo así su propia muerte.",
-      "orden_cronologico": 71
+      "orden_cronologico": null
     },
     {
       "id": "EVT_MUERTE_GEMELOS",
@@ -1057,7 +1859,7 @@
       ],
       "lugar": "MACONDO",
       "descripcion": "Los gemelos mueren el mismo día a la misma hora. Aureliano Segundo en su cama de enfermo; José Arcadio Segundo en el cuarto de Melquíades repitiendo que 3000 personas fueron asesinadas en la masacre. Los entierran accidentalmente en las tumbas equivocadas.",
-      "orden_cronologico": 72
+      "orden_cronologico": null
     },
     {
       "id": "EVT_MUERTE_URSULA",
@@ -1070,7 +1872,7 @@
       ],
       "lugar": "CASA_BUENDIA",
       "descripcion": "Úrsula, de más de ciento diez años, pierde la frontera entre la vida y la muerte. Los niños la tratan como juguete y la declaran muerta. Ella intenta protestar pero descubre que tienen razón. Muere un Jueves Santo, pequeñita como un bebé.",
-      "orden_cronologico": 73
+      "orden_cronologico": null
     },
     {
       "id": "EVT_MUERTE_JOSE_ARCADIO_QUINTO",
@@ -1084,7 +1886,7 @@
       ],
       "lugar": "CASA_BUENDIA",
       "descripcion": "Los niños del vecindario a quienes José Arcadio había echado a golpes invaden la casa y lo ahogan en la piscina. Roban el oro que solo ellos sabían dónde estaba escondido. Aureliano Babilonia lo encuentra más tarde.",
-      "orden_cronologico": 75
+      "orden_cronologico": null
     },
     {
       "id": "EVT_MUERTE_PILAR_TERNERA",
@@ -1097,7 +1899,7 @@
       ],
       "lugar": "BURDEL_PILAR",
       "descripcion": "Pilar Ternera muere en su mecedora a los 145 años y es enterrada en esa misma posición. De ella partieron todas las líneas de descendencia lateral de la estirpe Buendía.",
-      "orden_cronologico": 76
+      "orden_cronologico": null
     },
     {
       "id": "EVT_REGRESO_AMARANTA_URSULA",
@@ -1111,7 +1913,7 @@
       ],
       "lugar": "MACONDO",
       "descripcion": "Amaranta Úrsula regresa de Bruselas con su esposo Gastón, montones de equipaje y una jaula con cincuenta canarios. Se propone revivir Macondo y es la única persona que parece capaz de hacerlo.",
-      "orden_cronologico": 74
+      "orden_cronologico": null
     },
     {
       "id": "EVT_AMOR_AURELIANO_AMARANTA_URSULA",
@@ -1126,7 +1928,7 @@
       ],
       "lugar": "CASA_BUENDIA",
       "descripcion": "Aureliano Babilonia, alentado por Pilar Ternera, se echa encima de su tía Amaranta Úrsula. Tras una resistencia inicial, ella cede. Gastón, que ya lo intuye, viaja a Bruselas y no regresa.",
-      "orden_cronologico": 77
+      "orden_cronologico": null
     },
     {
       "id": "EVT_NACIMIENTO_AURELIANO_ULTIMO",
@@ -1141,7 +1943,7 @@
       ],
       "lugar": "CASA_BUENDIA",
       "descripcion": "Amaranta Úrsula da a luz a un niño con cola de cerdo, el signo de incesto que la familia temió durante siete generaciones. Amaranta Úrsula no deja de sangrar y muere al día siguiente.",
-      "orden_cronologico": 78
+      "orden_cronologico": null
     },
     {
       "id": "EVT_MUERTE_AMARANTA_URSULA",
@@ -1155,7 +1957,7 @@
       ],
       "lugar": "CASA_BUENDIA",
       "descripcion": "Amaranta Úrsula muere desangrada el día después del parto. Aureliano Babilonia, desesperado, vaga por el pueblo. Cuando regresa encuentra al recién nacido devorado por las hormigas en el jardín.",
-      "orden_cronologico": 79
+      "orden_cronologico": null
     },
     {
       "id": "EVT_DESCIFRADO_PERGAMINOS",
@@ -1169,7 +1971,7 @@
       ],
       "lugar": "CUARTO_MELQUIADES",
       "descripcion": "Mientras un viento apocalíptico destruye Macondo, Aureliano descifra los pergaminos escritos cien años antes por Melquíades en sánscrito. Descubre que contienen la historia completa de la familia Buendía, incluyendo el presente exacto.",
-      "orden_cronologico": 80
+      "orden_cronologico": null
     },
     {
       "id": "EVT_DESTRUCCION_MACONDO",
@@ -1182,7 +1984,1155 @@
       ],
       "lugar": "MACONDO",
       "descripcion": "Mientras Aureliano lee los últimos pergaminos, un huracán bíblico arranca puertas y ventanas y arrasa Macondo hasta los cimientos. El pueblo desaparece para siempre, cumpliendo la profecía de Melquíades: las estirpes condenadas a cien años de soledad no tienen una segunda oportunidad sobre la tierra.",
-      "orden_cronologico": 81
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_LLEGADA_VISITACION_CATAURE",
+      "titulo": "Llegada de Visitación y Cataure a Macondo",
+      "tipo": "llegada",
+      "capitulo": 3,
+      "fecha": null,
+      "participantes": [
+        "VISITACION",
+        "CATAURE"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Los dos indios guajiros llegan a Macondo huyendo de la peste del insomnio que asolaba su tribu. Úrsula los contrata como criados. Visitación cuida a Arcadio y Amaranta; ambos niños aprenden guajiro antes que el castellano.",
+      "orden_cronologico": 82
+    },
+    {
+      "id": "EVT_LETREROS_CONTRA_OLVIDO",
+      "titulo": "Aureliano inventa el sistema de letreros para combatir el olvido",
+      "tipo": "invencion",
+      "capitulo": 3,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "JOSE_ARCADIO_BUENDIA_FUNDADOR"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Aureliano descubre que está olvidando los nombres de las cosas y empieza a etiquetarlas con papeles. José Arcadio Buendía extiende el método a toda la casa y luego al pueblo entero, llegando a poner carteles con instrucciones de uso completas ('Ésta es la vaca, hay que ordeñarla...').",
+      "orden_cronologico": 83
+    },
+    {
+      "id": "EVT_DAGUERROTIPIA_MACONDO",
+      "titulo": "Melquíades instala el laboratorio de daguerrotipia",
+      "tipo": "invencion",
+      "capitulo": 3,
+      "fecha": null,
+      "participantes": [
+        "MELQUIADES",
+        "JOSE_ARCADIO_BUENDIA_FUNDADOR",
+        "URSULA_IGUARAN"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Melquíades trae la daguerrotipia a Macondo y retrata a la familia Buendía. José Arcadio Buendía intenta usar el proceso para fotografiar a Dios. Úrsula se niega a que la retraten. Aureliano aparece en el daguerrotipo junto a Amaranta y Rebeca.",
+      "orden_cronologico": 84
+    },
+    {
+      "id": "EVT_REGRESO_FRANCISCO_HOMBRE",
+      "titulo": "Francisco el Hombre regresa a Macondo tras la plaga del insomnio",
+      "tipo": "llegada",
+      "capitulo": 3,
+      "fecha": null,
+      "participantes": [
+        "FRANCISCO_EL_HOMBRE"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Francisco el Hombre, anciano trovador de casi doscientos años que difunde noticias cantando, reaparece en la tienda de Catarino con una matrona y una mulata adolescente. El pueblo acude en masa a escuchar las noticias del mundo exterior. Úrsula se entera así de la muerte de su madre.",
+      "orden_cronologico": 85
+    },
+    {
+      "id": "EVT_AURELIANO_TIENDA_CATARINO",
+      "titulo": "Primera experiencia sexual fallida de Aureliano en la tienda de Catarino",
+      "tipo": "otro",
+      "capitulo": 3,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Aureliano entra al cuarto de la mulata adolescente que acompaña a Francisco el Hombre pero es incapaz de consumar el encuentro. Al amanecer decide casarse con ella para liberarla de su abuela, pero ella ya se ha ido del pueblo.",
+      "orden_cronologico": 86
+    },
+    {
+      "id": "EVT_AMPLIACION_CASA_BUENDIA",
+      "titulo": "Úrsula ordena la ampliación de la casa Buendía",
+      "tipo": "otro",
+      "capitulo": 3,
+      "fecha": null,
+      "participantes": [
+        "URSULA_IGUARAN"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Úrsula, al ver que sus hijos están crecidos y la casa se queda pequeña, usa los ahorros de su negocio de animalitos de caramelo para construir la casa más grande y hospitalaria de Macondo: sala formal, nueve dormitorios, comedor para doce, jardín de rosas, baños separados y caballeriza.",
+      "orden_cronologico": 87
+    },
+    {
+      "id": "EVT_EXPULSION_MOSCOTE",
+      "titulo": "José Arcadio Buendía expulsa al corregidor Moscote",
+      "tipo": "conflicto",
+      "capitulo": 3,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_BUENDIA_FUNDADOR",
+        "APOLINAR_MOSCOTE"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Al enterarse de que el corregidor ha ordenado pintar las casas de azul, José Arcadio Buendía lo levanta por las solapas y lo lleva físicamente hasta el camino de la ciénaga, rechazando la autoridad del gobierno y declarándolo enemigo.",
+      "orden_cronologico": 88
+    },
+    {
+      "id": "EVT_REGRESO_MOSCOTE_CON_FAMILIA",
+      "titulo": "Moscote regresa a Macondo con soldados y su familia",
+      "tipo": "llegada",
+      "capitulo": 3,
+      "fecha": null,
+      "participantes": [
+        "APOLINAR_MOSCOTE",
+        "REMEDIOS_MOSCOTE",
+        "AMPARO_MOSCOTE"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Una semana después de ser expulsado, Moscote regresa con seis soldados armados y una carreta con su mujer y sus siete hijas, instalándose en el Hotel de Jacob y reabriendo el despacho de corregidor.",
+      "orden_cronologico": 89
+    },
+    {
+      "id": "EVT_ACUERDO_JAB_MOSCOTE",
+      "titulo": "Acuerdo entre José Arcadio Buendía y el corregidor Moscote",
+      "tipo": "acuerdo",
+      "capitulo": 3,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_BUENDIA_FUNDADOR",
+        "AURELIANO_BUENDIA_CORONEL",
+        "APOLINAR_MOSCOTE"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "José Arcadio Buendía y Aureliano visitan a Moscote desarmados. José Arcadio Buendía acepta la presencia del corregidor a cambio de dos condiciones: cada quien pinta su casa del color que quiera y los soldados se van. Macondo garantiza el orden. José Arcadio Buendía declara a Moscote 'palabra de enemigo'.",
+      "orden_cronologico": 90
+    },
+    {
+      "id": "EVT_AURELIANO_VE_REMEDIOS",
+      "titulo": "Aureliano ve a Remedios Moscote y se enamora",
+      "tipo": "otro",
+      "capitulo": 3,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "REMEDIOS_MOSCOTE",
+        "JOSE_ARCADIO_BUENDIA_FUNDADOR",
+        "APOLINAR_MOSCOTE"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Durante la visita al despacho de Moscote, Aureliano ve a Remedios, de apenas nueve años, y queda herido por una sensación física irresistible. La imagen de la niña le queda 'doliendo en alguna parte del cuerpo, como una piedrecita en el zapato'.",
+      "orden_cronologico": 91
+    },
+    {
+      "id": "EVT_INAUGURACION_CASA_NUEVA",
+      "titulo": "Inauguración de la casa nueva con baile",
+      "tipo": "otro",
+      "capitulo": 4,
+      "fecha": null,
+      "participantes": [
+        "URSULA_IGUARAN",
+        "JOSE_ARCADIO_BUENDIA_FUNDADOR",
+        "REBECA",
+        "AMARANTA_BUENDIA",
+        "ARCADIO",
+        "AURELIANO_BUENDIA_CORONEL",
+        "PIETRO_CRESPI"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "La nueva casa Buendía, blanca como una paloma, es estrenada con un gran baile. La pianola toca sola y los descendientes de los fundadores llenan las habitaciones por primera vez. La pianola falla y José Arcadio Buendía la había destripado días antes, pero Prieto la arregla y el baile se prolonga hasta el amanecer.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_AURELIANO_NOCHE_PILAR",
+      "titulo": "Primera noche de Aureliano con Pilar Ternera",
+      "tipo": "otro",
+      "capitulo": 4,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "PILAR_TERNERA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Ebrio y desesperado por su amor a Remedios, Aureliano acaba en casa de Pilar Ternera. Ella lo recibe con ternura maternal. Aureliano le confiesa que ama a Remedios. Pilar le promete hablar con la niña y conseguirle la boda. De esta noche nace Aureliano José.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_AURELIANO_PIDE_REMEDIOS",
+      "titulo": "Aureliano declara a sus padres que quiere casarse con Remedios Moscote",
+      "tipo": "otro",
+      "capitulo": 4,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "JOSE_ARCADIO_BUENDIA_FUNDADOR",
+        "URSULA_IGUARAN",
+        "REMEDIOS_MOSCOTE"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Aureliano convoca a sus padres en la sala de visita. José Arcadio Buendía se indigna ('El amor es una peste') porque Remedios es hija del enemigo. Úrsula apoya la elección. José Arcadio Buendía impone la condición de que Rebeca se case con Pietro Crespi.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_PEDIDA_MANO_REMEDIOS_MOSCOTE",
+      "titulo": "José Arcadio Buendía pide formalmente la mano de Remedios Moscote",
+      "tipo": "otro",
+      "capitulo": 4,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_BUENDIA_FUNDADOR",
+        "APOLINAR_MOSCOTE",
+        "REMEDIOS_MOSCOTE",
+        "URSULA_IGUARAN",
+        "AURELIANO_BUENDIA_CORONEL"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "José Arcadio Buendía acude de etiqueta al despacho de Moscote. Los Moscote creen al principio que hay una confusión de nombres; Remedios, sacada de la cama, llora porque quiere seguir durmiendo. Al final aceptan. Sin embargo, la señora de Moscote revela a Úrsula en privado que Remedios todavía no ha tenido la primera menstruación. Aureliano acepta esperar el tiempo necesario.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_AMARANTA_CONFIESA_PIETRO",
+      "titulo": "Amaranta le confiesa su amor a Pietro Crespi en el velorio de Melquíades",
+      "tipo": "otro",
+      "capitulo": 4,
+      "fecha": null,
+      "participantes": [
+        "AMARANTA_BUENDIA",
+        "PIETRO_CRESPI",
+        "REBECA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Durante el velorio de Melquíades, aprovechando el tumulto, Amaranta le declara su amor a Pietro Crespi, que ya tiene formalizando su compromiso con Rebeca. Pietro la trata como una chiquilla y le dice que tiene un hermano menor que vendrá a la tienda. Amaranta le responde con rencor virulento.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_COMPROMISO_REBECA_PIETRO",
+      "titulo": "Pietro Crespi y Rebeca formalizan su compromiso",
+      "tipo": "otro",
+      "capitulo": 4,
+      "fecha": null,
+      "participantes": [
+        "PIETRO_CRESPI",
+        "REBECA",
+        "AMARANTA_BUENDIA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Pietro Crespi formaliza el compromiso con Rebeca e instala una tienda de instrumentos musicales y juguetes de cuerda en la calle de los Turcos. Amaranta amenaza a Rebeca con impedir la boda aunque tenga que matarla.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_VIAJE_URSULA_AMARANTA",
+      "titulo": "Úrsula y Amaranta viajan fuera de Macondo",
+      "tipo": "partida",
+      "capitulo": 4,
+      "fecha": null,
+      "participantes": [
+        "URSULA_IGUARAN",
+        "AMARANTA_BUENDIA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Para alejar a Amaranta de Pietro Crespi y calmar su rencor, Úrsula organiza un viaje a la capital de la provincia. Antes de salir, Amaranta le susurra a Rebeca: 'Aunque me lleven al fin del mundo, encontraré la manera de impedir que te cases, así tenga que matarte.'",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_ENTIERRO_PADRES_REBECA",
+      "titulo": "Se entierran los huesos de los padres de Rebeca",
+      "tipo": "otro",
+      "capitulo": 4,
+      "fecha": null,
+      "participantes": [
+        "REBECA",
+        "JOSE_ARCADIO_BUENDIA_FUNDADOR",
+        "PILAR_TERNERA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Pilar Ternera vaticina que Rebeca no será feliz mientras sus padres estén insepultos. Los obreros recuerdan haber emparedado el talego durante la construcción. Lo encuentran auscultando las paredes y lo entierran junto a la tumba de Melquíades. José Arcadio Buendía le da un beso a Rebeca: 'Serás feliz.'",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_VERSOS_AURELIANO",
+      "titulo": "Aureliano comienza a escribir versos",
+      "tipo": "otro",
+      "capitulo": 4,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Aureliano Buendía comienza a escribir versos. Dedicados a Remedios Moscote, son el primer indicio de su vida contemplativa antes de la guerra.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_RELACION_ARCADIO_SANTA_SOFIA",
+      "titulo": "Pilar Ternera envía a Santa Sofía de la Piedad a Arcadio",
+      "tipo": "otro",
+      "capitulo": 6,
+      "fecha": null,
+      "participantes": [
+        "ARCADIO",
+        "SANTA_SOFIA_DE_LA_PIEDAD",
+        "PILAR_TERNERA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Arcadio espera a Pilar Ternera en la oscuridad de su cuarto. Pilar paga cincuenta pesos a Santa Sofía de la Piedad, virgen hija de tenderos, para que ocupe su lugar. Arcadio la confunde con Pilar y se enamora de ella. Se convierte en su compañera y madre de sus tres hijos.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_USURPACION_TIERRAS_JOSE_ARCADIO",
+      "titulo": "Usurpación de tierras por José Arcadio (hijo)",
+      "tipo": "conflicto",
+      "capitulo": 6,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_HIJO",
+        "ARCADIO"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "José Arcadio Hijo araña su patio y sigue derecho con bueyes derribando cercas hasta apropiarse de los mejores predios del contorno. Arcadio legaliza los títulos a su nombre a cambio de cobrar él mismo las contribuciones, acumulando dinero público y tierras hasta el horizonte, incluido el cementerio.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_LLEGADA_STEVENSON",
+      "titulo": "El coronel Stevenson llega disfrazado de anciana",
+      "tipo": "llegada",
+      "capitulo": 6,
+      "fecha": null,
+      "participantes": [
+        "GREGORIO_STEVENSON",
+        "ARCADIO"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Un supuesto mensajero del Coronel Aureliano llega disfrazado de anciana con un burro cargado de escobas. Porta un pescadito de oro como salvoconducto. Trae la orden de entregar la plaza sin resistencia. Arcadio lo encarcela por no llevar carta escrita y decide defender Macondo hasta la muerte.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_RECONQUISTA_MACONDO",
+      "titulo": "El ejército conservador reconquista Macondo",
+      "tipo": "guerra",
+      "capitulo": 6,
+      "fecha": null,
+      "participantes": [
+        "ARCADIO",
+        "GREGORIO_STEVENSON",
+        "URSULA_IGUARAN",
+        "AMARANTA_BUENDIA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "El ejército conservador aplasta la resistencia liberal en menos de media hora. Arcadio sale a combatir, rescata a Amaranta y la entrega a Úrsula antes de entregarse para protegerlas. Gregorio Stevenson defiende el cuartel solo con veinte cartuchos y muere. Ninguno de los hombres de Arcadio sobrevive.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_FUSILAMIENTO_ARCADIO",
+      "titulo": "Fusilamiento de Arcadio",
+      "tipo": "muerte",
+      "capitulo": 6,
+      "fecha": null,
+      "participantes": [
+        "ARCADIO",
+        "ROQUE_CARNICERO",
+        "SANTA_SOFIA_DE_LA_PIEDAD"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Tras un consejo de guerra sumario, Arcadio es fusilado al amanecer contra el muro del cementerio por el capitán Roque Carnicero. Sus últimas palabras piden que la hija se llame Úrsula y el que va a nacer José Arcadio.Rebeca lo ve desde la puerta de su casa y le hace señas de adiós. Finalmente piensan que si nacía mujer la pusieran Remedios",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_PRIMERA_MENCION_GEMELOS",
+      "titulo": "Nacimiento de los gemelos José Arcadio Segundo y Aureliano Segundo",
+      "tipo": "nacimiento",
+      "capitulo": 7,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_SEGUNDO",
+        "AURELIANO_SEGUNDO",
+        "SANTA_SOFIA_DE_LA_PIEDAD"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "El narrador presenta a los gemelos José Arcadio Segundo y Aureliano Segundo, hijos de Arcadio y Santa Sofía de la Piedad.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_CAPTURA_CORONEL",
+      "titulo": "Captura del Coronel Aureliano Buendía",
+      "tipo": "guerra",
+      "capitulo": 7,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "GERINELDO_MARQUEZ"
+      ],
+      "lugar": null,
+      "descripcion": "En mayo, el Coronel Aureliano Buendía es capturado disfrazado de hechicero indígena. De los 21 hombres que lo acompañaban, 14 murieron en combate y 6 resultaron heridos. Solo Gerineldo Márquez logra escapar.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_VISITA_URSULA_CARCEL",
+      "titulo": "Úrsula visita al Coronel en la cárcel",
+      "tipo": "otro",
+      "capitulo": 7,
+      "fecha": null,
+      "participantes": [
+        "URSULA_IGUARAN",
+        "AURELIANO_BUENDIA_CORONEL"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Úrsula obtiene quince minutos de visita para su hijo preso. Le lleva ropa limpia y dulce de leche, y esconde un revólver en la cesta. El Coronel lo rechaza: está resignado a morir.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_MUERTE_MAGNIFICO_VISBAL",
+      "titulo": "Asesinato de Magnífico Visbal",
+      "tipo": "muerte",
+      "capitulo": 7,
+      "fecha": null,
+      "participantes": [
+        "MAGNIFICO_VISBAL"
+      ],
+      "lugar": null,
+      "descripcion": "Magnífico Visbal, que ocupaba el catre que el Coronel le había cedido la noche de su captura, es asesinado a puñaladas en Manaure. El Coronel, al enterarse, interpreta el suceso como una señal de su propio destino.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_PILAR_PREDICE_CORONEL",
+      "titulo": "Pilar Ternera lee las barajas al Coronel",
+      "tipo": "vision",
+      "capitulo": 7,
+      "fecha": null,
+      "participantes": [
+        "PILAR_TERNERA",
+        "AURELIANO_BUENDIA_CORONEL"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Pilar Ternera lee las cartas al Coronel preso y le advierte: \"Cuídate la boca.\" La profecía se cumple días después cuando intentan envenenarlo con el café.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_INTENTO_ENVENENAMIENTO_CORONEL",
+      "titulo": "Intento de envenenamiento del Coronel con café",
+      "tipo": "conflicto",
+      "capitulo": 7,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "URSULA_IGUARAN"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Le sirven al Coronel un café con nuez vómica suficiente para matar a un buey. Úrsula lo salva administrándole vomitivos y claras de huevo. El episodio cumple la profecía de Pilar Ternera.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_REGRESO_CORONEL_MACONDO",
+      "titulo": "Regreso victorioso del Coronel a Macondo",
+      "tipo": "llegada",
+      "capitulo": 7,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "GERINELDO_MARQUEZ",
+        "URSULA_IGUARAN"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "El Coronel regresa a Macondo al mando de las fuerzas liberales. Gerineldo Márquez, que escapó de la captura, lo recibe con un abrazo; es la primera efusión de afecto entre ellos. Úrsula apenas reconoce al hijo que partió.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_GERINELDO_JEFE_MACONDO",
+      "titulo": "Gerineldo Márquez nombrado jefe civil y militar de Macondo",
+      "tipo": "acuerdo",
+      "capitulo": 7,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "GERINELDO_MARQUEZ"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Antes de partir al interior del país a continuar la guerra, el Coronel nombra a Gerineldo Márquez jefe civil y militar de Macondo, dejándolo a cargo del orden y de Amaranta.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_RECHAZO_AMARANTA_GERINELDO",
+      "titulo": "Amaranta rechaza la propuesta de matrimonio de Gerineldo",
+      "tipo": "otro",
+      "capitulo": 7,
+      "fecha": null,
+      "participantes": [
+        "AMARANTA_BUENDIA",
+        "GERINELDO_MARQUEZ"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Gerineldo Márquez corteja a Amaranta durante meses. Ella lo rechaza con crueldad calculada: \"No me casaré con nadie, pero menos contigo. Quieres tanto a Aureliano que te casarías conmigo porque no puedes casarte con él.\"",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_VERSOS_CORONEL_GUERRA",
+      "titulo": "Los versos del Coronel: escribe durante la guerra, pide quemarlos y continúa",
+      "tipo": "otro",
+      "capitulo": 7,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "URSULA_IGUARAN"
+      ],
+      "lugar": null,
+      "descripcion": "El Coronel Aureliano Buendía ha seguido escribiendo versos durante toda la guerra. Antes del fusilamiento le pide a Úrsula que queme sus poemas. Tras sobrevivir al intento de envenenamiento retoma la escritura, reflexinando sobre la muerte.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_REFLEXION_ORGULLO_CORONEL",
+      "titulo": "El Coronel concluye que pelea por puro orgullo",
+      "tipo": "otro",
+      "capitulo": 7,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "GERINELDO_MARQUEZ"
+      ],
+      "lugar": null,
+      "descripcion": "En una conversación con el coronel Gerineldo Márquez, el Coronel Aureliano Buendía reflexiona sobre sus motivaciones y llega a una conclusión desoladora: no pelea por ideales liberales ni por justicia, sino únicamente por orgullo.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_RETIRO_REBECA",
+      "titulo": "Rebeca se encierra en su casa tras el asesinato de José Arcadio",
+      "tipo": "otro",
+      "capitulo": 7,
+      "fecha": null,
+      "participantes": [
+        "REBECA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Tras el asesinato de José Arcadio, Rebeca cierra las puertas y ventanas de su casa con clavos y se entierra en vida. Solo se la ve años después, muy anciana, asomada a la ventana.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_RETRATO_PETRA_REINA_MADAGASCAR",
+      "titulo": "Aureliano Segundo corona a Petra Cotes reina de Madagascar",
+      "tipo": "conflicto",
+      "capitulo": 11,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_SEGUNDO",
+        "PETRA_COTES",
+        "FERNANDA_DEL_CARPIO"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "A dos meses de la boda, Aureliano Segundo hace retratar a Petra vestida de reina de Madagascar. Fernanda lo descubre, hace sus baúles y abandona Macondo. Aureliano la alcanza y la convence de volver prometiendo abandonar a la concubina. Poco después organiza una parranda y corona de nuevo a Petra soberana absoluta y vitalicia de Madagascar, repartiendo copias del retrato entre sus amigos.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_PACTO_TRIPLE_CONVIVENCIA",
+      "titulo": "Pacto de convivencia a tres: Aureliano Segundo, Fernanda y Petra Cotes",
+      "tipo": "acuerdo",
+      "capitulo": 11,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_SEGUNDO",
+        "FERNANDA_DEL_CARPIO",
+        "PETRA_COTES"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Aureliano Segundo convence a Fernanda de que debe visitar a Petra para que sigan pariendo los animales. Fernanda acepta con la única condición de que no le pillen muerto en la cama de la concubina. Los tres viven sin estorbarse. Petra guarda los botines de charol de Aureliano en el fondo de un baúl: 'tarde o temprano tiene que venir, aunque solo sea a ponerse estos botines'.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_CONFLICTO_FERNANDA_AMARANTA",
+      "titulo": "Ruptura entre Fernanda y Amaranta",
+      "tipo": "conflicto",
+      "capitulo": 11,
+      "fecha": null,
+      "participantes": [
+        "AMARANTA_BUENDIA",
+        "FERNANDA_DEL_CARPIO"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Amaranta habla en jerigonza delante de Fernanda para burlarse de ella. Cuando Fernanda pregunta qué dice, Amaranta le contesta sin eufemismos: 'tú eres de las que confunden el culo con las témporas'. Desde ese día no vuelven a dirigirse la palabra.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_FERNANDA_REFORMA_CASA_BUENDIA",
+      "titulo": "Fernanda impone sus costumbres en la casa Buendía",
+      "tipo": "otro",
+      "capitulo": 11,
+      "fecha": null,
+      "participantes": [
+        "FERNANDA_DEL_CARPIO",
+        "URSULA_IGUARAN",
+        "SANTA_SOFIA_DE_LA_PIEDAD"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Fernanda impone el comedor formal con manteles de lino y servicio de plata, el rosario antes de cenar y el horario estricto de comidas. Cierra las puertas, sustituye el ramo de sábila y el pan del dintel por un nicho del Corazón de Jesús, y liquida el negocio de repostería de Santa Sofía de la Piedad. Cuando Úrsula pierde la vista, el círculo de rigidez de Fernanda se cierra del todo.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_NACIMIENTO_MEME",
+      "titulo": "Nacimiento de Meme (Renata Remedios)",
+      "tipo": "nacimiento",
+      "capitulo": 11,
+      "fecha": null,
+      "participantes": [
+        "MEME",
+        "AURELIANO_SEGUNDO",
+        "FERNANDA_DEL_CARPIO",
+        "URSULA_IGUARAN"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Nace la primera hija de Aureliano Segundo y Fernanda. Fernanda insiste en llamarla Renata como su madre; Úrsula quiere Remedios. La bautizan Renata Remedios, pero toda la familia y el pueblo la llaman Meme, diminutivo de Remedios.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_ATAUD_DON_FERNANDO",
+      "titulo": "Llegada del ataúd de Don Fernando en la caja de Navidad",
+      "tipo": "muerte",
+      "capitulo": 11,
+      "fecha": null,
+      "participantes": [
+        "DON_FERNANDO",
+        "AURELIANO_SEGUNDO",
+        "FERNANDA_DEL_CARPIO",
+        "JOSE_ARCADIO_QUINTO"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "En la décima Navidad, cuando José Arcadio el pequeño se prepara para partir al seminario, la familia abre el cajón anual del abuelo y encuentra un ataúd de plomo cerrado con pernos de cobre. Al levantar la tapa, Aureliano Segundo lanza un grito: dentro está Don Fernando vestido de negro con crucifijo, cocinándose en un borboritante caldo de perlas vivas.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_JUBILEO_CORONEL",
+      "titulo": "El Coronel rechaza el jubileo del gobierno",
+      "tipo": "conflicto",
+      "capitulo": 11,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "GERINELDO_MARQUEZ",
+        "URSULA_IGUARAN"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "El gobierno organiza un jubileo por el aniversario del tratado de Neerlandia. El Coronel lo rechaza como una burla y manda al presidente la amenaza de dispararle si se presenta. El presidente cancela el viaje. Gerineldo Márquez, paralítico, abandona su lecho para persuadirle, pero el Coronel lo expulsa del taller: 'demasiado tarde me convenzo de que te habría hecho un gran favor si te hubiera dejado fusilar'.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_VISITA_17_AURELIANOS_JUBILEO",
+      "titulo": "Los 17 hijos del Coronel llegan para el jubileo",
+      "tipo": "otro",
+      "capitulo": 11,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "AURELIANO_TRISTE",
+        "AURELIANO_CENTENO",
+        "REMEDIOS_LA_BELLA",
+        "AMARANTA_BUENDIA",
+        "URSULA_IGUARAN",
+        "AURELIANO_SEGUNDO"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Los 17 hijos del Coronel llegan simultáneamente, sin ponerse de acuerdo, atraídos por el jubileo. Tres días de parranda: consiguen que Remedios la Bella se ponga pantalones de hombre para subirse a la cucaña y sueltan un cerdo embadurnado de sebo en el comedor. El Coronel les regala a cada uno un pescadito de oro. Amaranta registra nombres y domicilios en la libreta de Úrsula.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_CRUZ_CENIZA_IMBORRABLE",
+      "titulo": "La cruz de ceniza imborrable en los hijos del Coronel",
+      "tipo": "milagro",
+      "capitulo": 11,
+      "fecha": null,
+      "participantes": [
+        "PADRE_ANTONIO_ISABEL",
+        "AURELIANO_TRISTE",
+        "AURELIANO_CENTENO",
+        "AMARANTA_BUENDIA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "El miércoles de ceniza, Amaranta lleva a los hijos del Coronel a misa. El padre Antonio Isabel les pone la cruz de ceniza, pero al intentar borrársela descubren que la mancha es indeleble; los demás feligreses se la quitan sin dificultad. Úrsula los despide: 'de ahora en adelante nadie podrá confundirlos'.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_AURELIANO_TRISTE_FABRICA_HIELO",
+      "titulo": "Aureliano Triste funda la fábrica de hielo",
+      "tipo": "invencion",
+      "capitulo": 11,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_TRISTE"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Aureliano Triste se queda en Macondo e instala en las afueras del pueblo la fábrica de hielo que José Arcadio Buendía había soñado en sus delirios de inventor. La producción crece hasta desbordar el mercado local.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_DESCUBRIMIENTO_REBECA_VIVA",
+      "titulo": "Aureliano Triste descubre que Rebeca sigue viva",
+      "tipo": "otro",
+      "capitulo": 11,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_TRISTE",
+        "REBECA",
+        "URSULA_IGUARAN"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Aureliano Triste empuja la puerta de la casa decrépita de Rebeca, que le apunta con una pistola militar. Esa noche lo cuenta en la cena y Úrsula llora de consternación: 'Dios santo, ¡todavía está viva!'. Se decide rescatarla, pero Rebeca rechaza toda misericordia y protege su derecho a la soledad.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_RESTAURACION_CASA_REBECA",
+      "titulo": "Restauración de la fachada de la casa de Rebeca",
+      "tipo": "otro",
+      "capitulo": 11,
+      "fecha": null,
+      "participantes": [
+        "REBECA",
+        "AURELIANO_TRISTE",
+        "AURELIANO_CENTENO",
+        "ARGENIDA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "En febrero, los 16 hijos del Coronel restauran en medio día la fachada de la casa de Rebeca: cambian puertas y ventanas, pintan y vacían cemento nuevo. Rebeca ni se asoma; les manda el pago con Argénida en monedas retiradas de circulación. No consiguen permiso para el interior ni logran rescatarla.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_AURELIANO_CENTENO_HELADOS",
+      "titulo": "Aureliano Centeno inventa los helados de frutas",
+      "tipo": "invencion",
+      "capitulo": 11,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_CENTENO"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Aureliano Centeno, desbordado por la producción de la fábrica de hielo, experimenta con jugos de frutas en lugar de agua como base, concibiendo sin saberlo ni proponérselo los fundamentos esenciales de la invención de los helados.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_LLEGADA_TECNOLOGIA_MODERNA",
+      "titulo": "La electricidad, el cine, el gramófono y el teléfono llegan a Macondo",
+      "tipo": "llegada",
+      "capitulo": 12,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_TRISTE",
+        "BRUNO_CRESPI",
+        "URSULA_IGUARAN"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "En el segundo viaje del tren, Aureliano Triste trae la planta eléctrica. Don Bruno Crespi proyecta cine en el teatro, ante la indignación del público que no comprende que los personajes mueran y resuciten. El gramófono y el teléfono se instalan. El fantasma de José Arcadio Buendía camina por la casa, convulsionado por tanto espejismo de la realidad.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_VISITA_MISTER_HERBERT",
+      "titulo": "Visita de míster Herbert: el análisis del banano",
+      "tipo": "otro",
+      "capitulo": 12,
+      "fecha": null,
+      "participantes": [
+        "MISTER_HERBERT",
+        "AURELIANO_SEGUNDO"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Aureliano Segundo lleva a almorzar a míster Herbert, empresario de globos cautivos que no ha podido elevar a nadie en Macondo. Ante el racimo de bananos del comedor, Herbert los examina minuciosamente con estilete, granatorio, calibrador, termómetro e higrómetro. Días después regresa a cazar mariposas. A la semana siguiente llegan ingenieros, agrónomos, hidrólogos, topógrafos y agrimensores.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_MUERTE_FORASTERO_BANO_REMEDIOS",
+      "titulo": "Forastero muere espiando el baño de Remedios la Bella",
+      "tipo": "muerte",
+      "capitulo": 12,
+      "fecha": null,
+      "participantes": [
+        "REMEDIOS_LA_BELLA"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Un forastero levanta tejas del techo del baño para ver a Remedios la Bella desnuda. Ella lo advierte con calma del peligro. Al intentar descolgarse al interior, las tejas podridas ceden y cae al suelo de cemento con el cráneo partido. Los que recogen el cadáver perciben en su piel el sofocante olor de Remedios, impregnado como un aceite ambarino en las grietas del cráneo.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_REMEDIOS_EN_PLANTACIONES",
+      "titulo": "Remedios la Bella causa estragos en las plantaciones bananeras",
+      "tipo": "conflicto",
+      "capitulo": 12,
+      "fecha": null,
+      "participantes": [
+        "REMEDIOS_LA_BELLA",
+        "AURELIANO_TRISTE",
+        "AURELIANO_CENTENO",
+        "AURELIANO_SERRADOR",
+        "AURELIANO_ARCAYA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Remedios la Bella va con amigas a las plantaciones de banano; su hálito desencadena fascinación y deseos irresistibles en los trabajadores. Los cuatro Aurelianos con cruces de ceniza las rescatan del asalto. Un hombre que le agredió el vientre se jacta esa noche en la Calle de los Turcos, y minutos después la patada de un caballo le destroza el pecho.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_CRIMEN_NIETO_VISBAL",
+      "titulo": "Cabo de la policía mata al nieto y al abuelo Visbal",
+      "tipo": "muerte",
+      "capitulo": 12,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Un sobrino del coronel Magnífico Visbal lleva a su nieto de siete años a tomar un refresco. El niño tropieza con un cabo de la policía y le derrama el refresco en el uniforme; el cabo lo hace picadillo a machetazos y decapita al abuelo que trata de impedirlo. El pueblo ve pasar al decapitado y a la cabeza siendo llevada por el pelo. Para el Coronel es el límite de la expiación.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_CORONEL_JURA_GUERRA_GRINGOS",
+      "titulo": "El Coronel jura armar a sus hijos contra los gringos",
+      "tipo": "conflicto",
+      "capitulo": 12,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Tras el crimen del nieto Visbal, el Coronel sale del taller y grita a los vecinos: '¡Un día de estos voy a armar a mis muchachos para que acaben con estos gringos de mierda!' La amenaza llega a oídos de sus enemigos y desencadena el exterminio de los 17 Aurelianos esa misma semana.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_CORONEL_DENUNCIA_PADRE_ANTONIO",
+      "titulo": "El Coronel denuncia al padre Antonio Isabel",
+      "tipo": "conflicto",
+      "capitulo": 12,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "PADRE_ANTONIO_ISABEL"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "El Coronel denuncia la complicidad del padre Antonio Isabel por haber marcado a sus hijos con ceniza indeleble, facilitando su identificación por los asesinos. El decrépito sacerdote acude a la casa con el tazón de cenizas para demostrar que se quitan con agua, pero nadie se presta al experimento. Los Buendía no vuelven a arrodillarse en el comulgatorio el miércoles de ceniza.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_CORONEL_BUSCA_DINERO_GUERRA",
+      "titulo": "El Coronel reúne dinero para financiar una nueva guerra",
+      "tipo": "conflicto",
+      "capitulo": 12,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "URSULA_IGUARAN"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "El Coronel abandona los pescaditos de oro y, quebrando todos sus principios de dignidad, busca dinero entre viejos copartidarios que se esconden para no recibirlo. En ocho meses reúne más de lo que Úrsula tiene enterrado. Le pide a Úrsula que le revele dónde están las monedas de oro del San José de yeso, pero ella se niega.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_CORONEL_PROPONE_GUERRA_GERINELDO",
+      "titulo": "El Coronel propone la guerra total a Gerineldo Márquez",
+      "tipo": "conflicto",
+      "capitulo": 12,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "GERINELDO_MARQUEZ"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "El Coronel visita al paralítico Gerineldo Márquez para invitarle a promover una conflagración total contra el régimen de corrupción sostenido por el invasor extranjero. Gerineldo, que ha pasado años luchando la guerra miserable del aplazamiento burocrático, le responde con compasión: 'ya sabía que estabas viejo, pero ahora me doy cuenta que estás mucho más viejo de lo que pareces'.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_JOSE_ARCADIO_VA_SEMINARIO",
+      "titulo": "José Arcadio el pequeño parte al seminario",
+      "tipo": "partida",
+      "capitulo": 13,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_QUINTO",
+        "URSULA_IGUARAN",
+        "PADRE_ANTONIO_ISABEL"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Un jueves a las dos de la tarde, José Arcadio parte al seminario con vestido de pana verde y botones de cobre. El almuerzo de despedida transcurre con fingida alegría; el Coronel se niega a participar: '¡Un Papa! ¡Era la última vaina que nos faltaba!'",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_MEME_VA_COLEGIO_MONJAS",
+      "titulo": "Meme va al colegio de las monjas",
+      "tipo": "partida",
+      "capitulo": 13,
+      "fecha": null,
+      "participantes": [
+        "MEME",
+        "AURELIANO_SEGUNDO",
+        "FERNANDA_DEL_CARPIO"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Tres meses después de que José Arcadio parte al seminario, Aureliano Segundo y Fernanda llevan a Meme al colegio de las monjas donde le enseñarán a tocar el clavicordio. A su regreso traen un clavicordio que ocupa el lugar de la pianola.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_AMARANTA_TEJE_MORTAJA",
+      "titulo": "Amaranta empieza a tejer su propia mortaja",
+      "tipo": "otro",
+      "capitulo": 13,
+      "fecha": null,
+      "participantes": [
+        "AMARANTA_BUENDIA"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Amaranta comienza a tejer su propia mortaja. Borda durante el día y deshace por las noches, no para vencer la soledad sino para sostenerla. La labor la ocupará hasta su muerte.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_CEGUERA_URSULA",
+      "titulo": "Úrsula oculta su ceguera y aprende a ver con la memoria",
+      "tipo": "otro",
+      "capitulo": 13,
+      "fecha": null,
+      "participantes": [
+        "URSULA_IGUARAN"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Úrsula ha perdido la vista progresivamente desde antes del nacimiento de José Arcadio, pero lo oculta a todos. Aprende a orientarse por la memoria de los espacios, los olores y las voces. Descubre que cada habitante de la casa repite sus recorridos y actos cotidianos con exactitud, lo que le permite saber dónde está cada cosa y cada persona.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_LUCIDEZ_URSULA",
+      "titulo": "La clarividencia de Úrsula en la vejez",
+      "tipo": "vision",
+      "capitulo": 13,
+      "fecha": null,
+      "participantes": [
+        "URSULA_IGUARAN"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "En su decrepitud ciega, Úrsula examina con insólita claridad a su familia. Comprende que el Coronel nunca quiso a nadie y que hizo sus guerras por soberbia, no por idealismo. Ve que Amaranta fue la más tierna, consumida por un amor sin medidas y una cobardía invencible. Reconoce que Rebeca, la que comió tierra, fue la única con valentía sin frenos, y empieza a invocarla con arrepentimiento.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_JOSE_ARCADIO_SEGUNDO_CAPATAZ",
+      "titulo": "José Arcadio Segundo se hace capataz de la compañía bananera",
+      "tipo": "otro",
+      "capitulo": 13,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_SEGUNDO",
+        "FERNANDA_DEL_CARPIO"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "José Arcadio Segundo vende sus gallos de pelea y se emplea de capataz en la compañía bananera. Fernanda, que considera a la compañía la encarnación de la vulgaridad forastera, le prohíbe la entrada a la casa mientras tenga 'la sarna de los forasteros'.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_SEPARACION_DEFINITIVA_AURELIANO",
+      "titulo": "Separación definitiva de Aureliano Segundo y Fernanda",
+      "tipo": "separacion",
+      "capitulo": 13,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_SEGUNDO",
+        "FERNANDA_DEL_CARPIO",
+        "PETRA_COTES"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Aureliano Segundo traslada sus parrandas, luego sus establos, luego su oficina a casa de Petra Cotes. Una noche la mañana lo sorprende en la cama de la concubina. Fernanda le manda los baúles a pleno sol por la mitad de la calle para que lo vea todo el mundo, pero él celebra la libertad con tres días de parranda. Se instala definitivamente en casa de Petra, aunque sigue visitando a Fernanda.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_CORONEL_QUEMA_MUNECAS_REMEDIOS",
+      "titulo": "El Coronel quema las muñecas de Remedios y se instala en el taller",
+      "tipo": "otro",
+      "capitulo": 13,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BUENDIA_CORONEL",
+        "URSULA_IGUARAN"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "El Coronel hace una hoguera en el patio con las muñecas de Remedios Moscote que decoraban su dormitorio desde su boda. Úrsula le reprocha: 'tienes un corazón de piedra'. Él responde: 'el cuarto se está llenando de polillas'. Cuelga una hamaca en el taller y ya solo lo abandona para ir al patio a hacer sus necesidades.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_DUELO_ELEFANTA",
+      "titulo": "Duelo gastronómico entre Aureliano Segundo y La Elefanta",
+      "tipo": "otro",
+      "capitulo": 13,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_SEGUNDO",
+        "CAMILA_SAGASTUME",
+        "PETRA_COTES",
+        "FERNANDA_DEL_CARPIO"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Aureliano Segundo se enfrenta a Camila Sagastume, 'La Elefanta', en un duelo que dura hasta el martes. Ella come con técnica y tranquilidad moral; él con voracidad desbocada. Al segundo amanecer, Aureliano Segundo cae inconsciente con espumarajos sobre el plato. Alcanza a pedir 'llévenme con Fernanda'. Petra Cotes embetuna los botines de charol que él quería en su ataúd. Se recupera en menos de una semana.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_MEME_INVITA_COMPANERAS",
+      "titulo": "Meme invita a 68 compañeras de colegio a la casa",
+      "tipo": "otro",
+      "capitulo": 13,
+      "fecha": null,
+      "participantes": [
+        "MEME",
+        "FERNANDA_DEL_CARPIO",
+        "URSULA_IGUARAN",
+        "AURELIANO_BUENDIA_CORONEL"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "En sus terceras vacaciones, Meme invita sin avisar a 68 compañeras y 4 monjas a pasar una semana. La casa se convierte en un caos de turnos para comer, bañarse y dormir. El Coronel escandaliza a las monjas orinando bajo el castaño. Amaranta asusta a una novicia diciéndole que el polvo blanco de la sopa es arsénico. Fernanda compra 72 bacinillas, que al final van a parar al cuarto de Melquíades.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_CUARTO_BACINILLAS",
+      "titulo": "El cuarto de Melquíades pasa a ser el cuarto de las bacinillas",
+      "tipo": "otro",
+      "capitulo": 13,
+      "fecha": null,
+      "participantes": [
+        "FERNANDA_DEL_CARPIO",
+        "AURELIANO_BUENDIA_CORONEL"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Fernanda guarda las 72 bacinillas compradas para las colegialas de Meme en el cuarto de Melquíades. La habitación que fue el centro espiritual de la casa pasa a llamarse 'el cuarto de las bacinillas'. Para el Coronel, es el nombre más apropiado: donde otros ven inmunidad al polvo, él ve un muladar.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_JOSE_ARCADIO_SEGUNDO_REGRESA_TALLER",
+      "titulo": "José Arcadio Segundo reaparece y se encierra con el Coronel",
+      "tipo": "otro",
+      "capitulo": 13,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_SEGUNDO",
+        "AURELIANO_BUENDIA_CORONEL",
+        "URSULA_IGUARAN"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "José Arcadio Segundo reaparece en la casa, pasa sin saludar a nadie y se encierra en el taller con el Coronel. Úrsula, que lo orienta por el sonido de sus botas de capataz, observa que es el que más se parece a Santa Sofía de la Piedad, y que él y el Coronel son los únicos de la familia vinculados por afinidades verdaderas.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_GRINGOS_DESVIAN_RIO",
+      "titulo": "La compañía bananera desvía el río y fortifica la tumba de José Arcadio",
+      "tipo": "desastre",
+      "capitulo": 12,
+      "fecha": null,
+      "participantes": [
+        "SENOR_JACK_BROWN"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Los gringos, con recursos antes reservados a la Divina Providencia, modifican el régimen de lluvias, aceleran el ciclo de las cosechas y trasladan el río de donde estuvo siempre al otro extremo de la población, detrás del cementerio. Sobre la tumba descolorida de José Arcadio construyen una fortaleza de hormigón para que el olor a pólvora del cadáver no contamine las aguas.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_ESPECTRO_JOSE_ARCADIO_BUENDIA",
+      "titulo": "El espectro de José Arcadio Buendía camina por la casa",
+      "tipo": "vision",
+      "capitulo": 12,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_BUENDIA_FUNDADOR"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "El intrincado frangollo de verdades y espejismos que traen la electricidad, el cine, el teléfono y el gramófono convulsiona al espectro de José Arcadio Buendía bajo el castaño y lo obliga a caminar por toda la casa aun a pleno día.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_DIPLOMA_CLAVICORDIO_MEME",
+      "titulo": "Meme recibe el diploma de concertista de clavicordio",
+      "tipo": "otro",
+      "capitulo": 14,
+      "fecha": null,
+      "participantes": [
+        "MEME",
+        "FERNANDA_DEL_CARPIO",
+        "AURELIANO_SEGUNDO"
+      ],
+      "lugar": null,
+      "descripcion": "Meme termina sus estudios de clavicordio y recibe el diploma de concertista. A pesar de las apariencias, ella misma reconoce que el instrumento le resulta indiferente.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_NACIMIENTO_AMARANTA_URSULA",
+      "titulo": "Nacimiento de Amaranta Úrsula",
+      "tipo": "nacimiento",
+      "capitulo": 14,
+      "fecha": null,
+      "participantes": [
+        "AMARANTA_URSULA",
+        "FERNANDA_DEL_CARPIO",
+        "AURELIANO_SEGUNDO"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Nace Amaranta Úrsula, la hija menor de Aureliano Segundo y Fernanda del Carpio.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_CONOCE_MAURICIO_BABILONIA",
+      "titulo": "Meme conoce a Mauricio Babilonia",
+      "tipo": "otro",
+      "capitulo": 14,
+      "fecha": null,
+      "participantes": [
+        "MEME",
+        "MAURICIO_BABILONIA",
+        "PATRICIA_BROWN"
+      ],
+      "lugar": null,
+      "descripcion": "A través de Patricia Brown, Meme visita el taller mecánico de la compañía bananera y conoce allí a Mauricio Babilonia.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_MARIPOSAS_AMARILLAS_MAURICIO",
+      "titulo": "Las mariposas amarillas anuncian a Mauricio Babilonia",
+      "tipo": "vision",
+      "capitulo": 14,
+      "fecha": null,
+      "participantes": [
+        "MAURICIO_BABILONIA",
+        "MEME",
+        "FERNANDA_DEL_CARPIO"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Cada vez que Mauricio Babilonia se acerca, una nube de mariposas amarillas lo precede. Durante el encierro de Meme, las mariposas invaden la casa cada noche delatando sus visitas. Fernanda las mata con bomba de insecticida, convencida de que traen mala suerte. Una noche entra al dormitorio de Meme y las cataplasmas de mostaza esparcidas por el suelo le revelan la verdad.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_FERNANDA_SORPRENDE_MEME_CINE",
+      "titulo": "Fernanda sorprende a Meme besando a un hombre en el cine",
+      "tipo": "conflicto",
+      "capitulo": 14,
+      "fecha": null,
+      "participantes": [
+        "MEME",
+        "FERNANDA_DEL_CARPIO"
+      ],
+      "lugar": null,
+      "descripcion": "Fernanda entra al cine y reconoce a su hija besándose con un hombre en la penumbra. No alcanza a verle la cara, solo oye su voz decir «Lo siento, amor». La saca del cine sin decirle una palabra, la lleva por la calle de los Turcos y la encierra con llave en el dormitorio.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_VISITA_MAURICIO_EXPULSION",
+      "titulo": "Mauricio visita la casa y Fernanda lo echa",
+      "tipo": "conflicto",
+      "capitulo": 14,
+      "fecha": null,
+      "participantes": [
+        "MAURICIO_BABILONIA",
+        "FERNANDA_DEL_CARPIO",
+        "MEME"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Mauricio Babilonia llega a la casa de los Buendía. Fernanda lo echa diciéndole «Lárguese»; identifica que es él quien vio a su hija en el cine.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_URSULA_RETIRO_CAMA",
+      "titulo": "Úrsula se recoge en su cuarto tras la muerte de Amaranta",
+      "tipo": "otro",
+      "capitulo": 14,
+      "fecha": null,
+      "participantes": [
+        "URSULA_IGUARAN"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Tras los nueve noches de velorio de Amaranta, Úrsula se mete en su cuarto y no vuelve a salir.",
+      "orden_cronologico": null
     }
   ]
 }

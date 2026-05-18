@@ -74,9 +74,9 @@
       "description": "Resumen breve del evento, sin reproducir el texto original"
     },
     "orden_cronologico": {
-      "type": "integer",
+      "type": ["integer", "null"],
       "minimum": 1,
-      "description": "Posición en la línea de tiempo real, independiente del capítulo narrativo"
+      "description": "Posición en la línea de tiempo real, independiente del capítulo narrativo. Null hasta que el capítulo sea revisado."
     }
   }
 }

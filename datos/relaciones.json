@@ -468,12 +468,12 @@
       "destino": "PRUDENCIO_AGUILAR",
       "inicio": "EVT_MATANZA_AGUILAR",
       "fin": null,
-      "notas": "El fantasma de Aguilar acosa a la pareja Buendía con una tristeza tan profunda que despierta compasión. Finalmente, en su demencia, JAB convierte el fantasma en compañero de charla."
+      "notas": "El fantasma de Aguilar acosa a la pareja Buendía con una tristeza tan profunda que despierta compasión. Finalmente, en su demencia, José Arcadio Buendía convierte el fantasma en compañero de charla."
     },
     {
       "id": "REL_CONFLICTO_AMARANTA_REBECA",
       "tipo": "conflicto",
-      "subtipo": "rivalidad femenina",
+      "subtipo": "rivalidad amorosa",
       "origen": "AMARANTA_BUENDIA",
       "destino": "REBECA",
       "inicio": "EVT_LLEGADA_PIETRO_CRESPI",
@@ -528,7 +528,7 @@
       "destino": "JOSE_ARCADIO_BUENDIA_FUNDADOR",
       "inicio": "EVT_PRIMERA_VISITA_GITANOS",
       "fin": "EVT_MUERTE_MELQUIADES",
-      "notas": "Melquíades introduce a JAB en la ciencia, la alquimia, la astrología y la daguerrotipia. Le regala un laboratorio completo como recompensa por descubrir que la tierra es redonda."
+      "notas": "Melquíades introduce a José Arcadio Buendía en la ciencia, la alquimia, la astrología y la daguerrotipia. Le regala un laboratorio completo como recompensa por descubrir que la tierra es redonda."
     },
     {
       "id": "REL_MENTOR_JOSE_ARCADIO_SEG_AURELIANO_BAB",
@@ -546,6 +546,316 @@
       "subtipo": "hermanos",
       "origen": "PIETRO_CRESPI",
       "destino": "BRUNO_CRESPI",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_HERMANOS_JA_HIJO_CORONEL",
+      "tipo": "familiar",
+      "subtipo": "hermanos",
+      "origen": "JOSE_ARCADIO_HIJO",
+      "destino": "AURELIANO_BUENDIA_CORONEL",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_HERMANOS_JA_HIJO_AMARANTA",
+      "tipo": "familiar",
+      "subtipo": "hermanos",
+      "origen": "JOSE_ARCADIO_HIJO",
+      "destino": "AMARANTA_BUENDIA",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_HERMANOS_CORONEL_AMARANTA",
+      "tipo": "familiar",
+      "subtipo": "hermanos",
+      "origen": "AURELIANO_BUENDIA_CORONEL",
+      "destino": "AMARANTA_BUENDIA",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_HERMANOS_AUR_SEG_JA_SEG",
+      "tipo": "familiar",
+      "subtipo": "hermanos gemelos",
+      "origen": "AURELIANO_SEGUNDO",
+      "destino": "JOSE_ARCADIO_SEGUNDO",
+      "inicio": null,
+      "fin": null,
+      "notas": "Gemelos tan parecidos que ni ellos mismos sabían quién era quién."
+    },
+    {
+      "id": "REL_HERMANOS_AUR_SEG_REMEDIOS_BELLA",
+      "tipo": "familiar",
+      "subtipo": "hermanos",
+      "origen": "AURELIANO_SEGUNDO",
+      "destino": "REMEDIOS_LA_BELLA",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_HERMANOS_JA_SEG_REMEDIOS_BELLA",
+      "tipo": "familiar",
+      "subtipo": "hermanos",
+      "origen": "JOSE_ARCADIO_SEGUNDO",
+      "destino": "REMEDIOS_LA_BELLA",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_HERMANOS_MEME_JA_QUINTO",
+      "tipo": "familiar",
+      "subtipo": "hermanos",
+      "origen": "MEME",
+      "destino": "JOSE_ARCADIO_QUINTO",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_HERMANOS_MEME_AMARANTA_URSULA",
+      "tipo": "familiar",
+      "subtipo": "hermanos",
+      "origen": "MEME",
+      "destino": "AMARANTA_URSULA",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_HERMANOS_JA_QUINTO_AMARANTA_URSULA",
+      "tipo": "familiar",
+      "subtipo": "hermanos",
+      "origen": "JOSE_ARCADIO_QUINTO",
+      "destino": "AMARANTA_URSULA",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_HERMANOS_VISITACION_CATAURE",
+      "tipo": "familiar",
+      "subtipo": "hermanos",
+      "origen": "VISITACION",
+      "destino": "CATAURE",
+      "inicio": null,
+      "fin": null,
+      "notas": "Ambos eran príncipes en su tribu guajira. Huyeron juntos de la peste del insomnio."
+    },
+    {
+      "id": "REL_PADRE_MOSCOTE_REMEDIOS",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "APOLINAR_MOSCOTE",
+      "destino": "REMEDIOS_MOSCOTE",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_PADRE_MOSCOTE_AMPARO",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "APOLINAR_MOSCOTE",
+      "destino": "AMPARO_MOSCOTE",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_HERMANAS_MOSCOTE",
+      "tipo": "familiar",
+      "subtipo": "hermanas",
+      "origen": "REMEDIOS_MOSCOTE",
+      "destino": "AMPARO_MOSCOTE",
+      "inicio": null,
+      "fin": null,
+      "notas": "Remedios tiene 9 años y Amparo 16 cuando llegan a Macondo."
+    },
+    {
+      "id": "REL_CONFLICTO_JAB_MOSCOTE",
+      "tipo": "conflicto",
+      "subtipo": "enfrentamiento político",
+      "origen": "JOSE_ARCADIO_BUENDIA_FUNDADOR",
+      "destino": "APOLINAR_MOSCOTE",
+      "inicio": "EVT_EXPULSION_MOSCOTE",
+      "fin": "EVT_ACUERDO_JAB_MOSCOTE",
+      "notas": "José Arcadio Buendía rechaza la autoridad del gobierno y expulsa físicamente a Moscote. Acaban en un acuerdo frío; José Arcadio Buendía le dice 'usted y yo seguimos siendo enemigos'."
+    },
+    {
+      "id": "REL_AMISTAD_CORONEL_MAGNIFICO",
+      "tipo": "amistad",
+      "subtipo": "amigos de infancia",
+      "origen": "AURELIANO_BUENDIA_CORONEL",
+      "destino": "MAGNIFICO_VISBAL",
+      "inicio": null,
+      "fin": null,
+      "notas": "Hijo de uno de los fundadores. Acompaña al Coronel en sus salidas durante la juventud."
+    },
+    {
+      "id": "REL_POLITICA_NOGUERA_CORONEL",
+      "tipo": "politica",
+      "subtipo": "reclutamiento fallido",
+      "origen": "DOCTOR_ALIRIO_NOGUERA",
+      "destino": "AURELIANO_BUENDIA_CORONEL",
+      "inicio": "EVT_CONSPIRACION_NOGUERA",
+      "fin": "EVT_FUSILAMIENTO_NOGUERA",
+      "notas": "Noguera intenta reclutar a Aureliano para asesinar conservadores. Aureliano lo rechaza llamándolo matarife; Noguera lo descarta como sentimental sin porvenir."
+    },
+    {
+      "id": "REL_MILITAR_CARNICERO_CORONEL",
+      "tipo": "politica",
+      "subtipo": "aliado militar",
+      "origen": "ROQUE_CARNICERO",
+      "destino": "AURELIANO_BUENDIA_CORONEL",
+      "inicio": "EVT_FUSILAMIENTO_CORONEL_SALVADO",
+      "fin": null,
+      "notas": "Roque Carnicero, encargado de ejecutar al Coronel, saca el as de espadas en el sorteo y se niega a disparar. Sus seis hombres lo imitan. Toda la unidad se pasa al bando rebelde."
+    },
+    {
+      "id": "REL_MENTOR_ESCALONA_GEMELOS",
+      "tipo": "mentor_discipulo",
+      "subtipo": null,
+      "origen": "DON_MELCHOR_ESCALONA",
+      "destino": "JOSE_ARCADIO_SEGUNDO",
+      "inicio": "EVT_GEMELOS_ESCUELA_REMEDIOS_BELLA",
+      "fin": null,
+      "notas": "Escalona es el maestro de los gemelos en la escuela restaurada de Macondo."
+    },
+    {
+      "id": "REL_MENTOR_ESCALONA_AURELIANO_SEGUNDO",
+      "tipo": "mentor_discipulo",
+      "subtipo": null,
+      "origen": "DON_MELCHOR_ESCALONA",
+      "destino": "AURELIANO_SEGUNDO",
+      "inicio": "EVT_GEMELOS_ESCUELA_REMEDIOS_BELLA",
+      "fin": null,
+      "notas": "Escalona es el maestro de los gemelos en la escuela restaurada de Macondo."
+    },
+    {
+      "id": "REL_MATRIMONIO_MONCADA_VIUDA",
+      "tipo": "marital",
+      "subtipo": null,
+      "origen": "JOSE_RAQUEL_MONCADA",
+      "destino": "VIUDA_MONCADA",
+      "inicio": null,
+      "fin": "EVT_EJECUCION_MONCADA",
+      "notas": null
+    },
+    {
+      "id": "REL_MENTOR_ANTONIO_ISABEL_JOSE_ARCADIO",
+      "tipo": "mentor_discipulo",
+      "subtipo": null,
+      "origen": "PADRE_ANTONIO_ISABEL",
+      "destino": "JOSE_ARCADIO_SEGUNDO",
+      "inicio": "EVT_JOSE_ARCADIO_RELIGIOSO_GALLOS",
+      "fin": null,
+      "notas": "Le enseña catecismo, teología y cría de gallos de pelea. Lo prepara para la primera comunión."
+    },
+    {
+      "id": "REL_AMOR_JOSE_ARCADIO_SEG_PETRA",
+      "tipo": "amorosa",
+      "subtipo": "amante",
+      "origen": "JOSE_ARCADIO_SEGUNDO",
+      "destino": "PETRA_COTES",
+      "inicio": "EVT_AURELIANO_SEGUNDO_PETRA_COTES",
+      "fin": "EVT_AURELIANO_SEGUNDO_PETRA_COTES",
+      "notas": "Petra Cotes lo conoce primero a él, creyendo que era el mismo hombre cuando empezó a acostarse también con Aureliano Segundo. Cuando descubre el engaño y enferma de la mujer, José Arcadio Segundo no vuelve a verla."
+    },
+    {
+      "id": "REL_PARENTAL_FERNANDO_FERNANDA",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "DON_FERNANDO",
+      "destino": "FERNANDA_DEL_CARPIO",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_CONFLICTO_FERNANDA_AMARANTA",
+      "tipo": "conflicto",
+      "subtipo": "rivalidad",
+      "origen": "FERNANDA_DEL_CARPIO",
+      "destino": "AMARANTA_BUENDIA",
+      "inicio": null,
+      "fin": null,
+      "notas": "Ruptura definitiva tras el episodio de la jerigonza: Amaranta le responde a Fernanda con una grosería inapelable. No vuelven a dirigirse la palabra."
+    },
+    {
+      "id": "REL_ARGENIDA_REBECA",
+      "tipo": "otro",
+      "subtipo": "sirvienta",
+      "origen": "ARGENIDA",
+      "destino": "REBECA",
+      "inicio": null,
+      "fin": null,
+      "notas": "Única compañía de Rebeca durante su encierro voluntario. Actúa como intermediaria entre Rebeca y el mundo exterior."
+    },
+    {
+      "id": "REL_MATRIMONIO_BRUNO_CRESPI_AMPARO",
+      "tipo": "marital",
+      "subtipo": "matrimonio",
+      "origen": "BRUNO_CRESPI",
+      "destino": "AMPARO_MOSCOTE",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_CONFLICTO_CAMILA_AURELIANO_SEGUNDO",
+      "tipo": "conflicto",
+      "subtipo": "rivalidad",
+      "origen": "CAMILA_SAGASTUME",
+      "destino": "AURELIANO_SEGUNDO",
+      "inicio": null,
+      "fin": null,
+      "notas": "Duelo gastronómico que dura hasta el martes. Aureliano Segundo cae inconsciente; La Elefanta se detiene voluntariamente para no propiciar su muerte."
+    },
+    {
+      "id": "REL_CORONEL_PADRE_AURELIANO_SERRADOR",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "AURELIANO_BUENDIA_CORONEL",
+      "destino": "AURELIANO_SERRADOR",
+      "inicio": null,
+      "fin": null,
+      "notas": "Uno de los 17 hijos del Coronel engendrados con distintas mujeres durante la guerra."
+    },
+    {
+      "id": "REL_CORONEL_PADRE_AURELIANO_ARCAYA",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "AURELIANO_BUENDIA_CORONEL",
+      "destino": "AURELIANO_ARCAYA",
+      "inicio": null,
+      "fin": null,
+      "notas": "Uno de los 17 hijos del Coronel engendrados con distintas mujeres durante la guerra."
+    },
+    {
+      "id": "REL_AMISTAD_MEME_PATRICIA",
+      "tipo": "amistad",
+      "subtipo": null,
+      "origen": "MEME",
+      "destino": "PATRICIA_BROWN",
+      "inicio": null,
+      "fin": null,
+      "notas": "Patricia Brown facilita sin saberlo el encuentro de Meme con Mauricio Babilonia."
+    },
+    {
+      "id": "REL_JACK_PADRE_PATRICIA",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "SENOR_JACK_BROWN",
+      "destino": "PATRICIA_BROWN",
       "inicio": null,
       "fin": null,
       "notas": null
