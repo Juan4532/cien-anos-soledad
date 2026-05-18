@@ -851,6 +851,56 @@
       "notas": "Patricia Brown facilita sin saberlo el encuentro de Meme con Mauricio Babilonia."
     },
     {
+      "id": "REL_MATRIMONIO_FERNANDO_RENATA",
+      "tipo": "marital",
+      "subtipo": null,
+      "origen": "DON_FERNANDO",
+      "destino": "RENATA_ARGOTE",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_RENATA_MADRE_FERNANDA",
+      "tipo": "familiar",
+      "subtipo": "madre",
+      "origen": "RENATA_ARGOTE",
+      "destino": "FERNANDA_DEL_CARPIO",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_MATRIMONIO_NICANOR_REBECA_MONTIEL",
+      "tipo": "marital",
+      "subtipo": null,
+      "origen": "NICANOR_ULLOA",
+      "destino": "REBECA_MONTIEL",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_NICANOR_PADRE_REBECA",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "NICANOR_ULLOA",
+      "destino": "REBECA",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_REBECA_MONTIEL_MADRE_REBECA",
+      "tipo": "familiar",
+      "subtipo": "madre",
+      "origen": "REBECA_MONTIEL",
+      "destino": "REBECA",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
       "id": "REL_JACK_PADRE_PATRICIA",
       "tipo": "familiar",
       "subtipo": "padre",

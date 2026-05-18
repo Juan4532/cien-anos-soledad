@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cien años de soledad — Edición interactiva</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='3' fill='%230c0b09'/><text x='16' y='23' font-family='Georgia,serif' font-size='21' fill='%23D4933A' text-anchor='middle'>C</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
@@ -14,10 +15,20 @@
       overflow: hidden;
       display: flex;
       flex-direction: column;
-      background: #0c0b09;
+      background-color: #0c0b09;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.07'/%3E%3C/svg%3E");
+      background-repeat: repeat;
+      background-size: 200px 200px;
+      background-blend-mode: screen;
       color: #e0d8cc;
       font-family: 'Inter', system-ui, sans-serif;
     }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 4px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: rgba(212,147,58,0.2); border-radius: 2px; }
+    ::-webkit-scrollbar-thumb:hover { background: rgba(212,147,58,0.4); }
 
     /* ── Nav ──────────────────────────────────────────────────────────────── */
 
@@ -37,7 +48,7 @@
       font-family: 'Playfair Display', serif;
       font-style: italic;
       font-size: 0.95rem;
-      color: rgba(255,255,255,0.5);
+      color: rgba(212,147,58,0.75);
       user-select: none;
     }
 
@@ -163,7 +174,7 @@
       top: 0; right: 0;
       width: 340px; height: 100%;
       background: rgba(10,9,7,0.96);
-      border-left: 1px solid rgba(255,255,255,0.07);
+      border-left: 1px solid rgba(212,147,58,0.2);
       padding: 2.25rem 1.75rem 2rem;
       overflow-y: auto;
       transform: translateX(100%);
@@ -210,7 +221,7 @@
       display: flex; gap: 2rem;
       margin-bottom: 1.25rem;
       padding-bottom: 1.25rem;
-      border-bottom: 1px solid rgba(255,255,255,0.07);
+      border-bottom: 1px solid rgba(212,147,58,0.15);
     }
     .meta-item { display: flex; flex-direction: column; gap: 0.2rem; }
     .meta-label { font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.12em; color: rgba(255,255,255,0.28); }
@@ -428,7 +439,7 @@
       letter-spacing: 0.04em;
       margin-bottom: 0.85rem;
       padding-left: 0.6rem;
-      border-left: 2px solid rgba(255,255,255,0.07);
+      border-left: 2px solid rgba(212,147,58,0.3);
       cursor: pointer;
       display: flex;
       align-items: center;
@@ -541,6 +552,120 @@
       font-size: 0.79rem; line-height: 1.78;
       color: rgba(255,255,255,0.42);
     }
+
+    /* ── Botón tema ───────────────────────────────────────────────────────── */
+    #theme-toggle {
+      background: none;
+      border: 1px solid rgba(255,255,255,0.1);
+      color: rgba(255,255,255,0.35);
+      width: 28px; height: 28px;
+      border-radius: 50%;
+      font-size: 0.8rem;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      transition: all 0.15s;
+      flex-shrink: 0;
+    }
+    #theme-toggle:hover { color: rgba(255,255,255,0.75); border-color: rgba(255,255,255,0.25); }
+
+    /* ── Tema papel ───────────────────────────────────────────────────────── */
+    body.paper-theme {
+      background-color: #f0e5c4;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.06'/%3E%3C/svg%3E");
+      background-blend-mode: multiply;
+      color: #2c1a06;
+    }
+    body.paper-theme ::-webkit-scrollbar-thumb { background: rgba(44,26,6,0.18); }
+    body.paper-theme ::-webkit-scrollbar-thumb:hover { background: rgba(44,26,6,0.32); }
+
+    body.paper-theme #app-nav {
+      background: rgba(225,208,168,0.98);
+      border-bottom-color: rgba(44,26,6,0.12);
+    }
+    body.paper-theme .nav-brand { color: rgba(140,94,16,0.85); }
+    body.paper-theme .tab-btn { color: rgba(44,26,6,0.38); }
+    body.paper-theme .tab-btn:hover { color: rgba(44,26,6,0.65); }
+    body.paper-theme .tab-btn.active { color: rgba(44,26,6,0.88); border-bottom-color: #8c5e10; }
+    body.paper-theme #theme-toggle { border-color: rgba(44,26,6,0.15); color: rgba(44,26,6,0.4); }
+    body.paper-theme #theme-toggle:hover { border-color: rgba(44,26,6,0.3); color: rgba(44,26,6,0.75); }
+
+    body.paper-theme #panel {
+      background: rgba(233,218,182,0.97);
+      border-left-color: rgba(140,94,16,0.22);
+    }
+    body.paper-theme #panel-close { color: rgba(44,26,6,0.3); }
+    body.paper-theme #panel-close:hover { color: rgba(44,26,6,0.75); }
+    body.paper-theme #panel-nombre { color: #1a1005; }
+    body.paper-theme #panel-apodos { color: rgba(44,26,6,0.38); }
+    body.paper-theme .panel-meta { border-bottom-color: rgba(140,94,16,0.18); }
+    body.paper-theme .meta-label { color: rgba(44,26,6,0.32); }
+    body.paper-theme .meta-value { color: rgba(44,26,6,0.72); }
+    body.paper-theme #panel-desc { color: rgba(44,26,6,0.55); }
+    body.paper-theme .rels-title { color: rgba(44,26,6,0.28); }
+    body.paper-theme .rel-item { background: rgba(44,26,6,0.04); }
+    body.paper-theme .rel-item:hover { background: rgba(44,26,6,0.09); }
+    body.paper-theme .rel-name { color: rgba(44,26,6,0.72); }
+    body.paper-theme .rel-type { color: rgba(44,26,6,0.35); }
+
+    body.paper-theme #ley-edges { }
+    body.paper-theme .ley-title { color: rgba(44,26,6,0.22); }
+    body.paper-theme .ley-label { color: rgba(44,26,6,0.42); }
+
+    body.paper-theme #tooltip {
+      background: rgba(225,208,168,0.96);
+      border-color: rgba(44,26,6,0.15);
+      color: rgba(44,26,6,0.8);
+    }
+
+    body.paper-theme .filter-group + .filter-group { border-top-color: rgba(44,26,6,0.08); }
+    body.paper-theme .filter-group-label { color: rgba(44,26,6,0.25); }
+    body.paper-theme .edge-chip {
+      background: rgba(44,26,6,0.05);
+      border-color: rgba(44,26,6,0.1);
+      color: rgba(44,26,6,0.5);
+    }
+    body.paper-theme .edge-chip.active {
+      background: rgba(44,26,6,0.09);
+      color: rgba(44,26,6,0.85);
+      border-color: rgba(44,26,6,0.22);
+    }
+    body.paper-theme .btn {
+      background: rgba(44,26,6,0.05);
+      border-color: rgba(44,26,6,0.1);
+      color: rgba(44,26,6,0.45);
+    }
+    body.paper-theme .btn:hover { background: rgba(44,26,6,0.1); color: rgba(44,26,6,0.85); }
+    body.paper-theme .btn.active { background: rgba(44,26,6,0.12); color: rgba(44,26,6,0.9); border-color: rgba(44,26,6,0.25); }
+
+    body.paper-theme .mode-btn { border-color: rgba(44,26,6,0.1); color: rgba(44,26,6,0.38); }
+    body.paper-theme .mode-btn.active { color: rgba(44,26,6,0.82); border-color: rgba(44,26,6,0.28); background: rgba(44,26,6,0.06); }
+    body.paper-theme .mode-btn:hover:not(.active) { color: rgba(44,26,6,0.55); }
+
+    body.paper-theme .filter-bar { border-bottom-color: rgba(44,26,6,0.08); }
+    body.paper-theme .f-btn { background: rgba(44,26,6,0.04); border-color: rgba(44,26,6,0.1); color: rgba(44,26,6,0.45); }
+    body.paper-theme .f-btn:hover { background: rgba(44,26,6,0.09); color: rgba(44,26,6,0.72); }
+    body.paper-theme .f-btn.on { background: rgba(44,26,6,0.06); }
+
+    body.paper-theme .cap-heading { color: rgba(44,26,6,0.32); border-left-color: rgba(140,94,16,0.35); }
+    body.paper-theme .evt-card { background: rgba(44,26,6,0.025); border-color: rgba(44,26,6,0.08); }
+    body.paper-theme .evt-card:hover { border-color: rgba(44,26,6,0.14); }
+    body.paper-theme .evt-title { color: rgba(44,26,6,0.78); }
+    body.paper-theme .evt-arrow { color: rgba(44,26,6,0.25); }
+    body.paper-theme .evt-card.open .evt-arrow { color: rgba(44,26,6,0.5); }
+    body.paper-theme .evt-desc { color: rgba(44,26,6,0.52); }
+    body.paper-theme .evt-orden { color: rgba(44,26,6,0.22); }
+    body.paper-theme .p-chip { background: rgba(44,26,6,0.05); border-color: rgba(44,26,6,0.1); color: rgba(44,26,6,0.55); }
+    body.paper-theme .p-chip:hover { background: rgba(44,26,6,0.1); color: rgba(44,26,6,0.88); border-color: rgba(44,26,6,0.25); }
+
+    body.paper-theme .sobre-body h1 { color: rgba(44,26,6,0.88); }
+    body.paper-theme .sobre-body .sobre-sub { color: rgba(44,26,6,0.35); }
+    body.paper-theme .sobre-body h2 { color: rgba(44,26,6,0.55); }
+    body.paper-theme .sobre-body p { color: rgba(44,26,6,0.52); }
+    body.paper-theme .sobre-stat { background: rgba(44,26,6,0.04); border-color: rgba(44,26,6,0.1); }
+    body.paper-theme .sobre-stat .stat-num { color: #8c5e10; }
+    body.paper-theme .sobre-stat .stat-label { color: rgba(44,26,6,0.32); }
+    body.paper-theme .sobre-cap-chip { border-color: rgba(44,26,6,0.12); color: rgba(44,26,6,0.38); }
+    body.paper-theme .sobre-cap-chip.done { border-color: rgba(140,94,16,0.45); color: #8c5e10; background: rgba(140,94,16,0.1); }
   </style>
 </head>
 <body>
@@ -552,6 +677,7 @@
     <button class="tab-btn" data-view="cronologia">Cronología</button>
     <button class="tab-btn" data-view="sobre">Sobre esto</button>
   </div>
+  <button id="theme-toggle" title="Cambiar tema">☾</button>
 </nav>
 
 <main id="app-main">
@@ -577,7 +703,7 @@
       </div>
       <p id="panel-desc"></p>
       <div class="panel-section" id="panel-sec-rels">
-        <div class="rels-title">Relaciones</div>
+        <div class="rels-title">Vínculos</div>
         <div class="panel-section-body">
           <div id="panel-rels-list"></div>
         </div>
@@ -590,7 +716,7 @@
       </div>
     </aside>
 
-    <div id="ley-edges"><div class="ley-title">Relaciones</div></div>
+    <div id="ley-edges"><div class="ley-title">Vínculos</div></div>
 
     <div id="graph-controls-wrap">
       <div class="filter-group">
@@ -598,7 +724,7 @@
         <div id="gen-filters" class="filter-chips"></div>
       </div>
       <div class="filter-group">
-        <span class="filter-group-label">Relaciones</span>
+        <span class="filter-group-label">Vínculos</span>
         <div id="edge-filters" class="filter-chips"></div>
       </div>
       <div id="graph-controls">
@@ -712,6 +838,10 @@ const PERSONAJES = [
   { id: 'SENOR_JACK_BROWN', nombre: 'Señor Jack Brown', apodos: ['Mr. Brown'], generacion: null, capitulo: 12, descripcion: 'Jefe visible de la compañía bananera estadounidense. Llega en un vagón suplementario laminado de plata con poltronas de terciopelo y techo de vidrios azules, acompañado de abogados de negro y perros alemanes feroces. Instala a los funcionarios locales en el gallinero electrificado y reemplaza las autoridades de Macondo por forasteros autoritarios.' },
   { id: 'AURELIANO_SERRADOR', nombre: 'Aureliano Serrador', apodos: [], generacion: 3, capitulo: 12, descripcion: 'Uno de los 17 hijos del Coronel Aureliano Buendía. Se queda en Macondo durante el auge bananero. Muere asesinado en la noche del exterminio: alguien le dispara desde entre la muchedumbre de la Calle de los Turcos y cae dentro de un caldero de manteca hirviendo.' },
   { id: 'AURELIANO_ARCAYA', nombre: 'Aureliano Arcaya', apodos: [], generacion: 3, capitulo: 12, descripcion: 'Uno de los 17 hijos del Coronel Aureliano Buendía. Se queda en Macondo durante el auge bananero. Muere asesinado en la noche del exterminio: alguien llama a la puerta de su cuarto con el pretexto de avisarle del peligro y le espera con una descarga de máuser que le desbarata el cráneo.' },
+  { id: 'CATARINO', nombre: 'Catarino', apodos: [], generacion: null, capitulo: 3, descripcion: 'Dueño de la tienda de Catarino.' },
+  { id: 'RENATA_ARGOTE', nombre: 'Renata Argote', apodos: [], generacion: null, capitulo: 11, descripcion: 'Madre de Fernanda del Carpio, esposa de Don Fernando. De su nombre proviene el de su nieta Meme, cuyo nombre de pila es Renata Remedios.' },
+  { id: 'NICANOR_ULLOA', nombre: 'Nicanor Ulloa', apodos: [], generacion: null, capitulo: 3, descripcion: 'Padre de Rebeca. Amigo de José Arcadio Buendía. Muerto antes del inicio de la novela; sus restos llegan a Macondo en el talego que carga su hija.' },
+  { id: 'REBECA_MONTIEL', nombre: 'Rebeca Montiel', apodos: [], generacion: null, capitulo: 3, descripcion: 'Madre de Rebeca, esposa de Nicanor Ulloa. Muerta antes del inicio de la novela; sus restos llegan a Macondo junto a los de su marido en el talego que carga su hija.' },
   { id: 'PATRICIA_BROWN', nombre: 'Patricia Brown', apodos: [], generacion: null, capitulo: 14, descripcion: 'Hija del señor Jack Brown, jefe de la compañía bananera. Es una de las tres jóvenes norteamericanas que traban amistad con muchachas de Macondo. Meme aprende inglés, tenis y natación en su casa. Es la intermediaria involuntaria que facilita el primer encuentro de Meme con Mauricio Babilonia en el taller mecánico.' },
 
 ];
@@ -801,6 +931,11 @@ const RELACIONES = [
   { id: 'REL_CORONEL_PADRE_AURELIANO_SERRADOR', tipo: 'familiar', subtipo: 'padre', origen: 'AURELIANO_BUENDIA_CORONEL', destino: 'AURELIANO_SERRADOR', notas: 'Uno de los 17 hijos del Coronel engendrados con distintas mujeres durante la guerra.' },
   { id: 'REL_CORONEL_PADRE_AURELIANO_ARCAYA', tipo: 'familiar', subtipo: 'padre', origen: 'AURELIANO_BUENDIA_CORONEL', destino: 'AURELIANO_ARCAYA', notas: 'Uno de los 17 hijos del Coronel engendrados con distintas mujeres durante la guerra.' },
   { id: 'REL_AMISTAD_MEME_PATRICIA', tipo: 'amistad', subtipo: null, origen: 'MEME', destino: 'PATRICIA_BROWN', notas: 'Patricia Brown facilita sin saberlo el encuentro de Meme con Mauricio Babilonia.' },
+  { id: 'REL_MATRIMONIO_FERNANDO_RENATA', tipo: 'marital', subtipo: null, origen: 'DON_FERNANDO', destino: 'RENATA_ARGOTE', notas: null },
+  { id: 'REL_RENATA_MADRE_FERNANDA', tipo: 'familiar', subtipo: 'madre', origen: 'RENATA_ARGOTE', destino: 'FERNANDA_DEL_CARPIO', notas: null },
+  { id: 'REL_MATRIMONIO_NICANOR_REBECA_MONTIEL', tipo: 'marital', subtipo: null, origen: 'NICANOR_ULLOA', destino: 'REBECA_MONTIEL', notas: null },
+  { id: 'REL_NICANOR_PADRE_REBECA', tipo: 'familiar', subtipo: 'padre', origen: 'NICANOR_ULLOA', destino: 'REBECA', notas: null },
+  { id: 'REL_REBECA_MONTIEL_MADRE_REBECA', tipo: 'familiar', subtipo: 'madre', origen: 'REBECA_MONTIEL', destino: 'REBECA', notas: null },
   { id: 'REL_JACK_PADRE_PATRICIA', tipo: 'familiar', subtipo: 'padre', origen: 'SENOR_JACK_BROWN', destino: 'PATRICIA_BROWN', notas: null },
 
 ];
@@ -1192,7 +1327,7 @@ function openPanel(node) {
     });
     list.appendChild(item);
   });
-  if (!list.children.length) list.innerHTML = '<span style="font-size:.75rem;color:rgba(255,255,255,.2)">Sin relaciones registradas</span>';
+  if (!list.children.length) list.innerHTML = '<span style="font-size:.75rem;color:rgba(255,255,255,.2)">Sin vínculos registrados</span>';
 
   // Eventos del personaje
   const evtsList = document.getElementById('panel-evts-list');
@@ -1552,6 +1687,33 @@ buildTimeline();
     const done = i <= maxCap;
     listEl.innerHTML += `<span class="sobre-cap-chip${done ? ' done' : ''}">Cap. ${ROMAN[i-1]}</span>`;
   }
+})();
+
+// ── Tema papel ────────────────────────────────────────────────────────────
+(function() {
+  const btn = document.getElementById('theme-toggle');
+
+  function applyGraphTheme(isPaper) {
+    if (!window.cy) return;
+    cy.nodes().style({
+      'color': isPaper ? '#2c1a06' : '#d0c8bc',
+      'text-background-color': isPaper ? '#f0e5c4' : '#0c0b09',
+    });
+  }
+
+  function setTheme(isPaper) {
+    document.body.classList.toggle('paper-theme', isPaper);
+    btn.textContent = isPaper ? '☀' : '☾';
+    localStorage.setItem('cien-theme', isPaper ? 'paper' : 'dark');
+    applyGraphTheme(isPaper);
+  }
+
+  btn.addEventListener('click', () => {
+    setTheme(!document.body.classList.contains('paper-theme'));
+  });
+
+  // Restaurar preferencia guardada
+  if (localStorage.getItem('cien-theme') === 'paper') setTheme(true);
 })();
 </script>
 </body>

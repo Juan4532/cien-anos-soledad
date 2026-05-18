@@ -679,6 +679,50 @@
       "descripcion": "Uno de los 17 hijos del Coronel Aureliano Buendía. Se queda en Macondo durante el auge bananero. Muere asesinado en la noche del exterminio: alguien llama a la puerta de su cuarto con el pretexto de avisarle del peligro y le espera con una descarga de máuser que le desbarata el cráneo."
     },
     {
+      "id": "CATARINO",
+      "nombre": "Catarino",
+      "nombres_alternativos": [],
+      "generacion": null,
+      "genero": "masculino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 3,
+      "descripcion": "Dueño de la tienda de Catarino."
+    },
+    {
+      "id": "RENATA_ARGOTE",
+      "nombre": "Renata Argote",
+      "nombres_alternativos": [],
+      "generacion": null,
+      "genero": "femenino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 11,
+      "descripcion": "Madre de Fernanda del Carpio, esposa de Don Fernando. De su nombre proviene el de su nieta Meme, cuyo nombre de pila es Renata Remedios."
+    },
+    {
+      "id": "NICANOR_ULLOA",
+      "nombre": "Nicanor Ulloa",
+      "nombres_alternativos": [],
+      "generacion": null,
+      "genero": "masculino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 3,
+      "descripcion": "Padre de Rebeca. Amigo de José Arcadio Buendía. Muerto antes del inicio de la novela; sus restos llegan a Macondo en el talego que carga su hija."
+    },
+    {
+      "id": "REBECA_MONTIEL",
+      "nombre": "Rebeca Montiel",
+      "nombres_alternativos": [],
+      "generacion": null,
+      "genero": "femenino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 3,
+      "descripcion": "Madre de Rebeca, esposa de Nicanor Ulloa. Muerta antes del inicio de la novela; sus restos llegan a Macondo junto a los de su marido en el talego que carga su hija."
+    },
+    {
       "id": "PATRICIA_BROWN",
       "nombre": "Patricia Brown",
       "nombres_alternativos": [],
