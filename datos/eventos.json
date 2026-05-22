@@ -1764,21 +1764,22 @@
       "id": "EVT_MEME_AL_CONVENTO",
       "titulo": "Fernanda envía a Meme a un convento",
       "tipo": "partida",
-      "capitulo": 16,
+      "capitulo": 15,
       "fecha": null,
       "participantes": [
         "MEME",
-        "FERNANDA_DEL_CARPIO"
+        "FERNANDA_DEL_CARPIO",
+        "DON_FERNANDO"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Después del incidente con Mauricio, Meme nunca vuelve a hablar. Fernanda la lleva en un penoso viaje a un convento en el sombrío pueblo donde ella creció. Meme muere de vieja sin haber vuelto a ser feliz.",
+      "descripcion": "Al día siguiente del disparo a Mauricio Babilonia, Fernanda empaca tres mudas de ropa y lleva a Meme al tren sin darle explicación. Meme, que no ha vuelto a hablar desde que oyó el disparo, sube como sonámbula. Viajan en tren, luego en un cochecito por una ciudad desolada, luego en buque fluvial, luego a lomo de mula por el páramo. Meme sabe dónde está porque en el espanto del insomnio ve pasar al caballero vestido de negro — su abuelo Don Fernando — que en una víspera de Navidad llegó a la casa dentro de un cofre de plomo. Al día siguiente Fernanda la conduce al convento donde ella misma fue educada. Una novicia le tiende la mano diciéndole «Vamos, Renata» y la clausura se cierra tras ella para siempre. Meme nunca vuelve a pronunciar una palabra.",
       "orden_cronologico": null
     },
     {
       "id": "EVT_NACIMIENTO_AURELIANO_BABILONIA",
       "titulo": "Nacimiento de Aureliano Babilonia",
       "tipo": "nacimiento",
-      "capitulo": 17,
+      "capitulo": 15,
       "fecha": null,
       "participantes": [
         "AURELIANO_BABILONIA",
@@ -1787,33 +1788,36 @@
         "FERNANDA_DEL_CARPIO"
       ],
       "lugar": "MACONDO",
-      "descripcion": "El hijo de Meme y Mauricio Babilonia nace en el convento. Una monja lo lleva en una canasta a la casa de los Buendía. Fernanda lo encierra en el cuarto del Coronel y le dice a todos que lo encontró flotando en una canasta.",
+      "descripcion": "Meme da a luz a un hijo varón en el convento. El antiguo director espiritual de Fernanda le envía al niño en una canastilla con una carta explicando que nació dos meses antes y fue bautizado Aureliano porque la madre no despegó los labios. Fernanda lo recibe horrorizada pero no tiene valor para ahogarlo en la alberca. A Santa Sofía de la Piedad le dice que lo encontró flotando en una canastilla.",
       "orden_cronologico": null
     },
     {
       "id": "EVT_HUELGA_BANANERA",
       "titulo": "Huelga de los trabajadores de la plantación bananera",
       "tipo": "conflicto",
-      "capitulo": 17,
+      "capitulo": 15,
       "fecha": null,
       "participantes": [
-        "JOSE_ARCADIO_SEGUNDO"
+        "JOSE_ARCADIO_SEGUNDO",
+        "LORENZO_GAVILAN"
       ],
       "lugar": "PLANTACION_BANANERA",
-      "descripcion": "José Arcadio Segundo lidera la huelga de los trabajadores que exigen condiciones dignas: atención médica, viviendas salubres y pago en dinero en lugar de vales. La compañía usa acrobacias legales para eludir toda responsabilidad.",
+      "descripcion": "Los trabajadores de la compañía bananera van a la huelga exigiendo mejoras. José Arcadio Segundo, amigo del coronel exiliado Lorenzo Gavilán, participa activamente en la organización.",
       "orden_cronologico": null
     },
     {
       "id": "EVT_MASACRE_BANANERA",
-      "titulo": "Masacre de los trabajadores huelguistas",
+      "titulo": "Decreto Número 4 y masacre de los huelguistas",
       "tipo": "muerte",
-      "capitulo": 17,
+      "capitulo": 15,
       "fecha": null,
       "participantes": [
-        "JOSE_ARCADIO_SEGUNDO"
+        "JOSE_ARCADIO_SEGUNDO",
+        "GENERAL_CARLOS_CORTES_VARGAS",
+        "MAYOR_ENRIQUE_GARCIA_ISAZA"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Los soldados abren fuego sobre los trabajadores reunidos en la plaza de la estación. José Arcadio Segundo despierta en un tren cargado de cadáveres. Calcula unos 3000 muertos arrojados al mar. El gobierno niega que haya habido ninguna masacre.",
+      "descripcion": "El general Carlos Cortés Vargas firma el Decreto Número 4 que declara cuadrilla de malhechores a los huelguistas y autoriza al ejército a matarlos a bala. Se lee en la estación ante más de tres mil personas concentradas. El capitán da cinco minutos para retirarse; nadie se mueve. Las ametralladoras abren fuego. José Arcadio Segundo despierta en un tren cargado de cadáveres que van a ser arrojados al mar como el banano de rechazo. El gobierno niega que haya habido muertos.",
       "orden_cronologico": null
     },
     {
@@ -1836,56 +1840,47 @@
       "id": "EVT_MUERTE_GERINELDO_MARQUEZ",
       "titulo": "Muerte del coronel Gerineldo Márquez",
       "tipo": "muerte",
-      "capitulo": 18,
+      "capitulo": 16,
       "fecha": null,
       "participantes": [
         "GERINELDO_MARQUEZ",
         "URSULA_IGUARAN"
       ],
       "lugar": "MACONDO",
-      "descripcion": "El cortejo fúnebre de Gerineldo Márquez pasa bajo el aguacero del diluvio. Úrsula, presente en el velatorio, lo bendice y le dice que lo verá de nuevo cuando la lluvia pare, prediciendo así su propia muerte.",
+      "descripcion": "El cortejo fúnebre de Gerineldo Márquez pasa en una carreta de bueyes bajo el diluvio. Sobre el ataúd llevan la bandera sucia de sangre y pólvora y el sable con borlas de cobre que colgaba en casa de Amaranta. Detrás van los últimos sobrevivientes de la capitulación de Neerlandia, descalzos, chapaleando en el fango. Úrsula se hace llevar a la puerta y lo despide: «Adiós, Gerineldo, hijo mío. Salúdame a mi gente y dile que nos vemos cuando escampe.» Luego le confiesa a Aureliano Segundo que solo está esperando que pare la lluvia para morirse.",
       "orden_cronologico": null
     },
     {
       "id": "EVT_MUERTE_GEMELOS",
       "titulo": "Muerte simultánea de los gemelos",
       "tipo": "muerte",
-      "capitulo": 19,
+      "capitulo": 17,
       "fecha": null,
       "participantes": [
-        "AURELIANO_SEGUNDO",
         "JOSE_ARCADIO_SEGUNDO",
-        "PETRA_COTES"
+        "AURELIANO_SEGUNDO",
+        "SANTA_SOFIA_DE_LA_PIEDAD",
+        "PETRA_COTES",
+        "FERNANDA_DEL_CARPIO"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Los gemelos mueren el mismo día a la misma hora. Aureliano Segundo en su cama de enfermo; José Arcadio Segundo en el cuarto de Melquíades repitiendo que 3000 personas fueron asesinadas en la masacre. Los entierran accidentalmente en las tumbas equivocadas.",
+      "descripcion": "El 9 de agosto, José Arcadio Segundo cae de bruces sobre los pergaminos en el cuarto de Melquíades con los ojos abiertos, tras decirle a Aureliano: «Acuérdate siempre de que eran más de tres mil y que los echaron al mar.» En ese mismo instante, Aureliano Segundo muere en la cama de Fernanda, consumido por el tumor de cangrejos de hierro que le carcomía la garganta. Santa Sofía de la Piedad degüella el cadáver de José Arcadio Segundo con un cuchillo de cocina para cumplir su promesa de que no lo enterraran vivo. Petra Cotes llega con los botines de charol que Aureliano Segundo quería llevar en el ataúd; Fernanda no la deja pasar de la puerta. Los borrachitos confunden los ataúdes y los entierran en tumbas equivocadas.",
       "orden_cronologico": null
     },
     {
       "id": "EVT_MUERTE_URSULA",
       "titulo": "Muerte de Úrsula Iguarán",
       "tipo": "muerte",
-      "capitulo": 19,
+      "capitulo": 17,
       "fecha": null,
       "participantes": [
-        "URSULA_IGUARAN"
+        "URSULA_IGUARAN",
+        "AMARANTA_URSULA",
+        "AURELIANO_BABILONIA",
+        "SANTA_SOFIA_DE_LA_PIEDAD"
       ],
       "lugar": "CASA_BUENDIA",
-      "descripcion": "Úrsula, de más de ciento diez años, pierde la frontera entre la vida y la muerte. Los niños la tratan como juguete y la declaran muerta. Ella intenta protestar pero descubre que tienen razón. Muere un Jueves Santo, pequeñita como un bebé.",
-      "orden_cronologico": null
-    },
-    {
-      "id": "EVT_MUERTE_JOSE_ARCADIO_QUINTO",
-      "titulo": "José Arcadio (Quinto) ahogado por los niños",
-      "tipo": "muerte",
-      "capitulo": 20,
-      "fecha": null,
-      "participantes": [
-        "JOSE_ARCADIO_QUINTO",
-        "AURELIANO_BABILONIA"
-      ],
-      "lugar": "CASA_BUENDIA",
-      "descripcion": "Los niños del vecindario a quienes José Arcadio había echado a golpes invaden la casa y lo ahogan en la piscina. Roban el oro que solo ellos sabían dónde estaba escondido. Aureliano Babilonia lo encuentra más tarde.",
+      "descripcion": "Úrsula muere un Jueves Santo entre los 115 y los 122 años de edad. La enterraron en una cajita apenas más grande que la canastilla en que llegó Aureliano Babilonia. Al mediodía del entierro hacía tanto calor que los pájaros desorientados se estrellaban contra las paredes y morían en los dormitorios. Poca gente asistió: casi nadie se acordaba de ella.",
       "orden_cronologico": null
     },
     {
@@ -3132,6 +3127,601 @@
       ],
       "lugar": "CASA_BUENDIA",
       "descripcion": "Tras los nueve noches de velorio de Amaranta, Úrsula se mete en su cuarto y no vuelve a salir.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_LLEGADA_AURELIANO_BABILONIA_CASA",
+      "titulo": "Aureliano Babilonia llega a la casa de los Buendía",
+      "tipo": "llegada",
+      "capitulo": 15,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BABILONIA",
+        "FERNANDA_DEL_CARPIO"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Fernanda recibe en una canasta al bebé que las monjas le enviaron desde el convento. Lo cría en secreto, ocultando que es nieto de la familia.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_TREN_MUERTOS",
+      "titulo": "El tren de los muertos",
+      "tipo": "otro",
+      "capitulo": 15,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_SEGUNDO"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "José Arcadio Segundo despierta entre los cadáveres de los huelguistas en un tren que los lleva al mar para arrojarlos. Consigue escapar y llegar a Macondo.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_JOSE_ARCADIO_SEGUNDO_ESCONDIDO",
+      "titulo": "José Arcadio Segundo se esconde en el cuarto de Melquíades",
+      "tipo": "otro",
+      "capitulo": 15,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_SEGUNDO"
+      ],
+      "lugar": "CUARTO_MELQUIADES",
+      "descripcion": "Perseguido por el ejército, José Arcadio Segundo se refugia en el cuarto de Melquíades, el único lugar que los soldados no logran ver cuando registran la casa. Allí pasa meses leyendo los pergaminos de Melquíades. Protegido por la luz sobrenatural y por la sensación de ser invisible, encuentra el reposo que no tuvo un solo instante de su vida anterior. El único miedo que persiste es el de que lo entierren vivo; se lo confiesa a Santa Sofía de la Piedad, quien le promete luchar por estar viva para asegurarse de que lo entierren muerto.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_INICIO_LLUVIA",
+      "titulo": "Comienzo de las lluvias interminables",
+      "tipo": "otro",
+      "capitulo": 15,
+      "fecha": null,
+      "participantes": [],
+      "lugar": "MACONDO",
+      "descripcion": "Tras la masacre comienza una lluvia que durará casi cinco años, arrastrando a Macondo hacia la decadencia y el olvido.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_MUERTE_MEME_CRACOVIA",
+      "titulo": "Muerte de Meme en el convento de Cracovia",
+      "tipo": "muerte",
+      "capitulo": 15,
+      "fecha": null,
+      "participantes": [
+        "MEME"
+      ],
+      "lugar": null,
+      "descripcion": "Meme muere anciana en el convento, sin haber pronunciado una sola palabra desde que Fernanda la arrancó de Macondo. Ni siquiera su hijo llega a conocerla.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_MUERTE_LORENZO_GAVILAN",
+      "titulo": "Muerte de Lorenzo Gavilán en la masacre",
+      "tipo": "muerte",
+      "capitulo": 15,
+      "fecha": null,
+      "participantes": [
+        "LORENZO_GAVILAN"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Lorenzo Gavilán muere en la masacre de la estación. José Arcadio Segundo lo reconoce en el tren de los muertos: lleva enrollado en la mano el cinturón con la hebilla de plata moreliana con que trató de abrirse camino entre el pánico.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_AURELIANO_SEGUNDO_DESCUBRE_NIETO",
+      "titulo": "Aureliano Segundo descubre y acoge a su nieto Aureliano",
+      "tipo": "otro",
+      "capitulo": 16,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_SEGUNDO",
+        "AURELIANO_BABILONIA",
+        "FERNANDA_DEL_CARPIO"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "En un descuido de Fernanda, el pequeño Aureliano Babilonia aparece en el corredor. Aureliano Segundo descubre así quién es y lo acoge: le corta el pelo, lo viste y le enseña a perderle el miedo a la gente. Reconoce en él los rasgos de los Buendía. Fernanda acepta con alivio no tener que cargar sola con el secreto.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_CANTALETA_FERNANDA",
+      "titulo": "La cantaleta de Fernanda y la destrucción de la vajilla",
+      "tipo": "conflicto",
+      "capitulo": 16,
+      "fecha": null,
+      "participantes": [
+        "FERNANDA_DEL_CARPIO",
+        "AURELIANO_SEGUNDO"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Fernanda desata una cantaleta interminable contra Aureliano Segundo: su holgazanería, sus adulterios, la indignidad de su linaje. Aureliano Segundo la escucha impasible un día entero; cuando ya no puede más, rompe metódicamente tiestos, vajilla de china, cristalería de Bohemia, cuadros y espejos contra el suelo. Luego sale y regresa antes de medianoche con carne salada, arroz y plátanos. Desde entonces no vuelve a faltar comida en la casa.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_URSULA_DEMENCIA",
+      "titulo": "Demencia senil de Úrsula: visitas imaginarias con los muertos",
+      "tipo": "otro",
+      "capitulo": 16,
+      "fecha": null,
+      "participantes": [
+        "URSULA_IGUARAN",
+        "AMARANTA_URSULA",
+        "AURELIANO_BABILONIA"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "En el tercer año de la lluvia, Úrsula pierde el sentido de la realidad y confunde épocas: llora durante tres días la muerte de Petronila Iguarán (enterrada hace más de un siglo), cree que el pequeño Aureliano es el coronel de niño y que el seminarista José Arcadio es el primogénito. Los niños organizan visitas imaginarias con sus antepasados muertos; ella conversa feliz con ellos. Solo al hablar del tesoro enterrado recobra lucidez para guardarlo.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_BUSQUEDA_TESORO_URSULA",
+      "titulo": "Aureliano Segundo busca el tesoro enterrado de Úrsula",
+      "tipo": "otro",
+      "capitulo": 16,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_SEGUNDO",
+        "URSULA_IGUARAN",
+        "PILAR_TERNERA"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Aureliano Segundo contrata cuadrillas de excavadores y sondea el patio con barretas. Pilar Ternera confirma la existencia del tesoro: 7 214 monedas en tres sacos de lona, en un radio de 122 metros de la cama de Úrsula, pero no hallable hasta que tres junios consecutivos sequen el barro. Las excavaciones agrietan la galería oriental y derrumban tres aposentos. El tesoro no aparece.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_FIN_LLUVIA",
+      "titulo": "Fin de las lluvias tras cuatro años, once meses y dos días",
+      "tipo": "otro",
+      "capitulo": 16,
+      "fecha": null,
+      "participantes": [],
+      "lugar": "MACONDO",
+      "descripcion": "Un viernes a las dos de la tarde aparece un sol bermejo y áspero. La lluvia no vuelve en diez años. Había durado exactamente cuatro años, once meses y dos días.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_MACONDO_RUINAS",
+      "titulo": "Macondo en ruinas tras el diluvio",
+      "tipo": "otro",
+      "capitulo": 16,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_SEGUNDO"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Al escampar, Macondo es un campo de escombros: muebles destrozados, esqueletos de animales cubiertos de lirios, casas abandonadas. La compañía bananera ha desmantelado sus instalaciones; de la ciudad alambrada solo quedan ruinas. El único rastro de los gringos es un guante de Patricia Brown en un automóvil sofocado por las trinitarias. Los árabes de la calle de los Turcos, impasibles, siguen sentados en el mismo lugar que sus padres y sus abuelos. Aureliano Segundo les pregunta de qué recursos misteriosos se valieron para no naufragar. Uno tras otro, sin ponerse de acuerdo, todos le dan la misma respuesta: «Nadando.»",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_PETRA_COTES_RIFAS",
+      "titulo": "Petra Cotes inicia las rifas para reconstruir la fortuna",
+      "tipo": "otro",
+      "capitulo": 16,
+      "fecha": null,
+      "participantes": [
+        "PETRA_COTES",
+        "AURELIANO_SEGUNDO"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Arruinada por el diluvio, Petra Cotes escaba en su corazón y encuentra una rabia reflexiva y justa con la que jura restaurar la fortuna despilfarrada por el amante y exterminada por la lluvia. Cuando Aureliano Segundo vuelve a buscarla, la encuentra verde, desgreñada y sarnosa, pero escribiendo números en pedacitos de papel para hacer una rifa. Solo le queda una mula que ha mantenido viva con su rabia: cuando se acabaron las hierbas, el maíz y las raíces, la albergó en su propio dormitorio y le dio a comer las sábanas de percal, los tapices persas, los sobrecamas de peluche, las cortinas de terciopelo y el palio bordado con hilos de oro y borlones de seda de la cama episcopal.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_HUIDA_CATAURE",
+      "titulo": "Cataure huye de Macondo al extenderse la plaga del insomnio",
+      "tipo": "partida",
+      "capitulo": 3,
+      "fecha": null,
+      "participantes": [
+        "CATAURE"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Cuando la plaga del insomnio que Cataure y Visitación trajeron de su tribu empieza a extenderse por Macondo, Cataure huye sin despedirse de nadie. Visitación se queda. No volverá a vérsele hasta la muerte de José Arcadio Buendía, cuando regresa para decir «He venido al sepelio del rey.»",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_CARTA_FERNANDA_MEME_MUERTA",
+      "titulo": "Fernanda le escribe a José Arcadio que su hermana Renata murió",
+      "tipo": "otro",
+      "capitulo": 15,
+      "fecha": null,
+      "participantes": [
+        "FERNANDA_DEL_CARPIO",
+        "JOSE_ARCADIO_QUINTO",
+        "MEME"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Fernanda le escribe una extensa carta a su hijo José Arcadio, que ya va a recibir las órdenes menores, comunicándole que su hermana Renata había expirado en la paz del Señor a consecuencia del vómito negro. No le dice la verdad sobre el convento ni sobre el hijo que Meme dejó en Macondo.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_FUGA_BROWN",
+      "titulo": "Huida y ocultación de identidad del señor Brown",
+      "tipo": "partida",
+      "capitulo": 15,
+      "fecha": null,
+      "participantes": [
+        "SENOR_JACK_BROWN"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Tan pronto como los trabajadores notifican el pliego de peticiones, el señor Brown engancha su suntuoso vagón de vidrio y desaparece de Macondo con su familia y los representantes de la compañía, conducidos a territorio seguro por el ejército. Más tarde es sorprendido viajando de incógnito en un vagón de tercera clase y obligado a firmar una copia del pliego. Al día siguiente comparece ante los jueces con el pelo pintado de negro y hablando castellano sin tropiezos; sus abogados demuestran que no es Jack Brown sino un vendedor de plantas medicinales llamado Dagoberto Fonseca. En una tercera ocasión los abogados exhiben un certificado de defunción autenticado por cónsules: el señor Brown habría sido atropellado en Chicago por un carro de bomberos el nueve de junio.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_JUICIOS_BANANERA",
+      "titulo": "Los abogados de la compañía declaran la inexistencia de los trabajadores",
+      "tipo": "conflicto",
+      "capitulo": 15,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_SEGUNDO"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Los abogados de la compañía bananera, vestidos de negro, desmontaban cada cargo con arbitrios que parecían magia. Primero demuestran que el hombre que firmó el pliego era un usurpador. Luego, ante los tribunales supremos, argumentan que la compañía no tiene ni ha tenido nunca trabajadores a su servicio, sino que los reclutaba ocasionalmente y con carácter temporal. Un fallo de tribunal proclama en bandos solemnes la inexistencia de los trabajadores.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_VERSION_OFICIAL_BANANERA",
+      "titulo": "La versión oficial: acuerdo sindical, tres días de jolgorios y lluvia indefinida",
+      "tipo": "otro",
+      "capitulo": 15,
+      "fecha": null,
+      "participantes": [
+        "SENOR_JACK_BROWN",
+        "AURELIANO_SEGUNDO"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "El gobierno difunde un bando extraordinario: los obreros han obedecido pacíficamente, y los dirigentes sindicales, con espíritu patriótico, han reducido sus peticiones a dos puntos — reforma de los servicios médicos y construcción de letrinas. El señor Brown acepta las condiciones y ofrece pagar tres días de jolgorios públicos para celebrar el fin del conflicto. Cuando los militares le preguntan la fecha de la firma, mira el cielo rayado de relámpagos y responde: «Será cuando escampe. Mientras dure la lluvia, suspendemos toda clase de actividades.» Aureliano Segundo lee el bando y tampoco cree la versión de la masacre que le cuenta su hermano.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_FERNANDA_MEDICOS_INVISIBLES",
+      "titulo": "Fernanda y su correspondencia con los médicos invisibles",
+      "tipo": "otro",
+      "capitulo": 16,
+      "fecha": null,
+      "participantes": [
+        "FERNANDA_DEL_CARPIO",
+        "URSULA_IGUARAN"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Fernanda padece una dolencia ginecológica que no se atreve a nombrar y mantiene una ansiosa correspondencia con médicos invisibles que la tratan por vía telepática. La lluvia interrumpe el correo y pierde sus cartas. Baraja ponerse la máscara de tigre de su marido para hacerse examinar con nombre ficticio por los médicos de la compañía bananera, pero estos ya han desmantelado sus dispensarios. Consulta a Úrsula, pero su pudibundez la lleva a confundir los términos hasta tal punto que Úrsula concluye que el problema es intestinal y le receta una papeleta de calomel en ayunas. Prefiere morirse antes que ponerse en manos del único médico que queda en Macondo, un francés extravagante que se alimenta con hierba para burros.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_GUERRERO_TARTARO_ENCICLOPEDIA",
+      "titulo": "El guerrero tártaro de la enciclopedia que se parece al coronel",
+      "tipo": "otro",
+      "capitulo": 16,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_SEGUNDO",
+        "FERNANDA_DEL_CARPIO",
+        "AURELIANO_BABILONIA",
+        "AMARANTA_URSULA"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Hojeando la enciclopedia inglesa con los niños, Aureliano Segundo encuentra un jinete que, a pesar de su atuendo exótico, le resulta familiar. Tras examinarlo largamente concluye que es un retrato del coronel Aureliano Buendía. Se lo muestra a Fernanda, quien admite el parecido no solo con el coronel sino con todos los miembros de la familia. En realidad es un guerrero tártaro.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_URSULA_RESTAURA_CASA",
+      "titulo": "Úrsula se recupera y emprende la restauración de la casa",
+      "tipo": "otro",
+      "capitulo": 17,
+      "fecha": null,
+      "participantes": [
+        "URSULA_IGUARAN",
+        "SANTA_SOFIA_DE_LA_PIEDAD"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Tras el diluvio, Úrsula recupera ráfagas de lucidez y abandona la cama sin ayuda por primera vez desde la muerte de Amaranta. Descubre que la casa está devorada por comején, polilla, hormigas coloradas y cucarachas. Se lanza a limpiarla metódicamente: ahuyenta insectos con insecticida, raspa venas de comején, asfixia hormigas con cal viva y exige que se abran puertas y ventanas. Dice: «A este paso terminaremos devorados por las bestias.»",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_URSULA_VISITA_JA_SEGUNDO",
+      "titulo": "Úrsula abre el cuarto de Melquíades y confronta a José Arcadio Segundo",
+      "tipo": "otro",
+      "capitulo": 17,
+      "fecha": null,
+      "participantes": [
+        "URSULA_IGUARAN",
+        "JOSE_ARCADIO_SEGUNDO"
+      ],
+      "lugar": "CUARTO_MELQUIADES",
+      "descripcion": "Decidida a no dejar ningún rincón a los insectos, Úrsula consigue que le abran el cuarto de Melquíades. La pestilencia casi la derriba. Encuentra a José Arcadio Segundo inmerso en sus pergaminos, irreconocible bajo la maraña de pelos. Le espeta: «Tanto tratar de inculcarte las buenas costumbres para que terminaras viviendo como un puerco.» Él responde con una frase que Úrsula reconoce como suya propia: «Qué quería, el tiempo pasa.» Ella replica: «Así es, pero no tanto», y comprende de nuevo que el tiempo da vueltas en redondo.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_JUDIO_ERRANTE",
+      "titulo": "El Judío Errante: muerte de los pájaros y captura de la criatura",
+      "tipo": "muerte",
+      "capitulo": 17,
+      "fecha": null,
+      "participantes": [
+        "PADRE_ANTONIO_ISABEL"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "El día del entierro de Úrsula los pájaros se estrellan contra las paredes y mueren en los dormitorios. El padre Antonio Isabel predica que la mortandad se debe al Judío Errante, que él mismo vio: un híbrido de macho cabrío y hembra hereje cuyo aliento calcina el aire. Una mujer encuentra huellas de bípedo con pezuña hendida. Dos semanas después atrapan la criatura en una fosa: pesa como un buey, tiene muñones cicatrizados de alas desbastadas a hachazo, manos tersas y ojos grandes. La cuelgan de un almendro y luego la incineran.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_PADRE_ANTONIO_ISABEL_ASILO",
+      "titulo": "El padre Antonio Isabel es llevado a un asilo",
+      "tipo": "otro",
+      "capitulo": 17,
+      "fecha": null,
+      "participantes": [
+        "PADRE_ANTONIO_ISABEL",
+        "PADRE_AUGUSTO_ANGEL"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Delegados curiales enviados a investigar la mortandad de pájaros y el sacrificio del Judío Errante encuentran al padre Antonio Isabel jugando a la gallina ciega con los niños. Creyendo que su informe era producto de alucinación senil, se lo llevan a un asilo. Poco después llega en su lugar el padre Augusto Ángel.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_MUERTE_REBECA",
+      "titulo": "Muerte de Rebeca",
+      "tipo": "muerte",
+      "capitulo": 17,
+      "fecha": null,
+      "participantes": [
+        "REBECA",
+        "ARGENIDA",
+        "AURELIANO_SEGUNDO"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "A finales del año, Argénida pide ayuda a las autoridades para derribar la puerta del dormitorio donde Rebeca llevaba tres días encerrada. La encuentran en la cama solitaria, enroscada como un camarón, con la cabeza pelada por la tiña y el pulgar metido en la boca. Aureliano Segundo se hace cargo del entierro. Intenta restaurar la casa para venderla, pero la destrucción es tan profunda que las paredes se desconchaban recién pintadas y la cizaña trituraba los pisos.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_DECADENCIA_MACONDO_XVII",
+      "titulo": "Macondo olvidado: gitanos, condecoración y tren amarillo",
+      "tipo": "otro",
+      "capitulo": 17,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_SEGUNDO",
+        "PETRA_COTES"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "La desidia y el olvido corroen Macondo. Emisarios del presidente llegan a entregar la condecoración tantas veces rechazada por el coronel Aureliano Buendía, pero pierden la tarde buscando a algún descendiente. Aureliano Segundo está tentado de recibirla creyendo que es de oro macizo; Petra Cotes lo disuade. Los gitanos regresan con fierros imantados y lupas, y la gente vuelve a asombrarse como si fueran descubrimientos nuevos. Un desvencijado tren amarillo, que ni trae ni lleva a nadie, es lo único que queda del ferrocarril de la compañía bananera.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_OPERACION_FERNANDA_PESARIO",
+      "titulo": "La operación telepática de Fernanda y el pesario",
+      "tipo": "otro",
+      "capitulo": 17,
+      "fecha": null,
+      "participantes": [
+        "FERNANDA_DEL_CARPIO",
+        "JOSE_ARCADIO_QUINTO"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Fernanda se encierra en su dormitorio cubierta con una sábana blanca y con la cabeza al norte para la intervención telepática acordada con los médicos invisibles. Despierta con una costura bárbara de la ingle al esternón. Pero los médicos le escriben que no encontraron nada de lo descrito: solo un descenso del útero que requiere un pesario. Su pudibundez le impide preguntar qué es hasta que descubre que el médico francés se había ahorcado tres meses antes. Su hijo José Arcadio le manda los pesarios desde Roma.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_GALLINA_CONJURO",
+      "titulo": "Pilar Ternera, los pesarios y la gallina del conjuro",
+      "tipo": "otro",
+      "capitulo": 17,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_SEGUNDO",
+        "PILAR_TERNERA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Aureliano Segundo encuentra en el ropero de Fernanda unos objetos extraños —los pesarios enviados desde Roma— y los lleva a Pilar Ternera creyendo que son instrumentos de brujería; ella los quema en una hoguera. Luego, aquejado por un nudo en la garganta, la consulta. Ella lee en las barajas que Fernanda le está clavando alfileres en un retrato para retenerlo, y que eso le ha causado un tumor. Le indica mojar una gallina clueca y enterrarla viva bajo el castaño. Él lo hace de tan buena fe que al terminar ya siente que respira mejor. En realidad, lo que tiene es un tumor real que lo matará.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_JA_SEGUNDO_MAESTRO_AURELIANO",
+      "titulo": "José Arcadio Segundo enseña a Aureliano y descifran los pergaminos",
+      "tipo": "otro",
+      "capitulo": 17,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_SEGUNDO",
+        "AURELIANO_BABILONIA"
+      ],
+      "lugar": "CUARTO_MELQUIADES",
+      "descripcion": "José Arcadio Segundo enseña a Aureliano a leer y escribir, lo inicia en los pergaminos y le transmite su interpretación de la compañía bananera: que corrompió y exprimió Macondo y que sus ingenieros provocaron el diluvio para eludir compromisos con los trabajadores. Ambos comprenden que en el cuarto siempre es marzo y siempre es lunes, y que José Arcadio Buendía no estaba loco: vislumbró que el tiempo puede astillarse. José Arcadio Segundo ha clasificado el alfabeto de los pergaminos: entre 47 y 53 caracteres que Aureliano reconoce en la enciclopedia inglesa.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_TUMOR_AURELIANO_SEGUNDO",
+      "titulo": "Aureliano Segundo descubre que se está muriendo y vende rifas desesperadamente",
+      "tipo": "otro",
+      "capitulo": 17,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_SEGUNDO",
+        "PETRA_COTES"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "El nudo en la garganta se vuelve tan opresivo que Aureliano Segundo comprende que se está muriendo. No se lo dice a nadie. Atormentado por no poder mandar a Amaranta Úrsula a Bruselas, triplica las rifas y recorre el pueblo de madrugada vendiendo billetes con la ansiedad de un moribundo: «No la dejen ir, que sólo llega una vez cada cien años.» La gente acaba burlándose de él y llamándole «don Divina Providencia».",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_RIFA_TIERRAS_DILUVIO",
+      "titulo": "La gran rifa de las tierras del diluvio para mandar a Amaranta Úrsula a Bruselas",
+      "tipo": "otro",
+      "capitulo": 17,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_SEGUNDO",
+        "PETRA_COTES",
+        "AMARANTA_URSULA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Comprendiendo que con cerdos y chivos rifados su hija no llegará a Bruselas, Aureliano Segundo concibe la rifa de las tierras arrasadas por el diluvio. El alcalde la anuncia con un bando; los billetes a cien pesos se agotan en menos de una semana. La noche del sorteo hay una fiesta comparable a las de la compañía bananera, y Aureliano Segundo toca por última vez en el acordeón las canciones olvidadas de Francisco el Hombre, ya sin voz para cantarlas.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_PARTIDA_AMARANTA_URSULA_BRUSELAS",
+      "titulo": "Partida de Amaranta Úrsula a Bruselas",
+      "tipo": "partida",
+      "capitulo": 17,
+      "fecha": null,
+      "participantes": [
+        "AMARANTA_URSULA",
+        "AURELIANO_SEGUNDO",
+        "FERNANDA_DEL_CARPIO"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Dos meses después de la gran rifa, Amaranta Úrsula parte a Bruselas al cuidado de unas franciscanas que van a Toledo. Lleva un traje de seda rosada con pensamientos artificiales, zapatos de cordobán y un cinturón de lona con el dinero cosido al cuerpo. Aureliano Segundo la ve alejarse en el tren sin poder cantarle adiós — ya no tiene voz. Los esposos se quedan bajo el sol abrasante, tomados del brazo por primera vez desde el día de la boda, viendo el tren perderse en el horizonte.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_PETRA_COTES_VIVERES_SECRETOS",
+      "titulo": "Petra Cotes envía víveres en secreto a la casa Buendía",
+      "tipo": "otro",
+      "capitulo": 18,
+      "fecha": null,
+      "participantes": [
+        "PETRA_COTES",
+        "FERNANDA_DEL_CARPIO"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Tras la muerte de Aureliano Segundo, un amigo se presenta a pagar una deuda inventada, y desde entonces un mandadero lleva cada miércoles un canasto de víveres. Fernanda nunca supo que era Petra Cotes quien los enviaba: primero por humillarla, luego por orgullo y finalmente por compasión. En los peores tiempos Petra se quedó sin comer para que Fernanda no lo hiciera, y mantuvo el compromiso hasta ver pasar su entierro.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_MELQUIADES_ULTIMA_VISITA",
+      "titulo": "Última aparición de Melquíades y el encargo del sánscrito",
+      "tipo": "vision",
+      "capitulo": 18,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BABILONIA",
+        "MELQUIADES"
+      ],
+      "lugar": "CUARTO_MELQUIADES",
+      "descripcion": "Aureliano descifra que los pergaminos están en sánscrito. Melquíades confirma que sus visitas al cuarto están contadas, pero se va tranquilo porque Aureliano tendrá tiempo de aprender sánscrito antes de que los pergaminos cumplan un siglo. Le indica que en la tienda del sabio catalán hay un Sanskrit Primer que las polillas devorarán seis años después. La última vez que Aureliano lo percibe es como una presencia invisible que murmura: 'He muerto de fiebre en los médanos de Singapur.'",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_SANTA_SOFIA_ABANDONA",
+      "titulo": "Santa Sofía de la Piedad abandona la casa",
+      "tipo": "partida",
+      "capitulo": 18,
+      "fecha": null,
+      "participantes": [
+        "SANTA_SOFIA_DE_LA_PIEDAD",
+        "AURELIANO_BABILONIA"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Vencida por la invasión de maleza, comején y hormigas que ya ni el cuarto de Melquíades resiste, Santa Sofía le dice a Aureliano: 'Me rindo. Esta es mucha casa para mis pobres huesos.' Se va con un atadito de dos o tres mudas y catorce pescaditos de oro que le da Aureliano; dice que irá a Riohacha con una prima hermana, pero nadie la conocía ni ella había tenido contacto con pariente alguno. Jamás se vuelve a saber de ella.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_MUERTE_FERNANDA",
+      "titulo": "Muerte de Fernanda del Carpio",
+      "tipo": "muerte",
+      "capitulo": 18,
+      "fecha": null,
+      "participantes": [
+        "FERNANDA_DEL_CARPIO",
+        "AURELIANO_BABILONIA"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Fernanda muere sola en su dormitorio, tendida con la capa de armiño y la corona de cartón dorado que usaba para evocar su pasado de reina ficticia. Aureliano la descubre al notar que la comida del día anterior sigue en el rescoldo. Durante cuatro meses vaporiza mercurio en el atanor del abuelo de su abuelo, siguiendo la fórmula de Melquíades, para conservar el cadáver. José Arcadio la encuentra intacta al llegar.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_LLEGADA_JOSE_ARCADIO_QUINTO",
+      "titulo": "Llegada de José Arcadio y el reconocimiento del bastardo",
+      "tipo": "llegada",
+      "capitulo": 18,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_QUINTO",
+        "AURELIANO_BABILONIA",
+        "FERNANDA_DEL_CARPIO"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "José Arcadio llega desde Roma en bodega de emigrantes, con los últimos desperdicios de su falso esplendor. Encuentra el cadáver de Fernanda, saca de debajo de su falda los pesarios y la llave del ropero, y lee la carta voluminosa que Fernanda dejó en un cofrecito damasquinado. En la tercera página detiene la lectura, examina a Aureliano con mirada de segundo reconocimiento y le dice: 'Entonces tú eres el bastardo.' Le ordena retirarse a su cuarto.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_AURELIANO_LIBRERIA_CATALAN",
+      "titulo": "Aureliano visita la librería del sabio catalán",
+      "tipo": "descubrimiento",
+      "capitulo": 18,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BABILONIA",
+        "SABIO_CATALAN"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Tras la muerte de Fernanda, Aureliano se concede el permiso que ella le negó y sale por primera vez. Recorre once cuadras hasta el callejón de los sueños y entra en la tienda abigarrada del sabio catalán, que escribe sin atenderlo. Encuentra sin dificultad los cinco libros indicados por Melquíades y los entrega con un pescadito de oro. El sabio lo devuelve todo: 'El último hombre que leyó esos libros debió ser Isaac el Ciego. Llévatelo.'",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_HALLAZGO_TESORO_URSULA",
+      "titulo": "Hallazgo del tesoro escondido de Úrsula",
+      "tipo": "descubrimiento",
+      "capitulo": 18,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_QUINTO"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "José Arcadio y un niño rubio de ojos rosados ven un resplandor amarillo bajo el cemento del dormitorio de Úrsula. Levantan las placas del rincón donde siempre estuvo la cama y encuentran la cripta que Aureliano Segundo no encontró en sus excavaciones: tres sacos de lona con alambre de cobre que contienen 7214 doblones de a cuatro, relumbrando como brasas en la oscuridad.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_FIESTA_ALBERCA_CHAMPA",
+      "titulo": "La fiesta en la alberca llena de champán",
+      "tipo": "otro",
+      "capitulo": 18,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_QUINTO"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Con el tesoro hallado, José Arcadio restaura el dormitorio de Meme y llena la alacena de manjares. Una noche él y los cuatro niños llenan la alberca de champán; se zambullen desnudos nadando como pájaros en un cielo de burbujas, mientras José Arcadio flota boca arriba evocando a Amaranta. Los niños destruyen las cortinas de terciopelo, cuartean el espejo de cristal de roca y desbaratan el baldaquín intentando acostarse en tumulto.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_JOSE_ARCADIO_EXPULSA_NINOS",
+      "titulo": "José Arcadio expulsa a los niños con disciplinas eclesiásticas",
+      "tipo": "conflicto",
+      "capitulo": 18,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_QUINTO"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Enardecido por el asco y la lástima de sí mismo, José Arcadio saca del baúl unas disciplinas de perrero eclesiástico que guardaba junto a un cilicio, y expulsa a los niños aullando y azotándolos sin misericordia. Queda postrado con una crisis de asma de varios días, y pide a Aureliano que compre polvos para inhalar en la botica, lo que constituye la segunda salida de Aureliano a la calle.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_MUERTE_AURELIANO_AMADOR",
+      "titulo": "Muerte de Aureliano Amador ante la puerta de la casa",
+      "tipo": "muerte",
+      "capitulo": 18,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_AMADOR",
+        "JOSE_ARCADIO_QUINTO",
+        "AURELIANO_BABILONIA"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Aureliano Amador, único superviviente de los 17 hijos del Coronel, llega de madrugada con ropas en piltrafas y una cruz de ceniza en la frente; lo sostiene no el instinto de conservación sino la costumbre del miedo. Se identifica y pide refugio, pero José Arcadio y Aureliano no lo reconocen y lo echan a empellones. Dos agentes de policía que lo habían rastreado por medio mundo surgen de entre los almendros y le hacen dos tiros de máuser que le penetran por la cruz de ceniza.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_MUERTE_JOSE_ARCADIO_QUINTO",
+      "titulo": "Asesinato de José Arcadio ahogado en la alberca",
+      "tipo": "muerte",
+      "capitulo": 18,
+      "fecha": null,
+      "participantes": [
+        "JOSE_ARCADIO_QUINTO",
+        "AURELIANO_BABILONIA"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Una mañana de septiembre los cuatro niños expulsados irrumpen por los portillos del techo mientras José Arcadio se baña. Se meten vestidos en la alberca, lo agarran por el pelo y mantienen su cabeza hundida hasta que cesa la agonía. El silencioso y pálido cuerpo de delfín se desliza hasta el fondo de las aguas fragantes. Se llevan los tres sacos de oro que solo ellos y su víctima sabían dónde estaban. Aureliano lo descubre esa tarde flotando, enorme y tumefacto, y solo entonces comprende cuánto había empezado a quererlo.",
       "orden_cronologico": null
     }
   ]

@@ -909,6 +909,76 @@
       "inicio": null,
       "fin": null,
       "notas": null
+    },
+    {
+      "id": "REL_SINDICAL_JA_SEGUNDO_GAVILAN",
+      "tipo": "politica",
+      "subtipo": "aliado sindical",
+      "origen": "JOSE_ARCADIO_SEGUNDO",
+      "destino": "LORENZO_GAVILAN",
+      "inicio": null,
+      "fin": null,
+      "notas": "Compañeros en la organización de la huelga bananera."
+    },
+    {
+      "id": "REL_PETRONILA_BISABUELA_URSULA",
+      "tipo": "familiar",
+      "subtipo": "bisabuela",
+      "origen": "PETRONILA_IGUARAN",
+      "destino": "URSULA_IGUARAN",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_SECRETARIO_GARCIA_CORTES",
+      "tipo": "politica",
+      "subtipo": "secretario",
+      "origen": "MAYOR_ENRIQUE_GARCIA_ISAZA",
+      "destino": "GENERAL_CARLOS_CORTES_VARGAS",
+      "inicio": null,
+      "fin": null,
+      "notas": "Cofirmante del Decreto Número 4."
+    },
+    {
+      "id": "REL_TRANQUILINA_ABUELA_URSULA",
+      "tipo": "familiar",
+      "subtipo": "abuela",
+      "origen": "TRANQUILINA_MARIA_MINIATA_BUENDIA",
+      "destino": "URSULA_IGUARAN",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_AURELIANO_ARCADIO_BISABUELO",
+      "tipo": "familiar",
+      "subtipo": "bisabuelo",
+      "origen": "AURELIANO_ARCADIO_BUENDIA_ABUELO",
+      "destino": "URSULA_IGUARAN",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_AURELIANO_IGUARAN_PADRE",
+      "tipo": "familiar",
+      "subtipo": "padre",
+      "origen": "AURELIANO_IGUARAN_PADRE",
+      "destino": "URSULA_IGUARAN",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_SABIO_CATALAN_GUIA_AURELIANO",
+      "tipo": "otro",
+      "subtipo": "guía",
+      "origen": "SABIO_CATALAN",
+      "destino": "AURELIANO_BABILONIA",
+      "inicio": null,
+      "fin": null,
+      "notas": "Le facilita los cinco libros necesarios para descifrar los pergaminos sin cobrar, advirtiéndole del peso de ese conocimiento"
     }
   ]
 }

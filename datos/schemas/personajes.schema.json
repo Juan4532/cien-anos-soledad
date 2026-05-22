@@ -42,6 +42,11 @@
       "maximum": 20,
       "description": "Capítulo en que el personaje aparece por primera vez"
     },
+    "grupo": {
+      "type": ["string", "null"],
+      "enum": ["buendia", "allegado", null],
+      "description": "buendia: estirpe Buendía por sangre; allegado: familia no sanguínea (cónyuges, amantes, progenitores externos); null: resto"
+    },
     "descripcion": {
       "type": "string",
       "description": "Rasgos físicos y psicológicos breves, sin reproducir el texto"
