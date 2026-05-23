@@ -155,7 +155,7 @@
 <div class="vig-page"></div>
 
 <header class="top">
-  <a href="cien-anos.html" class="brand">
+  <a href="personajes.html" class="brand">
     <div class="crest"></div>
     <div class="label">cien años · edición interactiva</div>
   </a>
@@ -167,7 +167,7 @@
   </nav>
   <div class="ctl">
     <button class="toggle" data-mode-toggle aria-label="Alternar modo">
-      <span data-toggle-label>☾ Daguerrotipo</span>
+      <span data-toggle-label>☾</span>
     </button>
   </div>
 </header>
@@ -176,33 +176,23 @@
   <div>
     <div class="page-eyebrow">§ II · El orden de los hechos</div>
     <h1 class="page-title">Cronología <em>de los hechos</em></h1>
-    <p class="page-lede">Los eventos pueden ordenarse por capítulo narrativo —tal como aparecen en la lectura— o por su posición cronológica real. Lo procesado va en color; lo pendiente, en silencio.</p>
+    <p class="page-lede">Los eventos pueden ordenarse por capítulo narrativo —tal como aparecen en la lectura— o por su posición cronológica real.</p>
   </div>
   <div style="display:flex; flex-direction:column; gap:18px; align-items:flex-end">
     <div class="mode-switch">
       <button id="btn-capitulo" class="is-active">Por capítulo</button>
       <button id="btn-cronologico">Cronológico</button>
     </div>
-    <span class="label" id="count-label" style="color:var(--ink-soft)">— · —</span>
   </div>
 </div>
 
 <div class="crono-toolbar">
-  <div class="toolbar-group">
-    <span class="label">Mostrar</span>
-    <button class="chip is-active" id="filter-todos">Todos</button>
-    <button class="chip" id="filter-procesados">Solo cap. 1–14</button>
-  </div>
   <div style="flex:1"></div>
   <span class="label" id="view-label" style="color:var(--ink-faint)">✕ Orden narrativo</span>
 </div>
 
 <div class="timeline" id="timeline"></div>
 
-<div class="legend-bar">
-  <div class="item"><div class="dot"></div> Capítulo procesado</div>
-  <div class="item"><div class="dot pending"></div> Capítulo pendiente</div>
-</div>
 
 <footer class="bot">
   <div class="label left">© 2026 · juan · proyecto independiente</div>
@@ -240,17 +230,10 @@ var CHAPTER_META = {
   20: {t:'El manuscrito',     s:'Descifrado el último verso, el viento bíblico arranca a Macondo.'},
 };
 
-var CAP_PROCESADOS = 14; // último capítulo completamente procesado
-
 var byId = {};
 RAW_PERSONAJES_CRONO.forEach(function(p){ byId[p.id] = p; });
 
 var viewMode = 'capitulo'; // 'capitulo' | 'cronologico'
-var showPending = true;
-
-function isProcessed(ev){
-  return ev.capitulo && ev.capitulo <= CAP_PROCESADOS;
-}
 
 function makeWhoList(participantes){
   if(!participantes || !participantes.length) return '';
@@ -282,11 +265,9 @@ function renderCapitulo(){
     var list = groups[cap].slice().sort(function(a,b){
       return (a.orden_cronologico||9999) - (b.orden_cronologico||9999);
     });
-    if(!showPending) list = list.filter(isProcessed);
     if(!list.length) return;
 
     var meta = CHAPTER_META[cap] || {t:'Capítulo '+cap, s:''};
-    var allDone = list.every(isProcessed);
     var section = document.createElement('div');
     section.className = 'ch-section';
 
@@ -294,8 +275,7 @@ function renderCapitulo(){
     head.className = 'ch-section-head';
     head.innerHTML =
       '<div class="roman">' + toRoman(cap) + '</div>' +
-      '<div class="title">' + meta.t + '<span class="sub">' + meta.s + '</span></div>' +
-      '<div class="pill ' + (allDone?'done':'') + '">' + (allDone?'★ procesado':'pendiente') + '</div>';
+      '<div class="title">' + meta.t + '<span class="sub">' + meta.s + '</span></div>';
     head.addEventListener('click', function(){ section.classList.toggle('is-collapsed'); });
     section.appendChild(head);
 
@@ -303,7 +283,7 @@ function renderCapitulo(){
     body.className = 'ch-section-body';
     list.forEach(function(e){
       var row = document.createElement('div');
-      row.className = 'event-row' + (isProcessed(e) ? '' : ' is-pending');
+      row.className = 'event-row';
       row.innerHTML =
         '<div class="marker">' +
           '<span class="cap-num">Cap. ' + toRoman(e.capitulo) + '</span>' +
@@ -326,7 +306,6 @@ function renderCronologico(){
   tl.innerHTML = '';
 
   var list = RAW_EVENTOS.slice();
-  if(!showPending) list = list.filter(isProcessed);
   list.sort(function(a,b){
     var oa = a.orden_cronologico || 99999;
     var ob = b.orden_cronologico || 99999;
@@ -352,7 +331,7 @@ function renderCronologico(){
     }
 
     var row = document.createElement('div');
-    row.className = 'crono-ev' + (isProcessed(e) ? '' : ' is-pending');
+    row.className = 'crono-ev';
     row.innerHTML =
       '<div class="oc-tag">' +
         (e.orden_cronologico ? '<span>#' + e.orden_cronologico + '</span>' : '') +
@@ -374,9 +353,6 @@ function toRoman(n){ return ROMAN[n] || String(n); }
 function render(){
   if(viewMode === 'capitulo') renderCapitulo();
   else renderCronologico();
-
-  var done = RAW_EVENTOS.filter(isProcessed).length;
-  document.getElementById('count-label').textContent = done + ' procesados · ' + (RAW_EVENTOS.length-done) + ' pendientes';
   document.getElementById('view-label').textContent = viewMode === 'capitulo' ? '✕ Orden narrativo' : '✕ Orden cronológico';
 }
 
@@ -390,18 +366,6 @@ document.getElementById('btn-cronologico').addEventListener('click', function(){
   viewMode = 'cronologico';
   document.getElementById('btn-cronologico').classList.add('is-active');
   document.getElementById('btn-capitulo').classList.remove('is-active');
-  render();
-});
-document.getElementById('filter-todos').addEventListener('click', function(){
-  showPending = true;
-  document.getElementById('filter-todos').classList.add('is-active');
-  document.getElementById('filter-procesados').classList.remove('is-active');
-  render();
-});
-document.getElementById('filter-procesados').addEventListener('click', function(){
-  showPending = false;
-  document.getElementById('filter-procesados').classList.add('is-active');
-  document.getElementById('filter-todos').classList.remove('is-active');
   render();
 });
 

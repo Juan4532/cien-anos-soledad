@@ -92,6 +92,7 @@
   }
   .char-node:hover .cn-sym, .char-node.is-active .cn-sym{box-shadow: 0 0 0 2px var(--accent)}
   .char-node.is-dimmed{opacity: 0.22; pointer-events:none}
+  .char-node.is-faded{opacity: 0.15}
   .cn-sym{
     background: var(--bg); color:var(--accent);
     display:flex; align-items:center; justify-content:center;
@@ -192,7 +193,7 @@
 <div class="vig-page"></div>
 
 <header class="top">
-  <a href="cien-anos.html" class="brand">
+  <a href="personajes.html" class="brand">
     <div class="crest"></div>
     <div class="label">cien años · edición interactiva</div>
   </a>
@@ -204,7 +205,7 @@
   </nav>
   <div class="ctl">
     <button class="toggle" data-mode-toggle aria-label="Alternar modo">
-      <span data-toggle-label>☾ Daguerrotipo</span>
+      <span data-toggle-label>☾</span>
     </button>
   </div>
 </header>
@@ -214,10 +215,6 @@
     <div class="page-eyebrow">§ I · El reparto</div>
     <h1 class="page-title">Personajes <em>de la estirpe</em></h1>
     <p class="page-lede">La red completa de figuras que habitan Macondo. Selecciona un personaje para ver sus vínculos y sus huellas en la novela.</p>
-  </div>
-  <div class="meta-row">
-    <div class="stat"><span class="v" id="count-total">78</span><span class="label l">personajes</span></div>
-    <div class="stat"><span class="v" id="count-rels">107</span><span class="label l">relaciones</span></div>
   </div>
 </div>
 
@@ -386,10 +383,9 @@ function drawNodes(){
     var node = document.createElement('div');
     node.className = 'char-node' + (p.id === activeId ? ' is-active' : '');
     if(activeId && p.id !== activeId){
-      // check if it's a related char
       var rels = relsByChar[activeId] || [];
       var isRel = rels.some(function(r){ return r.other === p.id; });
-      if(!isRel) node.classList.add('is-dimmed');
+      if(!isRel) node.classList.add('is-faded');
     }
     // Filter dimming
     if(!passesFilter(p)) node.classList.add('is-dimmed');

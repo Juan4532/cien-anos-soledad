@@ -5,7 +5,7 @@
   function render(){
     const m = html.dataset.mode;
     document.querySelectorAll('[data-toggle-label]').forEach(function(el){
-      el.textContent = m === 'dark' ? '☾ Daguerrotipo' : '☀ Pergamino';
+      el.textContent = m === 'dark' ? '☾' : '☀';
     });
   }
 
