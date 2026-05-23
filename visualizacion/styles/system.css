@@ -1,0 +1,230 @@
+/* =========================================================================
+   Cien años · sistema visual
+   Dark mode = Daguerrotipo · Light mode = Pergamino
+   ========================================================================= */
+
+:root, html[data-mode="dark"]{
+  --bg: #0b0907;
+  --bg-elev: #14110d;
+  --bg-card: #15110b;
+  --ink: #ebe2d0;
+  --ink-soft: rgba(235,226,208,0.62);
+  --ink-faint: rgba(235,226,208,0.32);
+  --accent: #e8b94a;
+  --accent-soft: rgba(232,185,74,0.55);
+  --accent-bg: rgba(232,185,74,0.10);
+  --rule: rgba(235,226,208,0.16);
+  --portrait: #1f1a14;
+  --portrait-stripe: rgba(232,185,74,0.08);
+
+  --font-display: 'Cormorant Garamond', Garamond, serif;
+  --font-italic:  'Cormorant Garamond', Garamond, serif;
+  --font-label:   'JetBrains Mono', ui-monospace, monospace;
+  --label-letter: 0.18em;
+  --label-transform: uppercase;
+  --paper-texture: none;
+  --vignette-opacity: 1;
+
+  --shape-radius: 999px;
+  --shape-square-rotate: 0deg;
+  --border-double: 1px solid var(--rule);
+}
+
+html[data-mode="light"]{
+  --bg: #e8dcc0;
+  --bg-elev: #ddc99e;
+  --bg-card: #f0e6cd;
+  --ink: #2c1d0e;
+  --ink-soft: rgba(44,29,14,0.66);
+  --ink-faint: rgba(44,29,14,0.32);
+  --accent: #9c2a1a;
+  --accent-soft: rgba(156,42,26,0.50);
+  --accent-bg: rgba(156,42,26,0.08);
+  --rule: rgba(44,29,14,0.25);
+  --portrait: #d2c4a3;
+  --portrait-stripe: rgba(110,74,31,0.18);
+
+  --font-display: 'EB Garamond', Garamond, serif;
+  --font-italic:  'IM Fell DW Pica', serif;
+  --font-label:   'IM Fell English SC', serif;
+  --label-letter: 0.10em;
+  --label-transform: none;
+  --paper-texture:
+    radial-gradient(ellipse 800px 600px at 15% 20%, rgba(110,74,31,0.10), transparent 60%),
+    radial-gradient(ellipse 600px 800px at 90% 80%, rgba(110,74,31,0.12), transparent 60%),
+    radial-gradient(circle 80px at 85% 15%, rgba(80,40,10,0.15), transparent 70%),
+    radial-gradient(circle 120px at 10% 70%, rgba(80,40,10,0.10), transparent 70%);
+  --vignette-opacity: 0;
+
+  --shape-radius: 0px;
+  --shape-square-rotate: 45deg;
+  --border-double: 2px double var(--rule);
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  background: var(--bg);
+  background-image: var(--paper-texture);
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  transition: background-color .35s ease, color .35s ease;
+}
+body::before{
+  content:''; position:fixed; inset:0; pointer-events:none; z-index:0;
+  background-image: repeating-linear-gradient(0deg, transparent 0 2px, rgba(0,0,0,0.02) 2px 3px);
+  mix-blend-mode: multiply; opacity: 0.5;
+}
+html[data-mode="dark"] body::before{
+  background-image: repeating-linear-gradient(0deg, transparent 0 2px, rgba(255,255,255,0.012) 2px 3px);
+  mix-blend-mode: normal;
+}
+.vig-page{
+  position:fixed; inset:0; pointer-events:none; z-index:0;
+  opacity: var(--vignette-opacity);
+  background: radial-gradient(ellipse at 50% 40%, transparent 40%, rgba(0,0,0,0.45) 100%);
+}
+
+/* ---------- Helpers ---------- */
+.label{
+  font-family: var(--font-label);
+  letter-spacing: var(--label-letter);
+  text-transform: var(--label-transform);
+  font-size: 11px; font-weight: 400;
+  color: var(--ink-soft);
+}
+html[data-mode="light"] .label{font-size: 13px}
+.it{font-family: var(--font-italic); font-style: italic; font-weight: 400}
+.accent{color: var(--accent)}
+.rule{height:1px; background: var(--rule); width:100%}
+html[data-mode="light"] .rule{border-top: 1px solid var(--rule); background:transparent; height:2px; border-bottom: 1px solid var(--rule)}
+
+a{color: inherit}
+button{font: inherit}
+
+/* ---------- Header ---------- */
+header.top{
+  position:relative; z-index:2;
+  display:grid; grid-template-columns: 1fr auto 1fr; align-items:center;
+  padding: 30px 56px 0; gap: 32px;
+}
+header.top .brand{justify-self:start; display:flex; gap:14px; align-items:center; text-decoration:none; color:inherit}
+header.top .brand .crest{
+  width:24px; height:24px; border:1px solid var(--accent);
+  border-radius: var(--shape-radius); position:relative; flex:0 0 auto;
+  transform: rotate(var(--shape-square-rotate));
+}
+header.top .brand .crest::after{
+  content:''; position:absolute; inset:5px;
+  border:1px solid var(--accent); border-radius: var(--shape-radius);
+}
+header.top nav{display:flex; gap: 38px}
+header.top nav a{color: var(--ink-soft); text-decoration:none; transition: color .2s}
+header.top nav a:hover, header.top nav a.is-active{color: var(--accent)}
+header.top nav a.is-active{position:relative}
+header.top nav a.is-active::after{
+  content:''; position:absolute; left:0; right:0; bottom:-6px;
+  height:1px; background: var(--accent);
+}
+header.top .ctl{justify-self:end; display:flex; gap:14px; align-items:center}
+
+.toggle{
+  background: transparent; border: 1px solid var(--rule); color: var(--ink-soft);
+  padding: 7px 14px; border-radius: 999px; cursor: pointer;
+  font-family: var(--font-label); font-size: 11px;
+  letter-spacing: var(--label-letter); text-transform: var(--label-transform);
+  transition: color .2s, border-color .2s;
+}
+html[data-mode="light"] .toggle{border-radius: 0; padding: 7px 16px}
+.toggle:hover{border-color: var(--accent); color: var(--accent)}
+
+/* ---------- Page title / hero shared ---------- */
+.page-eyebrow{
+  font-family: var(--font-label); font-size: 11px;
+  letter-spacing: var(--label-letter); text-transform: var(--label-transform);
+  color: var(--accent); margin-bottom: 20px;
+}
+.page-title{
+  font-family: var(--font-display);
+  font-weight: 400; font-style: italic;
+  font-size: 76px; line-height: 0.95; letter-spacing: -0.01em;
+  color: var(--ink); margin-bottom: 24px;
+}
+html[data-mode="light"] .page-title{font-weight: 500; font-style: normal}
+.page-title em{
+  color: var(--accent);
+  font-family: var(--font-italic);
+  font-style: italic; font-weight: 400;
+}
+.page-lede{
+  font-family: var(--font-italic); font-style: italic;
+  font-size: 19px; line-height: 1.55;
+  color: var(--ink-soft); max-width: 56ch; margin-bottom: 32px;
+}
+
+/* ---------- Footer ---------- */
+footer.bot{
+  position:relative; z-index:1;
+  padding: 36px 56px 52px;
+  display:grid; grid-template-columns: 1fr 1fr 1fr; align-items:center; gap:24px;
+  border-top: var(--border-double);
+}
+footer.bot .label{font-size: 10px}
+footer.bot .center{
+  text-align: center; font-family: var(--font-italic); font-style: italic;
+  color: var(--ink-soft); font-size: 14px;
+}
+html[data-mode="light"] footer.bot .center{font-size: 16px}
+footer.bot .right{text-align:right}
+
+/* ---------- Portrait placeholder ---------- */
+.portrait{
+  background: var(--portrait);
+  background-image: repeating-linear-gradient(45deg, transparent 0 6px, var(--portrait-stripe) 6px 7px);
+  box-shadow: inset 0 0 0 1px var(--accent-soft), inset 0 0 22px rgba(0,0,0,.35);
+  display:flex; align-items:center; justify-content:center; text-align:center;
+  border-radius: 50%;
+}
+html[data-mode="light"] .portrait{box-shadow: inset 0 0 0 1px var(--accent-soft), inset 0 0 14px rgba(80,40,10,0.30)}
+.portrait .pname{
+  font-family: var(--font-label); font-size: 9px;
+  letter-spacing: var(--label-letter); text-transform: var(--label-transform);
+  color: var(--ink-soft); padding: 0 6px; line-height: 1.4;
+}
+
+/* ---------- Pills, chips, buttons ---------- */
+.chip{
+  display:inline-flex; align-items:center; gap:8px;
+  padding: 6px 14px; border: 1px solid var(--rule);
+  border-radius: 999px; cursor:pointer;
+  font-family: var(--font-label); font-size: 11px;
+  letter-spacing: var(--label-letter); text-transform: var(--label-transform);
+  color: var(--ink-soft); background: transparent; transition: all .15s;
+}
+html[data-mode="light"] .chip{border-radius:0; padding: 6px 12px}
+.chip:hover{border-color: var(--accent); color: var(--accent)}
+.chip.is-active{background: var(--accent); border-color: var(--accent); color: var(--bg)}
+html[data-mode="light"] .chip.is-active{color: var(--bg)}
+
+.btn-text{
+  background: transparent; border: none; cursor: pointer;
+  color: var(--ink-soft); padding: 4px 0;
+  font-family: var(--font-label); font-size: 11px;
+  letter-spacing: var(--label-letter); text-transform: var(--label-transform);
+}
+.btn-text:hover{color: var(--accent)}
+
+/* ---------- Card ---------- */
+.card{
+  background: var(--bg-card);
+  border: 1px solid var(--rule);
+  padding: 24px;
+  border-radius: 4px;
+}
+html[data-mode="light"] .card{border-radius:0}
+
+/* ---------- Footnote rule helpers ---------- */
+.section{position:relative; z-index:1}
+.section + .section{border-top: var(--border-double)}

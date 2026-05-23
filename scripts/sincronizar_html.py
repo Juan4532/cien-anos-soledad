@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Regenera los arrays PERSONAJES, RELACIONES y EVENTOS en index.html
-desde los JSON de datos, garantizando sincronía total."""
+"""Regenera los datos embebidos en index.html y en las páginas del rediseño
+(personajes.html, cronologia.html, personaje.html) desde los JSON de datos."""
 
 import json, re, sys
 from pathlib import Path
@@ -91,4 +91,48 @@ html = replace_array(html, 'EVENTOS',    e_lines)
 
 html_path.write_text(html)
 
-print(f'✓ Sincronizado: {len(personajes)} personajes, {len(relaciones)} relaciones, {len(eventos)} eventos')
+print(f'✓ index.html: {len(personajes)} personajes, {len(relaciones)} relaciones, {len(eventos)} eventos')
+
+# ── Nuevas páginas del rediseño (JSON embebido directamente) ──────────────────
+def build_p_lite():
+    return [{'id':p['id'],'nombre':p['nombre'],'apodos':p.get('nombres_alternativos',[]),
+             'generacion':p.get('generacion'),'capitulo':p.get('capitulo_aparicion'),
+             'grupo':p.get('grupo'),'descripcion':p.get('descripcion','')} for p in personajes]
+
+def build_r_lite():
+    return [{'tipo':r['tipo'],'subtipo':r.get('subtipo'),'origen':r['origen'],'destino':r['destino']}
+            for r in relaciones]
+
+def build_e_lite():
+    return [{'id':e['id'],'titulo':e['titulo'],'tipo':e.get('tipo'),'capitulo':e.get('capitulo'),
+             'participantes':e.get('participantes',[]),'descripcion':e.get('descripcion',''),
+             'orden_cronologico':e.get('orden_cronologico')} for e in eventos]
+
+def replace_raw_json(html_text, name, data):
+    """Sustituye 'const NAME = <json>;' en el HTML."""
+    new_json = json.dumps(data, ensure_ascii=False)
+    pattern = rf'(const {name} = ).*?(;)'
+    result, n = re.subn(pattern, rf'\g<1>{re.escape(new_json)}\2', html_text, count=1, flags=re.DOTALL)
+    if n != 1:
+        print(f'  AVISO: no encontrado {name} ({n} ocurrencias)', file=sys.stderr)
+    return result
+
+p_lite = build_p_lite()
+r_lite = build_r_lite()
+e_lite = build_e_lite()
+
+nuevas = {
+    'personajes.html': lambda h: replace_raw_json(replace_raw_json(h, 'RAW_PERSONAJES', p_lite), 'RAW_RELACIONES', r_lite),
+    'cronologia.html': lambda h: replace_raw_json(replace_raw_json(h, 'RAW_EVENTOS', e_lite), 'RAW_PERSONAJES_CRONO', p_lite),
+    'personaje.html':  lambda h: replace_raw_json(replace_raw_json(replace_raw_json(h, 'RAW_PERSONAJES', p_lite), 'RAW_RELACIONES', r_lite), 'RAW_EVENTOS', e_lite),
+}
+
+for nombre, fn in nuevas.items():
+    path = ROOT / 'visualizacion' / nombre
+    if not path.exists():
+        print(f'  AVISO: {nombre} no existe, omitido', file=sys.stderr)
+        continue
+    path.write_text(fn(path.read_text()))
+    print(f'✓ {nombre}: datos actualizados')
+
+print(f'✓ Sincronización completa')
