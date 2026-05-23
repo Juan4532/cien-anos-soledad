@@ -35,43 +35,9 @@
 
   .ptg-main{
     padding: 32px 56px 80px;
-    display:grid; grid-template-columns: 300px 1fr 300px; gap: 32px;
-    align-items:start;
   }
-
-  /* ROSTER */
-  .roster{display:flex; flex-direction:column; max-height: 75vh; overflow-y: auto}
-  .roster-head{
-    display:flex; justify-content:space-between; align-items:baseline;
-    padding-bottom: 12px; border-bottom: 1px solid var(--rule); margin-bottom: 6px;
-  }
-  .roster-row{
-    display:grid; grid-template-columns: 28px 1fr auto;
-    gap: 12px; align-items:center;
-    padding: 8px 8px; border-bottom: 1px dotted var(--ink-faint);
-    cursor: pointer; transition: background .12s;
-  }
-  .roster-row:hover{background: var(--accent-bg)}
-  .roster-row.is-active{background: var(--accent-bg)}
-  .roster-row.is-active .rname{color: var(--accent)}
-  .roster-row.is-dimmed{opacity: 0.28}
-  .roster-row .rsym{
-    width:28px; height:28px; flex:0 0 auto;
-    display:flex; align-items:center; justify-content:center;
-    color: var(--accent); opacity: 0.7;
-  }
-  .roster-row.is-active .rsym{opacity: 1}
-  .roster-row .rname{
-    font-family: var(--font-display); font-size: 15px; line-height:1.2; color: var(--ink);
-  }
-  .roster-row .rname .ralias{
-    display:block; font-family: var(--font-italic); font-style:italic;
-    font-size: 11px; color: var(--ink-soft); margin-top:1px;
-  }
-  .roster-row .rgen{
-    font-family: var(--font-label); font-size: 9px;
-    letter-spacing: var(--label-letter); text-transform: var(--label-transform);
-    color: var(--accent);
+  .graph-outer{
+    position:relative; max-width: 860px; margin: 0 auto;
   }
 
   /* GRAPH */
@@ -114,16 +80,27 @@
   html[data-mode="light"] .cn-name{font-weight:500}
   .char-node.is-active .cn-name{color: var(--accent)}
 
-  /* DETAIL PANEL */
-  .detail{position:sticky; top:24px}
-  .detail-empty{
-    display:flex; align-items:center; justify-content:center;
-    min-height: 300px; color: var(--ink-faint);
-    font-family: var(--font-italic); font-style:italic; font-size: 18px;
-    border: 1px dashed var(--rule); padding: 32px;
+  /* DETAIL PANEL — overlay */
+  .detail{
+    position:absolute; top:16px; right:16px;
+    width:300px; max-height:calc(100% - 32px);
+    overflow-y:auto;
+    background:var(--bg); border:1px solid var(--rule);
+    z-index:20;
+    transform:translateX(calc(100% + 24px));
+    transition:transform .22s ease;
+    padding: 0 20px 20px;
   }
-  .detail-card{display:none}
-  .detail-card.is-visible{display:block}
+  .detail.is-open{transform:translateX(0)}
+  .de-close{
+    position:sticky; top:0; display:block; width:100%;
+    background:var(--bg); border:none; border-bottom:1px solid var(--rule);
+    padding:10px 0; cursor:pointer;
+    font-family:var(--font-label); font-size:11px;
+    letter-spacing:var(--label-letter); text-transform:var(--label-transform);
+    color:var(--ink-faint); text-align:right;
+  }
+  .de-close:hover{color:var(--accent)}
   .de-emblem{
     display:flex; flex-direction:column; align-items:center;
     padding: 32px 0 20px; gap: 12px;
@@ -239,30 +216,21 @@
 </div>
 
 <div class="ptg-main">
-  <div>
-    <div class="roster-head">
-      <span class="label">Reparto</span>
-      <span class="label" id="roster-count" style="color:var(--accent)">78</span>
+  <div class="graph-outer">
+    <div class="graph-wrap" id="graph-wrap">
+      <svg class="bg" viewBox="-0.5 -0.5 1 1" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+        <g id="bg-rings" fill="none" stroke="currentColor" stroke-opacity="0.14" stroke-width="0.004"></g>
+        <g id="bg-lines" fill="none" stroke="var(--accent)" stroke-width="0.006" stroke-opacity="0.5"></g>
+      </svg>
+      <svg class="edges" viewBox="-0.5 -0.5 1 1" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+        <g id="edge-lines"></g>
+      </svg>
+      <div id="char-nodes"></div>
     </div>
-    <div class="roster" id="roster-list"></div>
-  </div>
 
-  <div class="graph-wrap" id="graph-wrap">
-    <svg class="bg" viewBox="-0.5 -0.5 1 1" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
-      <g id="bg-rings" fill="none" stroke="currentColor" stroke-opacity="0.14" stroke-width="0.004"></g>
-      <g id="bg-lines" fill="none" stroke="var(--accent)" stroke-width="0.006" stroke-opacity="0.5"></g>
-    </svg>
-    <svg class="edges" viewBox="-0.5 -0.5 1 1" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
-      <g id="edge-lines"></g>
-    </svg>
-    <div id="char-nodes"></div>
-  </div>
-
-  <div class="detail" id="detail-panel">
-    <div class="detail-empty" id="detail-empty">
-      <span>Selecciona un personaje</span>
+    <div class="detail" id="detail-panel">
+      <div id="detail-card"></div>
     </div>
-    <div class="detail-card" id="detail-card"></div>
   </div>
 </div>
 
@@ -458,69 +426,24 @@ function drawEdges(){
   });
 }
 
-// Render roster
-function renderRoster(){
-  var list = document.getElementById('roster-list');
-  list.innerHTML = '';
-  var visible = RAW_PERSONAJES.filter(passesFilter);
-  document.getElementById('roster-count').textContent = visible.length;
-
-  visible.forEach(function(p){
-    var cfg = RING_CFG[p.id];
-    var row = document.createElement('div');
-    row.className = 'roster-row' + (p.id === activeId ? ' is-active' : '');
-    row.dataset.id = p.id;
-
-    // Symbol or dot
-    var sym = document.createElement('div');
-    sym.className = 'rsym';
-    if(cfg && cfg.symbol && window.createGlyph){
-      var g = window.createGlyph(cfg.symbol, 18);
-      if(g) sym.appendChild(g);
-    } else {
-      sym.innerHTML = '<svg width="8" height="8" viewBox="0 0 8 8"><circle cx="4" cy="4" r="3" fill="currentColor" opacity="0.5"/></svg>';
-    }
-    row.appendChild(sym);
-
-    var nameWrap = document.createElement('div');
-    nameWrap.className = 'rname';
-    nameWrap.textContent = p.nombre;
-    if(p.apodos && p.apodos.length){
-      var alias = document.createElement('span');
-      alias.className = 'ralias';
-      alias.textContent = p.apodos[0];
-      nameWrap.appendChild(alias);
-    }
-    row.appendChild(nameWrap);
-
-    var genTag = document.createElement('div');
-    genTag.className = 'rgen';
-    var g = p.generacion || (cfg && cfg.gen) || null;
-    genTag.textContent = g ? GEN_ROMAN[g] : '';
-    row.appendChild(genTag);
-
-    row.addEventListener('click', function(){ selectChar(p.id); });
-    list.appendChild(row);
-  });
-}
-
 // Render detail panel
 function renderDetail(){
+  var panel = document.getElementById('detail-panel');
+  var card  = document.getElementById('detail-card');
   var p = byId[activeId];
-  var empty = document.getElementById('detail-empty');
-  var card = document.getElementById('detail-card');
 
   if(!p){
-    empty.style.display = 'flex'; card.classList.remove('is-visible');
+    panel.classList.remove('is-open');
+    card.innerHTML = '';
     return;
   }
-  empty.style.display = 'none'; card.classList.add('is-visible');
+  panel.classList.add('is-open');
 
   var cfg = RING_CFG[p.id] || {};
   var rels = relsByChar[p.id] || [];
   var gen = p.generacion || cfg.gen || null;
 
-  var html = '';
+  var html = '<button class="de-close" id="de-close-btn">✕ cerrar</button>';
 
   // Emblem
   html += '<div class="de-emblem">';
@@ -602,7 +525,12 @@ function renderDetail(){
     }
   });
 
-  // Attach click handlers to relation rows
+  // Close button
+  document.getElementById('de-close-btn').addEventListener('click', function(){
+    selectChar(activeId); // toggles off
+  });
+
+  // Relation rows
   card.querySelectorAll('.de-rel').forEach(function(el){
     el.addEventListener('click', function(){
       var otherId = el.dataset.other;
@@ -613,15 +541,9 @@ function renderDetail(){
 
 function selectChar(id){
   activeId = (activeId === id) ? null : id;
-  renderRoster();
   drawNodes();
   drawEdges();
   renderDetail();
-  // Scroll roster to active
-  if(activeId){
-    var activeRow = document.querySelector('.roster-row.is-active');
-    if(activeRow) activeRow.scrollIntoView({block:'nearest', behavior:'smooth'});
-  }
 }
 
 // Filter handlers
@@ -630,7 +552,6 @@ document.querySelectorAll('[data-gen-filter]').forEach(function(btn){
     genFilter = btn.dataset.genFilter;
     document.querySelectorAll('[data-gen-filter]').forEach(function(b){ b.classList.remove('is-active'); });
     btn.classList.add('is-active');
-    renderRoster();
     drawNodes();
   });
 });
@@ -639,7 +560,6 @@ document.querySelectorAll('[data-grupo-filter]').forEach(function(btn){
     grupoFilter = btn.dataset.grupoFilter;
     document.querySelectorAll('[data-grupo-filter]').forEach(function(b){ b.classList.remove('is-active'); });
     btn.classList.add('is-active');
-    renderRoster();
     drawNodes();
   });
 });
@@ -647,8 +567,6 @@ document.querySelectorAll('[data-grupo-filter]').forEach(function(btn){
 // Init
 drawRingBg();
 drawNodes();
-drawEdges();
-renderRoster();
 renderDetail();
 
 
