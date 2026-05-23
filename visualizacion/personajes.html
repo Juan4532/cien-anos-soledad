@@ -87,20 +87,21 @@
   .char-node{
     position:absolute; transform:translate(-50%,-50%);
     display:flex; flex-direction:column; align-items:center; gap:5px;
-    text-align:center; cursor:pointer;
+    text-align:center; pointer-events:none;
     transition: opacity .2s;
   }
-  .char-node:hover .cn-sym, .char-node.is-active .cn-sym{box-shadow: 0 0 0 2px var(--accent)}
-  .char-node.is-dimmed{opacity: 0.22; pointer-events:none}
+  .char-node.is-dimmed{opacity: 0.22}
   .char-node.is-faded{opacity: 0.15}
   .cn-sym{
     background: var(--bg); color:var(--accent);
     display:flex; align-items:center; justify-content:center;
-    padding: 5px;
+    padding: 5px; pointer-events:auto; cursor:pointer;
   }
+  .char-node:hover .cn-sym, .char-node.is-active .cn-sym{box-shadow: 0 0 0 2px var(--accent)}
   .cn-dot{
-    width:10px; height:10px; border-radius: 50%;
-    border:1px solid var(--ink-faint); background: var(--bg);
+    width:14px; height:14px; border-radius: 50%;
+    border:1.5px solid var(--ink-faint); background: var(--bg);
+    pointer-events:auto; cursor:pointer;
   }
   .char-node.is-active .cn-dot, .char-node:hover .cn-dot{
     background: var(--accent); border-color: var(--accent);
@@ -108,7 +109,7 @@
   .cn-name{
     font-family: var(--font-display); font-size: 12px; line-height:1.15;
     color: var(--ink); background: var(--bg); padding: 1px 5px;
-    max-width: 100px; white-space: normal;
+    max-width: 100px; white-space: normal; pointer-events:none;
   }
   html[data-mode="light"] .cn-name{font-weight:500}
   .char-node.is-active .cn-name{color: var(--accent)}
@@ -212,9 +213,7 @@
 
 <div class="page-head">
   <div>
-    <div class="page-eyebrow">§ I · El reparto</div>
-    <h1 class="page-title">Personajes <em>de la estirpe</em></h1>
-    <p class="page-lede">La red completa de figuras que habitan Macondo. Selecciona un personaje para ver sus vínculos y sus huellas en la novela.</p>
+    <h1 class="page-title">Personajes</h1>
   </div>
 </div>
 
@@ -411,10 +410,15 @@ function drawNodes(){
     nameEl.textContent = shortName(p.nombre);
     node.appendChild(nameEl);
 
-    node.addEventListener('click', function(){ selectChar(p.id); });
     wrap.appendChild(node);
   });
 }
+
+// Single delegation listener on graph-wrap — survives drawNodes() re-renders
+document.getElementById('graph-wrap').addEventListener('click', function(e){
+  var node = e.target.closest('.char-node');
+  if(node && node.dataset.id) selectChar(node.dataset.id);
+});
 
 function shortName(nombre){
   // Abbreviate to first name + last initial or familiar name
@@ -647,8 +651,6 @@ drawEdges();
 renderRoster();
 renderDetail();
 
-document.getElementById('count-total').textContent = RAW_PERSONAJES.length;
-document.getElementById('count-rels').textContent = RAW_RELACIONES.length;
 
 })();
 </script>
