@@ -109,13 +109,21 @@ def build_e_lite():
              'orden_cronologico':e.get('orden_cronologico')} for e in eventos]
 
 def replace_raw_json(html_text, name, data):
-    """Sustituye 'const NAME = <json>;' en el HTML."""
+    """Sustituye 'const NAME = <json>;' en el HTML usando el decoder de JSON
+    para encontrar el fin exacto del valor (evita falsos positivos con ';')."""
+    marker = f'const {name} = '
+    idx = html_text.find(marker)
+    if idx == -1:
+        print(f'  AVISO: no encontrado {name}', file=sys.stderr)
+        return html_text
+    value_start = idx + len(marker)
+    try:
+        _, value_end = json.JSONDecoder().raw_decode(html_text, value_start)
+    except json.JSONDecodeError as e:
+        print(f'  ERROR: JSON inválido en {name}: {e}', file=sys.stderr)
+        return html_text
     new_json = json.dumps(data, ensure_ascii=False)
-    pattern = rf'(const {name} = ).*?(;)'
-    result, n = re.subn(pattern, rf'\g<1>{re.escape(new_json)}\2', html_text, count=1, flags=re.DOTALL)
-    if n != 1:
-        print(f'  AVISO: no encontrado {name} ({n} ocurrencias)', file=sys.stderr)
-    return result
+    return html_text[:value_start] + new_json + html_text[value_end:]
 
 p_lite = build_p_lite()
 r_lite = build_r_lite()
