@@ -515,10 +515,40 @@
       "tipo": "amistad",
       "subtipo": "amigos intelectuales",
       "origen": "AURELIANO_BABILONIA",
-      "destino": "GABRIEL_MARQUEZ",
+      "destino": "GABRIEL",
       "inicio": null,
       "fin": null,
-      "notas": "Gabriel es el único que cree en el relato de la masacre que vivió José Arcadio Segundo, porque sabe que el Coronel Aureliano fue amigo de su propio tatarabuelo Gerineldo Márquez."
+      "notas": "Gabriel es el único que cree en el relato de la masacre y en el coronel Aureliano Buendía, porque Gerineldo Márquez fue bisabuelo suyo y camarada del coronel"
+    },
+    {
+      "id": "REL_AMISTAD_AURELIANO_ALVARO",
+      "tipo": "amistad",
+      "subtipo": "amigos intelectuales",
+      "origen": "AURELIANO_BABILONIA",
+      "destino": "ALVARO",
+      "inicio": null,
+      "fin": null,
+      "notas": "Parte del grupo que se reúne en la librería del sabio catalán; Álvaro descubrió El Niño de Oro"
+    },
+    {
+      "id": "REL_AMISTAD_AURELIANO_GERMAN",
+      "tipo": "amistad",
+      "subtipo": "amigos intelectuales",
+      "origen": "AURELIANO_BABILONIA",
+      "destino": "GERMAN",
+      "inicio": null,
+      "fin": null,
+      "notas": "Parte del grupo que se reúne en la librería del sabio catalán"
+    },
+    {
+      "id": "REL_AMISTAD_AURELIANO_ALFONSO",
+      "tipo": "amistad",
+      "subtipo": "amigos intelectuales",
+      "origen": "AURELIANO_BABILONIA",
+      "destino": "ALFONSO",
+      "inicio": null,
+      "fin": null,
+      "notas": "Parte del grupo que se reúne en la librería del sabio catalán"
     },
     {
       "id": "REL_MENTOR_MELQUIADES_JAB",
@@ -966,6 +996,76 @@
       "subtipo": "padre",
       "origen": "AURELIANO_IGUARAN_PADRE",
       "destino": "URSULA_IGUARAN",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_ANCIANO_BISABUELO_NIGROMANTA",
+      "tipo": "familiar",
+      "subtipo": "bisabuelo",
+      "origen": "ANCIANO_ANTILLANO",
+      "destino": "NIGROMANTA",
+      "inicio": null,
+      "fin": null,
+      "notas": null
+    },
+    {
+      "id": "REL_PILAR_TATARABUELA_AURELIANO_BABILONIA",
+      "tipo": "familiar",
+      "subtipo": "tatarabuela",
+      "origen": "PILAR_TERNERA",
+      "destino": "AURELIANO_BABILONIA",
+      "inicio": null,
+      "fin": null,
+      "notas": "Pilar → Arcadio → Aureliano Segundo → Meme → Aureliano Babilonia. El texto la llama explícitamente su 'tatarabuela ignorada'"
+    },
+    {
+      "id": "REL_SUCESOR_CACHORRO_NICANOR",
+      "tipo": "otro",
+      "subtipo": "sucesor eclesiástico",
+      "origen": "EL_CACHORRO",
+      "destino": "PADRE_NICANOR",
+      "inicio": null,
+      "fin": null,
+      "notas": "El Cachorro (apodado 'el padre coronel') ocupa la parroquia tras la marcha del padre Nicanor Reyna"
+    },
+    {
+      "id": "REL_SUCESOR_ANTONIO_ISABEL_CACHORRO",
+      "tipo": "otro",
+      "subtipo": "sucesor eclesiástico",
+      "origen": "PADRE_ANTONIO_ISABEL",
+      "destino": "EL_CACHORRO",
+      "inicio": null,
+      "fin": null,
+      "notas": "Padre Antonio Isabel sucede a El Cachorro en la parroquia de Macondo"
+    },
+    {
+      "id": "REL_SUCESOR_AUGUSTO_ANGEL_ANTONIO_ISABEL",
+      "tipo": "otro",
+      "subtipo": "sucesor eclesiástico",
+      "origen": "PADRE_AUGUSTO_ANGEL",
+      "destino": "PADRE_ANTONIO_ISABEL",
+      "inicio": null,
+      "fin": null,
+      "notas": "Padre Augusto Ángel llega a Macondo cuando Padre Antonio Isabel es llevado al asilo (cap 17)"
+    },
+    {
+      "id": "REL_SUCESOR_CURA_SIN_NOMBRE_AUGUSTO_ANGEL",
+      "tipo": "otro",
+      "subtipo": "sucesor eclesiástico",
+      "origen": "CURA_SIN_NOMBRE",
+      "destino": "PADRE_AUGUSTO_ANGEL",
+      "inicio": null,
+      "fin": null,
+      "notas": "Ocupa la parroquia de Macondo cuando el pueblo ya está en plena decadencia (cap 20)"
+    },
+    {
+      "id": "REL_AMOR_GABRIEL_MERCEDES",
+      "tipo": "amorosa",
+      "subtipo": "novios",
+      "origen": "GABRIEL",
+      "destino": "MERCEDES",
       "inicio": null,
       "fin": null,
       "notas": null

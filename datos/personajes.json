@@ -434,19 +434,7 @@
       "nacimiento": null,
       "muerte": null,
       "capitulo_aparicion": 19,
-      "descripcion": "Nieta de un viejo negro nigromante. Prostituta con quien Aureliano Babilonia tiene su primera experiencia sexual, pagada con el dinero de Amaranta Úrsula. Acaba enamorada de él y, cuando Aureliano le confiesa que ama a Amaranta Úrsula, exige que la pague como a cualquier otro cliente. Lo acoge para que duerma la borrachera tras la muerte de Amaranta Úrsula.",
-      "grupo": null
-    },
-    {
-      "id": "GABRIEL_MARQUEZ",
-      "nombre": "Gabriel Márquez",
-      "nombres_alternativos": [],
-      "generacion": null,
-      "genero": "masculino",
-      "nacimiento": null,
-      "muerte": null,
-      "capitulo_aparicion": 19,
-      "descripcion": "Amigo de Aureliano Babilonia en el grupo de jóvenes que se reúne en la librería del Catalán. Tataranieto del coronel Gerineldo Márquez. El único que cree la historia del Coronel Aureliano Buendía. Gana un concurso y se va a París. Su nombre no es casual: guiño metaficcional al autor de la novela.",
+      "descripcion": "Bisnieta del anciano negro antillano que guardaba memoria del coronel Aureliano Buendía. Prostituta del barrio de tolerancia, grande, de huesos sólidos y cabeza acorazada de pelos de alambre. Lleva desde que nació un cintillo de acero alrededor de la cintura. Aureliano Babilonia acude a ella para sofocar su pasión por Amaranta Úrsula, pero termina confiándole su amor reprimido; a partir de entonces ella le cobra los servicios con tanto rigor que lleva la cuenta con rayitas de uña detrás de la puerta.",
       "grupo": null
     },
     {
@@ -895,6 +883,90 @@
       "muerte": null,
       "capitulo_aparicion": 17,
       "descripcion": "Padre de Úrsula Iguarán. Aparece en los delirios seniles de su hija. Conocido por haber inventado una oración para que se achicharraran y cayeran los gusanos de las vacas."
+    },
+    {
+      "id": "ANCIANO_ANTILLANO",
+      "nombre": "El anciano antillano",
+      "nombres_alternativos": [],
+      "generacion": null,
+      "grupo": null,
+      "genero": "masculino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 19,
+      "descripcion": "El más antiguo de los negros antillanos que quedaron en Macondo. La cabeza algodonada le da aspecto de negativo fotográfico. Canta salmos lúgubres del atardecer en el pórtico de su casa. Único habitante del barrio de tolerancia que guarda memoria del coronel Aureliano Buendía. Bisabuelo de Nigromanta."
+    },
+    {
+      "id": "ALVARO",
+      "nombre": "Álvaro",
+      "nombres_alternativos": [],
+      "generacion": null,
+      "grupo": null,
+      "genero": "masculino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 19,
+      "descripcion": "Uno de los cuatro amigos que Aureliano conoce en la librería del sabio catalán. Descubridor del burdel zoológico El Niño de Oro. Demostró una noche de parranda que la literatura es el mejor juguete que se ha inventado para burlarse de la gente."
+    },
+    {
+      "id": "GERMAN",
+      "nombre": "Germán",
+      "nombres_alternativos": [],
+      "generacion": null,
+      "grupo": null,
+      "genero": "masculino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 19,
+      "descripcion": "Uno de los cuatro amigos de la librería del sabio catalán. Una noche intentó incendiar el burdel de la propietaria risueña para demostrar que no existía."
+    },
+    {
+      "id": "ALFONSO",
+      "nombre": "Alfonso",
+      "nombres_alternativos": [],
+      "generacion": null,
+      "grupo": null,
+      "genero": "masculino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 19,
+      "descripcion": "Uno de los cuatro amigos de la librería del sabio catalán. Autor de historias truculentas como la de los alcaravanes que sacaron los ojos a picotazos a cuatro clientes. Le torció el pescuezo al loro del burdel y lo echó en la olla del sancocho."
+    },
+    {
+      "id": "GABRIEL",
+      "nombre": "Gabriel",
+      "nombres_alternativos": [],
+      "generacion": null,
+      "grupo": null,
+      "genero": "masculino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 19,
+      "descripcion": "Bisnieto del coronel Gerineldo Márquez. El único de los cuatro amigos de la librería que no pone en duda la existencia del coronel Aureliano Buendía ni la masacre bananera. Une a Aureliano en una complicidad fundada en hechos reales que nadie más cree. Duerme donde lo sorprende la hora; Aureliano lo encomienda a Nigromanta. Gana un concurso literario y parte a París."
+    },
+    {
+      "id": "CURA_SIN_NOMBRE",
+      "nombre": "El cura sin nombre",
+      "nombres_alternativos": [],
+      "generacion": null,
+      "grupo": null,
+      "genero": "masculino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 20,
+      "descripcion": "Cura anciano que sustituyó al padre Augusto Ángel en la parroquia de Macondo. El texto precisa que nadie se tomó el trabajo de averiguar su nombre. Atormentado por la artritis y el insomnio de la duda, espera la piedad de Dios tendido en una hamaca mientras los lagartos y las ratas se disputan la herencia del templo vecino."
+    },
+    {
+      "id": "MERCEDES",
+      "nombre": "Mercedes",
+      "nombres_alternativos": [],
+      "generacion": null,
+      "grupo": null,
+      "genero": "femenino",
+      "nacimiento": null,
+      "muerte": null,
+      "capitulo_aparicion": 20,
+      "descripcion": "La boticaria silenciosa de Macondo, novia de Gabriel. Único puente entre Aureliano Babilonia y el mundo exterior tras la partida de los amigos: a través de ella llegan las noticias esporádicas de Gabriel en París. Cuando Aureliano vuelve a buscarla tras la muerte de Amaranta Úrsula, la botica ya no existe y nadie recuerda haberla conocido."
     },
     {
       "id": "SABIO_CATALAN",

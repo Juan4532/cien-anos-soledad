@@ -1824,7 +1824,7 @@
       "id": "EVT_DILUVIO_CUATRO_ANOS",
       "titulo": "El diluvio de cuatro años, once meses y dos días",
       "tipo": "desastre",
-      "capitulo": 18,
+      "capitulo": 16,
       "fecha": null,
       "participantes": [
         "JOSE_ARCADIO_SEGUNDO",
@@ -1893,7 +1893,7 @@
         "PILAR_TERNERA"
       ],
       "lugar": "BURDEL_PILAR",
-      "descripcion": "Pilar Ternera muere en su mecedora a los 145 años y es enterrada en esa misma posición. De ella partieron todas las líneas de descendencia lateral de la estirpe Buendía.",
+      "descripcion": "Pilar Ternera muere en su mecedor de bejuco durante una noche de fiesta, vigilando la entrada de su paraíso. Por su última voluntad la entierran sentada en el mecedor, que ocho hombres bajan con cabuyas en un hoyo excavado en el centro de la pista de baile. Las mulatas vestidas de negro arrojan sus aretes, prendedores y sortijas en la fosa. La sellan con una lápida sin nombre ni fechas, cubierta de camelias amazónicas. Después envenenan a los animales, clausuran puertas y ventanas con ladrillos y argamasa, y se dispersan por el mundo.",
       "orden_cronologico": null
     },
     {
@@ -1907,22 +1907,21 @@
         "GASTON"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Amaranta Úrsula regresa de Bruselas con su esposo Gastón, montones de equipaje y una jaula con cincuenta canarios. Se propone revivir Macondo y es la única persona que parece capaz de hacerlo.",
+      "descripcion": "Amaranta Úrsula regresa de Bruselas en diciembre con Gastón.Trae dos roperos verticales, cuatro maletas grandes, ocho cajas de sombreros, el velocípedo del marido y una jaula gigante con medio centenar de canarios. Sin descanso pone al frente una cuadrilla de carpinteros, cerrajeros y albañiles que resanan grietas, enquician puertas, renuevan muebles y blanquean paredes.",
       "orden_cronologico": null
     },
     {
       "id": "EVT_AMOR_AURELIANO_AMARANTA_URSULA",
-      "titulo": "Aureliano Babilonia y Amaranta Úrsula se hacen amantes",
+      "titulo": "La pasión desatada de Aureliano y Amaranta Úrsula",
       "tipo": "otro",
       "capitulo": 20,
       "fecha": null,
       "participantes": [
         "AURELIANO_BABILONIA",
-        "AMARANTA_URSULA",
-        "GASTON"
+        "AMARANTA_URSULA"
       ],
       "lugar": "CASA_BUENDIA",
-      "descripcion": "Aureliano Babilonia, alentado por Pilar Ternera, se echa encima de su tía Amaranta Úrsula. Tras una resistencia inicial, ella cede. Gastón, que ya lo intuye, viaja a Bruselas y no regresa.",
+      "descripcion": "Con Gastón de regreso a Bruselas, sucumben al delirio de los amores atrasados: una pasión insensata que hace temblar los huesos de Fernanda en su tumba. Los chillidos de Amaranta Úrsula estallan lo mismo a las dos de la tarde que a las dos de la madrugada. Destrozan los muebles, desbaratan la hamaca que resistió los amores del coronel Aureliano Buendía y destripen los colchones. Andan en cueros por la casa, se revuelcan en los barrizales del patio y casi se ahogan amándose en la alberca. 'Lo que más me duele —reía ella— es tanto tiempo que perdimos.'",
       "orden_cronologico": null
     },
     {
@@ -1937,7 +1936,7 @@
         "AURELIANO_BABILONIA"
       ],
       "lugar": "CASA_BUENDIA",
-      "descripcion": "Amaranta Úrsula da a luz a un niño con cola de cerdo, el signo de incesto que la familia temió durante siete generaciones. Amaranta Úrsula no deja de sangrar y muere al día siguiente.",
+      "descripcion": "Un domingo a las seis de la tarde la comadrona del burdel de las muchachitas sube a Amaranta Úrsula a la mesa del comedor y, acaballada sobre su vientre, la maltrata con galopes cerriles hasta que los gritos son acallados por los berridos de un varón formidable. Amaranta Úrsula lo ve como un Buendía de los grandes —macizo como los José Arcadios, con ojos clarividentes de Aureliano— y dice que se llamará Rodrigo; Aureliano replica que se llamará Aureliano y ganará treinta y dos guerras. Cuando lo voltean boca abajo descubren que tiene una cola de cerdo.",
       "orden_cronologico": null
     },
     {
@@ -1951,7 +1950,7 @@
         "AURELIANO_BABILONIA"
       ],
       "lugar": "CASA_BUENDIA",
-      "descripcion": "Amaranta Úrsula muere desangrada el día después del parto. Aureliano Babilonia, desesperado, vaga por el pueblo. Cuando regresa encuentra al recién nacido devorado por las hormigas en el jardín.",
+      "descripcion": "Amaranta Úrsula se desangra en un manantial incontenible que no ceden los apósitos de telaraña ni la ceniza. Ella conserva el buen humor horas y horas, tomándole la mano a Aureliano; luego se va haciendo cada vez menos visible, como si la borraran de la luz. Al amanecer del lunes una mujer reza junto a la cama oraciones de cauterio, pero la sangre apasionada de Amaranta Úrsula es insensible a todo artificio distinto del amor. Al anochecer el caudal se agota, el perfil se le afila y vuelve a sonreír. Aureliano vaga por el pueblo, vuelve al amanecer siguiente, y encuentra al niño devorado por las hormigas en el jardín: un pellejo reseco que todas las hormigas del mundo arrastran hacia sus madrigueras.",
       "orden_cronologico": null
     },
     {
@@ -1965,7 +1964,7 @@
         "MELQUIADES"
       ],
       "lugar": "CUARTO_MELQUIADES",
-      "descripcion": "Mientras un viento apocalíptico destruye Macondo, Aureliano descifra los pergaminos escritos cien años antes por Melquíades en sánscrito. Descubre que contienen la historia completa de la familia Buendía, incluyendo el presente exacto.",
+      "descripcion": "Al ver al niño devorado por las hormigas, a Aureliano se le revelan las claves definitivas: el epígrafe de los pergaminos perfectamente ordenado —'El primero de la estirpe está amarrado en un árbol y al último se lo están comiendo las hormigas.' Los pergaminos están escritos en sánscrito —lengua materna de Melquíades—, con los versos pares cifrados con la clave privada del emperador Augusto y los impares con claves militares lacedemonias. No están ordenados en el tiempo convencional: Melquíades concentró un siglo de episodios cotidianos para que todos coexistieran en un instante. Aureliano descifra en voz alta sin dificultad; lee las predicciones de la ejecución de Arcadio, el nacimiento de Remedios la Bella, el origen de los gemelos póstumos. Descubre que Amaranta Úrsula no era su hermana sino su tía, y que Francis Drake asaltó Riohacha para que ellos se buscaran por los laberintos de la sangre y engendraran el animal mitológico que pondría fin a la estirpe. Se descifra a sí mismo en el acto de descifrar, profetizándose en un espejo hablado.",
       "orden_cronologico": null
     },
     {
@@ -1978,7 +1977,7 @@
         "AURELIANO_BABILONIA"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Mientras Aureliano lee los últimos pergaminos, un huracán bíblico arranca puertas y ventanas y arrasa Macondo hasta los cimientos. El pueblo desaparece para siempre, cumpliendo la profecía de Melquíades: las estirpes condenadas a cien años de soledad no tienen una segunda oportunidad sobre la tierra.",
+      "descripcion": "Mientras Aureliano descifra los pergaminos, el viento empieza —tibio, incipiente, lleno de voces del pasado— y crece hasta un ciclón bíblico que arranca de cuajo puertas, ventanas y el techo de la galería oriental. La ciudad de los espejos (o los espejismos) es arrasada y desterrada de la memoria de los hombres en el instante en que Aureliano Babilonia acaba de leer la última página. Estaba previsto: las estirpes condenadas a cien años de soledad no tendrían una segunda oportunidad sobre la tierra.",
       "orden_cronologico": null
     },
     {
@@ -3684,7 +3683,7 @@
     },
     {
       "id": "EVT_JOSE_ARCADIO_EXPULSA_NINOS",
-      "titulo": "José Arcadio expulsa a los niños con disciplinas eclesiásticas",
+      "titulo": "José Arcadio expulsa a los niños",
       "tipo": "conflicto",
       "capitulo": 18,
       "fecha": null,
@@ -3712,7 +3711,7 @@
     },
     {
       "id": "EVT_MUERTE_JOSE_ARCADIO_QUINTO",
-      "titulo": "Asesinato de José Arcadio ahogado en la alberca",
+      "titulo": "Asesinato de José Arcadio Quinto ahogado en la alberca",
       "tipo": "muerte",
       "capitulo": 18,
       "fecha": null,
@@ -3722,6 +3721,256 @@
       ],
       "lugar": "CASA_BUENDIA",
       "descripcion": "Una mañana de septiembre los cuatro niños expulsados irrumpen por los portillos del techo mientras José Arcadio se baña. Se meten vestidos en la alberca, lo agarran por el pelo y mantienen su cabeza hundida hasta que cesa la agonía. El silencioso y pálido cuerpo de delfín se desliza hasta el fondo de las aguas fragantes. Se llevan los tres sacos de oro que solo ellos y su víctima sabían dónde estaban. Aureliano lo descubre esa tarde flotando, enorme y tumefacto, y solo entonces comprende cuánto había empezado a quererlo.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_CANARIOS_FUGADOS",
+      "titulo": "Los canarios de las islas Afortunadas se fugan",
+      "tipo": "otro",
+      "capitulo": 19,
+      "fecha": null,
+      "participantes": [
+        "AMARANTA_URSULA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Amaranta Úrsula retrasó el viaje meses para encontrar un barco que hiciera escala en las islas Afortunadas y allí seleccionó las veinticinco parejas de canarios más finos para repoblar el cielo de Macondo. A medida que los pájaros se reproducen los va soltando por parejas, pero más tardan en sentirse libres que en fugarse del pueblo: dan una vuelta en el cielo apenas el tiempo indispensable para encontrar el rumbo de regreso a las islas.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_GASTON_ENTOMOLOGIA",
+      "titulo": "Gastón colecciona insectos y monta en velocípedo",
+      "tipo": "otro",
+      "capitulo": 19,
+      "fecha": null,
+      "participantes": [
+        "GASTON"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Convencido de que Amaranta Úrsula será derrotada por la realidad, Gastón no se molesta en armar el velocípedo y se dedica a perseguir huevos de araña entre las telarañas. Luego arma el aparatoso velocípedo con rueda anterior mucho mayor que la posterior, y se dedica a capturar y disecar insectos aborígenes que remite en frascos de mermelada a su antiguo profesor de historia natural de la Universidad de Lieja, donde estudió entomología avanzada aunque su vocación dominante es la aeronáutica.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_GASTON_PROYECTO_AEREO",
+      "titulo": "Gastón prepara el servicio de correo aéreo",
+      "tipo": "acuerdo",
+      "capitulo": 19,
+      "fecha": null,
+      "participantes": [
+        "GASTON"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Gastón retoma el proyecto de correo aéreo que tenía planeado para el Congo Belga. Prepara un campo de aterrizaje en la antigua región encantada, estudia vientos y geografía del litoral. Sus gestiones infunden en el pueblo la sospecha de que quiere sembrar banano. Obtiene licencias y contratos de exclusividad. Convence a sus socios de Bruselas de embarcar el primer aeroplano al cuidado de un mecánico, pero el barco nunca aparece en las listas del Caribe y la correspondencia se vuelve mutuamente suspicaz.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_AURELIANO_EXPLORA_MACONDO",
+      "titulo": "Aureliano recorre Macondo y responde el teléfono",
+      "tipo": "descubrimiento",
+      "capitulo": 19,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BABILONIA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Aureliano recorre las calles polvorientas, examina la antigua zona bananera en ruinas — piscina seca llena de zapatos podridos, esqueleto de un perro alemán atado a una cadena. Un teléfono empieza a repicar en una casa desbaratada; lo descuelga y una mujer angustiada pregunta en inglés. Él le contesta: la huelga terminó, los tres mil muertos fueron echados al mar, la compañía bananera se fue, Macondo está en paz desde hace muchos años.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_AURELIANO_ANCIANO_NIGROMANTA",
+      "titulo": "Aureliano conoce al anciano antillano y a Nigromanta",
+      "tipo": "otro",
+      "capitulo": 19,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BABILONIA",
+        "ANCIANO_ANTILLANO",
+        "NIGROMANTA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "En el barrio de tolerancia, Aureliano encuentra al más antiguo de los negros antillanos —único que recuerda al coronel Aureliano Buendía— cantando salmos en el pórtico. Conversa con él en papiamento y comparte el caldo de cabezas de gallo que prepara su bisnieta Nigromanta. Al morir el anciano, Aureliano deja de frecuentar la casa pero sigue encontrándose con Nigromanta bajo los almendros de la plaza.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_AMANTES_AURELIANO_NIGROMANTA",
+      "titulo": "Aureliano y Nigromanta se hacen amantes",
+      "tipo": "otro",
+      "capitulo": 19,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BABILONIA",
+        "NIGROMANTA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Para sofocar su pasión por Amaranta Úrsula, Aureliano va a Nigromanta con el peso con cincuenta centavos que le pidió a su tía. Nigromanta lo lleva a su cuarto de veladoras y lienzo percudido, esperando despachar a un niño asustado, pero se encuentra con un poder que le exige una reacomodación sísmica. Se hacen amantes fijos. A la hora de la siesta él la visita, come desnudo con ella bajo las estrellas diurnas del techo de cinc. Cuando Aureliano le confiesa su amor por Amaranta Úrsula, ella lo sigue recibiendo pero le cobra los servicios con rigor, llevando la cuenta con rayitas de uña detrás de la puerta.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_CUATRO_AMIGOS_LIBRERIA",
+      "titulo": "Aureliano conoce a los cuatro amigos en la librería del sabio catalán",
+      "tipo": "otro",
+      "capitulo": 19,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BABILONIA",
+        "ALVARO",
+        "GERMAN",
+        "ALFONSO",
+        "GABRIEL",
+        "SABIO_CATALAN"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "El sabio catalán instiga a Aureliano a terciar en una discusión sobre cómo matar cucarachas en la Edad Media; Aureliano diserta sobre las 1603 variedades de cucaracha y el único método eficaz: el deslumbramiento solar. El fatalismo enciclopédico es el principio de una gran amistad con Álvaro, Germán, Alfonso y Gabriel. Las sesiones empiezan en la librería a las seis de la tarde y terminan en los burdeles al amanecer.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_BURDEL_NINO_DE_ORO",
+      "titulo": "El burdel zoológico El Niño de Oro y el reencuentro con Pilar Ternera",
+      "tipo": "otro",
+      "capitulo": 19,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BABILONIA",
+        "ALVARO",
+        "GERMAN",
+        "ALFONSO",
+        "GABRIEL",
+        "PILAR_TERNERA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Álvaro descubre El Niño de Oro: un inmenso salón al aire libre con doscientos alcaravanes, garzas, caimanes, serpientes de doce cascabeles y una tortuga de concha dorada. La anciana que vigila el ingreso en un mecedor de bejuco reconoce en Aureliano la viruela de la soledad del coronel Aureliano Buendía y exclama: '¡Ay, Aureliano!' Es Pilar Ternera, que ha renunciado a llevar las cuentas de su edad cuando cumplió los 145 años. Aureliano se refugia en su regazo para llorar su amor por Amaranta Úrsula; ella le dice: 'No te preocupes. En cualquier lugar en que esté, ella te está esperando.'",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_GASTON_ESPERA_AEROPLANO",
+      "titulo": "Gastón espera el aeroplano que no llega y considera ir a Bruselas",
+      "tipo": "otro",
+      "capitulo": 19,
+      "fecha": null,
+      "participantes": [
+        "GASTON",
+        "AMARANTA_URSULA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Gastón pasea por las calles mirando el cielo, esperando el aeroplano que sus socios dicen haber embarcado pero que no figura en las listas del Caribe. La correspondencia alcanza tal suspicacia recíproca que deja de escribir y empieza a sugerir un viaje rápido a Bruselas para aclarar el asunto. El plan se desvanece en cuanto Amaranta Úrsula reitera que no se moverá de Macondo ni aunque se quede sin marido.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_AURELIANO_CONFIESA_AMOR_AMARANTA",
+      "titulo": "Aureliano confiesa su amor a Amaranta Úrsula",
+      "tipo": "conflicto",
+      "capitulo": 19,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BABILONIA",
+        "AMARANTA_URSULA"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Amaranta Úrsula se pincha un dedo abriendo una lata de melocotones; Aureliano se precipita a chuparle la sangre con una avidez que le eriza la piel. Ella ríe inquieta. Aureliano se desborda: le cuenta que se levanta a medianoche a llorar en su ropa íntima. Espantada, Amaranta Úrsula cierra la mano herida hasta convertirla en un nudo de piedra y le dice: '¡Bruto! Me voy a Bélgica en el primer barco.'",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_AMARANTA_AURELIANO_AMANTES",
+      "titulo": "Amaranta Úrsula y Aureliano se hacen amantes",
+      "tipo": "otro",
+      "capitulo": 19,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BABILONIA",
+        "AMARANTA_URSULA",
+        "GASTON"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Eran las cuatro y media de la tarde. Aureliano sigue a Amaranta Úrsula hasta el dormitorio nupcial; ella le hace señas al cuarto contiguo donde Gastón escribe una carta. La resistencia de ella es genuina pero silenciosa para no alertar al marido: forcejean con agresiones espectrales y lentas que parecen una reconciliación en el fondo de un estanque. Amaranta Úrsula empieza a reírse con los labios apretados y la brega degenera en retozo. Una conmoción descomunal la inmoviliza; solo tiene tiempo de meterse una mordaza entre los dientes para que no se le salgan los chillidos.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_SABIO_CATALAN_REGRESA",
+      "titulo": "El sabio catalán cierra la librería y regresa a su aldea",
+      "tipo": "partida",
+      "capitulo": 20,
+      "fecha": null,
+      "participantes": [
+        "SABIO_CATALAN",
+        "AURELIANO_BABILONIA",
+        "GERMAN",
+        "ALFONSO",
+        "GABRIEL",
+        "ALVARO"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Derrotado por la nostalgia de una primavera tenaz, el sabio catalán remata la librería y regresa a su aldea mediterránea. Se lleva los tres cajones de manuscritos con caligrafía morada peleando a insultos cartagineses con los inspectores del ferrocarril que quieren mandarlos como carga. Su despedida a los amigos: 'Ahí les dejo esa mierda.' Luego envía cartas desde el barco que muestran su nostalgización progresiva: cada carta más triste que la anterior, hasta que recomienda olvidar cuanto les enseñó, cagarsen en Horacio, y recordar que el pasado era mentira y toda primavera irrecuperable. 'El mundo habrá acabado de joderse el día en que los hombres viajen en primera clase y la literatura en el vagón de carga.'",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_AMIGOS_DISPERSAN",
+      "titulo": "Los cuatro amigos abandonan Macondo",
+      "tipo": "partida",
+      "capitulo": 20,
+      "fecha": null,
+      "participantes": [
+        "ALVARO",
+        "ALFONSO",
+        "GERMAN",
+        "GABRIEL",
+        "MERCEDES"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Álvaro vende todo, incluido un tigre cautivo, y compra un pasaje eterno en un tren sin fin, enviando tarjetas desde las estaciones intermedias. Alfonso y Germán se van un sábado con idea de regresar el lunes y nunca se vuelve a saber de ellos. Gabriel gana el concurso de una revista francesa y parte a París con dos mudas de ropa, zapatos y las obras completas de Rabelais; hay que hacerle señas al maquinista para que detenga el tren.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_GASTON_ABANDONA_MACONDO",
+      "titulo": "Gastón se va a Bruselas a recuperar el aeroplano",
+      "tipo": "partida",
+      "capitulo": 20,
+      "fecha": null,
+      "participantes": [
+        "GASTON",
+        "AMARANTA_URSULA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Cansado de esperar el aeroplano, Gastón mete en una maletita lo indispensable y su archivo de correspondencia y parte con el propósito de regresar por el aire antes de que sus privilegios sean cedidos a aviadores alemanes con un proyecto más ambicioso. Ante la carta de Amaranta Úrsula que le confiesa el amor por Aureliano, responde con una calma casi paternal, dos páginas sobre las veleidades de la pasión y votos por su felicidad. Seis meses después escribe desde Leopoldville, donde por fin recibió el aeroplano, pidiendo solo que le manden el velocípedo: lo único que tenía valor sentimental.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_AURELIANO_BUSCA_FILIACION",
+      "titulo": "Aureliano busca su origen en los archivos parroquiales",
+      "tipo": "descubrimiento",
+      "capitulo": 20,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BABILONIA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Atormentado por creer que es hermano de su mujer, Aureliano acude a los archivos rezumantes y apolillados de la parroquia. Rastrea partidas de bautismo a través de cuatro tomos buscando entre los diecisiete Aurelianos, pero las fechas son demasiado remotas. El cura artrítico que lo observa desde la hamaca le pregunta su nombre. Cuando Aureliano responde y menciona las treinta y dos guerras y los tres mil muertos echados al mar, el cura le mira con lástima: 'Ay, hijo. A mí me bastaría con estar seguro de que tú y yo existimos en este momento.'",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_CARTA_MUERTE_SABIO",
+      "titulo": "La carta ajena que nadie lee",
+      "tipo": "otro",
+      "capitulo": 20,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BABILONIA",
+        "AMARANTA_URSULA"
+      ],
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "En el sexto mes del embarazo llega una carta franqueada en Barcelona con caligrafía administrativa y aspecto de recado enemigo. Aureliano se la arrebata a Amaranta Úrsula: 'Ésta no. No quiero saber lo que dice.' El sabio catalán no vuelve a escribir. La carta queda en la repisa donde Fernanda olvidó su anillo matrimonial, consumiéndose en su mala noticia mientras los amantes navegan contra la corriente.",
+      "orden_cronologico": null
+    },
+    {
+      "id": "EVT_AURELIANO_VAGA_POR_PUEBLO",
+      "titulo": "Aureliano vaga por Macondo tras la muerte de Amaranta Úrsula",
+      "tipo": "otro",
+      "capitulo": 20,
+      "fecha": null,
+      "participantes": [
+        "AURELIANO_BABILONIA",
+        "NIGROMANTA"
+      ],
+      "lugar": "MACONDO",
+      "descripcion": "Aureliano tapa el cadáver con una manta y vaga por el pueblo desierto buscando un desfiladero al pasado. Llora ante la puerta de la antigua librería del sabio; se rompe los puños contra los muros de El Niño de Oro clausurado. En el último salón abierto del barrio de tolerancia un cantinero de brazo seco le invita a aguardiente; Aureliano le habla de la desgracia de su corazón, seco y achicharrado por haberlo levantado contra su hermana; terminan llorando juntos. En la madrugada grita en medio de la plaza: '¡Los amigos son unos hijos de puta!' Nigromanta lo recoge de un charco de vómito y lágrimas, lo lleva a su cuarto y tacha con una raya de carbón todas las deudas que él le debía.",
       "orden_cronologico": null
     }
   ]
