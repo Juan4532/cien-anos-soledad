@@ -154,18 +154,4 @@ python scripts/sincronizar_html.py
 
 Tipografías: Playfair Display (serif, títulos) + Inter (sans, UI). Paleta oscura con acento dorado `#D4933A`.
 
----
 
-## Flujo de trabajo
-
-El proyecto se procesa capítulo a capítulo (20 capítulos sin numerar):
-
-1. Se añaden entidades nuevas a los JSON correspondientes
-2. Se registran eventos y se actualizan relaciones
-3. Se ejecuta `validar.py` para comprobar coherencia
-4. Se ejecuta `sincronizar_html.py` para reflejar los cambios en la visualización
-
-**Restricciones editoriales:**
-- No se inventan personajes, fechas ni relaciones sin base en el texto
-- Las cronologías no explícitas se marcan con `"tipo": "inferida"`
-- No se reproducen párrafos del texto original en los campos de descripción
