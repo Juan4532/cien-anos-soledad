@@ -147,7 +147,7 @@
     },
     {
       "id": "EVT_TOQUE_HIELO",
-      "titulo": "El Coronel toca el hielo por primera vez",
+      "titulo": "El coronel Aureliano Buendía toca el hielo por primera vez",
       "tipo": "descubrimiento",
       "capitulo": 1,
       "fecha": null,
@@ -157,7 +157,7 @@
         "JOSE_ARCADIO_HIJO"
       ],
       "lugar": "CARPA_GITANOS",
-      "descripcion": "José Arcadio Buendía lleva a sus hijos a la carpa de los gitanos donde hay un bloque de hielo. José Arcadio (hijo) se niega a tocarlo. El Coronel Aureliano coloca la mano y la retira en el acto creyendo que está ardiendo. Este momento abre la primera frase de la novela.",
+      "descripcion": "José Arcadio Buendía lleva a sus hijos a la carpa de los gitanos donde hay un bloque de hielo. José Arcadio (hijo) se niega a tocarlo. El coronel Aureliano Buendía Aureliano coloca la mano y la retira en el acto creyendo que está ardiendo. Este momento abre la primera frase de la novela.",
       "orden_cronologico": 107
     },
     {
@@ -475,7 +475,7 @@
     },
     {
       "id": "EVT_RELACION_PILAR_CORONEL",
-      "titulo": "Relación entre el Coronel Aureliano y Pilar Ternera",
+      "titulo": "Relación entre el coronel Aureliano Buendía Aureliano y Pilar Ternera",
       "tipo": "otro",
       "capitulo": 4,
       "fecha": null,
@@ -489,7 +489,7 @@
     },
     {
       "id": "EVT_MATRIMONIO_AURELIANO_REMEDIOS",
-      "titulo": "Boda del Coronel Aureliano y Remedios Moscote",
+      "titulo": "Boda del coronel Aureliano Buendía Aureliano y Remedios Moscote",
       "tipo": "boda",
       "capitulo": 5,
       "fecha": null,
@@ -655,7 +655,7 @@
         "AURELIANO_BUENDIA_CORONEL"
       ],
       "lugar": "CASA_PILAR",
-      "descripcion": "Hijo del Coronel Aureliano Buendía y Pilar Ternera. Adoptado por la primera esposa del Coronel, Remedios Moscote, quien lo acepta como propio.",
+      "descripcion": "Hijo del coronel Aureliano Buendía Aureliano Buendía y Pilar Ternera. Adoptado por la primera esposa del coronel Aureliano Buendía, Remedios Moscote, quien lo acepta como propio.",
       "orden_cronologico": 506
     },
     {
@@ -746,7 +746,7 @@
     },
     {
       "id": "EVT_PRIMERA_GUERRA_LIBERAL",
-      "titulo": "El Coronel Aureliano lidera el primer levantamiento armado",
+      "titulo": "El coronel Aureliano Buendía Aureliano lidera el primer levantamiento armado",
       "tipo": "guerra",
       "capitulo": 5,
       "fecha": null,
@@ -756,7 +756,7 @@
         "APOLINAR_MOSCOTE"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Denunciando el fraude electoral conservador, el Coronel Aureliano Buendía sale con veintiún hombres para unirse al ejército liberal. Arcadio es nombrado líder civil y militar de Macondo.",
+      "descripcion": "Denunciando el fraude electoral conservador, el coronel Aureliano Buendía Aureliano Buendía sale con veintiún hombres para unirse al ejército liberal. Arcadio es nombrado líder civil y militar de Macondo.",
       "orden_cronologico": 513
     },
     {
@@ -776,7 +776,7 @@
     },
     {
       "id": "EVT_FUSILAMIENTO_CORONEL_SALVADO",
-      "titulo": "El Coronel ante el pelotón de fusilamiento; lo salva su hermano",
+      "titulo": "El coronel Aureliano Buendía ante el pelotón de fusilamiento; lo salva su hermano",
       "tipo": "guerra",
       "capitulo": 7,
       "fecha": null,
@@ -847,7 +847,7 @@
         "URSULA_IGUARAN"
       ],
       "lugar": "MACONDO",
-      "descripcion": "El consejo de guerra exige la ejecución de los oficiales conservadores. A pesar de las súplicas de Úrsula, el Coronel no conmuta la sentencia de su viejo amigo Moncada, quien le dice que con su odio se ha vuelto igual que sus enemigos.",
+      "descripcion": "El consejo de guerra exige la ejecución de los oficiales conservadores. A pesar de las súplicas de Úrsula, el coronel Aureliano Buendía no conmuta la sentencia de su viejo amigo Moncada, quien le dice que con su odio se ha vuelto igual que sus enemigos.",
       "orden_cronologico": 900
     },
     {
@@ -866,7 +866,7 @@
     },
     {
       "id": "EVT_REGRESO_SECRETO_CORONEL_CAP8",
-      "titulo": "Regreso secreto del Coronel a Macondo antes del armisticio",
+      "titulo": "Regreso secreto del coronel Aureliano Buendía a Macondo antes del armisticio",
       "tipo": "guerra",
       "capitulo": 8,
       "fecha": null,
@@ -877,12 +877,12 @@
         "AURELIANO_JOSE"
       ],
       "lugar": "MACONDO",
-      "descripcion": "En desacuerdo con los términos del armisticio, el Coronel regresa sigilosamente de madrugada con diez oficiales. Dispersan la guarnición, entierran las armas y destruyen los archivos. Al amanecer abandonan el pueblo. Aureliano José se va con su padre.",
+      "descripcion": "En desacuerdo con los términos del armisticio, el coronel Aureliano Buendía regresa sigilosamente de madrugada con diez oficiales. Dispersan la guarnición, entierran las armas y destruyen los archivos. Al amanecer abandonan el pueblo. Aureliano José se va con su padre.",
       "orden_cronologico": 818
     },
     {
       "id": "EVT_ALZAMIENTOS_POSTARMISTICIO",
-      "titulo": "Ocho levantamientos del Coronel en un año tras el armisticio",
+      "titulo": "Ocho levantamientos del coronel Aureliano Buendía en un año tras el armisticio",
       "tipo": "guerra",
       "capitulo": 8,
       "fecha": null,
@@ -890,7 +890,7 @@
         "AURELIANO_BUENDIA_CORONEL"
       ],
       "lugar": null,
-      "descripcion": "En el año siguiente al armisticio el Coronel intenta ocho alzamientos: cañonea Riohacha desde una goleta, ocupa una aduana fronteriza quince días, lanza un llamado a la guerra general y trata de cruzar 1500 km de selva para proclamar la guerra cerca de la capital.",
+      "descripcion": "En el año siguiente al armisticio el coronel Aureliano Buendía intenta ocho alzamientos: cañonea Riohacha desde una goleta, ocupa una aduana fronteriza quince días, lanza un llamado a la guerra general y trata de cruzar 1500 km de selva para proclamar la guerra cerca de la capital.",
       "orden_cronologico": 803
     },
     {
@@ -903,12 +903,12 @@
         "VISITACION"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Visitación muere de muerte natural, el gusto que se dio después de haber renunciado a un trono por miedo al insomnio. Su última voluntad es que el sueldo ahorrado en más de veinte años se mande al Coronel para que siga la guerra. Úrsula no lo saca al creer que el Coronel está muerto.",
+      "descripcion": "Visitación muere de muerte natural, el gusto que se dio después de haber renunciado a un trono por miedo al insomnio. Su última voluntad es que el sueldo ahorrado en más de veinte años se mande al Coronel para que siga la guerra. Úrsula no lo saca al creer que el coronel Aureliano Buendía está muerto.",
       "orden_cronologico": 804
     },
     {
       "id": "EVT_NOTICIAS_FALSAS_MUERTE_CORONEL",
-      "titulo": "Cuatro informes falsos de la muerte del Coronel",
+      "titulo": "Cuatro informes falsos de la muerte del coronel Aureliano Buendía",
       "tipo": "otro",
       "capitulo": 8,
       "fecha": null,
@@ -918,12 +918,12 @@
         "AMARANTA_BUENDIA"
       ],
       "lugar": "MACONDO",
-      "descripcion": "En menos de dos años el gobierno anuncia cuatro veces la muerte del Coronel. El cuarto informe se tiene por cierto durante casi seis meses. Úrsula y Amaranta superponen lutos hasta que llega la noticia de que está vivo en el Caribe.",
+      "descripcion": "En menos de dos años el gobierno anuncia cuatro veces la muerte del coronel Aureliano Buendía. El cuarto informe se tiene por cierto durante casi seis meses. Úrsula y Amaranta superponen lutos hasta que llega la noticia de que está vivo en el Caribe.",
       "orden_cronologico": 805
     },
     {
       "id": "EVT_CORONEL_FEDERALISMO_CARIBE",
-      "titulo": "El Coronel lucha por el federalismo en el Caribe y Centroamérica",
+      "titulo": "El coronel Aureliano Buendía lucha por el federalismo en el Caribe y Centroamérica",
       "tipo": "guerra",
       "capitulo": 8,
       "fecha": null,
@@ -931,7 +931,7 @@
         "AURELIANO_BUENDIA_CORONEL"
       ],
       "lugar": null,
-      "descripcion": "El Coronel aparece bajo nombres distintos en repúblicas del Caribe, sumado al federalismo triunfante. Su proyecto: unificar las fuerzas federalistas de América Central para barrer con los regímenes conservadores desde Alaska hasta la Patagonia. La primera noticia directa que recibe Úrsula es una carta borrosa desde Santiago de Cuba.",
+      "descripcion": "El coronel Aureliano Buendía aparece bajo nombres distintos en repúblicas del Caribe, sumado al federalismo triunfante. Su proyecto: unificar las fuerzas federalistas de América Central para barrer con los regímenes conservadores desde Alaska hasta la Patagonia. La primera noticia directa que recibe Úrsula es una carta borrosa desde Santiago de Cuba.",
       "orden_cronologico": 806
     },
     {
@@ -1020,7 +1020,7 @@
     },
     {
       "id": "EVT_LLEGADA_17_AURELIANOS",
-      "titulo": "Los diecisiete hijos del Coronel llegan a ser bautizados",
+      "titulo": "Los diecisiete hijos del coronel Aureliano Buendía llegan a ser bautizados",
       "tipo": "otro",
       "capitulo": 8,
       "fecha": null,
@@ -1031,7 +1031,7 @@
         "JOSE_RAQUEL_MONCADA"
       ],
       "lugar": "MACONDO",
-      "descripcion": "En menos de doce años, diecisiete hijos del Coronel son traídos para ser bautizados, todos varones, todos con el mismo aire de soledad. Se les bautiza con el nombre de Aureliano y el apellido de la madre. Úrsula los registra en una libreta. Moncada es padrino del primero. Amaranta quiere quedarse con ellos pero las madres se oponen.",
+      "descripcion": "En menos de doce años, diecisiete hijos del coronel Aureliano Buendía son traídos para ser bautizados, todos varones, todos con el mismo aire de soledad. Se les bautiza con el nombre de Aureliano y el apellido de la madre. Úrsula los registra en una libreta. Moncada es padrino del primero. Amaranta quiere quedarse con ellos pero las madres se oponen.",
       "orden_cronologico": 813
     },
     {
@@ -1050,7 +1050,7 @@
     },
     {
       "id": "EVT_ATAQUE_MACONDO_CAP8",
-      "titulo": "El Coronel ataca Macondo con mil hombres",
+      "titulo": "El coronel Aureliano Buendía ataca Macondo con mil hombres",
       "tipo": "guerra",
       "capitulo": 8,
       "fecha": null,
@@ -1060,7 +1060,7 @@
         "URSULA_IGUARAN"
       ],
       "lugar": "MACONDO",
-      "descripcion": "El primero de octubre al amanecer, el Coronel ataca Macondo con mil hombres bien armados. La guarnición recibe orden de resistir hasta el final. A mediodía un cañonazo rebelde pulveriza la fachada de la tesorería mientras Moncada almuerza con Úrsula. A las dos de la tarde Moncada sabe que ha perdido.",
+      "descripcion": "El primero de octubre al amanecer, el coronel Aureliano Buendía ataca Macondo con mil hombres bien armados. La guarnición recibe orden de resistir hasta el final. A mediodía un cañonazo rebelde pulveriza la fachada de la tesorería mientras Moncada almuerza con Úrsula. A las dos de la tarde Moncada sabe que ha perdido.",
       "orden_cronologico": 819
     },
     {
@@ -1079,7 +1079,7 @@
     },
     {
       "id": "EVT_ANULACION_TITULOS_TIERRA",
-      "titulo": "El Coronel anula los títulos de tierra usurpados por José Arcadio",
+      "titulo": "El coronel Aureliano Buendía anula los títulos de tierra usurpados por José Arcadio",
       "tipo": "acuerdo",
       "capitulo": 8,
       "fecha": null,
@@ -1088,7 +1088,7 @@
         "REBECA"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Revisando títulos de propiedad hasta cien años atrás, el Coronel descubre las tropelías legalizadas de su hermano José Arcadio. Los anula de una plumada. Visita a Rebeca para comunicárselo; ella, convertida en espectro, responde: «Se hará lo que tú dispongas. Siempre creí que eres un descastado.»",
+      "descripcion": "Revisando títulos de propiedad hasta cien años atrás, el coronel Aureliano Buendía descubre las tropelías legalizadas de su hermano José Arcadio. Los anula de una plumada. Visita a Rebeca para comunicárselo; ella, convertida en espectro, responde: «Se hará lo que tú dispongas. Siempre creí que eres un descastado.»",
       "orden_cronologico": 821
     },
     {
@@ -1109,7 +1109,7 @@
     },
     {
       "id": "EVT_VISITA_CORONEL_MONCADA_CARCEL",
-      "titulo": "El Coronel visita a Moncada en la celda antes del fusilamiento",
+      "titulo": "El coronel Aureliano Buendía visita a Moncada en la celda antes del fusilamiento",
       "tipo": "otro",
       "capitulo": 8,
       "fecha": null,
@@ -1118,7 +1118,7 @@
         "JOSE_RAQUEL_MONCADA"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Poco antes del amanecer el Coronel visita a Moncada. Le dice: «No te fusilo yo. Te fusila la revolución.» Moncada le responde: «De tanto odiar a los militares has terminado por ser igual a ellos.» Le entrega el reloj, el anillo, los lentes y la medalla para que se los mande a su esposa en Manaure.",
+      "descripcion": "Poco antes del amanecer el coronel Aureliano Buendía visita a Moncada. Le dice: «No te fusilo yo. Te fusila la revolución.» Moncada le responde: «De tanto odiar a los militares has terminado por ser igual a ellos.» Le entrega el reloj, el anillo, los lentes y la medalla para que se los mande a su esposa en Manaure.",
       "orden_cronologico": 823
     },
     {
@@ -1136,7 +1136,7 @@
     },
     {
       "id": "EVT_RENDICION_CORONEL",
-      "titulo": "El Coronel firma el armisticio de Neerlandia",
+      "titulo": "El coronel Aureliano Buendía firma el armisticio de Neerlandia",
       "tipo": "acuerdo",
       "capitulo": 9,
       "fecha": null,
@@ -1145,12 +1145,12 @@
         "GERINELDO_MARQUEZ"
       ],
       "lugar": "NEERLANDIA",
-      "descripcion": "El armisticio se firma bajo una ceiba gigantesca en Neerlandia, sin música ni celebraciones. El Coronel llega en mula embarrada, sin afeitar. Un joven coronel rebelde entrega 72 ladrillos de oro de la revolución (cubiertos de barro cocido), que el Coronel incluye en el inventario de la rendición. Lleva 32 levantamientos y casi veinte años de guerra.",
+      "descripcion": "El armisticio se firma bajo una ceiba gigantesca en Neerlandia, sin música ni celebraciones. El coronel Aureliano Buendía llega en mula embarrada, sin afeitar. Un joven coronel rebelde entrega 72 ladrillos de oro de la revolución (cubiertos de barro cocido), que el coronel Aureliano Buendía incluye en el inventario de la rendición. Lleva 32 levantamientos y casi veinte años de guerra.",
       "orden_cronologico": 901
     },
     {
       "id": "EVT_DISPARO_CORONEL",
-      "titulo": "El Coronel se dispara en el pecho y sobrevive",
+      "titulo": "El coronel Aureliano Buendía se dispara en el pecho y sobrevive",
       "tipo": "otro",
       "capitulo": 9,
       "fecha": null,
@@ -1160,7 +1160,7 @@
         "PILAR_TERNERA"
       ],
       "lugar": "NEERLANDIA",
-      "descripcion": "A las 3:15 h, en su tienda de campaña tras firmar el armisticio, el Coronel se dispara en el círculo de yodo que su médico le marcó en el pecho. La bala pasa sin tocar ningún órgano vital. Úrsula lo presiente en Macondo: la leche se llena de gusanos y ve el fantasma de José Arcadio Buendía. El fracaso del suicidio le devuelve el prestigio perdido.",
+      "descripcion": "A las 3:15 h, en su tienda de campaña tras firmar el armisticio, el coronel Aureliano Buendía se dispara en el círculo de yodo que su médico le marcó en el pecho. La bala pasa sin tocar ningún órgano vital. Úrsula lo presiente en Macondo: la leche se llena de gusanos y ve el fantasma de José Arcadio Buendía. El fracaso del suicidio le devuelve el prestigio perdido.",
       "orden_cronologico": 902
     },
     {
@@ -1190,7 +1190,7 @@
         "AMARANTA_BUENDIA"
       ],
       "lugar": "MACONDO",
-      "descripcion": "El coronel Gerineldo Márquez pierde paulatinamente el contacto real con la guerra. Las conversaciones telegráficas con el Coronel se vuelven incomprensibles. Su único refugio es el costurero de Amaranta, a quien visita cada tarde durante años contemplando cómo cose.",
+      "descripcion": "El coronel Gerineldo Márquez pierde paulatinamente el contacto real con la guerra. Las conversaciones telegráficas con el coronel Aureliano Buendía se vuelven incomprensibles. Su único refugio es el costurero de Amaranta, a quien visita cada tarde durante años contemplando cómo cose.",
       "orden_cronologico": 903
     },
     {
@@ -1223,7 +1223,7 @@
     },
     {
       "id": "EVT_REGRESO_CORONEL_DECAIDO",
-      "titulo": "El Coronel regresa a Macondo completamente cambiado",
+      "titulo": "El coronel Aureliano Buendía regresa a Macondo completamente cambiado",
       "tipo": "llegada",
       "capitulo": 9,
       "fecha": null,
@@ -1233,7 +1233,7 @@
         "AMARANTA_BUENDIA"
       ],
       "lugar": "MACONDO",
-      "descripcion": "El Coronel regresa sin escolta, envuelto en una manta a pesar del calor, con tres amantes instaladas en una misma casa. Pasa el tiempo en hamaca. Desatiende despachos, manda a la delegación política 'donde las putas'. Úrsula y Amaranta comprenden que lo han perdido para siempre.",
+      "descripcion": "El coronel Aureliano Buendía regresa sin escolta, envuelto en una manta a pesar del calor, con tres amantes instaladas en una misma casa. Pasa el tiempo en hamaca. Desatiende despachos, manda a la delegación política 'donde las putas'. Úrsula y Amaranta comprenden que lo han perdido para siempre.",
       "orden_cronologico": 906
     },
     {
@@ -1247,7 +1247,7 @@
         "GENERAL_TEOFILO_VARGAS"
       ],
       "lugar": null,
-      "descripcion": "El Coronel convoca una asamblea para unificar el mando rebelde. El general Teófilo Vargas, indio puro y mesiánico, se adelanta a sus intenciones, deshace la coalición y se apodera del mando central. Quince días después es despedazado a machetazos en una emboscada. El Coronel no dio la orden, pero la consintió tácitamente, y asume el mando central.",
+      "descripcion": "El coronel Aureliano Buendía convoca una asamblea para unificar el mando rebelde. El general Teófilo Vargas, indio puro y mesiánico, se adelanta a sus intenciones, deshace la coalición y se apodera del mando central. Quince días después es despedazado a machetazos en una emboscada. El coronel Aureliano Buendía no dio la orden, pero la consintió tácitamente, y asume el mando central.",
       "orden_cronologico": 907
     },
     {
@@ -1260,12 +1260,12 @@
         "AURELIANO_BUENDIA_CORONEL"
       ],
       "lugar": "NEERLANDIA",
-      "descripcion": "La noche en que asume el mando central, el Coronel despierta pidiendo a gritos una manta. Un frío interior que le raya los huesos lo acompañará durante meses y luego para siempre. Es el primer síntoma físico de la corrupción del poder.",
+      "descripcion": "La noche en que asume el mando central, el coronel Aureliano Buendía despierta pidiendo a gritos una manta. Un frío interior que le raya los huesos lo acompañará durante meses y luego para siempre. Es el primer síntoma físico de la corrupción del poder.",
       "orden_cronologico": 908
     },
     {
       "id": "EVT_SAQUEO_CASA_VIUDA_MONCADA",
-      "titulo": "El Coronel manda quemar la casa de la viuda de Moncada",
+      "titulo": "El coronel Aureliano Buendía manda quemar la casa de la viuda de Moncada",
       "tipo": "conflicto",
       "capitulo": 9,
       "fecha": null,
@@ -1274,7 +1274,7 @@
         "VIUDA_MONCADA"
       ],
       "lugar": "MACONDO",
-      "descripcion": "El Coronel va a Manaure a cumplir la última voluntad de Moncada y entregar sus objetos personales a su viuda. Ella no le permite pasar de la puerta: «Usted mandará en su guerra, pero yo mando en mi casa.» Su guardia personal saquea y reduce a cenizas la casa.",
+      "descripcion": "El coronel Aureliano Buendía va a Manaure a cumplir la última voluntad de Moncada y entregar sus objetos personales a su viuda. Ella no le permite pasar de la puerta: «Usted mandará en su guerra, pero yo mando en mi casa.» Su guardia personal saquea y reduce a cenizas la casa.",
       "orden_cronologico": 909
     },
     {
@@ -1288,7 +1288,7 @@
         "GERINELDO_MARQUEZ"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Seis abogados del partido liberal piden al Coronel renunciar a la revisión de títulos de tierra, a la lucha anticlerical y a la igualdad de hijos naturales. El Coronel sonríe: «Quiere decir que solo estamos luchando por el poder.» Firma. Gerineldo Márquez lo llama traición.",
+      "descripcion": "Seis abogados del partido liberal piden al Coronel renunciar a la revisión de títulos de tierra, a la lucha anticlerical y a la igualdad de hijos naturales. El coronel Aureliano Buendía sonríe: «Quiere decir que solo estamos luchando por el poder.» Firma. Gerineldo Márquez lo llama traición.",
       "orden_cronologico": 910
     },
     {
@@ -1302,7 +1302,7 @@
         "GERINELDO_MARQUEZ"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Cuando Gerineldo llama traición a la firma, el Coronel le ordena entregar las armas y presentarse en el cuartel. Es condenado a muerte por los tribunales revolucionarios. El Coronel permanece insensible a las súplicas de clemencia.",
+      "descripcion": "Cuando Gerineldo llama traición a la firma, el coronel Aureliano Buendía le ordena entregar las armas y presentarse en el cuartel. Es condenado a muerte por los tribunales revolucionarios. El coronel Aureliano Buendía permanece insensible a las súplicas de clemencia.",
       "orden_cronologico": 911
     },
     {
@@ -1321,7 +1321,7 @@
     },
     {
       "id": "EVT_LIBERACION_GERINELDO",
-      "titulo": "El Coronel libera a Gerineldo en el último momento",
+      "titulo": "El coronel Aureliano Buendía libera a Gerineldo en el último momento",
       "tipo": "otro",
       "capitulo": 9,
       "fecha": null,
@@ -1330,12 +1330,12 @@
         "GERINELDO_MARQUEZ"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Tras una noche de tormentosa vigilia, el Coronel aparece en la celda una hora antes de la ejecución: «Terminó la farsa, compadre. Vámonos de aquí, antes de que acaben de fusilarte los mosquitos.» Gerineldo lo recrimina: «Vale más estar muerto que verte convertido en un chafarote.»",
+      "descripcion": "Tras una noche de tormentosa vigilia, el coronel Aureliano Buendía aparece en la celda una hora antes de la ejecución: «Terminó la farsa, compadre. Vámonos de aquí, antes de que acaben de fusilarte los mosquitos.» Gerineldo lo recrimina: «Vale más estar muerto que verte convertido en un chafarote.»",
       "orden_cronologico": 913
     },
     {
       "id": "EVT_DESTRUCCION_RASTROS_CORONEL",
-      "titulo": "El Coronel destruye todo rastro de su paso por el mundo",
+      "titulo": "El coronel Aureliano Buendía destruye todo rastro de su paso por el mundo",
       "tipo": "otro",
       "capitulo": 9,
       "fecha": null,
@@ -1344,12 +1344,12 @@
         "URSULA_IGUARAN"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Antes del armisticio, el Coronel simplifica el taller de platería, regala su ropa a los ordenanzas y entierra sus armas en el patio. Solo conserva una pistola con una sola bala. Úrsula le impide destruir el daguerrotipo de Remedios Moscote: «Ese retrato dejó de pertenecerte. Es una reliquia de familia.»",
+      "descripcion": "Antes del armisticio, el coronel Aureliano Buendía simplifica el taller de platería, regala su ropa a los ordenanzas y entierra sus armas en el patio. Solo conserva una pistola con una sola bala. Úrsula le impide destruir el daguerrotipo de Remedios Moscote: «Ese retrato dejó de pertenecerte. Es una reliquia de familia.»",
       "orden_cronologico": 914
     },
     {
       "id": "EVT_QUEMA_VERSOS_CORONEL",
-      "titulo": "El Coronel quema sus versos en el horno de la panadería",
+      "titulo": "El coronel Aureliano Buendía quema sus versos en el horno de la panadería",
       "tipo": "otro",
       "capitulo": 9,
       "fecha": null,
@@ -1386,12 +1386,12 @@
         "JOSE_ARCADIO_BUENDIA_FUNDADOR"
       ],
       "lugar": "MACONDO",
-      "descripcion": "En el momento exacto en que el Coronel se dispara en Neerlandia, Úrsula destapa la olla de la leche y la encuentra llena de gusanos. Grita «¡Han matado a Aureliano!» Ve el fantasma de José Arcadio Buendía empapado de lluvia, y al anochecer discos anaranjados cruzando el cielo.",
+      "descripcion": "En el momento exacto en que el coronel Aureliano Buendía se dispara en Neerlandia, Úrsula destapa la olla de la leche y la encuentra llena de gusanos. Grita «¡Han matado a Aureliano!» Ve el fantasma de José Arcadio Buendía empapado de lluvia, y al anochecer discos anaranjados cruzando el cielo.",
       "orden_cronologico": 917
     },
     {
       "id": "EVT_PENSIONES_GUERRA",
-      "titulo": "El Coronel amenaza con nueva guerra por las pensiones",
+      "titulo": "El coronel Aureliano Buendía amenaza con nueva guerra por las pensiones",
       "tipo": "conflicto",
       "capitulo": 9,
       "fecha": null,
@@ -1399,12 +1399,12 @@
         "AURELIANO_BUENDIA_CORONEL"
       ],
       "lugar": "MACONDO",
-      "descripcion": "El gobierno supedita las pensiones de los excombatientes a una comisión especial. El Coronel dicta un telegrama amenazante al presidente: si las pensiones no se resuelven en quince días, proclama la guerra a muerte. El gobierno responde con arresto domiciliario.",
+      "descripcion": "El gobierno supedita las pensiones de los excombatientes a una comisión especial. El coronel Aureliano Buendía dicta un telegrama amenazante al presidente: si las pensiones no se resuelven en quince días, proclama la guerra a muerte. El gobierno responde con arresto domiciliario.",
       "orden_cronologico": 918
     },
     {
       "id": "EVT_ARRESTO_DOMICILIARIO_CORONEL",
-      "titulo": "Arresto domiciliario del Coronel tras el armisticio",
+      "titulo": "Arresto domiciliario del coronel Aureliano Buendía tras el armisticio",
       "tipo": "conflicto",
       "capitulo": 9,
       "fecha": null,
@@ -1413,7 +1413,7 @@
         "URSULA_IGUARAN"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Ante la amenaza de nueva guerra, el gobierno rodea la casa del Coronel con guardia militar y prohíbe toda visita. Medidas similares se adoptan en todo el país contra otros caudillos. En dos meses los instigadores están muertos, exiliados o asimilados por la administración pública.",
+      "descripcion": "Ante la amenaza de nueva guerra, el gobierno rodea la casa del coronel Aureliano Buendía con guardia militar y prohíbe toda visita. Medidas similares se adoptan en todo el país contra otros caudillos. En dos meses los instigadores están muertos, exiliados o asimilados por la administración pública.",
       "orden_cronologico": 919
     },
     {
@@ -1444,7 +1444,7 @@
     },
     {
       "id": "EVT_EXTERMINIO_17_AURELIANOS",
-      "titulo": "Exterminio de los 17 hijos del Coronel Aureliano",
+      "titulo": "Exterminio de los 17 hijos del coronel Aureliano Buendía Aureliano",
       "tipo": "muerte",
       "capitulo": 12,
       "fecha": null,
@@ -1457,7 +1457,7 @@
         "AURELIANO_AMADOR"
       ],
       "lugar": "MACONDO",
-      "descripcion": "En el curso de una semana, los 17 hijos del Coronel son cazados como conejos en distintos lugares del litoral. La marca imborrable de ceniza en la frente los identifica para los asesinos. Aureliano Triste recibe un balazo en la frente; Aureliano Centeno es hallado en su hamaca con un punzón de picar hielo entre las cejas; Aureliano Serrador cae en un caldero de manteca hirviendo en la Calle de los Turcos; Aureliano Arcaya es abatido con una descarga de máuser al abrir la puerta. Solo Aureliano Amador escapa saltando la cerca de su patio y refugiándose con los indios de la sierra.",
+      "descripcion": "En el curso de una semana, los 17 hijos del coronel Aureliano Buendía son cazados como conejos en distintos lugares del litoral. La marca imborrable de ceniza en la frente los identifica para los asesinos. Aureliano Triste recibe un balazo en la frente; Aureliano Centeno es hallado en su hamaca con un punzón de picar hielo entre las cejas; Aureliano Serrador cae en un caldero de manteca hirviendo en la Calle de los Turcos; Aureliano Arcaya es abatido con una descarga de máuser al abrir la puerta. Solo Aureliano Amador escapa saltando la cerca de su patio y refugiándose con los indios de la sierra.",
       "orden_cronologico": 1200
     },
     {
@@ -1617,7 +1617,7 @@
     },
     {
       "id": "EVT_CORONEL_VEJEZ_PESCADITOS",
-      "titulo": "El Coronel se recluye a fabricar pescaditos de oro en su vejez",
+      "titulo": "El coronel Aureliano Buendía se recluye a fabricar pescaditos de oro en su vejez",
       "tipo": "otro",
       "capitulo": 10,
       "fecha": null,
@@ -1625,7 +1625,7 @@
         "AURELIANO_BUENDIA_CORONEL"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Encerrado en su taller, el Coronel fabrica pescaditos de oro que un antiguo soldado vende por la ciénaga a cambio de monedas, que él funde de nuevo en pescaditos. El círculo vicioso exasperante es su único refugio: la concentración artesanal le otorga la paz del espíritu que la guerra le negó. «Esperando que pase mi entierro», responde a quien le saluda.",
+      "descripcion": "Encerrado en su taller, el coronel Aureliano Buendía fabrica pescaditos de oro que un antiguo soldado vende por la ciénaga a cambio de monedas, que él funde de nuevo en pescaditos. El círculo vicioso exasperante es su único refugio: la concentración artesanal le otorga la paz del espíritu que la guerra le negó. «Esperando que pase mi entierro», responde a quien le saluda.",
       "orden_cronologico": 1009
     },
     {
@@ -1706,7 +1706,7 @@
     },
     {
       "id": "EVT_MUERTE_CORONEL_AURELIANO",
-      "titulo": "Muerte del Coronel Aureliano Buendía",
+      "titulo": "Muerte del coronel Aureliano Buendía Aureliano Buendía",
       "tipo": "muerte",
       "capitulo": 13,
       "fecha": null,
@@ -1715,7 +1715,7 @@
         "SANTA_SOFIA_DE_LA_PIEDAD"
       ],
       "lugar": "CASA_BUENDIA",
-      "descripcion": "El 11 de octubre, el Coronel sale por primera vez en años a ver el desfile de un circo. Al ver una mujer vestida de oro sobre un elefante, revive la tarde prodigiosa de los gitanos y el hielo. Después se apoya en el castaño del patio, mete la cabeza entre los hombros y muere de pie, solo y olvidado. La familia no se entera hasta el día siguiente, cuando Santa Sofía de la Piedad ve bajar los gallinazos.",
+      "descripcion": "El 11 de octubre, el coronel Aureliano Buendía sale por primera vez en años a ver el desfile de un circo. Al ver una mujer vestida de oro sobre un elefante, revive la tarde prodigiosa de los gitanos y el hielo. Después se apoya en el castaño del patio, mete la cabeza entre los hombros y muere de pie, solo y olvidado. La familia no se entera hasta el día siguiente, cuando Santa Sofía de la Piedad ve bajar los gallinazos.",
       "orden_cronologico": 1300
     },
     {
@@ -2302,7 +2302,7 @@
         "ARCADIO"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Un supuesto mensajero del Coronel Aureliano llega disfrazado de anciana con un burro cargado de escobas. Porta un pescadito de oro como salvoconducto. Trae la orden de entregar la plaza sin resistencia. Arcadio lo encarcela por no llevar carta escrita y decide defender Macondo hasta la muerte.",
+      "descripcion": "Un supuesto mensajero del coronel Aureliano Buendía Aureliano llega disfrazado de anciana con un burro cargado de escobas. Porta un pescadito de oro como salvoconducto. Trae la orden de entregar la plaza sin resistencia. Arcadio lo encarcela por no llevar carta escrita y decide defender Macondo hasta la muerte.",
       "orden_cronologico": 606
     },
     {
@@ -2353,7 +2353,7 @@
     },
     {
       "id": "EVT_CAPTURA_CORONEL",
-      "titulo": "Captura del Coronel Aureliano Buendía",
+      "titulo": "Captura del coronel Aureliano Buendía Aureliano Buendía",
       "tipo": "guerra",
       "capitulo": 7,
       "fecha": null,
@@ -2362,7 +2362,7 @@
         "GERINELDO_MARQUEZ"
       ],
       "lugar": "LA_SIERRA",
-      "descripcion": "En mayo, el Coronel Aureliano Buendía es capturado disfrazado de hechicero indígena. De los 21 hombres que lo acompañaban, 14 murieron en combate y 6 resultaron heridos. Solo Gerineldo Márquez logra escapar.",
+      "descripcion": "En mayo, el coronel Aureliano Buendía Aureliano Buendía es capturado disfrazado de hechicero indígena. De los 21 hombres que lo acompañaban, 14 murieron en combate y 6 resultaron heridos. Solo Gerineldo Márquez logra escapar.",
       "orden_cronologico": 704
     },
     {
@@ -2376,7 +2376,7 @@
         "AURELIANO_BUENDIA_CORONEL"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Úrsula obtiene quince minutos de visita para su hijo preso. Le lleva ropa limpia y dulce de leche, y esconde un revólver en la cesta. El Coronel lo rechaza: está resignado a morir.",
+      "descripcion": "Úrsula obtiene quince minutos de visita para su hijo preso. Le lleva ropa limpia y dulce de leche, y esconde un revólver en la cesta. El coronel Aureliano Buendía lo rechaza: está resignado a morir.",
       "orden_cronologico": 705
     },
     {
@@ -2389,7 +2389,7 @@
         "MAGNIFICO_VISBAL"
       ],
       "lugar": "MANAURE",
-      "descripcion": "Magnífico Visbal, que ocupaba el catre que el Coronel le había cedido la noche de su captura, es asesinado a puñaladas en Manaure. El Coronel, al enterarse, interpreta el suceso como una señal de su propio destino.",
+      "descripcion": "Magnífico Visbal, que ocupaba el catre que el coronel Aureliano Buendía le había cedido la noche de su captura, es asesinado a puñaladas en Manaure. El coronel Aureliano Buendía, al enterarse, interpreta el suceso como una señal de su propio destino.",
       "orden_cronologico": 706
     },
     {
@@ -2408,7 +2408,7 @@
     },
     {
       "id": "EVT_INTENTO_ENVENENAMIENTO_CORONEL",
-      "titulo": "Intento de envenenamiento del Coronel con café",
+      "titulo": "Intento de envenenamiento del coronel Aureliano Buendía con café",
       "tipo": "conflicto",
       "capitulo": 7,
       "fecha": null,
@@ -2422,7 +2422,7 @@
     },
     {
       "id": "EVT_REGRESO_CORONEL_MACONDO",
-      "titulo": "Regreso victorioso del Coronel a Macondo",
+      "titulo": "Regreso victorioso del coronel Aureliano Buendía a Macondo",
       "tipo": "llegada",
       "capitulo": 7,
       "fecha": null,
@@ -2432,7 +2432,7 @@
         "URSULA_IGUARAN"
       ],
       "lugar": "MACONDO",
-      "descripcion": "El Coronel regresa a Macondo al mando de las fuerzas liberales. Gerineldo Márquez, que escapó de la captura, lo recibe con un abrazo; es la primera efusión de afecto entre ellos. Úrsula apenas reconoce al hijo que partió.",
+      "descripcion": "El coronel Aureliano Buendía regresa a Macondo al mando de las fuerzas liberales. Gerineldo Márquez, que escapó de la captura, lo recibe con un abrazo; es la primera efusión de afecto entre ellos. Úrsula apenas reconoce al hijo que partió.",
       "orden_cronologico": 709
     },
     {
@@ -2446,7 +2446,7 @@
         "GERINELDO_MARQUEZ"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Antes de partir al interior del país a continuar la guerra, el Coronel nombra a Gerineldo Márquez jefe civil y militar de Macondo, dejándolo a cargo del orden y de Amaranta.",
+      "descripcion": "Antes de partir al interior del país a continuar la guerra, el coronel Aureliano Buendía nombra a Gerineldo Márquez jefe civil y militar de Macondo, dejándolo a cargo del orden y de Amaranta.",
       "orden_cronologico": 710
     },
     {
@@ -2465,7 +2465,7 @@
     },
     {
       "id": "EVT_VERSOS_CORONEL_GUERRA",
-      "titulo": "Los versos del Coronel: escribe durante la guerra, pide quemarlos y continúa",
+      "titulo": "Los versos del coronel Aureliano Buendía: escribe durante la guerra, pide quemarlos y continúa",
       "tipo": "otro",
       "capitulo": 7,
       "fecha": null,
@@ -2474,12 +2474,12 @@
         "URSULA_IGUARAN"
       ],
       "lugar": "CUARTEL_MACONDO",
-      "descripcion": "El Coronel Aureliano Buendía ha seguido escribiendo versos durante toda la guerra. Antes del fusilamiento le pide a Úrsula que queme sus poemas. Tras sobrevivir al intento de envenenamiento retoma la escritura, reflexinando sobre la muerte.",
+      "descripcion": "El coronel Aureliano Buendía Aureliano Buendía ha seguido escribiendo versos durante toda la guerra. Antes del fusilamiento le pide a Úrsula que queme sus poemas. Tras sobrevivir al intento de envenenamiento retoma la escritura, reflexinando sobre la muerte.",
       "orden_cronologico": 712
     },
     {
       "id": "EVT_REFLEXION_ORGULLO_CORONEL",
-      "titulo": "El Coronel concluye que pelea por puro orgullo",
+      "titulo": "El coronel Aureliano Buendía concluye que pelea por puro orgullo",
       "tipo": "otro",
       "capitulo": 7,
       "fecha": null,
@@ -2488,7 +2488,7 @@
         "GERINELDO_MARQUEZ"
       ],
       "lugar": "CUARTEL_MACONDO",
-      "descripcion": "En una conversación con el coronel Gerineldo Márquez, el Coronel Aureliano Buendía reflexiona sobre sus motivaciones y llega a una conclusión desoladora: no pelea por ideales liberales ni por justicia, sino únicamente por orgullo.",
+      "descripcion": "En una conversación con el coronel Gerineldo Márquez, el coronel Aureliano Buendía Aureliano Buendía reflexiona sobre sus motivaciones y llega a una conclusión desoladora: no pelea por ideales liberales ni por justicia, sino únicamente por orgullo.",
       "orden_cronologico": 713
     },
     {
@@ -2597,7 +2597,7 @@
     },
     {
       "id": "EVT_JUBILEO_CORONEL",
-      "titulo": "El Coronel rechaza el jubileo del gobierno",
+      "titulo": "El coronel Aureliano Buendía rechaza el jubileo del gobierno",
       "tipo": "conflicto",
       "capitulo": 11,
       "fecha": null,
@@ -2607,12 +2607,12 @@
         "URSULA_IGUARAN"
       ],
       "lugar": "MACONDO",
-      "descripcion": "El gobierno organiza un jubileo por el aniversario del tratado de Neerlandia. El Coronel lo rechaza como una burla y manda al presidente la amenaza de dispararle si se presenta. El presidente cancela el viaje. Gerineldo Márquez, paralítico, abandona su lecho para persuadirle, pero el Coronel lo expulsa del taller: 'demasiado tarde me convenzo de que te habría hecho un gran favor si te hubiera dejado fusilar'.",
+      "descripcion": "El gobierno organiza un jubileo por el aniversario del tratado de Neerlandia. El coronel Aureliano Buendía lo rechaza como una burla y manda al presidente la amenaza de dispararle si se presenta. El presidente cancela el viaje. Gerineldo Márquez, paralítico, abandona su lecho para persuadirle, pero el coronel Aureliano Buendía lo expulsa del taller: 'demasiado tarde me convenzo de que te habría hecho un gran favor si te hubiera dejado fusilar'.",
       "orden_cronologico": 1107
     },
     {
       "id": "EVT_VISITA_17_AURELIANOS_JUBILEO",
-      "titulo": "Los 17 hijos del Coronel llegan para el jubileo",
+      "titulo": "Los 17 hijos del coronel Aureliano Buendía llegan para el jubileo",
       "tipo": "otro",
       "capitulo": 11,
       "fecha": null,
@@ -2626,12 +2626,12 @@
         "AURELIANO_SEGUNDO"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Los 17 hijos del Coronel llegan simultáneamente, sin ponerse de acuerdo, atraídos por el jubileo. Tres días de parranda: consiguen que Remedios la Bella se ponga pantalones de hombre para subirse a la cucaña y sueltan un cerdo embadurnado de sebo en el comedor. El Coronel les regala a cada uno un pescadito de oro. Amaranta registra nombres y domicilios en la libreta de Úrsula.",
+      "descripcion": "Los 17 hijos del coronel Aureliano Buendía llegan simultáneamente, sin ponerse de acuerdo, atraídos por el jubileo. Tres días de parranda: consiguen que Remedios la Bella se ponga pantalones de hombre para subirse a la cucaña y sueltan un cerdo embadurnado de sebo en el comedor. El coronel Aureliano Buendía les regala a cada uno un pescadito de oro. Amaranta registra nombres y domicilios en la libreta de Úrsula.",
       "orden_cronologico": 1108
     },
     {
       "id": "EVT_CRUZ_CENIZA_IMBORRABLE",
-      "titulo": "La cruz de ceniza imborrable en los hijos del Coronel",
+      "titulo": "La cruz de ceniza imborrable en los hijos del coronel Aureliano Buendía",
       "tipo": "milagro",
       "capitulo": 11,
       "fecha": null,
@@ -2642,7 +2642,7 @@
         "AMARANTA_BUENDIA"
       ],
       "lugar": "MACONDO",
-      "descripcion": "El miércoles de ceniza, Amaranta lleva a los hijos del Coronel a misa. El padre Antonio Isabel les pone la cruz de ceniza, pero al intentar borrársela descubren que la mancha es indeleble; los demás feligreses se la quitan sin dificultad. Úrsula los despide: 'de ahora en adelante nadie podrá confundirlos'.",
+      "descripcion": "El miércoles de ceniza, Amaranta lleva a los hijos del coronel Aureliano Buendía a misa. El padre Antonio Isabel les pone la cruz de ceniza, pero al intentar borrársela descubren que la mancha es indeleble; los demás feligreses se la quitan sin dificultad. Úrsula los despide: 'de ahora en adelante nadie podrá confundirlos'.",
       "orden_cronologico": 1109
     },
     {
@@ -2686,7 +2686,7 @@
         "ARGENIDA"
       ],
       "lugar": "MACONDO",
-      "descripcion": "En febrero, los 16 hijos del Coronel restauran en medio día la fachada de la casa de Rebeca: cambian puertas y ventanas, pintan y vacían cemento nuevo. Rebeca ni se asoma; les manda el pago con Argénida en monedas retiradas de circulación. No consiguen permiso para el interior ni logran rescatarla.",
+      "descripcion": "En febrero, los 16 hijos del coronel Aureliano Buendía restauran en medio día la fachada de la casa de Rebeca: cambian puertas y ventanas, pintan y vacían cemento nuevo. Rebeca ni se asoma; les manda el pago con Argénida en monedas retiradas de circulación. No consiguen permiso para el interior ni logran rescatarla.",
       "orden_cronologico": 1112
     },
     {
@@ -2771,12 +2771,12 @@
         "AURELIANO_BUENDIA_CORONEL"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Un sobrino del coronel Magnífico Visbal lleva a su nieto de siete años a tomar un refresco. El niño tropieza con un cabo de la policía y le derrama el refresco en el uniforme; el cabo lo hace picadillo a machetazos y decapita al abuelo que trata de impedirlo. El pueblo ve pasar al decapitado y a la cabeza siendo llevada por el pelo. Para el Coronel es el límite de la expiación.",
+      "descripcion": "Un sobrino del coronel Magnífico Visbal lleva a su nieto de siete años a tomar un refresco. El niño tropieza con un cabo de la policía y le derrama el refresco en el uniforme; el cabo lo hace picadillo a machetazos y decapita al abuelo que trata de impedirlo. El pueblo ve pasar al decapitado y a la cabeza siendo llevada por el pelo. Para el coronel Aureliano Buendía es el límite de la expiación.",
       "orden_cronologico": 1207
     },
     {
       "id": "EVT_CORONEL_JURA_GUERRA_GRINGOS",
-      "titulo": "El Coronel jura armar a sus hijos contra los gringos",
+      "titulo": "El coronel Aureliano Buendía jura armar a sus hijos contra los gringos",
       "tipo": "conflicto",
       "capitulo": 12,
       "fecha": null,
@@ -2784,12 +2784,12 @@
         "AURELIANO_BUENDIA_CORONEL"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Tras el crimen del nieto Visbal, el Coronel sale del taller y grita a los vecinos: '¡Un día de estos voy a armar a mis muchachos para que acaben con estos gringos de mierda!' La amenaza llega a oídos de sus enemigos y desencadena el exterminio de los 17 Aurelianos esa misma semana.",
+      "descripcion": "Tras el crimen del nieto Visbal, el coronel Aureliano Buendía sale del taller y grita a los vecinos: '¡Un día de estos voy a armar a mis muchachos para que acaben con estos gringos de mierda!' La amenaza llega a oídos de sus enemigos y desencadena el exterminio de los 17 Aurelianos esa misma semana.",
       "orden_cronologico": 1208
     },
     {
       "id": "EVT_CORONEL_DENUNCIA_PADRE_ANTONIO",
-      "titulo": "El Coronel denuncia al padre Antonio Isabel",
+      "titulo": "El coronel Aureliano Buendía denuncia al padre Antonio Isabel",
       "tipo": "conflicto",
       "capitulo": 12,
       "fecha": null,
@@ -2798,12 +2798,12 @@
         "PADRE_ANTONIO_ISABEL"
       ],
       "lugar": "MACONDO",
-      "descripcion": "El Coronel denuncia la complicidad del padre Antonio Isabel por haber marcado a sus hijos con ceniza indeleble, facilitando su identificación por los asesinos. El decrépito sacerdote acude a la casa con el tazón de cenizas para demostrar que se quitan con agua, pero nadie se presta al experimento. Los Buendía no vuelven a arrodillarse en el comulgatorio el miércoles de ceniza.",
+      "descripcion": "El coronel Aureliano Buendía denuncia la complicidad del padre Antonio Isabel por haber marcado a sus hijos con ceniza indeleble, facilitando su identificación por los asesinos. El decrépito sacerdote acude a la casa con el tazón de cenizas para demostrar que se quitan con agua, pero nadie se presta al experimento. Los Buendía no vuelven a arrodillarse en el comulgatorio el miércoles de ceniza.",
       "orden_cronologico": 1209
     },
     {
       "id": "EVT_CORONEL_BUSCA_DINERO_GUERRA",
-      "titulo": "El Coronel reúne dinero para financiar una nueva guerra",
+      "titulo": "El coronel Aureliano Buendía reúne dinero para financiar una nueva guerra",
       "tipo": "conflicto",
       "capitulo": 12,
       "fecha": null,
@@ -2812,12 +2812,12 @@
         "URSULA_IGUARAN"
       ],
       "lugar": "MACONDO",
-      "descripcion": "El Coronel abandona los pescaditos de oro y, quebrando todos sus principios de dignidad, busca dinero entre viejos copartidarios que se esconden para no recibirlo. En ocho meses reúne más de lo que Úrsula tiene enterrado. Le pide a Úrsula que le revele dónde están las monedas de oro del San José de yeso, pero ella se niega.",
+      "descripcion": "El coronel Aureliano Buendía abandona los pescaditos de oro y, quebrando todos sus principios de dignidad, busca dinero entre viejos copartidarios que se esconden para no recibirlo. En ocho meses reúne más de lo que Úrsula tiene enterrado. Le pide a Úrsula que le revele dónde están las monedas de oro del San José de yeso, pero ella se niega.",
       "orden_cronologico": 1210
     },
     {
       "id": "EVT_CORONEL_PROPONE_GUERRA_GERINELDO",
-      "titulo": "El Coronel propone la guerra total a Gerineldo Márquez",
+      "titulo": "El coronel Aureliano Buendía propone la guerra total a Gerineldo Márquez",
       "tipo": "conflicto",
       "capitulo": 12,
       "fecha": null,
@@ -2826,7 +2826,7 @@
         "GERINELDO_MARQUEZ"
       ],
       "lugar": "MACONDO",
-      "descripcion": "El Coronel visita al paralítico Gerineldo Márquez para invitarle a promover una conflagración total contra el régimen de corrupción sostenido por el invasor extranjero. Gerineldo, que ha pasado años luchando la guerra miserable del aplazamiento burocrático, le responde con compasión: 'ya sabía que estabas viejo, pero ahora me doy cuenta que estás mucho más viejo de lo que pareces'.",
+      "descripcion": "El coronel Aureliano Buendía visita al paralítico Gerineldo Márquez para invitarle a promover una conflagración total contra el régimen de corrupción sostenido por el invasor extranjero. Gerineldo, que ha pasado años luchando la guerra miserable del aplazamiento burocrático, le responde con compasión: 'ya sabía que estabas viejo, pero ahora me doy cuenta que estás mucho más viejo de lo que pareces'.",
       "orden_cronologico": 1211
     },
     {
@@ -2841,7 +2841,7 @@
         "PADRE_ANTONIO_ISABEL"
       ],
       "lugar": "MACONDO",
-      "descripcion": "Un jueves a las dos de la tarde, José Arcadio parte al seminario con vestido de pana verde y botones de cobre. El almuerzo de despedida transcurre con fingida alegría; el Coronel se niega a participar: '¡Un Papa! ¡Era la última vaina que nos faltaba!'",
+      "descripcion": "Un jueves a las dos de la tarde, José Arcadio parte al seminario con vestido de pana verde y botones de cobre. El almuerzo de despedida transcurre con fingida alegría; el coronel Aureliano Buendía se niega a participar: '¡Un Papa! ¡Era la última vaina que nos faltaba!'",
       "orden_cronologico": 1301
     },
     {
@@ -2895,7 +2895,7 @@
         "URSULA_IGUARAN"
       ],
       "lugar": "CASA_BUENDIA",
-      "descripcion": "En su decrepitud ciega, Úrsula examina con insólita claridad a su familia. Comprende que el Coronel nunca quiso a nadie y que hizo sus guerras por soberbia, no por idealismo. Ve que Amaranta fue la más tierna, consumida por un amor sin medidas y una cobardía invencible. Reconoce que Rebeca, la que comió tierra, fue la única con valentía sin frenos, y empieza a invocarla con arrepentimiento.",
+      "descripcion": "En su decrepitud ciega, Úrsula examina con insólita claridad a su familia. Comprende que el coronel Aureliano Buendía nunca quiso a nadie y que hizo sus guerras por soberbia, no por idealismo. Ve que Amaranta fue la más tierna, consumida por un amor sin medidas y una cobardía invencible. Reconoce que Rebeca, la que comió tierra, fue la única con valentía sin frenos, y empieza a invocarla con arrepentimiento.",
       "orden_cronologico": 1305
     },
     {
@@ -2929,7 +2929,7 @@
     },
     {
       "id": "EVT_CORONEL_QUEMA_MUNECAS_REMEDIOS",
-      "titulo": "El Coronel quema las muñecas de Remedios y se instala en el taller",
+      "titulo": "El coronel Aureliano Buendía quema las muñecas de Remedios y se instala en el taller",
       "tipo": "otro",
       "capitulo": 13,
       "fecha": null,
@@ -2938,7 +2938,7 @@
         "URSULA_IGUARAN"
       ],
       "lugar": "CASA_BUENDIA",
-      "descripcion": "El Coronel hace una hoguera en el patio con las muñecas de Remedios Moscote que decoraban su dormitorio desde su boda. Úrsula le reprocha: 'tienes un corazón de piedra'. Él responde: 'el cuarto se está llenando de polillas'. Cuelga una hamaca en el taller y ya solo lo abandona para ir al patio a hacer sus necesidades.",
+      "descripcion": "El coronel Aureliano Buendía hace una hoguera en el patio con las muñecas de Remedios Moscote que decoraban su dormitorio desde su boda. Úrsula le reprocha: 'tienes un corazón de piedra'. Él responde: 'el cuarto se está llenando de polillas'. Cuelga una hamaca en el taller y ya solo lo abandona para ir al patio a hacer sus necesidades.",
       "orden_cronologico": 1308
     },
     {
@@ -2970,7 +2970,7 @@
         "AURELIANO_BUENDIA_CORONEL"
       ],
       "lugar": "CASA_BUENDIA",
-      "descripcion": "En sus terceras vacaciones, Meme invita sin avisar a 68 compañeras y 4 monjas a pasar una semana. La casa se convierte en un caos de turnos para comer, bañarse y dormir. El Coronel escandaliza a las monjas orinando bajo el castaño. Amaranta asusta a una novicia diciéndole que el polvo blanco de la sopa es arsénico. Fernanda compra 72 bacinillas, que al final van a parar al cuarto de Melquíades.",
+      "descripcion": "En sus terceras vacaciones, Meme invita sin avisar a 68 compañeras y 4 monjas a pasar una semana. La casa se convierte en un caos de turnos para comer, bañarse y dormir. El coronel Aureliano Buendía escandaliza a las monjas orinando bajo el castaño. Amaranta asusta a una novicia diciéndole que el polvo blanco de la sopa es arsénico. Fernanda compra 72 bacinillas, que al final van a parar al cuarto de Melquíades.",
       "orden_cronologico": 1310
     },
     {
@@ -2984,12 +2984,12 @@
         "AURELIANO_BUENDIA_CORONEL"
       ],
       "lugar": "CASA_BUENDIA",
-      "descripcion": "Fernanda guarda las 72 bacinillas compradas para las colegialas de Meme en el cuarto de Melquíades. La habitación que fue el centro espiritual de la casa pasa a llamarse 'el cuarto de las bacinillas'. Para el Coronel, es el nombre más apropiado: donde otros ven inmunidad al polvo, él ve un muladar.",
+      "descripcion": "Fernanda guarda las 72 bacinillas compradas para las colegialas de Meme en el cuarto de Melquíades. La habitación que fue el centro espiritual de la casa pasa a llamarse 'el cuarto de las bacinillas'. Para el coronel Aureliano Buendía, es el nombre más apropiado: donde otros ven inmunidad al polvo, él ve un muladar.",
       "orden_cronologico": 1311
     },
     {
       "id": "EVT_JOSE_ARCADIO_SEGUNDO_REGRESA_TALLER",
-      "titulo": "José Arcadio Segundo reaparece y se encierra con el Coronel",
+      "titulo": "José Arcadio Segundo reaparece y se encierra con el coronel Aureliano Buendía",
       "tipo": "otro",
       "capitulo": 13,
       "fecha": null,
@@ -2999,7 +2999,7 @@
         "URSULA_IGUARAN"
       ],
       "lugar": "CASA_BUENDIA",
-      "descripcion": "José Arcadio Segundo reaparece en la casa, pasa sin saludar a nadie y se encierra en el taller con el Coronel. Úrsula, que lo orienta por el sonido de sus botas de capataz, observa que es el que más se parece a Santa Sofía de la Piedad, y que él y el Coronel son los únicos de la familia vinculados por afinidades verdaderas.",
+      "descripcion": "José Arcadio Segundo reaparece en la casa, pasa sin saludar a nadie y se encierra en el taller con el coronel Aureliano Buendía. Úrsula, que lo orienta por el sonido de sus botas de capataz, observa que es el que más se parece a Santa Sofía de la Piedad, y que él y el coronel Aureliano Buendía son los únicos de la familia vinculados por afinidades verdaderas.",
       "orden_cronologico": 1312
     },
     {
@@ -3708,7 +3708,7 @@
         "AURELIANO_BABILONIA"
       ],
       "lugar": "CASA_BUENDIA",
-      "descripcion": "Aureliano Amador, único superviviente de los 17 hijos del Coronel, llega de madrugada con ropas en piltrafas y una cruz de ceniza en la frente; lo sostiene no el instinto de conservación sino la costumbre del miedo. Se identifica y pide refugio, pero José Arcadio y Aureliano no lo reconocen y lo echan a empellones. Dos agentes de policía que lo habían rastreado por medio mundo surgen de entre los almendros y le hacen dos tiros de máuser que le penetran por la cruz de ceniza.",
+      "descripcion": "Aureliano Amador, único superviviente de los 17 hijos del coronel Aureliano Buendía, llega de madrugada con ropas en piltrafas y una cruz de ceniza en la frente; lo sostiene no el instinto de conservación sino la costumbre del miedo. Se identifica y pide refugio, pero José Arcadio y Aureliano no lo reconocen y lo echan a empellones. Dos agentes de policía que lo habían rastreado por medio mundo surgen de entre los almendros y le hacen dos tiros de máuser que le penetran por la cruz de ceniza.",
       "orden_cronologico": 1809
     },
     {

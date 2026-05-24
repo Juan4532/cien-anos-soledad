@@ -178,7 +178,7 @@
       "destino": "AURELIANO_TRISTE",
       "inicio": null,
       "fin": null,
-      "notas": "Uno de los 17 hijos del Coronel engendrados con 17 mujeres distintas durante la guerra."
+      "notas": "Uno de los 17 hijos del coronel Aureliano Buendía engendrados con 17 mujeres distintas durante la guerra."
     },
     {
       "id": "REL_CORONEL_PADRE_AURELIANO_CENTENO",
@@ -188,7 +188,7 @@
       "destino": "AURELIANO_CENTENO",
       "inicio": null,
       "fin": null,
-      "notas": "Uno de los 17 hijos del Coronel."
+      "notas": "Uno de los 17 hijos del coronel Aureliano Buendía."
     },
     {
       "id": "REL_CORONEL_PADRE_AURELIANO_AMADOR",
@@ -328,7 +328,7 @@
       "destino": "REMEDIOS_MOSCOTE",
       "inicio": "EVT_MATRIMONIO_AURELIANO_REMEDIOS",
       "fin": "EVT_MUERTE_REMEDIOS_MOSCOTE",
-      "notas": "Remedios tiene nueve años cuando el Coronel se enamora de ella. Se casan tras su primera menstruación. Su muerte lo devuelve a la soledad de la infancia."
+      "notas": "Remedios tiene nueve años cuando el coronel Aureliano Buendía se enamora de ella. Se casan tras su primera menstruación. Su muerte lo devuelve a la soledad de la infancia."
     },
     {
       "id": "REL_MATRIMONIO_AURELIANO_SEG_FERNANDA",
@@ -488,7 +488,7 @@
       "destino": "APOLINAR_MOSCOTE",
       "inicio": "EVT_PRIMERA_GUERRA_LIBERAL",
       "fin": "EVT_RENDICION_CORONEL",
-      "notas": "El Coronel pierde 32 levantamientos en 20 años de guerra civil. Al final firma la rendición reconociendo que solo luchaba por orgullo."
+      "notas": "El coronel Aureliano Buendía pierde 32 levantamientos en 20 años de guerra civil. Al final firma la rendición reconociendo que solo luchaba por orgullo."
     },
     {
       "id": "REL_AMISTAD_CORONEL_GERINELDO",
@@ -498,7 +498,7 @@
       "destino": "GERINELDO_MARQUEZ",
       "inicio": "EVT_PRIMERA_GUERRA_LIBERAL",
       "fin": "EVT_MUERTE_GERINELDO_MARQUEZ",
-      "notas": "Amistad que sobrevive incluso al episodio en que el Coronel condena a Gerineldo a muerte por alta traición y luego lo libera. Con el tiempo el Coronel lo percibe como un extraño."
+      "notas": "Amistad que sobrevive incluso al episodio en que el coronel Aureliano Buendía condena a Gerineldo a muerte por alta traición y luego lo libera. Con el tiempo el coronel Aureliano Buendía lo percibe como un extraño."
     },
     {
       "id": "REL_AMISTAD_CORONEL_MONCADA",
@@ -508,7 +508,7 @@
       "destino": "JOSE_RAQUEL_MONCADA",
       "inicio": null,
       "fin": "EVT_EJECUCION_MONCADA",
-      "notas": "Amigos a pesar de ser rivales políticos. Almuerzan juntos en casa de Úrsula antes de que el Coronel ordene su ejecución."
+      "notas": "Amigos a pesar de ser rivales políticos. Almuerzan juntos en casa de Úrsula antes de que el coronel Aureliano Buendía ordene su ejecución."
     },
     {
       "id": "REL_AMISTAD_AURELIANO_GABRIEL",
@@ -858,7 +858,7 @@
       "destino": "AURELIANO_SERRADOR",
       "inicio": null,
       "fin": null,
-      "notas": "Uno de los 17 hijos del Coronel engendrados con distintas mujeres durante la guerra."
+      "notas": "Uno de los 17 hijos del coronel Aureliano Buendía engendrados con distintas mujeres durante la guerra."
     },
     {
       "id": "REL_CORONEL_PADRE_AURELIANO_ARCAYA",
@@ -868,7 +868,7 @@
       "destino": "AURELIANO_ARCAYA",
       "inicio": null,
       "fin": null,
-      "notas": "Uno de los 17 hijos del Coronel engendrados con distintas mujeres durante la guerra."
+      "notas": "Uno de los 17 hijos del coronel Aureliano Buendía engendrados con distintas mujeres durante la guerra."
     },
     {
       "id": "REL_AMISTAD_MEME_PATRICIA",
