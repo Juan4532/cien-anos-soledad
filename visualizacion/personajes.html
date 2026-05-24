@@ -278,7 +278,7 @@
     </div>
     <div style="display:flex; gap:6px">
       <button class="chip" id="cy-fit">centrar</button>
-      <button class="chip" id="cy-png">↓ png</button>
+      <button class="chip" id="cy-png">↓ png red</button>
     </div>
   </div>
 </div>
@@ -726,6 +726,7 @@ function switchView(mode){
   document.querySelectorAll('[data-view-btn]').forEach(function(b){
     b.classList.toggle('is-active', b.dataset.viewBtn === mode);
   });
+  document.getElementById('cy-png').textContent = mode === 'red' ? '↓ png red' : '↓ png anillos';
   if(mode === 'red' && cy){ cy.resize(); cy.fit(undefined, 40); highlightCy(activeId); }
   if(mode === 'anillos'){ drawRingBg(); drawNodes(); drawEdges(); }
 }
@@ -851,12 +852,154 @@ renderDetail();
   cy.on('tap', function(evt){ if(evt.target === cy) selectChar(null); });
   document.getElementById('cy-fit').addEventListener('click', function(){ cy.animate({ fit:{padding:40} }, {duration:400}); });
   document.getElementById('cy-png').addEventListener('click', function(){
-    var bg = document.documentElement.getAttribute('data-mode') === 'light' ? '#f5f0e8' : '#0c0b09';
-    var link = document.createElement('a');
-    link.href = cy.png({ scale: 3, bg: bg, full: true });
-    link.download = 'cien-anos-soledad-personajes.png';
-    link.click();
+    if(viewMode === 'red'){
+      var bg = document.documentElement.getAttribute('data-mode') === 'light' ? '#f5f0e8' : '#0c0b09';
+      var link = document.createElement('a');
+      link.href = cy.png({ scale: 3, bg: bg, full: true });
+      link.download = 'cien-anos-soledad-red.png';
+      link.click();
+    } else {
+      downloadRingPNG();
+    }
   });
+
+  function downloadRingPNG(){
+    var wrap = document.getElementById('graph-wrap');
+    var W = wrap.clientWidth, H = wrap.clientHeight;
+    var cx = W / 2, cy2 = H / 2;
+    var isDark = document.documentElement.getAttribute('data-mode') !== 'light';
+    var bgCol    = isDark ? '#0b0907' : '#e8dcc0';
+    var inkCol   = isDark ? '#ebe2d0' : '#2c1d0e';
+    var accentCol= isDark ? '#e8b94a' : '#9c2a1a';
+    var ruleCol  = isDark ? 'rgba(235,226,208,0.20)' : 'rgba(44,29,14,0.28)';
+    var inkFaint = isDark ? 'rgba(235,226,208,0.32)' : 'rgba(44,29,14,0.32)';
+
+    var ns = 'http://www.w3.org/2000/svg';
+    var svg = document.createElementNS(ns, 'svg');
+    svg.setAttribute('xmlns', ns);
+    svg.setAttribute('width',  W * 2);
+    svg.setAttribute('height', H * 2);
+    svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+
+    // Background
+    var bg = document.createElementNS(ns, 'rect');
+    bg.setAttribute('width', W); bg.setAttribute('height', H);
+    bg.setAttribute('fill', bgCol);
+    svg.appendChild(bg);
+
+    // Vignette
+    var defs = document.createElementNS(ns, 'defs');
+    var grad = document.createElementNS(ns, 'radialGradient');
+    grad.setAttribute('id', 'vig');
+    grad.setAttribute('cx', '50%'); grad.setAttribute('cy', '50%');
+    grad.setAttribute('r', '50%');
+    var s1 = document.createElementNS(ns, 'stop');
+    s1.setAttribute('offset', '50%'); s1.setAttribute('stop-color', 'transparent');
+    var s2 = document.createElementNS(ns, 'stop');
+    s2.setAttribute('offset', '100%');
+    s2.setAttribute('stop-color', isDark ? 'rgba(0,0,0,0.35)' : 'rgba(0,0,0,0.08)');
+    grad.appendChild(s1); grad.appendChild(s2);
+    defs.appendChild(grad);
+    svg.appendChild(defs);
+    var vig = document.createElementNS(ns, 'rect');
+    vig.setAttribute('width', W); vig.setAttribute('height', H);
+    vig.setAttribute('fill', 'url(#vig)');
+    svg.appendChild(vig);
+
+    // Ring circles
+    Object.keys(GEN_RADIUS).forEach(function(gen){
+      var r = GEN_RADIUS[gen] * W;
+      var c = document.createElementNS(ns, 'circle');
+      c.setAttribute('cx', cx); c.setAttribute('cy', cy2); c.setAttribute('r', r);
+      c.setAttribute('fill', 'none');
+      c.setAttribute('stroke', ruleCol);
+      c.setAttribute('stroke-width', '0.6');
+      if(parseInt(gen) === 7) c.setAttribute('stroke-dasharray', '4 6');
+      svg.appendChild(c);
+    });
+
+    // Edges (only if a character is selected)
+    if(activeId){
+      var aCfg = RING_CFG[activeId];
+      if(aCfg){
+        var aPos = polar(aCfg.angle, GEN_RADIUS[aCfg.gen]);
+        var ax = cx + aPos.x * W, ay = cy2 + aPos.y * W;
+        (relsByChar[activeId] || []).forEach(function(r){
+          var tCfg = RING_CFG[r.other];
+          if(!tCfg) return;
+          var tPos = polar(tCfg.angle, GEN_RADIUS[tCfg.gen]);
+          var line = document.createElementNS(ns, 'line');
+          line.setAttribute('x1', ax); line.setAttribute('y1', ay);
+          line.setAttribute('x2', cx + tPos.x * W); line.setAttribute('y2', cy2 + tPos.y * W);
+          var isFam = r.tipo === 'familiar';
+          line.setAttribute('stroke', isFam ? accentCol : inkCol);
+          line.setAttribute('stroke-width', isFam ? '1.5' : '0.8');
+          line.setAttribute('stroke-opacity', isFam ? '0.85' : '0.45');
+          if(!isFam) line.setAttribute('stroke-dasharray', '6 5');
+          svg.appendChild(line);
+        });
+      }
+    }
+
+    // Character nodes
+    RAW_PERSONAJES.forEach(function(p){
+      var cfg = RING_CFG[p.id];
+      if(!cfg) return;
+      var pos = polar(cfg.angle, GEN_RADIUS[cfg.gen]);
+      var nx = cx + pos.x * W;
+      var ny = cy2 + pos.y * W;
+      var isActive = p.id === activeId;
+      var dotColor = isActive ? accentCol : (activeId ? inkFaint : inkFaint);
+      var nameColor = isActive ? accentCol : (activeId ? inkFaint : inkCol);
+
+      var dot = document.createElementNS(ns, 'circle');
+      dot.setAttribute('cx', nx); dot.setAttribute('cy', ny); dot.setAttribute('r', isActive ? 5 : 3.5);
+      dot.setAttribute('fill', isActive ? accentCol : 'none');
+      dot.setAttribute('stroke', dotColor);
+      dot.setAttribute('stroke-width', '1.2');
+      svg.appendChild(dot);
+
+      var name = shortName(p.nombre);
+      // Split into two lines if needed
+      var parts = name.split(' ');
+      var line1 = parts[0] || '';
+      var line2 = parts.slice(1).join(' ');
+      var fontSize = 9;
+      var labelY = ny + 13;
+
+      function makeText(text, y){
+        var t = document.createElementNS(ns, 'text');
+        t.setAttribute('x', nx); t.setAttribute('y', y);
+        t.setAttribute('text-anchor', 'middle');
+        t.setAttribute('fill', nameColor);
+        t.setAttribute('font-size', fontSize);
+        t.setAttribute('font-family', 'Garamond, Georgia, "Times New Roman", serif');
+        t.setAttribute('font-style', isDark ? 'italic' : 'normal');
+        t.textContent = text;
+        return t;
+      }
+      svg.appendChild(makeText(line1, labelY));
+      if(line2) svg.appendChild(makeText(line2, labelY + 11));
+    });
+
+    // Convert SVG → canvas → PNG
+    var serializer = new XMLSerializer();
+    var svgBlob = new Blob([serializer.serializeToString(svg)], {type: 'image/svg+xml'});
+    var url = URL.createObjectURL(svgBlob);
+    var img = new Image();
+    img.onload = function(){
+      var canvas = document.createElement('canvas');
+      canvas.width = W * 2; canvas.height = H * 2;
+      canvas.getContext('2d').drawImage(img, 0, 0);
+      URL.revokeObjectURL(url);
+      var link = document.createElement('a');
+      link.href = canvas.toDataURL('image/png');
+      link.download = 'cien-anos-soledad-anillos.png';
+      link.click();
+    };
+    img.onerror = function(){ URL.revokeObjectURL(url); };
+    img.src = url;
+  }
 
   // Tooltip
   var tooltip = document.getElementById('cy-tooltip');
