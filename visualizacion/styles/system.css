@@ -62,6 +62,7 @@ html[data-mode="light"]{
 }
 
 *{box-sizing:border-box;margin:0;padding:0}
+html{zoom:1.25}
 
 /* ---------- Scrollbars ---------- */
 ::-webkit-scrollbar { width: 6px; height: 6px; }
@@ -79,7 +80,6 @@ body{
   background-image: var(--paper-texture);
   color: var(--ink);
   font-family: var(--font-display);
-  font-size: 125%;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
