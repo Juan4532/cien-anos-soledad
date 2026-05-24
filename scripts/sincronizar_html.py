@@ -40,6 +40,9 @@ with open(ROOT / 'datos/relaciones.json') as f:
 with open(ROOT / 'datos/eventos.json') as f:
     eventos = json.load(f)['eventos']
 
+with open(ROOT / 'datos/lugares.json') as f:
+    lugares = json.load(f)['lugares']
+
 # ── Generación de líneas JS ───────────────────────────────────────────────────
 def p_line(p):
     return (
@@ -64,13 +67,31 @@ def e_line(e):
         f"  {{ id: {js_str(e['id'])}, titulo: {js_str(e['titulo'])}, "
         f"tipo: {js_str(e['tipo'])}, capitulo: {js_val(e.get('capitulo'))}, "
         f"participantes: {js_arr(e.get('participantes', []))}, "
+        f"lugar: {js_val(e.get('lugar'))}, "
         f"descripcion: {js_str(e.get('descripcion', ''))}, "
         f"orden_cronologico: {js_val(e.get('orden_cronologico'))} }},"
+    )
+
+def l_line(l):
+    coords = l.get('coordenadas_reales')
+    if coords:
+        coords_js = '{lat:' + str(coords['lat']) + ',lon:' + str(coords['lon']) + '}'
+    else:
+        coords_js = 'null'
+    return (
+        f"  {{ id: {js_str(l['id'])}, nombre: {js_str(l['nombre'])}, "
+        f"tipo: {js_str(l['tipo'])}, "
+        f"descripcion: {js_str(l.get('descripcion', ''))}, "
+        f"dentro_de: {js_val(l.get('dentro_de'))}, "
+        f"capitulo: {js_val(l.get('capitulo_aparicion'))}, "
+        f"real: {js_val(l.get('real', False))}, "
+        f"coords: {coords_js} }},"
     )
 
 p_lines = '\n'.join(p_line(p) for p in personajes)
 r_lines = '\n'.join(r_line(r) for r in relaciones)
 e_lines = '\n'.join(e_line(e) for e in eventos)
+l_lines = '\n'.join(l_line(l) for l in lugares)
 
 # ── Sustitución en el HTML ────────────────────────────────────────────────────
 html_path = ROOT / 'visualizacion/index.html'
@@ -88,10 +109,11 @@ def replace_array(html, name, new_content):
 html = replace_array(html, 'PERSONAJES', p_lines)
 html = replace_array(html, 'RELACIONES', r_lines)
 html = replace_array(html, 'EVENTOS',    e_lines)
+html = replace_array(html, 'LUGARES',    l_lines)
 
 html_path.write_text(html)
 
-print(f'✓ index.html: {len(personajes)} personajes, {len(relaciones)} relaciones, {len(eventos)} eventos')
+print(f'✓ index.html: {len(personajes)} personajes, {len(relaciones)} relaciones, {len(eventos)} eventos, {len(lugares)} lugares')
 
 # ── Nuevas páginas del rediseño (JSON embebido directamente) ──────────────────
 def build_p_lite():
@@ -106,7 +128,15 @@ def build_r_lite():
 def build_e_lite():
     return [{'id':e['id'],'titulo':e['titulo'],'tipo':e.get('tipo'),'capitulo':e.get('capitulo'),
              'participantes':e.get('participantes',[]),'descripcion':e.get('descripcion',''),
-             'orden_cronologico':e.get('orden_cronologico')} for e in eventos]
+             'orden_cronologico':e.get('orden_cronologico'),'lugar':e.get('lugar')} for e in eventos]
+
+def build_lug_crono():
+    return [{'id':l['id'],'nombre':l['nombre']} for l in lugares]
+
+def build_pe_lite():
+    """Slim events for personajes.html — only what the panel needs, no description."""
+    return [{'id':e['id'],'titulo':e['titulo'],'capitulo':e.get('capitulo'),
+             'participantes':e.get('participantes',[])} for e in eventos]
 
 def replace_raw_json(html_text, name, data):
     """Sustituye 'const NAME = <json>;' en el HTML usando el decoder de JSON
@@ -125,14 +155,32 @@ def replace_raw_json(html_text, name, data):
     new_json = json.dumps(data, ensure_ascii=False)
     return html_text[:value_start] + new_json + html_text[value_end:]
 
+def build_l_lite():
+    lugar_ev = {}
+    for e in eventos:
+        lid = e.get('lugar')
+        if lid:
+            lugar_ev.setdefault(lid, []).append({
+                'id': e['id'], 'titulo': e['titulo'],
+                'capitulo': e.get('capitulo'), 'tipo': e.get('tipo')
+            })
+    return [{'id': l['id'], 'nombre': l['nombre'], 'tipo': l['tipo'],
+             'desc': l.get('descripcion', ''), 'dentro': l.get('dentro_de'),
+             'cap': l.get('capitulo_aparicion'), 'real': l.get('real', False),
+             'eventos': lugar_ev.get(l['id'], [])} for l in lugares]
+
 p_lite = build_p_lite()
 r_lite = build_r_lite()
 e_lite = build_e_lite()
+pe_lite = build_pe_lite()
+l_lite = build_l_lite()
+lug_crono_lite = build_lug_crono()
 
 nuevas = {
-    'personajes.html': lambda h: replace_raw_json(replace_raw_json(h, 'RAW_PERSONAJES', p_lite), 'RAW_RELACIONES', r_lite),
-    'cronologia.html': lambda h: replace_raw_json(replace_raw_json(h, 'RAW_EVENTOS', e_lite), 'RAW_PERSONAJES_CRONO', p_lite),
+    'personajes.html': lambda h: replace_raw_json(replace_raw_json(replace_raw_json(h, 'RAW_EVENTOS', pe_lite), 'RAW_PERSONAJES', p_lite), 'RAW_RELACIONES', r_lite),
+    'cronologia.html': lambda h: replace_raw_json(replace_raw_json(replace_raw_json(h, 'RAW_EVENTOS', e_lite), 'RAW_PERSONAJES_CRONO', p_lite), 'RAW_LUGARES_CRONO', lug_crono_lite),
     'personaje.html':  lambda h: replace_raw_json(replace_raw_json(replace_raw_json(h, 'RAW_PERSONAJES', p_lite), 'RAW_RELACIONES', r_lite), 'RAW_EVENTOS', e_lite),
+    'lugares.html':    lambda h: replace_raw_json(h, 'RAW_LUGARES', l_lite),
 }
 
 for nombre, fn in nuevas.items():
@@ -142,5 +190,18 @@ for nombre, fn in nuevas.items():
         continue
     path.write_text(fn(path.read_text()))
     print(f'✓ {nombre}: datos actualizados')
+
+# ── Design handoff (nueva visualización) ─────────────────────────────────────
+nuevas_dh = {
+    'lugares.html': lambda h: replace_raw_json(h, 'RAW_LUGARES', l_lite),
+}
+
+for nombre, fn in nuevas_dh.items():
+    path = ROOT / 'design_handoff_cien_anos' / nombre
+    if not path.exists():
+        print(f'  AVISO: design_handoff/{nombre} no existe, omitido', file=sys.stderr)
+        continue
+    path.write_text(fn(path.read_text()))
+    print(f'✓ design_handoff/{nombre}: {len(l_lite)} lugares actualizados')
 
 print(f'✓ Sincronización completa')

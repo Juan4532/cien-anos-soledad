@@ -1,7 +1,7 @@
 {
   "_schema": {
     "id": "string  — ID único, prefijo REL_",
-    "tipo": "string  — familiar | marital | amorosa | conflicto | mentor_discipulo | comercial | politica | amistad | otro",
+    "tipo": "string  — familiar | marital | amorosa | conflicto | mentor_discipulo | comercial | amistad | otro",
     "subtipo": "string | null — 'padre', 'madre', 'amante', 'enemigo', etc.",
     "origen": "string  — ID del personaje que inicia la relación (en familiar: el progenitor)",
     "destino": "string  — ID del personaje receptor",
@@ -482,7 +482,7 @@
     },
     {
       "id": "REL_POLITICA_CORONEL_CONSERVADORES",
-      "tipo": "politica",
+      "tipo": "conflicto",
       "subtipo": "oposición armada",
       "origen": "AURELIANO_BUENDIA_CORONEL",
       "destino": "APOLINAR_MOSCOTE",
@@ -732,7 +732,7 @@
     },
     {
       "id": "REL_POLITICA_NOGUERA_CORONEL",
-      "tipo": "politica",
+      "tipo": "conflicto",
       "subtipo": "reclutamiento fallido",
       "origen": "DOCTOR_ALIRIO_NOGUERA",
       "destino": "AURELIANO_BUENDIA_CORONEL",
@@ -742,7 +742,7 @@
     },
     {
       "id": "REL_MILITAR_CARNICERO_CORONEL",
-      "tipo": "politica",
+      "tipo": "otro",
       "subtipo": "aliado militar",
       "origen": "ROQUE_CARNICERO",
       "destino": "AURELIANO_BUENDIA_CORONEL",
@@ -942,7 +942,7 @@
     },
     {
       "id": "REL_SINDICAL_JA_SEGUNDO_GAVILAN",
-      "tipo": "politica",
+      "tipo": "otro",
       "subtipo": "aliado sindical",
       "origen": "JOSE_ARCADIO_SEGUNDO",
       "destino": "LORENZO_GAVILAN",
@@ -962,7 +962,7 @@
     },
     {
       "id": "REL_SECRETARIO_GARCIA_CORTES",
-      "tipo": "politica",
+      "tipo": "otro",
       "subtipo": "secretario",
       "origen": "MAYOR_ENRIQUE_GARCIA_ISAZA",
       "destino": "GENERAL_CARLOS_CORTES_VARGAS",
@@ -1079,6 +1079,16 @@
       "inicio": null,
       "fin": null,
       "notas": "Le facilita los cinco libros necesarios para descifrar los pergaminos sin cobrar, advirtiéndole del peso de ese conocimiento"
+    },
+    {
+      "id": "REL_AMOR_AURELIANO_JOSE_CARMELITA",
+      "tipo": "amorosa",
+      "subtipo": "prometidos frustrados",
+      "origen": "AURELIANO_JOSE",
+      "destino": "CARMELITA_MONTIEL",
+      "inicio": null,
+      "fin": null,
+      "notas": "Carmelita Montiel es traída para casarse con Aureliano José, pero él es asesinado por el Capitán Aquiles Ricardo antes de que el matrimonio pueda celebrarse."
     }
   ]
 }

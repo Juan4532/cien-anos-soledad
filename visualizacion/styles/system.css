@@ -62,6 +62,18 @@ html[data-mode="light"]{
 }
 
 *{box-sizing:border-box;margin:0;padding:0}
+
+/* ---------- Scrollbars ---------- */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--rule);
+  border-radius: 999px;
+  transition: background .2s;
+}
+::-webkit-scrollbar-thumb:hover { background: var(--ink-faint); }
+::-webkit-scrollbar-corner { background: transparent; }
+* { scrollbar-width: thin; scrollbar-color: var(--rule) transparent; }
 body{
   background: var(--bg);
   background-image: var(--paper-texture);
@@ -168,13 +180,14 @@ html[data-mode="light"] .page-title{font-weight: 500; font-style: normal}
 footer.bot{
   position:relative; z-index:1;
   padding: 36px 56px 52px;
-  display:grid; grid-template-columns: 1fr 1fr 1fr; align-items:center; gap:24px;
+  display:flex; justify-content:center; align-items:center;
   border-top: var(--border-double);
 }
 footer.bot .label{font-size: 10px}
 footer.bot .center{
-  text-align: center; font-family: var(--font-italic); font-style: italic;
+  font-family: var(--font-italic); font-style: italic;
   color: var(--ink-soft); font-size: 14px;
+  white-space: nowrap;
 }
 html[data-mode="light"] footer.bot .center{font-size: 16px}
 footer.bot .right{text-align:right}

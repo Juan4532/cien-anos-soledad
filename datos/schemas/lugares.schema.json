@@ -19,12 +19,19 @@
     },
     "tipo": {
       "type": "string",
-      "enum": ["casa", "habitacion", "calle", "pueblo", "ciudad", "region", "pais", "edificio", "imaginario"],
+      "enum": ["casa", "habitacion", "patio", "calle", "pueblo", "ciudad", "region", "pais", "edificio", "imaginario"],
       "description": "Categoría del lugar"
     },
     "descripcion": {
       "type": "string",
       "description": "Descripción breve, sin reproducir el texto"
+    },
+    "dentro_de": {
+      "description": "ID del lugar que lo contiene jerárquicamente (null si es nivel superior)",
+      "oneOf": [
+        { "type": "null" },
+        { "type": "string", "pattern": "^[A-Z][A-Z0-9_]+$" }
+      ]
     },
     "capitulo_aparicion": {
       "type": "integer",
