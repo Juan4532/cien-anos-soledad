@@ -122,6 +122,7 @@ header.top{
   position:relative; z-index:2;
   display:grid; grid-template-columns: 1fr auto 1fr; align-items:center;
   padding: 30px 56px 0; gap: 32px;
+  max-width: 1440px; margin-left: auto; margin-right: auto;
 }
 header.top .brand{justify-self:start; display:flex; gap:14px; align-items:center; text-decoration:none; color:inherit}
 header.top .brand .crest{

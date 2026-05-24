@@ -13,6 +13,7 @@
   .crono-head{
     padding: 56px 56px 40px;
     display:grid; grid-template-columns: 1.4fr 1fr; gap: 64px; align-items:end;
+    max-width: 1440px; margin-left: auto; margin-right: auto;
   }
   .mode-switch{
     display:flex; padding: 2px;
@@ -28,7 +29,7 @@
   .mode-switch button.is-active{background: var(--accent); color: var(--bg)}
 
   .tipo-toolbar{
-    padding: 10px 56px;
+    padding: 10px max(56px, calc((100vw - 1440px) / 2 + 56px));
     border-top: var(--border-double); border-bottom: var(--border-double);
     display:flex; gap: 6px; flex-wrap:wrap; align-items:center;
   }
