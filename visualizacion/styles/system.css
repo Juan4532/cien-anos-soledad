@@ -242,3 +242,39 @@ html[data-mode="light"] .card{border-radius:0}
 /* ---------- Footnote rule helpers ---------- */
 .section{position:relative; z-index:1}
 .section + .section{border-top: var(--border-double)}
+
+/* =========================================================================
+   Mobile — max 768px
+   Cancels the desktop zoom and stacks the shared header/footer.
+   Page-specific layout rules live in each page's own <style> block.
+   ========================================================================= */
+@media (max-width: 768px) {
+  html { zoom: 1 }
+
+  header.top {
+    grid-template-columns: 1fr auto;
+    padding: 18px 20px 0;
+    gap: 12px;
+  }
+  header.top nav {
+    grid-column: 1 / -1;
+    overflow-x: auto;
+    padding-bottom: 6px;
+    gap: 22px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  header.top nav::-webkit-scrollbar { display: none }
+  header.top .ctl { grid-column: 2; grid-row: 1 }
+
+  .page-title { font-size: 48px }
+  .page-lede { font-size: 16px }
+
+  footer.bot {
+    padding: 24px 20px 36px;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+  footer.bot .left, footer.bot .right { text-align: center }
+}

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <title>Lugares · Cien años de soledad</title>
-<meta name="viewport" content="width=1280" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=IM+Fell+English+SC&family=IM+Fell+DW+Pica:ital@0;1&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
@@ -228,6 +228,24 @@
   a.ev-row { text-decoration: none; color: inherit; cursor: pointer; }
   a.ev-row:hover .ev-titulo { color: var(--accent); }
   a.ev-row:hover .ev-cap { color: var(--accent-soft); }
+
+  @media (max-width: 768px) {
+    .lug-wrap {
+      flex-direction: column;
+      height: auto;
+      min-height: calc(100vh - 80px - 56px);
+    }
+    .lug-sidebar {
+      width: 100%;
+      border-right: none;
+      border-bottom: var(--border-double);
+      max-height: 44vh;
+    }
+    .lug-detail {
+      padding: 28px 20px 60px;
+    }
+    .lug-title { font-size: 36px }
+  }
 </style>
 </head>
 <body>

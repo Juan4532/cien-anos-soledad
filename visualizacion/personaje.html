@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <title>Personaje · Cien años de soledad</title>
-<meta name="viewport" content="width=1280" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=IM+Fell+English+SC&family=IM+Fell+DW+Pica:ital@0;1&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
@@ -157,6 +157,16 @@
   }
   .nav-back a:hover{color:var(--accent)}
   .nav-back{text-align:center}
+
+  @media (max-width: 768px) {
+    .breadcrumb { padding: 16px 20px 0 }
+    .pg-layout {
+      grid-template-columns: 1fr !important;
+      padding: 20px 20px 60px;
+      gap: 32px;
+    }
+    .pg-aside { position: static !important; }
+  }
 </style>
 </head>
 <body>
