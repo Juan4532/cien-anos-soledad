@@ -483,7 +483,7 @@
         "AURELIANO_BUENDIA_CORONEL",
         "PILAR_TERNERA"
       ],
-      "lugar": "TIENDA_CATARINO",
+      "lugar": "CASA_PILAR",
       "descripcion": "Pilar Ternera se ofrece como intermediaria entre Aureliano y Remedios Moscote. En un episodio nocturno tienen relaciones sexuales. Ella queda embarazada de Aureliano José.",
       "orden_cronologico": 401
     },
@@ -555,7 +555,7 @@
         "URSULA_IGUARAN",
         "ARCADIO"
       ],
-      "lugar": "MACONDO",
+      "lugar": "EL_RIO",
       "descripcion": "Melquíades sufre un rápido proceso de envejecimiento y se ahoga en el río mientras Arcadio lo llevaba a bañarse. José Arcadio Buendía se niega a enterrarlo convencido de su inmortalidad y quema mercurio 72 horas junto al cadáver. Cuando este empieza a descomponerse, lo entierran con honores en el centro del nuevo cementerio, con una lápida que reza solo \"MELQUÍADES\". Es el primer entierro y el más concurrido de Macondo.",
       "orden_cronologico": 403
     },
@@ -2139,7 +2139,7 @@
         "AURELIANO_BUENDIA_CORONEL",
         "PIETRO_CRESPI"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CASA_BUENDIA",
       "descripcion": "La nueva casa Buendía, blanca como una paloma, es estrenada con un gran baile. La pianola toca sola y los descendientes de los fundadores llenan las habitaciones por primera vez. La pianola falla y José Arcadio Buendía la había destripado días antes, pero Prieto la arregla y el baile se prolonga hasta el amanecer.",
       "orden_cronologico": 404
     },
@@ -2186,7 +2186,7 @@
         "URSULA_IGUARAN",
         "AURELIANO_BUENDIA_CORONEL"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CASA_MOSCOTE",
       "descripcion": "José Arcadio Buendía acude de etiqueta al despacho de Moscote. Los Moscote creen al principio que hay una confusión de nombres; Remedios, sacada de la cama, llora porque quiere seguir durmiendo. Al final aceptan. Sin embargo, la señora de Moscote revela a Úrsula en privado que Remedios todavía no ha tenido la primera menstruación. Aureliano acepta esperar el tiempo necesario.",
       "orden_cronologico": 407
     },
@@ -2201,7 +2201,7 @@
         "PIETRO_CRESPI",
         "REBECA"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CEMENTERIO_MACONDO",
       "descripcion": "Durante el velorio de Melquíades, aprovechando el tumulto, Amaranta le declara su amor a Pietro Crespi, que ya tiene formalizando su compromiso con Rebeca. Pietro la trata como una chiquilla y le dice que tiene un hermano menor que vendrá a la tienda. Amaranta le responde con rencor virulento.",
       "orden_cronologico": 408
     },
@@ -2245,7 +2245,7 @@
         "JOSE_ARCADIO_BUENDIA_FUNDADOR",
         "PILAR_TERNERA"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CEMENTERIO_MACONDO",
       "descripcion": "Pilar Ternera vaticina que Rebeca no será feliz mientras sus padres estén insepultos. Los obreros recuerdan haber emparedado el talego durante la construcción. Lo encuentran auscultando las paredes y lo entierran junto a la tumba de Melquíades. José Arcadio Buendía le da un beso a Rebeca: 'Serás feliz.'",
       "orden_cronologico": 411
     },
@@ -2258,7 +2258,7 @@
       "participantes": [
         "AURELIANO_BUENDIA_CORONEL"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CASA_BUENDIA",
       "descripcion": "Aureliano Buendía comienza a escribir versos. Dedicados a Remedios Moscote, son el primer indicio de su vida contemplativa antes de la guerra.",
       "orden_cronologico": 412
     },
