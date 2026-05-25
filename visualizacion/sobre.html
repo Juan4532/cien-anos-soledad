@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es" data-mode="dark">
+<head>
+<meta charset="utf-8" />
+<title>Sobre esto · Cien años de soledad</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=IM+Fell+English+SC&family=IM+Fell+DW+Pica:ital@0;1&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles/system.css" />
+<script src="scripts/mode.js"></script>
+<style>
+  .sobre-wrap{
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 56px 120px;
+  }
+  .sobre-wrap .page-eyebrow{ margin-bottom: 12px }
+  .sobre-wrap h1.page-title{ margin-bottom: 64px }
+
+  .sobre-section{ margin-bottom: 56px }
+  .sobre-section h2{
+    font-family: var(--font-label);
+    font-size: 10px; letter-spacing: var(--label-letter);
+    text-transform: var(--label-transform);
+    color: var(--accent); margin-bottom: 18px;
+  }
+  .sobre-section p{
+    font-family: var(--font-display);
+    font-size: 18px; line-height: 1.7;
+    color: var(--ink); margin-bottom: 14px;
+  }
+  .sobre-section p em{
+    font-family: var(--font-italic); font-style: italic; color: var(--accent);
+  }
+  .sobre-section ul{
+    list-style: none; padding: 0; margin: 0;
+    display: flex; flex-direction: column; gap: 8px;
+  }
+  .sobre-section ul li{
+    font-family: var(--font-display); font-size: 16px;
+    color: var(--ink-soft); padding-left: 18px; position: relative;
+  }
+  .sobre-section ul li::before{
+    content: '—'; position: absolute; left: 0; color: var(--accent);
+  }
+  .sobre-rule{
+    border: none; border-top: var(--border-double);
+    margin: 0 0 56px;
+  }
+</style>
+</head>
+<body>
+
+<div class="vig-page"></div>
+
+<header class="top">
+  <a href="personajes.html" class="brand">
+    <div class="crest"></div>
+    <div class="label">cien años · edición interactiva</div>
+  </a>
+  <nav class="label">
+    <a href="personajes.html">Personajes</a>
+    <a href="cronologia.html">Narración</a>
+    <a href="lugares.html">Lugares</a>
+    <a href="sobre.html" class="is-active">Sobre esto</a>
+  </nav>
+  <div class="ctl">
+    <button class="toggle" data-mode-toggle aria-label="Alternar modo">
+      <span data-toggle-label>☾</span>
+    </button>
+  </div>
+</header>
+
+<div class="sobre-wrap">
+  <div class="page-eyebrow">§ IV · El proyecto</div>
+  <h1 class="page-title">Sobre esto</h1>
+
+  <div class="sobre-section">
+    <h2>El proyecto</h2>
+    <p>
+      Una edición digital interactiva de <em>Cien años de soledad</em> de Gabriel García Márquez.
+      Un intento de cartografiar la estirpe de los Buendía: sus personajes, sus relaciones,
+      la cronología de los hechos y la geografía de Macondo.
+    </p>
+    <p>
+      No es un análisis académico ni una guía de lectura. Es un mapa para perderse mejor.
+    </p>
+  </div>
+
+  <hr class="sobre-rule" />
+
+  <div class="sobre-section">
+    <h2>Los datos</h2>
+    <p>
+      La base de datos se construyó capítulo a capítulo, registrando personajes, eventos,
+      lugares y relaciones tal como aparecen en el texto. Ninguna relación o fecha
+      fue inventada: lo que no está atestiguado en la novela, no está aquí.
+    </p>
+    <p>
+      Cuando la cronología no es explícita, se marca como inferida. Los IDs de los personajes
+      son estables y nunca se reutilizan — necesario en una novela donde siete generaciones
+      comparten los mismos nombres.
+    </p>
+  </div>
+
+  <hr class="sobre-rule" />
+
+  <div class="sobre-section">
+    <h2>La visualización</h2>
+    <p>
+      HTML, CSS y JavaScript vanilla. Los datos viven en JSON y se sincronizan
+      al HTML mediante un script de Python. Sin frameworks, sin base de datos,
+      sin servidor: un archivo que se abre en el navegador.
+    </p>
+  </div>
+
+  <hr class="sobre-rule" />
+
+  <div class="sobre-section">
+    <h2>Créditos</h2>
+    <ul>
+      <li>Gabriel García Márquez, <em>Cien años de soledad</em>, 1967</li>
+      <li>Proyecto independiente · juan · 2026</li>
+      <li>CC BY-NC 4.0</li>
+    </ul>
+  </div>
+</div>
+
+<footer class="bot">
+  <div class="center">— el primero amarrado a un árbol, el último devorado por las hormigas —</div>
+</footer>
+
+</body>
+</html>
