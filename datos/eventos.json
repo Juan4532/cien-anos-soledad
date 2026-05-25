@@ -1773,7 +1773,7 @@
         "FERNANDA_DEL_CARPIO",
         "DON_FERNANDO"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CONVENTO_CLAUSURA",
       "descripcion": "Al día siguiente del disparo a Mauricio Babilonia, Fernanda empaca tres mudas de ropa y lleva a Meme al tren sin darle explicación. Meme, que no ha vuelto a hablar desde que oyó el disparo, sube como sonámbula. Viajan en tren, luego en un cochecito por una ciudad desolada, luego en buque fluvial, luego a lomo de mula por el páramo. Meme sabe dónde está porque en el espanto del insomnio ve pasar al caballero vestido de negro — su abuelo Don Fernando — que en una víspera de Navidad llegó a la casa dentro de un cofre de plomo. Al día siguiente Fernanda la conduce al convento donde ella misma fue educada. Una novicia le tiende la mano diciéndole «Vamos, Renata» y la clausura se cierra tras ella para siempre. Meme nunca vuelve a pronunciar una palabra.",
       "orden_cronologico": 1500
     },
@@ -1789,7 +1789,7 @@
         "MAURICIO_BABILONIA",
         "FERNANDA_DEL_CARPIO"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CONVENTO_CLAUSURA",
       "descripcion": "Meme da a luz a un hijo varón en el convento. El antiguo director espiritual de Fernanda le envía al niño en una canastilla con una carta explicando que nació dos meses antes y fue bautizado Aureliano porque la madre no despegó los labios. Fernanda lo recibe horrorizada pero no tiene valor para ahogarlo en la alberca. A Santa Sofía de la Piedad le dice que lo encontró flotando en una canastilla.",
       "orden_cronologico": 1501
     },
@@ -1818,7 +1818,7 @@
         "GENERAL_CARLOS_CORTES_VARGAS",
         "MAYOR_ENRIQUE_GARCIA_ISAZA"
       ],
-      "lugar": "MACONDO",
+      "lugar": "ESTACION_FERROCARRIL",
       "descripcion": "El general Carlos Cortés Vargas firma el Decreto Número 4 que declara cuadrilla de malhechores a los huelguistas y autoriza al ejército a matarlos a bala. Se lee en la estación ante más de tres mil personas concentradas. El capitán da cinco minutos para retirarse; nadie se mueve. Las ametralladoras abren fuego. José Arcadio Segundo despierta en un tren cargado de cadáveres que van a ser arrojados al mar como el banano de rechazo. El gobierno niega que haya habido muertos.",
       "orden_cronologico": 1503
     },
@@ -3142,7 +3142,7 @@
       "participantes": [
         "JOSE_ARCADIO_SEGUNDO"
       ],
-      "lugar": "MACONDO",
+      "lugar": null,
       "descripcion": "José Arcadio Segundo despierta entre los cadáveres de los huelguistas en un tren que los lleva al mar para arrojarlos. Consigue escapar y llegar a Macondo.",
       "orden_cronologico": 1505
     },
@@ -3192,7 +3192,7 @@
       "participantes": [
         "LORENZO_GAVILAN"
       ],
-      "lugar": "MACONDO",
+      "lugar": "ESTACION_FERROCARRIL",
       "descripcion": "Lorenzo Gavilán muere en la masacre de la estación. José Arcadio Segundo lo reconoce en el tren de los muertos: lleva enrollado en la mano el cinturón con la hebilla de plata moreliana con que trató de abrirse camino entre el pánico.",
       "orden_cronologico": 1509
     },
@@ -3317,7 +3317,7 @@
         "JOSE_ARCADIO_QUINTO",
         "MEME"
       ],
-      "lugar": "CASA_BUENDIA",
+      "lugar": null,
       "descripcion": "Fernanda le escribe una extensa carta a su hijo José Arcadio, que ya va a recibir las órdenes menores, comunicándole que su hermana Renata había expirado en la paz del Señor a consecuencia del vómito negro. No le dice la verdad sobre el convento ni sobre el hijo que Meme dejó en Macondo.",
       "orden_cronologico": 1510
     },
