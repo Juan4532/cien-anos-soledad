@@ -807,32 +807,57 @@ renderDetail();
     }});
   });
 
+  var accentColor = darkMode ? '#e8b94a' : '#9c2a1a';
+  var nodeBg      = darkMode ? '#1f1a14' : '#d2c4a3';
+  var nodeBgHl    = darkMode ? '#2a2318' : '#bfab85';
+
+  function nodeImage(id){
+    var cfg = RING_CFG[id];
+    if(!cfg || !cfg.symbol || !window.SYMBOL_SVG) return 'none';
+    var inner = window.SYMBOL_SVG[cfg.symbol];
+    if(!inner) return 'none';
+    var svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><g style="color:' + accentColor + '">' + inner + '</g></svg>';
+    return 'url("data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg) + '")';
+  }
+
   cy = cytoscape({
     container: document.getElementById('cy'),
     elements: elements,
     style: [
       { selector:'node', style:{
-        'background-color': function(n){ return nodeCol(byId[n.data('id')] || {}).bg || '#333'; },
-        'border-color':     function(n){ return nodeCol(byId[n.data('id')] || {}).border || '#666'; },
-        'border-width': 2,
-        'width':  function(n){ return Math.max(20, Math.min(42, 14 + n.degree(false) * 2)); },
-        'height': function(n){ return Math.max(20, Math.min(42, 14 + n.degree(false) * 2)); },
+        'background-color': nodeBg,
+        'background-image': function(n){ return nodeImage(n.data('id')); },
+        'background-fit': 'contain',
+        'background-clip': 'node',
+        'background-width': '65%',
+        'background-height': '65%',
+        'background-position-x': '50%',
+        'background-position-y': '50%',
+        'border-color': function(n){ return nodeCol(byId[n.data('id')] || {}).border || '#666'; },
+        'border-width': 2.5,
+        'width':  function(n){ return Math.max(28, Math.min(54, 18 + n.degree(false) * 2.5)); },
+        'height': function(n){ return Math.max(28, Math.min(54, 18 + n.degree(false) * 2.5)); },
         'label': 'data(label)',
         'color': textColor,
         'font-family': '"EB Garamond", "Cormorant Garamond", Georgia, serif',
-        'font-size': '10px',
+        'font-size': '11px',
         'text-valign': 'bottom',
         'text-halign': 'center',
-        'text-margin-y': 4,
-        'text-max-width': '88px',
+        'text-margin-y': 5,
+        'text-max-width': '90px',
         'text-wrap': 'ellipsis',
         'text-background-color': textBg,
-        'text-background-opacity': 0.75,
+        'text-background-opacity': 0.88,
         'text-background-padding': '2px',
         'transition-property': 'opacity, width, height',
         'transition-duration': '0.18s',
       }},
-      { selector:'node.hl',    style:{ 'border-width':3, 'border-color':'#fff', 'z-index':999, 'color':'#fff' }},
+      { selector:'node.hl', style:{
+        'border-width': 3.5,
+        'border-color': accentColor,
+        'background-color': nodeBgHl,
+        'z-index': 999,
+      }},
       { selector:'node.faded', style:{ 'opacity': 0.08 }},
       { selector:'edge', style:{
         'line-color': function(e){ return EDGE_COL[e.data('tipo')] || EDGE_COL.otro; },
