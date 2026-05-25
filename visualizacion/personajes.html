@@ -805,17 +805,9 @@ renderDetail();
   });
 
   var accentColor = darkMode ? '#e8b94a' : '#9c2a1a';
-  var nodeBg      = darkMode ? '#1f1a14' : '#d2c4a3';
-  var nodeBgHl    = darkMode ? '#2a2318' : '#bfab85';
-
-  function nodeImage(id){
-    var cfg = RING_CFG[id];
-    if(!cfg || !cfg.symbol || !window.SYMBOL_SVG) return 'none';
-    var inner = window.SYMBOL_SVG[cfg.symbol];
-    if(!inner) return 'none';
-    var svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g style="color:' + accentColor + '">' + inner + '</g></svg>';
-    return 'url("data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg) + '")';
-  }
+  var nodeBg      = darkMode ? '#1f1a14' : '#6b4a1e';
+  var nodeBgHl    = darkMode ? '#2a2318' : '#7d5825';
+  var nodeText    = darkMode ? textColor  : '#f0e0c0';
 
   cy = cytoscape({
     container: document.getElementById('cy'),
@@ -823,19 +815,12 @@ renderDetail();
     style: [
       { selector:'node', style:{
         'background-color': nodeBg,
-        'background-image': function(n){ return nodeImage(n.data('id')); },
-        'background-fit': 'contain',
-        'background-clip': 'node',
-        'background-width': '65%',
-        'background-height': '65%',
-        'background-position-x': '50%',
-        'background-position-y': '50%',
         'border-color': function(n){ return nodeCol(byId[n.data('id')] || {}).border || '#666'; },
         'border-width': 2.5,
         'width':  function(n){ return Math.max(28, Math.min(54, 18 + n.degree(false) * 2.5)); },
         'height': function(n){ return Math.max(28, Math.min(54, 18 + n.degree(false) * 2.5)); },
         'label': 'data(label)',
-        'color': textColor,
+        'color': nodeText,
         'font-family': '"EB Garamond", "Cormorant Garamond", Georgia, serif',
         'font-size': '11px',
         'text-valign': 'bottom',
