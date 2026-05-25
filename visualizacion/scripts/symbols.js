@@ -19,10 +19,32 @@ const SYMBOL_SVG = {
     <path d="M 50 92 L 62 96 M 50 92 L 70 94" stroke-width="2" opacity="0.6"/>
   </g>`,
 
-  // Úrsula: el ave
-  ave: `<g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 12 60 Q 32 30 50 50 Q 68 30 88 60"/>
-    <path d="M 22 65 Q 34 48 50 60 Q 66 48 78 65" stroke-width="2" opacity="0.7"/>
+  // Úrsula: la casa colonial de los Buendía
+  ave: `<g fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 6 42 L 50 14 L 94 42 Z"/>
+    <path d="M 6 42 L 94 42" stroke-width="2"/>
+    <path d="M 16 38 L 16 42" stroke-width="1.5" opacity="0.7"/>
+    <path d="M 24 36 L 24 42" stroke-width="1.5" opacity="0.7"/>
+    <path d="M 32 34 L 32 42" stroke-width="1.5" opacity="0.7"/>
+    <path d="M 40 31 L 40 42" stroke-width="1.5" opacity="0.7"/>
+    <path d="M 50 28 L 50 42" stroke-width="1.5" opacity="0.7"/>
+    <path d="M 60 31 L 60 42" stroke-width="1.5" opacity="0.7"/>
+    <path d="M 68 34 L 68 42" stroke-width="1.5" opacity="0.7"/>
+    <path d="M 76 36 L 76 42" stroke-width="1.5" opacity="0.7"/>
+    <path d="M 84 38 L 84 42" stroke-width="1.5" opacity="0.7"/>
+    <path d="M 14 42 L 14 88 L 86 88 L 86 42"/>
+    <path d="M 42 88 L 42 60 Q 42 54 50 54 Q 58 54 58 60 L 58 88"/>
+    <path d="M 50 60 L 50 86" stroke-width="1.5"/>
+    <circle cx="47" cy="74" r="0.9" fill="currentColor" stroke="none"/>
+    <circle cx="53" cy="74" r="0.9" fill="currentColor" stroke="none"/>
+    <rect x="20" y="58" width="14" height="18"/>
+    <path d="M 23 58 L 23 76 M 27 58 L 27 76 M 31 58 L 31 76" stroke-width="1.4"/>
+    <path d="M 18 56 L 36 56" stroke-width="2"/>
+    <rect x="66" y="58" width="14" height="18"/>
+    <path d="M 69 58 L 69 76 M 73 58 L 73 76 M 77 58 L 77 76" stroke-width="1.4"/>
+    <path d="M 64 56 L 82 56" stroke-width="2"/>
+    <path d="M 6 88 L 94 88" stroke-width="3"/>
+    <path d="M 6 92 L 94 92" stroke-width="1.5" opacity="0.5"/>
   </g>`,
 
   // Coronel Aureliano: el pescadito de oro
@@ -168,6 +190,75 @@ const SYMBOL_SVG = {
     <path d="M 54 56 L 60 72 L 64 78" stroke-width="2.5"/>
     <path d="M 42 44 L 36 30" stroke-width="2" opacity="0.5"/>
     <path d="M 54 44 L 60 30" stroke-width="2" opacity="0.5"/>
+  </g>`,
+
+  // Arcadio: la pistola del fusilamiento
+  pistola: `<g stroke-linecap="round" stroke-linejoin="round">
+    <rect x="50" y="38" width="42" height="10" fill="currentColor"/>
+    <rect x="86" y="34" width="4" height="4" fill="currentColor"/>
+    <rect x="26" y="40" width="28" height="18" rx="2" fill="currentColor"/>
+    <path d="M 24 34 L 30 34 L 30 40 L 24 40 Z" fill="currentColor"/>
+    <circle cx="40" cy="49" r="10" fill="currentColor"/>
+    <circle cx="40" cy="49" r="7" fill="none" stroke="var(--bg)" stroke-width="1.5"/>
+    <circle cx="40" cy="44" r="1.5" fill="var(--bg)"/>
+    <circle cx="44" cy="48" r="1.5" fill="var(--bg)"/>
+    <circle cx="43" cy="53" r="1.5" fill="var(--bg)"/>
+    <circle cx="37" cy="53" r="1.5" fill="var(--bg)"/>
+    <circle cx="36" cy="48" r="1.5" fill="var(--bg)"/>
+    <path d="M 26 58 L 18 88 L 34 92 L 42 60 Z" fill="currentColor"/>
+    <path d="M 34 58 L 50 58 L 50 64 Q 50 74 42 74 Q 34 74 34 66 Z" fill="currentColor"/>
+    <path d="M 37 60 L 47 60 L 47 64 Q 47 71 42 71 Q 37 71 37 66 Z" fill="var(--bg)"/>
+  </g>`,
+
+  // Petra Cotes: la vaca de la fecundidad
+  venado: `<g fill="currentColor" stroke="none">
+    <rect x="12" y="42" width="54" height="26" rx="10"/>
+    <rect x="60" y="46" width="28" height="22" rx="6"/>
+    <path d="M 64 46 L 62 38 L 70 44 Z"/>
+    <path d="M 84 46 L 86 38 L 78 44 Z"/>
+    <path d="M 70 44 Q 70 36 66 36" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 78 44 Q 78 36 82 36" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="70" cy="54" r="1.8" fill="var(--bg)"/>
+    <circle cx="78" cy="54" r="1.8" fill="var(--bg)"/>
+    <ellipse cx="74" cy="62" rx="6" ry="3.5" fill="var(--bg)"/>
+    <circle cx="71" cy="62" r="1" fill="currentColor"/>
+    <circle cx="77" cy="62" r="1" fill="currentColor"/>
+    <rect x="18" y="68" width="7" height="18" rx="1"/>
+    <rect x="28" y="68" width="7" height="18" rx="1"/>
+    <rect x="44" y="68" width="7" height="18" rx="1"/>
+    <rect x="54" y="68" width="7" height="18" rx="1"/>
+    <ellipse cx="40" cy="72" rx="5" ry="4"/>
+    <circle cx="36" cy="75" r="1.2" fill="var(--bg)"/>
+    <circle cx="40" cy="76" r="1.2" fill="var(--bg)"/>
+    <circle cx="44" cy="75" r="1.2" fill="var(--bg)"/>
+    <ellipse cx="26" cy="50" rx="5" ry="3.5" fill="var(--bg)"/>
+    <ellipse cx="50" cy="58" rx="6" ry="3" fill="var(--bg)"/>
+    <path d="M 12 48 L 6 42" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="5" cy="41" r="2"/>
+  </g>`,
+
+  // Meme: el clavicordio
+  clavicordio: `<g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 10 32 L 90 32 L 90 56 L 10 56 Z"/>
+    <path d="M 10 32 L 14 28 L 86 28 L 90 32" stroke-width="2"/>
+    <path d="M 14 44 L 86 44" stroke-width="2"/>
+    <path d="M 22 44 L 22 56" stroke-width="1.5"/>
+    <path d="M 30 44 L 30 56" stroke-width="1.5"/>
+    <path d="M 38 44 L 38 56" stroke-width="1.5"/>
+    <path d="M 46 44 L 46 56" stroke-width="1.5"/>
+    <path d="M 54 44 L 54 56" stroke-width="1.5"/>
+    <path d="M 62 44 L 62 56" stroke-width="1.5"/>
+    <path d="M 70 44 L 70 56" stroke-width="1.5"/>
+    <path d="M 78 44 L 78 56" stroke-width="1.5"/>
+    <rect x="26" y="44" width="4" height="7" fill="currentColor" stroke="none"/>
+    <rect x="34" y="44" width="4" height="7" fill="currentColor" stroke="none"/>
+    <rect x="50" y="44" width="4" height="7" fill="currentColor" stroke="none"/>
+    <rect x="58" y="44" width="4" height="7" fill="currentColor" stroke="none"/>
+    <rect x="66" y="44" width="4" height="7" fill="currentColor" stroke="none"/>
+    <path d="M 18 56 L 18 78" stroke-width="3"/>
+    <path d="M 82 56 L 82 78" stroke-width="3"/>
+    <path d="M 18 78 L 82 78" stroke-width="2.5"/>
+    <path d="M 50 78 L 50 86 L 56 86" stroke-width="2"/>
   </g>`,
 
   // Cruz de ceniza (los 17 Aurelianos)
