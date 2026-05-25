@@ -1500,7 +1500,7 @@
         "JOSE_ARCADIO_SEGUNDO",
         "DON_MELCHOR_ESCALONA"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CUARTEL_MACONDO",
       "descripcion": "Los gemelos, que ya confundían a todos desde niños, optan en la escuela por intercambiarse la ropa, las esclavas con sus nombres y los propios nombres. Don Melchor Escalona pierde los estribos al descubrir la suplantación. Desde entonces nadie sabe con certeza quién es quién.",
       "orden_cronologico": 1000
     },
@@ -1543,7 +1543,7 @@
         "JOSE_ARCADIO_SEGUNDO",
         "PETRA_COTES"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CASA_PETRA_COTES",
       "descripcion": "Una mujer que vende números de rifa confunde a Aureliano Segundo con su hermano y lo lleva a su cuarto. Aureliano Segundo descubre que ella se acuesta alternativamente con los dos creyendo que son el mismo hombre. En lugar de aclarar el equívoco, lo prolonga. Ambos hermanos contraen una enfermedad venérea y se curan por separado. Aureliano Segundo se queda con Petra Cotes hasta la muerte.",
       "orden_cronologico": 1003
     },
@@ -1557,7 +1557,7 @@
         "AURELIANO_SEGUNDO",
         "PETRA_COTES"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CASA_PETRA_COTES",
       "descripcion": "Los animales de Aureliano Segundo se reproducen con una fecundidad inexplicable desde que Petra Cotes los rodea. Empieza con conejos que llenan el patio en una noche, sigue con una vaca que pare trillizos. En poco tiempo Aureliano Segundo acumula una de las mayores fortunas de la ciénaga. Él atribuye la prosperidad al amor de Petra Cotes.",
       "orden_cronologico": 1004
     },
@@ -1598,7 +1598,7 @@
       "participantes": [
         "JOSE_ARCADIO_SEGUNDO"
       ],
-      "lugar": "TIENDA_CATARINO",
+      "lugar": "EL_RIO",
       "descripcion": "Inspirado por la historia del galeón español, José Arcadio Segundo intenta hacer navegable el río rompiendo piedras y despejando el cauce. Consigue remontar una balsa de troncos tirada por veinte hombres, a bordo de la cual llegan matronas francesas que transforman los métodos amorosos del pueblo y sustituyen la tienda de Catarino por un bazar de farolitos japoneses. Proclama la hazaña como una victoria.",
       "orden_cronologico": 1007
     },
@@ -1611,7 +1611,7 @@
       "participantes": [
         "REMEDIOS_LA_BELLA"
       ],
-      "lugar": "MACONDO",
+      "lugar": "IGLESIA_MACONDO",
       "descripcion": "Un apuesto forastero aparece cada domingo en la iglesia con una rosa amarilla para Remedios la Bella. Instala una banda frente a su ventana, noches enteras. Remedios la recibe sin malicia. El caballero se degrada progresivamente: de príncipe impecable a pendenciero harapiento. Años después muere dormido sobre las vías del tren.",
       "orden_cronologico": 1008
     },
