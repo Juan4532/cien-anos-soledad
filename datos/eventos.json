@@ -3571,7 +3571,7 @@
         "PETRA_COTES",
         "FERNANDA_DEL_CARPIO"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CASA_BUENDIA",
       "descripcion": "Tras la muerte de Aureliano Segundo, un amigo se presenta a pagar una deuda inventada, y desde entonces un mandadero lleva cada miércoles un canasto de víveres. Fernanda nunca supo que era Petra Cotes quien los enviaba: primero por humillarla, luego por orgullo y finalmente por compasión. En los peores tiempos Petra se quedó sin comer para que Fernanda no lo hiciera, y mantuvo el compromiso hasta ver pasar su entierro.",
       "orden_cronologico": 1800
     },
@@ -3599,7 +3599,7 @@
         "SANTA_SOFIA_DE_LA_PIEDAD",
         "AURELIANO_BABILONIA"
       ],
-      "lugar": "CASA_BUENDIA",
+      "lugar": "RIOHACHA",
       "descripcion": "Vencida por la invasión de maleza, comején y hormigas que ya ni el cuarto de Melquíades resiste, Santa Sofía le dice a Aureliano: 'Me rindo. Esta es mucha casa para mis pobres huesos.' Se va con un atadito de dos o tres mudas y catorce pescaditos de oro que le da Aureliano; dice que irá a Riohacha con una prima hermana, pero nadie la conocía ni ella había tenido contacto con pariente alguno. Jamás se vuelve a saber de ella.",
       "orden_cronologico": 1802
     },
@@ -3642,7 +3642,7 @@
         "AURELIANO_BABILONIA",
         "SABIO_CATALAN"
       ],
-      "lugar": "MACONDO",
+      "lugar": "LIBRERIA_CATALAN",
       "descripcion": "Tras la muerte de Fernanda, Aureliano se concede el permiso que ella le negó y sale por primera vez. Recorre once cuadras hasta el callejón de los sueños y entra en la tienda abigarrada del sabio catalán, que escribe sin atenderlo. Encuentra sin dificultad los cinco libros indicados por Melquíades y los entrega con un pescadito de oro. El sabio lo devuelve todo: 'El último hombre que leyó esos libros debió ser Isaac el Ciego. Llévatelo.'",
       "orden_cronologico": 1805
     },
@@ -3777,7 +3777,7 @@
         "ANCIANO_ANTILLANO",
         "NIGROMANTA"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CASA_NIGROMANTA",
       "descripcion": "En el barrio de tolerancia, Aureliano encuentra al más antiguo de los negros antillanos —único que recuerda al coronel Aureliano Buendía— cantando salmos en el pórtico. Conversa con él en papiamento y comparte el caldo de cabezas de gallo que prepara su bisnieta Nigromanta. Al morir el anciano, Aureliano deja de frecuentar la casa pero sigue encontrándose con Nigromanta bajo los almendros de la plaza.",
       "orden_cronologico": 1905
     },
@@ -3791,7 +3791,7 @@
         "AURELIANO_BABILONIA",
         "NIGROMANTA"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CASA_NIGROMANTA",
       "descripcion": "Para sofocar su pasión por Amaranta Úrsula, Aureliano va a Nigromanta con el peso con cincuenta centavos que le pidió a su tía. Nigromanta lo lleva a su cuarto de veladoras y lienzo percudido, esperando despachar a un niño asustado, pero se encuentra con un poder que le exige una reacomodación sísmica. Se hacen amantes fijos. A la hora de la siesta él la visita, come desnudo con ella bajo las estrellas diurnas del techo de cinc. Cuando Aureliano le confiesa su amor por Amaranta Úrsula, ella lo sigue recibiendo pero le cobra los servicios con rigor, llevando la cuenta con rayitas de uña detrás de la puerta.",
       "orden_cronologico": 1906
     },
@@ -3809,7 +3809,7 @@
         "GABRIEL",
         "SABIO_CATALAN"
       ],
-      "lugar": "MACONDO",
+      "lugar": "LIBRERIA_CATALAN",
       "descripcion": "El sabio catalán instiga a Aureliano a terciar en una discusión sobre cómo matar cucarachas en la Edad Media; Aureliano diserta sobre las 1603 variedades de cucaracha y el único método eficaz: el deslumbramiento solar. El fatalismo enciclopédico es el principio de una gran amistad con Álvaro, Germán, Alfonso y Gabriel. Las sesiones empiezan en la librería a las seis de la tarde y terminan en los burdeles al amanecer.",
       "orden_cronologico": 1907
     },
@@ -3827,7 +3827,7 @@
         "GABRIEL",
         "PILAR_TERNERA"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CASA_PILAR",
       "descripcion": "Álvaro descubre El Niño de Oro: un inmenso salón al aire libre con doscientos alcaravanes, garzas, caimanes, serpientes de doce cascabeles y una tortuga de concha dorada. La anciana que vigila el ingreso en un mecedor de bejuco reconoce en Aureliano la viruela de la soledad del coronel Aureliano Buendía y exclama: '¡Ay, Aureliano!' Es Pilar Ternera, que ha renunciado a llevar las cuentas de su edad cuando cumplió los 145 años. Aureliano se refugia en su regazo para llorar su amor por Amaranta Úrsula; ella le dice: 'No te preocupes. En cualquier lugar en que esté, ella te está esperando.'",
       "orden_cronologico": 1908
     },
@@ -3888,7 +3888,7 @@
         "GABRIEL",
         "ALVARO"
       ],
-      "lugar": "MACONDO",
+      "lugar": "LIBRERIA_CATALAN",
       "descripcion": "Derrotado por la nostalgia de una primavera tenaz, el sabio catalán remata la librería y regresa a su aldea mediterránea. Se lleva los tres cajones de manuscritos con caligrafía morada peleando a insultos cartagineses con los inspectores del ferrocarril que quieren mandarlos como carga. Su despedida a los amigos: 'Ahí les dejo esa mierda.' Luego envía cartas desde el barco que muestran su nostalgización progresiva: cada carta más triste que la anterior, hasta que recomienda olvidar cuanto les enseñó, cagarsen en Horacio, y recordar que el pasado era mentira y toda primavera irrecuperable. 'El mundo habrá acabado de joderse el día en que los hombres viajen en primera clase y la literatura en el vagón de carga.'",
       "orden_cronologico": 2000
     },
@@ -3919,7 +3919,7 @@
         "GASTON",
         "AMARANTA_URSULA"
       ],
-      "lugar": "MACONDO",
+      "lugar": null,
       "descripcion": "Cansado de esperar el aeroplano, Gastón mete en una maletita lo indispensable y su archivo de correspondencia y parte con el propósito de regresar por el aire antes de que sus privilegios sean cedidos a aviadores alemanes con un proyecto más ambicioso. Ante la carta de Amaranta Úrsula que le confiesa el amor por Aureliano, responde con una calma casi paternal, dos páginas sobre las veleidades de la pasión y votos por su felicidad. Seis meses después escribe desde Leopoldville, donde por fin recibió el aeroplano, pidiendo solo que le manden el velocípedo: lo único que tenía valor sentimental.",
       "orden_cronologico": 2002
     },
@@ -3932,7 +3932,7 @@
       "participantes": [
         "AURELIANO_BABILONIA"
       ],
-      "lugar": "MACONDO",
+      "lugar": "IGLESIA_MACONDO",
       "descripcion": "Atormentado por creer que es hermano de su mujer, Aureliano acude a los archivos rezumantes y apolillados de la parroquia. Rastrea partidas de bautismo a través de cuatro tomos buscando entre los diecisiete Aurelianos, pero las fechas son demasiado remotas. El cura artrítico que lo observa desde la hamaca le pregunta su nombre. Cuando Aureliano responde y menciona las treinta y dos guerras y los tres mil muertos echados al mar, el cura le mira con lástima: 'Ay, hijo. A mí me bastaría con estar seguro de que tú y yo existimos en este momento.'",
       "orden_cronologico": 2004
     },
