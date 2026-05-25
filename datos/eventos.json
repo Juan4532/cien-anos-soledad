@@ -418,7 +418,7 @@
     {
       "id": "EVT_PLAGA_INSOMNIO",
       "titulo": "La plaga del insomnio se extiende por Macondo",
-      "tipo": "desastre",
+      "tipo": "conflicto",
       "capitulo": 3,
       "fecha": null,
       "participantes": [
@@ -719,7 +719,7 @@
     {
       "id": "EVT_OCUPACION_MILITAR_MACONDO",
       "titulo": "El ejército conservador ocupa Macondo",
-      "tipo": "guerra",
+      "tipo": "conflicto",
       "capitulo": 5,
       "fecha": null,
       "participantes": [
@@ -747,7 +747,7 @@
     {
       "id": "EVT_PRIMERA_GUERRA_LIBERAL",
       "titulo": "El coronel Aureliano Buendía Aureliano lidera el primer levantamiento armado",
-      "tipo": "guerra",
+      "tipo": "conflicto",
       "capitulo": 5,
       "fecha": null,
       "participantes": [
@@ -777,7 +777,7 @@
     {
       "id": "EVT_FUSILAMIENTO_CORONEL_SALVADO",
       "titulo": "El coronel Aureliano Buendía ante el pelotón de fusilamiento; lo salva su hermano",
-      "tipo": "guerra",
+      "tipo": "conflicto",
       "capitulo": 7,
       "fecha": null,
       "participantes": [
@@ -867,7 +867,7 @@
     {
       "id": "EVT_REGRESO_SECRETO_CORONEL_CAP8",
       "titulo": "Regreso secreto del coronel Aureliano Buendía a Macondo antes del armisticio",
-      "tipo": "guerra",
+      "tipo": "conflicto",
       "capitulo": 8,
       "fecha": null,
       "participantes": [
@@ -883,7 +883,7 @@
     {
       "id": "EVT_ALZAMIENTOS_POSTARMISTICIO",
       "titulo": "Ocho levantamientos del coronel Aureliano Buendía en un año tras el armisticio",
-      "tipo": "guerra",
+      "tipo": "conflicto",
       "capitulo": 8,
       "fecha": null,
       "participantes": [
@@ -924,7 +924,7 @@
     {
       "id": "EVT_CORONEL_FEDERALISMO_CARIBE",
       "titulo": "El coronel Aureliano Buendía lucha por el federalismo en el Caribe y Centroamérica",
-      "tipo": "guerra",
+      "tipo": "conflicto",
       "capitulo": 8,
       "fecha": null,
       "participantes": [
@@ -1051,7 +1051,7 @@
     {
       "id": "EVT_ATAQUE_MACONDO_CAP8",
       "titulo": "El coronel Aureliano Buendía ataca Macondo con mil hombres",
-      "tipo": "guerra",
+      "tipo": "conflicto",
       "capitulo": 8,
       "fecha": null,
       "participantes": [
@@ -1066,7 +1066,7 @@
     {
       "id": "EVT_CAPTURA_MONCADA",
       "titulo": "Captura del general Moncada al intentar huir de Macondo",
-      "tipo": "guerra",
+      "tipo": "conflicto",
       "capitulo": 8,
       "fecha": null,
       "participantes": [
@@ -1094,7 +1094,7 @@
     {
       "id": "EVT_JUICIOS_GUERRA_CAP8",
       "titulo": "Juicios sumarios de guerra bajo Gerineldo Márquez",
-      "tipo": "guerra",
+      "tipo": "conflicto",
       "capitulo": 8,
       "fecha": null,
       "participantes": [
@@ -1239,7 +1239,7 @@
     {
       "id": "EVT_ASAMBLEA_Y_MUERTE_TEOFILO_VARGAS",
       "titulo": "Teófilo Vargas toma el mando rebelde y muere en emboscada",
-      "tipo": "guerra",
+      "tipo": "conflicto",
       "capitulo": 9,
       "fecha": null,
       "participantes": [
@@ -1364,7 +1364,7 @@
     {
       "id": "EVT_PILAR_VISITA_CORONEL_ARMISTICIO",
       "titulo": "Pilar Ternera visita al Coronel antes del armisticio; le repite 'cuídate la boca'",
-      "tipo": "vision",
+      "tipo": "milagro",
       "capitulo": 9,
       "fecha": null,
       "participantes": [
@@ -1378,7 +1378,7 @@
     {
       "id": "EVT_PREMONICION_LECHE_URSULA",
       "titulo": "Premonición de Úrsula: la leche con gusanos y el fantasma",
-      "tipo": "vision",
+      "tipo": "milagro",
       "capitulo": 9,
       "fecha": null,
       "participantes": [
@@ -1631,7 +1631,7 @@
     {
       "id": "EVT_AURELIANO_SEGUNDO_VE_MELQUIADES",
       "titulo": "Aureliano Segundo ve el fantasma de Melquíades en el cuarto cerrado",
-      "tipo": "vision",
+      "tipo": "milagro",
       "capitulo": 10,
       "fecha": null,
       "participantes": [
@@ -1825,7 +1825,7 @@
     {
       "id": "EVT_DILUVIO_CUATRO_ANOS",
       "titulo": "El diluvio de cuatro años, once meses y dos días",
-      "tipo": "desastre",
+      "tipo": "conflicto",
       "capitulo": 16,
       "fecha": null,
       "participantes": [
@@ -1972,7 +1972,7 @@
     {
       "id": "EVT_DESTRUCCION_MACONDO",
       "titulo": "Destrucción de Macondo por el viento",
-      "tipo": "desastre",
+      "tipo": "conflicto",
       "capitulo": 20,
       "fecha": null,
       "participantes": [
@@ -1999,7 +1999,7 @@
     {
       "id": "EVT_LETREROS_CONTRA_OLVIDO",
       "titulo": "Aureliano inventa el sistema de letreros para combatir el olvido",
-      "tipo": "invencion",
+      "tipo": "descubrimiento",
       "capitulo": 3,
       "fecha": null,
       "participantes": [
@@ -2013,7 +2013,7 @@
     {
       "id": "EVT_DAGUERROTIPIA_MACONDO",
       "titulo": "Melquíades instala el laboratorio de daguerrotipia",
-      "tipo": "invencion",
+      "tipo": "descubrimiento",
       "capitulo": 3,
       "fecha": null,
       "participantes": [
@@ -2308,7 +2308,7 @@
     {
       "id": "EVT_RECONQUISTA_MACONDO",
       "titulo": "El ejército conservador reconquista Macondo",
-      "tipo": "guerra",
+      "tipo": "conflicto",
       "capitulo": 6,
       "fecha": null,
       "participantes": [
@@ -2356,7 +2356,7 @@
     {
       "id": "EVT_CAPTURA_CORONEL",
       "titulo": "Captura del coronel Aureliano Buendía Aureliano Buendía",
-      "tipo": "guerra",
+      "tipo": "conflicto",
       "capitulo": 7,
       "fecha": null,
       "participantes": [
@@ -2397,7 +2397,7 @@
     {
       "id": "EVT_PILAR_PREDICE_CORONEL",
       "titulo": "Pilar Ternera lee las barajas al Coronel",
-      "tipo": "vision",
+      "tipo": "milagro",
       "capitulo": 7,
       "fecha": null,
       "participantes": [
@@ -2650,7 +2650,7 @@
     {
       "id": "EVT_AURELIANO_TRISTE_FABRICA_HIELO",
       "titulo": "Aureliano Triste funda la fábrica de hielo",
-      "tipo": "invencion",
+      "tipo": "descubrimiento",
       "capitulo": 11,
       "fecha": null,
       "participantes": [
@@ -2694,7 +2694,7 @@
     {
       "id": "EVT_AURELIANO_CENTENO_HELADOS",
       "titulo": "Aureliano Centeno inventa los helados de frutas",
-      "tipo": "invencion",
+      "tipo": "descubrimiento",
       "capitulo": 11,
       "fecha": null,
       "participantes": [
@@ -2890,7 +2890,7 @@
     {
       "id": "EVT_LUCIDEZ_URSULA",
       "titulo": "La clarividencia de Úrsula en la vejez",
-      "tipo": "vision",
+      "tipo": "milagro",
       "capitulo": 13,
       "fecha": null,
       "participantes": [
@@ -3007,7 +3007,7 @@
     {
       "id": "EVT_GRINGOS_DESVIAN_RIO",
       "titulo": "La compañía bananera desvía el río y fortifica la tumba de José Arcadio",
-      "tipo": "desastre",
+      "tipo": "conflicto",
       "capitulo": 12,
       "fecha": null,
       "participantes": [
@@ -3020,7 +3020,7 @@
     {
       "id": "EVT_ESPECTRO_JOSE_ARCADIO_BUENDIA",
       "titulo": "El espectro de José Arcadio Buendía camina por la casa",
-      "tipo": "vision",
+      "tipo": "milagro",
       "capitulo": 12,
       "fecha": null,
       "participantes": [
@@ -3078,7 +3078,7 @@
     {
       "id": "EVT_MARIPOSAS_AMARILLAS_MAURICIO",
       "titulo": "Las mariposas amarillas anuncian a Mauricio Babilonia",
-      "tipo": "vision",
+      "tipo": "milagro",
       "capitulo": 14,
       "fecha": null,
       "participantes": [
@@ -3578,7 +3578,7 @@
     {
       "id": "EVT_MELQUIADES_ULTIMA_VISITA",
       "titulo": "Última aparición de Melquíades y el encargo del sánscrito",
-      "tipo": "vision",
+      "tipo": "milagro",
       "capitulo": 18,
       "fecha": null,
       "participantes": [
