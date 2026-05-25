@@ -795,10 +795,7 @@ renderDetail();
     elements.push({ group:'nodes', data:{
       id: p.id, label: p.nombre,
       generacion: p.generacion, grupo: p.grupo, capitulo: p.capitulo,
-    }, position: pos, style:{
-      'background-color': col.bg,
-      'border-color': col.border,
-    }});
+    }, position: pos});
   });
   RAW_RELACIONES.forEach(function(r, i){
     elements.push({ group:'edges', data:{
@@ -816,7 +813,7 @@ renderDetail();
     if(!cfg || !cfg.symbol || !window.SYMBOL_SVG) return 'none';
     var inner = window.SYMBOL_SVG[cfg.symbol];
     if(!inner) return 'none';
-    var svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><g style="color:' + accentColor + '">' + inner + '</g></svg>';
+    var svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g style="color:' + accentColor + '">' + inner + '</g></svg>';
     return 'url("data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg) + '")';
   }
 
