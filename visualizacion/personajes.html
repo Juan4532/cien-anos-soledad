@@ -250,12 +250,9 @@
     }
   }
 
-  /* Fullscreen graph layout — el grafo ocupa todo el espacio restante */
-  body { display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
-  .ptg-main { flex: 1 1 0; min-height: 0; padding-top: 0; padding-bottom: 0; }
-  .graph-outer { height: 100%; }
-  #cy-wrap { height: 100%; }
-  .graph-wrap { height: 100%; aspect-ratio: unset; }
+  /* El grafo ocupa el espacio restante de la ventana */
+  #cy-wrap { height: calc(100vh - 390px); min-height: 480px; }
+  .graph-wrap { height: calc(100vh - 390px); min-height: 480px; aspect-ratio: unset; }
 </style>
 </head>
 <body>
