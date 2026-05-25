@@ -370,7 +370,6 @@ function renderCapitulo(){
       row.innerHTML =
         '<div class="marker">' +
           '<span class="cap-num">Cap. ' + toRoman(e.capitulo) + '</span>' +
-          (e.orden_cronologico ? '<span class="oc">#' + e.orden_cronologico + '</span>' : '') +
         '</div>' +
         '<div>' +
           '<div class="title">' + e.titulo + '</div>' +
@@ -420,7 +419,6 @@ function renderCronologico(){
     row.dataset.eventoId = e.id;
     row.innerHTML =
       '<div class="oc-tag">' +
-        (e.orden_cronologico ? '<span>#' + e.orden_cronologico + '</span>' : '') +
         '<span class="cap">Cap. ' + toRoman(e.capitulo) + '</span>' +
       '</div>' +
       '<div>' +
