@@ -177,17 +177,6 @@
       "coordenadas_macondo": null
     },
     {
-      "id": "TIENDA_PIETRO_CRESPI",
-      "nombre": "Tienda de Pietro Crespi",
-      "tipo": "edificio",
-      "descripcion": "Tienda de instrumentos musicales y artículos de cuerda que Pietro Crespi regenta en Macondo. Conocida popularmente como «la tienda de Prieto». Aquí Pietro Crespi se corta las venas tras el rechazo definitivo de Amaranta.",
-      "dentro_de": "MACONDO",
-      "capitulo_aparicion": 3,
-      "real": false,
-      "coordenadas_reales": null,
-      "coordenadas_macondo": null
-    },
-    {
       "id": "IGLESIA_MACONDO",
       "nombre": "Iglesia de Macondo",
       "tipo": "edificio",
