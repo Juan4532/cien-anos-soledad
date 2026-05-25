@@ -3041,7 +3041,7 @@
         "FERNANDA_DEL_CARPIO",
         "AURELIANO_SEGUNDO"
       ],
-      "lugar": "CONVENTO_CLAUSURA",
+      "lugar": null,
       "descripcion": "Meme termina sus estudios de clavicordio y recibe el diploma de concertista. A pesar de las apariencias, ella misma reconoce que el instrumento le resulta indiferente.",
       "orden_cronologico": 1403
     },
@@ -3118,19 +3118,6 @@
       "lugar": "CASA_BUENDIA",
       "descripcion": "Mauricio Babilonia llega a la casa de los Buendía. Fernanda lo echa diciéndole «Lárguese»; identifica que es él quien vio a su hija en el cine.",
       "orden_cronologico": 1408
-    },
-    {
-      "id": "EVT_URSULA_RETIRO_CAMA",
-      "titulo": "Úrsula se recoge en su cuarto tras la muerte de Amaranta",
-      "tipo": "otro",
-      "capitulo": 14,
-      "fecha": null,
-      "participantes": [
-        "URSULA_IGUARAN"
-      ],
-      "lugar": "CASA_BUENDIA",
-      "descripcion": "Tras los nueve noches de velorio de Amaranta, Úrsula se mete en su cuarto y no vuelve a salir.",
-      "orden_cronologico": 1409
     },
     {
       "id": "EVT_LLEGADA_AURELIANO_BABILONIA_CASA",
