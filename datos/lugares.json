@@ -92,9 +92,9 @@
       "id": "CUARTEL_MACONDO",
       "nombre": "Cuartel de Macondo",
       "tipo": "edificio",
-      "descripcion": "Cuartel y prisión militar de Macondo. Aquí es recluido el coronel Aureliano Buendía Aureliano antes de su fusilamiento fallido y donde son ejecutados prisioneros durante la guerra. También sede del poder conservador y luego de los jefes militares de la compañía.",
+      "descripcion": "Edificio que funcionó originalmente como escuela de Macondo, construida por iniciativa de Moscote y donde Arcadio ejercía de maestro. Con la primera ocupación militar conservadora Arcadio lo convierte en cuartel y prisión. Aquí es recluido el coronel Aureliano Buendía antes de su fusilamiento fallido y donde son ejecutados prisioneros durante la guerra. Posteriormente sede del poder conservador y de los jefes militares de la compañía bananera.",
       "dentro_de": "MACONDO",
-      "capitulo_aparicion": 6,
+      "capitulo_aparicion": 5,
       "real": false,
       "coordenadas_reales": null,
       "coordenadas_macondo": null
@@ -436,17 +436,6 @@
       "descripcion": "Despacho oficial de Apolinar Moscote, instalado a dos cuadras de la casa Buendía. Sede de la primera administración civil de Macondo.",
       "dentro_de": "MACONDO",
       "capitulo_aparicion": 3,
-      "real": false,
-      "coordenadas_reales": null,
-      "coordenadas_macondo": null
-    },
-    {
-      "id": "ESCUELA_MACONDO",
-      "nombre": "Escuela de Macondo",
-      "tipo": "edificio",
-      "descripcion": "Escuela construida por iniciativa de Moscote y donde Arcadio ejerce de maestro antes de usurpar el poder. Durante su breve dictadura la convierte en cuartel.",
-      "dentro_de": "MACONDO",
-      "capitulo_aparicion": 5,
       "real": false,
       "coordenadas_reales": null,
       "coordenadas_macondo": null
