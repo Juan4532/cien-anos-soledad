@@ -1714,7 +1714,7 @@
         "AURELIANO_BUENDIA_CORONEL",
         "SANTA_SOFIA_DE_LA_PIEDAD"
       ],
-      "lugar": "CASA_BUENDIA",
+      "lugar": "EL_CASTANO",
       "descripcion": "El 11 de octubre, el coronel Aureliano Buendía sale por primera vez en años a ver el desfile de un circo. Al ver una mujer vestida de oro sobre un elefante, revive la tarde prodigiosa de los gitanos y el hielo. Después se apoya en el castaño del patio, mete la cabeza entre los hombros y muere de pie, solo y olvidado. La familia no se entera hasta el día siguiente, cuando Santa Sofía de la Piedad ve bajar los gallinazos.",
       "orden_cronologico": 1300
     },
@@ -2842,7 +2842,7 @@
         "URSULA_IGUARAN",
         "PADRE_ANTONIO_ISABEL"
       ],
-      "lugar": "MACONDO",
+      "lugar": null,
       "descripcion": "Un jueves a las dos de la tarde, José Arcadio parte al seminario con vestido de pana verde y botones de cobre. El almuerzo de despedida transcurre con fingida alegría; el coronel Aureliano Buendía se niega a participar: '¡Un Papa! ¡Era la última vaina que nos faltaba!'",
       "orden_cronologico": 1301
     },
@@ -2857,7 +2857,7 @@
         "AURELIANO_SEGUNDO",
         "FERNANDA_DEL_CARPIO"
       ],
-      "lugar": "MACONDO",
+      "lugar": null,
       "descripcion": "Tres meses después de que José Arcadio parte al seminario, Aureliano Segundo y Fernanda llevan a Meme al colegio de las monjas donde le enseñarán a tocar el clavicordio. A su regreso traen un clavicordio que ocupa el lugar de la pianola.",
       "orden_cronologico": 1302
     },
@@ -2910,7 +2910,7 @@
         "JOSE_ARCADIO_SEGUNDO",
         "FERNANDA_DEL_CARPIO"
       ],
-      "lugar": "MACONDO",
+      "lugar": "PLANTACION_BANANERA",
       "descripcion": "José Arcadio Segundo vende sus gallos de pelea y se emplea de capataz en la compañía bananera. Fernanda, que considera a la compañía la encarnación de la vulgaridad forastera, le prohíbe la entrada a la casa mientras tenga 'la sarna de los forasteros'.",
       "orden_cronologico": 1306
     },
@@ -2925,7 +2925,7 @@
         "FERNANDA_DEL_CARPIO",
         "PETRA_COTES"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CASA_PETRA_COTES",
       "descripcion": "Aureliano Segundo traslada sus parrandas, luego sus establos, luego su oficina a casa de Petra Cotes. Una noche la mañana lo sorprende en la cama de la concubina. Fernanda le manda los baúles a pleno sol por la mitad de la calle para que lo vea todo el mundo, pero él celebra la libertad con tres días de parranda. Se instala definitivamente en casa de Petra, aunque sigue visitando a Fernanda.",
       "orden_cronologico": 1307
     },
@@ -2939,7 +2939,7 @@
         "AURELIANO_BUENDIA_CORONEL",
         "URSULA_IGUARAN"
       ],
-      "lugar": "CASA_BUENDIA",
+      "lugar": "LABORATORIO_ALQUIMIA",
       "descripcion": "El coronel Aureliano Buendía hace una hoguera en el patio con las muñecas de Remedios Moscote que decoraban su dormitorio desde su boda. Úrsula le reprocha: 'tienes un corazón de piedra'. Él responde: 'el cuarto se está llenando de polillas'. Cuelga una hamaca en el taller y ya solo lo abandona para ir al patio a hacer sus necesidades.",
       "orden_cronologico": 1308
     },
@@ -2955,7 +2955,7 @@
         "PETRA_COTES",
         "FERNANDA_DEL_CARPIO"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CASA_PETRA_COTES",
       "descripcion": "Aureliano Segundo se enfrenta a Camila Sagastume, 'La Elefanta', en un duelo que dura hasta el martes. Ella come con técnica y tranquilidad moral; él con voracidad desbocada. Al segundo amanecer, Aureliano Segundo cae inconsciente con espumarajos sobre el plato. Alcanza a pedir 'llévenme con Fernanda'. Petra Cotes embetuna los botines de charol que él quería en su ataúd. Se recupera en menos de una semana.",
       "orden_cronologico": 1309
     },
@@ -2985,7 +2985,7 @@
         "FERNANDA_DEL_CARPIO",
         "AURELIANO_BUENDIA_CORONEL"
       ],
-      "lugar": "CASA_BUENDIA",
+      "lugar": "CUARTO_MELQUIADES",
       "descripcion": "Fernanda guarda las 72 bacinillas compradas para las colegialas de Meme en el cuarto de Melquíades. La habitación que fue el centro espiritual de la casa pasa a llamarse 'el cuarto de las bacinillas'. Para el coronel Aureliano Buendía, es el nombre más apropiado: donde otros ven inmunidad al polvo, él ve un muladar.",
       "orden_cronologico": 1311
     },
@@ -3000,7 +3000,7 @@
         "AURELIANO_BUENDIA_CORONEL",
         "URSULA_IGUARAN"
       ],
-      "lugar": "CASA_BUENDIA",
+      "lugar": "LABORATORIO_ALQUIMIA",
       "descripcion": "José Arcadio Segundo reaparece en la casa, pasa sin saludar a nadie y se encierra en el taller con el coronel Aureliano Buendía. Úrsula, que lo orienta por el sonido de sus botas de capataz, observa que es el que más se parece a Santa Sofía de la Piedad, y que él y el coronel Aureliano Buendía son los únicos de la familia vinculados por afinidades verdaderas.",
       "orden_cronologico": 1312
     },
