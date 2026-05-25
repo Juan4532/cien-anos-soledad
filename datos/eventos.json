@@ -1469,7 +1469,7 @@
       "participantes": [
         "AURELIANO_TRISTE"
       ],
-      "lugar": "MACONDO",
+      "lugar": "ESTACION_FERROCARRIL",
       "descripcion": "Aureliano Triste conduce el primer tren que llega a Macondo, adornado de flores y con ocho meses de retraso. La población sale a la calle atónita ante la 'cocina arrastrando un pueblo'. Úrsula ve en el esquema del ferrocarril el mismo espíritu de José Arcadio Buendía fundador, y siente que el tiempo da vueltas en redondo.",
       "orden_cronologico": 1100
     },
@@ -2532,7 +2532,7 @@
         "FERNANDA_DEL_CARPIO",
         "PETRA_COTES"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CASA_PETRA_COTES",
       "descripcion": "Aureliano Segundo convence a Fernanda de que debe visitar a Petra para que sigan pariendo los animales. Fernanda acepta con la única condición de que no le pillen muerto en la cama de la concubina. Los tres viven sin estorbarse. Petra guarda los botines de charol de Aureliano en el fondo de un baúl: 'tarde o temprano tiene que venir, aunque solo sea a ponerse estos botines'.",
       "orden_cronologico": 1102
     },
@@ -2546,7 +2546,7 @@
         "AMARANTA_BUENDIA",
         "FERNANDA_DEL_CARPIO"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CASA_BUENDIA",
       "descripcion": "Amaranta habla en jerigonza delante de Fernanda para burlarse de ella. Cuando Fernanda pregunta qué dice, Amaranta le contesta sin eufemismos: 'tú eres de las que confunden el culo con las témporas'. Desde ese día no vuelven a dirigirse la palabra.",
       "orden_cronologico": 1103
     },
@@ -2561,7 +2561,7 @@
         "URSULA_IGUARAN",
         "SANTA_SOFIA_DE_LA_PIEDAD"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CASA_BUENDIA",
       "descripcion": "Fernanda impone el comedor formal con manteles de lino y servicio de plata, el rosario antes de cenar y el horario estricto de comidas. Cierra las puertas, sustituye el ramo de sábila y el pan del dintel por un nicho del Corazón de Jesús, y liquida el negocio de repostería de Santa Sofía de la Piedad. Cuando Úrsula pierde la vista, el círculo de rigidez de Fernanda se cierra del todo.",
       "orden_cronologico": 1104
     },
@@ -2643,7 +2643,7 @@
         "AURELIANO_CENTENO",
         "AMARANTA_BUENDIA"
       ],
-      "lugar": "MACONDO",
+      "lugar": "IGLESIA_MACONDO",
       "descripcion": "El miércoles de ceniza, Amaranta lleva a los hijos del coronel Aureliano Buendía a misa. El padre Antonio Isabel les pone la cruz de ceniza, pero al intentar borrársela descubren que la mancha es indeleble; los demás feligreses se la quitan sin dificultad. Úrsula los despide: 'de ahora en adelante nadie podrá confundirlos'.",
       "orden_cronologico": 1109
     },
@@ -2671,7 +2671,7 @@
         "REBECA",
         "URSULA_IGUARAN"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CASA_REBECA",
       "descripcion": "Aureliano Triste empuja la puerta de la casa decrépita de Rebeca, que le apunta con una pistola militar. Esa noche lo cuenta en la cena y Úrsula llora de consternación: 'Dios santo, ¡todavía está viva!'. Se decide rescatarla, pero Rebeca rechaza toda misericordia y protege su derecho a la soledad.",
       "orden_cronologico": 1111
     },
@@ -2687,7 +2687,7 @@
         "AURELIANO_CENTENO",
         "ARGENIDA"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CASA_REBECA",
       "descripcion": "En febrero, los 16 hijos del coronel Aureliano Buendía restauran en medio día la fachada de la casa de Rebeca: cambian puertas y ventanas, pintan y vacían cemento nuevo. Rebeca ni se asoma; les manda el pago con Argénida en monedas retiradas de circulación. No consiguen permiso para el interior ni logran rescatarla.",
       "orden_cronologico": 1112
     },
