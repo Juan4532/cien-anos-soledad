@@ -1217,7 +1217,7 @@
         "GERINELDO_MARQUEZ",
         "AURELIANO_BUENDIA_CORONEL"
       ],
-      "lugar": "MACONDO",
+      "lugar": "OFICINA_TELEGRAFICA",
       "descripcion": "Gerineldo, desolado tras el rechazo de Amaranta, le telegrafía al Coronel: «Está lloviendo en Macondo.» Silencio. Luego los aparatos responden: «No seas pendejo, Gerineldo. Es natural que esté lloviendo en agosto.»",
       "orden_cronologico": 905
     },
@@ -1260,7 +1260,7 @@
         "AURELIANO_BUENDIA_CORONEL"
       ],
       "lugar": "NEERLANDIA",
-      "descripcion": "La noche en que asume el mando central, el coronel Aureliano Buendía despierta pidiendo a gritos una manta. Un frío interior que le raya los huesos lo acompañará durante meses y luego para siempre. Es el primer síntoma físico de la corrupción del poder.",
+      "descripcion": "La noche en que asume el mando central, el coronel Aureliano Buendía despierta pidiendo a gritos una manta. Un frío interior que le raya los huesos lo acompañará durante meses y luego para siempre.",
       "orden_cronologico": 908
     },
     {
@@ -1273,7 +1273,7 @@
         "AURELIANO_BUENDIA_CORONEL",
         "VIUDA_MONCADA"
       ],
-      "lugar": "MACONDO",
+      "lugar": "MANAURE",
       "descripcion": "El coronel Aureliano Buendía va a Manaure a cumplir la última voluntad de Moncada y entregar sus objetos personales a su viuda. Ella no le permite pasar de la puerta: «Usted mandará en su guerra, pero yo mando en mi casa.» Su guardia personal saquea y reduce a cenizas la casa.",
       "orden_cronologico": 909
     },
@@ -1301,7 +1301,7 @@
         "AURELIANO_BUENDIA_CORONEL",
         "GERINELDO_MARQUEZ"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CUARTEL_MACONDO",
       "descripcion": "Cuando Gerineldo llama traición a la firma, el coronel Aureliano Buendía le ordena entregar las armas y presentarse en el cuartel. Es condenado a muerte por los tribunales revolucionarios. El coronel Aureliano Buendía permanece insensible a las súplicas de clemencia.",
       "orden_cronologico": 911
     },
@@ -1315,7 +1315,7 @@
         "URSULA_IGUARAN",
         "AURELIANO_BUENDIA_CORONEL"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CUARTEL_MACONDO",
       "descripcion": "La víspera de la ejecución, Úrsula visita al Coronel durante tres minutos: «Tan pronto como vea el cadáver, te lo juro por los huesos de mi padre y mi madre, te he de sacar de donde te metas y te mataré con mis propias manos.» Añade: «Es lo mismo que habría hecho si hubieras nacido con cola de puerco.»",
       "orden_cronologico": 912
     },
@@ -1329,7 +1329,7 @@
         "AURELIANO_BUENDIA_CORONEL",
         "GERINELDO_MARQUEZ"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CUARTEL_MACONDO",
       "descripcion": "Tras una noche de tormentosa vigilia, el coronel Aureliano Buendía aparece en la celda una hora antes de la ejecución: «Terminó la farsa, compadre. Vámonos de aquí, antes de que acaben de fusilarte los mosquitos.» Gerineldo lo recrimina: «Vale más estar muerto que verte convertido en un chafarote.»",
       "orden_cronologico": 913
     },
@@ -1343,7 +1343,7 @@
         "AURELIANO_BUENDIA_CORONEL",
         "URSULA_IGUARAN"
       ],
-      "lugar": "MACONDO",
+      "lugar": "CASA_BUENDIA",
       "descripcion": "Antes del armisticio, el coronel Aureliano Buendía simplifica el taller de platería, regala su ropa a los ordenanzas y entierra sus armas en el patio. Solo conserva una pistola con una sola bala. Úrsula le impide destruir el daguerrotipo de Remedios Moscote: «Ese retrato dejó de pertenecerte. Es una reliquia de familia.»",
       "orden_cronologico": 914
     },
