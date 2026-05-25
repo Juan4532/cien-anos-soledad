@@ -81,7 +81,7 @@
       "id": "TALLER_CORONEL",
       "nombre": "Taller del coronel Aureliano Buendía",
       "tipo": "habitacion",
-      "descripcion": "Pequeño taller en el fondo de la casa donde el coronel Aureliano Buendía Aureliano Buendía se retira tras el armisticio a fabricar pescaditos de oro en una rutina sin fin: hace veinticinco, los funde y vuelve a empezar. Símbolo de su encierro voluntario en la inutilidad.",
+      "descripcion": "Pequeño taller en el fondo de la casa donde el coronel Aureliano Buendía se retira tras el armisticio a fabricar pescaditos de oro en una rutina sin fin: hace veinticinco, los funde y vuelve a empezar. Símbolo de su encierro voluntario en la inutilidad.",
       "dentro_de": "CASA_BUENDIA",
       "capitulo_aparicion": 10,
       "real": false,
