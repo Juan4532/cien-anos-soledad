@@ -180,20 +180,9 @@
       "id": "CASA_PILAR",
       "nombre": "Casa de Pilar Ternera",
       "tipo": "casa",
-      "descripcion": "Casa donde vive Pilar Ternera en los primeros años de Macondo, antes de establecer su burdel. Allí ejerce como echadora de cartas y recibe a sucesivas generaciones de Buendías. Lugar de nacimiento de Arcadio y de Aureliano José.",
+      "descripcion": "Casa y, con los años, burdel regentado por Pilar Ternera a lo largo de toda su vida en Macondo. Allí ejerce como echadora de cartas y recibe a sucesivas generaciones de Buendías. Lugar de nacimiento de Arcadio y de Aureliano José. El burdel ocupa el mismo espacio en sus últimas décadas.",
       "dentro_de": "MACONDO",
       "capitulo_aparicion": 2,
-      "real": false,
-      "coordenadas_reales": null,
-      "coordenadas_macondo": null
-    },
-    {
-      "id": "BURDEL_PILAR",
-      "nombre": "Burdel de Pilar Ternera",
-      "tipo": "edificio",
-      "descripcion": "Establecimiento regentado por Pilar Ternera en sus últimas décadas. Acuden varias generaciones de Buendías. Pilar muere aquí sentada en su mecedora y es enterrada en esa misma posición.",
-      "dentro_de": "MACONDO",
-      "capitulo_aparicion": 14,
       "real": false,
       "coordenadas_reales": null,
       "coordenadas_macondo": null
