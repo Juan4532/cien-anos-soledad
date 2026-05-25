@@ -917,9 +917,9 @@
         "URSULA_IGUARAN",
         "AMARANTA_BUENDIA"
       ],
-      "lugar": "MACONDO",
+      "lugar": null,
       "descripcion": "En menos de dos años el gobierno anuncia cuatro veces la muerte del coronel Aureliano Buendía. El cuarto informe se tiene por cierto durante casi seis meses. Úrsula y Amaranta superponen lutos hasta que llega la noticia de que está vivo en el Caribe.",
-      "orden_cronologico": null
+      "orden_cronologico": 805
     },
     {
       "id": "EVT_CORONEL_FEDERALISMO_CARIBE",
@@ -930,7 +930,7 @@
       "participantes": [
         "AURELIANO_BUENDIA_CORONEL"
       ],
-      "lugar": null,
+      "lugar": "CABO_DE_LA_VELA",
       "descripcion": "El coronel Aureliano Buendía aparece bajo nombres distintos en repúblicas del Caribe, sumado al federalismo triunfante. Su proyecto: unificar las fuerzas federalistas de América Central para barrer con los regímenes conservadores desde Alaska hasta la Patagonia. La primera noticia directa que recibe Úrsula es una carta borrosa desde Santiago de Cuba.",
       "orden_cronologico": 806
     },
