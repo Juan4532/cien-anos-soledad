@@ -1,145 +1,196 @@
-/* Cien años · símbolos personales (vanilla JS, sin JSX) ------------------- */
+/* Cien años · símbolos personales (vanilla JS, sin JSX) ------------------- *
+   Paths convertidos de symbols.jsx. viewBox 0 0 100 100.
+   -------------------------------------------------------------------------- */
 
 const SYMBOL_SVG = {
 
-  castano: `<g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
-    <path d="M 50 95 L 50 55" stroke-width="2.2"/>
-    <path d="M 50 55 C 38 50, 32 38, 30 28 M 50 55 C 62 50, 68 38, 70 28"/>
-    <path d="M 50 50 C 42 45, 38 32, 38 20 M 50 50 C 58 45, 62 32, 62 20"/>
-    <path d="M 50 45 C 50 35, 50 25, 50 15"/>
-    <circle cx="30" cy="26" r="2" fill="currentColor"/>
-    <circle cx="40" cy="20" r="1.6" fill="currentColor"/>
-    <circle cx="50" cy="14" r="2" fill="currentColor"/>
-    <circle cx="60" cy="19" r="1.6" fill="currentColor"/>
-    <circle cx="70" cy="26" r="2" fill="currentColor"/>
-    <path d="M 38 95 L 62 95" stroke-width="1"/>
+  // José Arcadio Buendía: el castaño
+  castano: `<g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 48 92 Q 46 80 50 70 Q 54 60 50 50" stroke-width="5"/>
+    <path d="M 50 60 Q 36 56 28 44" stroke-width="3.5"/>
+    <path d="M 50 60 Q 64 56 72 44" stroke-width="3.5"/>
+    <path d="M 50 52 Q 50 40 50 28" stroke-width="3.5"/>
+    <path d="M 50 50 Q 42 42 38 34" stroke-width="3"/>
+    <path d="M 50 50 Q 58 42 62 34" stroke-width="3"/>
+    <path d="M 50 16 Q 36 16 30 26 Q 22 32 22 42 Q 22 50 32 50 Q 38 56 50 50"/>
+    <path d="M 50 16 Q 64 16 70 26 Q 78 32 78 42 Q 78 50 68 50 Q 62 56 50 50"/>
+    <path d="M 50 22 Q 44 28 44 38 Q 44 46 50 50 Q 56 46 56 38 Q 56 28 50 22" opacity="0.6" stroke-width="1.5"/>
+    <path d="M 48 92 L 38 96 M 48 92 L 30 94" stroke-width="2" opacity="0.6"/>
+    <path d="M 50 92 L 62 96 M 50 92 L 70 94" stroke-width="2" opacity="0.6"/>
   </g>`,
 
-  ave: `<g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 22 60 C 35 45, 55 40, 72 50 L 80 48 L 76 56 C 70 70, 50 75, 38 68 Z"/>
-    <circle cx="68" cy="50" r="1.6" fill="currentColor"/>
-    <path d="M 35 55 C 42 58, 50 60, 58 58" opacity="0.55"/>
-    <path d="M 22 60 L 12 65" stroke-width="1.2"/>
-    <path d="M 18 63 L 10 60" stroke-width="1.2" opacity="0.7"/>
+  // Úrsula: el ave
+  ave: `<g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 12 60 Q 32 30 50 50 Q 68 30 88 60"/>
+    <path d="M 22 65 Q 34 48 50 60 Q 66 48 78 65" stroke-width="2" opacity="0.7"/>
   </g>`,
 
-  pescadito: `<g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 12 50 C 28 28, 64 28, 78 50 C 64 72, 28 72, 12 50 Z"/>
-    <path d="M 78 50 L 92 38 L 92 62 Z"/>
-    <circle cx="24" cy="46" r="2.2" fill="currentColor"/>
-    <path d="M 38 48 L 52 48 M 42 53 L 56 53 M 40 43 L 54 43" stroke-width="1"/>
+  // Coronel Aureliano: el pescadito de oro
+  pescadito: `<g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 14 50 Q 30 26 60 26 Q 78 26 78 50 Q 78 74 60 74 Q 30 74 14 50 Z"/>
+    <path d="M 14 50 L 4 36 L 4 64 Z"/>
+    <circle cx="64" cy="44" r="2.5" fill="currentColor"/>
+    <path d="M 40 42 Q 50 50 40 58 M 50 42 Q 60 50 50 58" stroke-width="2"/>
   </g>`,
 
-  culebra: `<g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
-    <path d="M 16 30 C 30 30, 30 50, 50 50 C 70 50, 70 70, 84 70"/>
-    <circle cx="84" cy="70" r="3" fill="currentColor"/>
-    <path d="M 87 67 L 92 64 M 87 73 L 92 76" stroke-width="1"/>
-    <path d="M 22 28 L 18 24 L 14 28" stroke-width="1.2"/>
+  // José Arcadio (hijo): la culebra
+  culebra: `<g fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 18 78 Q 18 58 38 58 Q 58 58 58 38 Q 58 22 78 22"/>
+    <circle cx="80" cy="22" r="5" fill="currentColor" stroke="none"/>
+    <path d="M 86 22 L 92 18 M 86 22 L 92 26" stroke-width="2"/>
+    <path d="M 18 78 L 12 84" stroke-width="2.5"/>
   </g>`,
 
-  mano: `<g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 38 90 L 38 60 C 38 56, 34 50, 34 42 L 34 30"/>
-    <path d="M 38 60 L 42 30 M 46 60 L 50 25 M 54 60 L 58 32"/>
-    <path d="M 62 60 L 64 42 C 64 38, 62 35, 60 35 L 56 38"/>
-    <path d="M 28 75 L 72 75" stroke-width="2.8"/>
-    <path d="M 28 80 L 72 80" stroke-width="2.8"/>
+  // Amaranta: la mano vendada de negro
+  mano: `<g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 30 92 L 30 36 Q 30 28 36 28 Q 42 28 42 36 L 42 50 M 42 22 Q 42 14 48 14 Q 54 14 54 22 L 54 50 M 54 18 Q 54 10 60 10 Q 66 10 66 18 L 66 50 M 66 26 Q 66 18 72 18 Q 78 18 78 26 L 78 50 L 78 70 Q 78 92 60 92 Z"/>
+    <path d="M 30 50 Q 18 50 18 60 Q 18 70 30 70"/>
+    <path d="M 22 56 L 80 56" stroke-width="4"/>
+    <path d="M 22 64 L 80 64" stroke-width="4"/>
+    <path d="M 22 72 L 80 72" stroke-width="4"/>
+    <path d="M 22 80 L 80 80" stroke-width="4"/>
   </g>`,
 
-  huesos: `<g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 18 22 L 82 78" stroke-width="3"/>
-    <circle cx="18" cy="22" r="6"/>
-    <circle cx="82" cy="78" r="6"/>
-    <path d="M 82 22 L 18 78" stroke-width="3"/>
-    <circle cx="82" cy="22" r="6"/>
-    <circle cx="18" cy="78" r="6"/>
+  // Rebeca: los huesos cruzados
+  huesos: `<g fill="currentColor" stroke="none">
+    <g transform="translate(50 50) rotate(-45)">
+      <rect x="-30" y="-4" width="60" height="8" rx="1"/>
+      <circle cx="-30" cy="-7" r="6"/>
+      <circle cx="-30" cy="7" r="6"/>
+      <circle cx="30" cy="-7" r="6"/>
+      <circle cx="30" cy="7" r="6"/>
+    </g>
+    <g transform="translate(50 50) rotate(45)">
+      <rect x="-30" y="-4" width="60" height="8" rx="1"/>
+      <circle cx="-30" cy="-7" r="6"/>
+      <circle cx="-30" cy="7" r="6"/>
+      <circle cx="30" cy="-7" r="6"/>
+      <circle cx="30" cy="7" r="6"/>
+    </g>
   </g>`,
 
-  pergamino: `<g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 18 28 C 14 28, 14 36, 18 36 L 76 36 C 80 36, 80 28, 76 28 Z"/>
-    <path d="M 18 36 L 18 72 C 18 76, 22 76, 22 72 L 22 36"/>
-    <path d="M 76 36 L 76 76 C 80 76, 80 64, 76 60 L 30 60 C 26 64, 26 72, 30 72 L 76 72"/>
-    <path d="M 30 44 L 70 44 M 30 50 L 64 50" stroke-width="0.9" opacity="0.8"/>
+  // Melquíades: el pergamino enrollado
+  pergamino: `<g fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 32 26 L 68 26 L 70 74 L 30 74 Z"/>
+    <path d="M 32 26 Q 22 22 22 18 Q 22 14 28 14 Q 36 14 36 22 Q 36 26 32 26"/>
+    <path d="M 68 26 Q 78 22 78 18 Q 78 14 72 14 Q 64 14 64 22 Q 64 26 68 26"/>
+    <path d="M 32 18 L 68 18" stroke-width="1.5" opacity="0.5"/>
+    <path d="M 30 74 Q 20 78 20 82 Q 20 86 26 86 Q 34 86 34 78 Q 34 74 30 74"/>
+    <path d="M 70 74 Q 80 78 80 82 Q 80 86 74 86 Q 66 86 66 78 Q 66 74 70 74"/>
+    <path d="M 30 82 L 70 82" stroke-width="1.5" opacity="0.5"/>
+    <path d="M 38 36 L 62 36" stroke-width="1.6"/>
+    <path d="M 38 44 L 58 44" stroke-width="1.6"/>
+    <path d="M 38 52 L 62 52" stroke-width="1.6"/>
+    <path d="M 38 60 L 56 60" stroke-width="1.6"/>
   </g>`,
 
-  cartas: `<g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="20" y="34" width="26" height="40" transform="rotate(-15 33 54)"/>
-    <rect x="37" y="30" width="26" height="40"/>
-    <rect x="54" y="34" width="26" height="40" transform="rotate(15 67 54)"/>
-    <path d="M 47 50 L 53 50 M 50 47 L 50 53" stroke-width="1.6"/>
+  // Pilar Ternera: las cartas
+  cartas: `<g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="22" y="32" width="22" height="36" rx="2" transform="rotate(-20 33 50)"/>
+    <rect x="39" y="28" width="22" height="36" rx="2"/>
+    <rect x="56" y="32" width="22" height="36" rx="2" transform="rotate(20 67 50)"/>
+    <path d="M 50 40 Q 46 36 44 40 Q 44 44 50 50 Q 56 44 56 40 Q 54 36 50 40 Z" fill="currentColor" stroke="none"/>
   </g>`,
 
-  sabana: `<g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 16 32 C 28 24, 42 28, 50 32 C 60 28, 75 24, 86 36 C 90 50, 84 60, 70 60 L 30 60 C 16 60, 12 46, 16 32 Z"/>
-    <path d="M 25 70 C 30 75, 40 72, 45 76 M 55 72 C 62 78, 68 74, 75 78" opacity="0.7"/>
-    <path d="M 28 85 L 35 90 M 50 85 L 50 92 M 65 85 L 72 90" opacity="0.5" stroke-width="1"/>
+  // Remedios la Bella: la sábana flotante
+  sabana: `<g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 12 38 Q 20 28 30 36 Q 40 44 50 36 Q 60 28 70 36 Q 80 44 88 38 L 88 60 Q 80 70 70 60 Q 60 52 50 60 Q 40 70 30 60 Q 20 52 12 60 Z"/>
+    <path d="M 26 78 L 36 84 M 46 80 L 50 88 M 64 78 L 60 86 M 70 76 L 80 82" stroke-width="2" opacity="0.6"/>
   </g>`,
 
-  copa: `<g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 30 18 L 70 18 L 64 52 C 64 60, 56 64, 50 64 C 44 64, 36 60, 36 52 Z"/>
-    <path d="M 50 64 L 50 84"/>
-    <path d="M 32 84 L 68 84"/>
-    <path d="M 36 30 C 44 34, 56 34, 64 30" opacity="0.7"/>
+  // Aureliano Segundo: la copa
+  copa: `<g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 26 18 L 74 18 L 70 50 Q 66 60 50 60 Q 34 60 30 50 Z"/>
+    <path d="M 50 60 L 50 82" stroke-width="4"/>
+    <path d="M 32 86 L 68 86" stroke-width="5"/>
+    <path d="M 30 30 Q 50 36 70 30" stroke-width="2" opacity="0.6"/>
   </g>`,
 
-  corona: `<g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 18 60 L 24 28 L 38 50 L 50 22 L 62 50 L 76 28 L 82 60 Z"/>
-    <path d="M 18 70 L 82 70"/>
-    <path d="M 22 78 L 78 78"/>
-    <circle cx="24" cy="28" r="2" fill="currentColor"/>
-    <circle cx="50" cy="22" r="2.5" fill="currentColor"/>
-    <circle cx="76" cy="28" r="2" fill="currentColor"/>
+  // Fernanda del Carpio: la corona
+  corona: `<g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 14 70 L 22 32 L 36 56 L 50 22 L 64 56 L 78 32 L 86 70 Z"/>
+    <path d="M 14 70 L 86 70" stroke-width="5"/>
+    <circle cx="22" cy="32" r="3" fill="currentColor" stroke="none"/>
+    <circle cx="50" cy="22" r="4" fill="currentColor" stroke="none"/>
+    <circle cx="78" cy="32" r="3" fill="currentColor" stroke="none"/>
+    <circle cx="50" cy="78" r="2.5" fill="currentColor" stroke="none"/>
   </g>`,
 
-  mariposa: `<g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 50 22 L 50 80" stroke-width="2"/>
-    <path d="M 50 32 C 30 18, 12 28, 14 44 C 16 56, 32 58, 50 50"/>
-    <path d="M 50 32 C 70 18, 88 28, 86 44 C 84 56, 68 58, 50 50"/>
-    <path d="M 50 56 C 36 56, 24 64, 26 76 C 30 84, 42 82, 50 76"/>
-    <path d="M 50 56 C 64 56, 76 64, 74 76 C 70 84, 58 82, 50 76"/>
-    <circle cx="50" cy="22" r="2" fill="currentColor"/>
-    <path d="M 48 20 L 44 14 M 52 20 L 56 14" stroke-width="1.2"/>
+  // Mauricio Babilonia: la mariposa
+  mariposa: `<g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 50 24 L 50 78" stroke-width="4"/>
+    <path d="M 50 32 Q 18 18 18 38 Q 18 50 38 48 Q 48 46 50 38 Z"/>
+    <path d="M 50 32 Q 82 18 82 38 Q 82 50 62 48 Q 52 46 50 38 Z"/>
+    <path d="M 50 50 Q 30 56 26 72 Q 26 82 40 78 Q 48 74 50 64 Z"/>
+    <path d="M 50 50 Q 70 56 74 72 Q 74 82 60 78 Q 52 74 50 64 Z"/>
+    <circle cx="50" cy="22" r="3" fill="currentColor" stroke="none"/>
+    <path d="M 50 22 Q 44 14 40 12 M 50 22 Q 56 14 60 12" stroke-width="2"/>
   </g>`,
 
-  jaula: `<g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 25 30 L 75 30 L 75 78 L 25 78 Z"/>
-    <path d="M 33 30 L 33 78 M 41 30 L 41 78 M 50 30 L 50 78 M 59 30 L 59 78 M 67 30 L 67 78" opacity="0.5" stroke-width="0.9"/>
-    <path d="M 25 78 L 75 78" stroke-width="2.4"/>
-    <path d="M 35 26 L 50 18 L 65 26" stroke-width="1.2"/>
-    <circle cx="50" cy="14" r="1.5" fill="currentColor"/>
-    <path d="M 44 56 C 48 50, 56 50, 58 56 C 58 60, 54 62, 50 62 C 46 62, 44 60, 44 56 Z" fill="currentColor" stroke="none"/>
+  // Amaranta Úrsula: la jaula con pájaro
+  jaula: `<g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 22 80 L 22 38 Q 22 22 50 22 Q 78 22 78 38 L 78 80 Z" stroke-width="3"/>
+    <path d="M 32 26 L 32 80 M 42 22 L 42 80 M 50 22 L 50 80 M 58 22 L 58 80 M 68 26 L 68 80" stroke-width="1.5" opacity="0.6"/>
+    <path d="M 18 80 L 82 80" stroke-width="4"/>
+    <path d="M 46 14 L 54 14 M 50 14 L 50 22" stroke-width="2.5"/>
+    <ellipse cx="50" cy="56" rx="8" ry="5" fill="currentColor" stroke="none"/>
+    <path d="M 56 54 L 60 50 M 56 54 L 60 56" stroke-width="1.5"/>
   </g>`,
 
-  pluma: `<g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 80 16 C 76 24, 68 38, 58 50 C 50 60, 38 70, 22 78 L 18 82 L 28 82 C 40 80, 52 72, 62 60 C 70 50, 76 36, 80 22 Z"/>
-    <path d="M 28 82 L 14 92" stroke-width="2"/>
-    <path d="M 38 70 L 60 36 M 30 76 L 52 42 M 46 64 L 64 40" opacity="0.5" stroke-width="0.9"/>
+  // Aureliano Babilonia: la pluma de oca + tintero
+  pluma: `<g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 66 8 Q 56 26 46 44 Q 38 56 32 66" stroke-width="3.5"/>
+    <path d="M 66 8 Q 80 18 78 32 Q 74 42 64 50 Q 54 56 42 60 Q 34 64 30 68 Q 34 56 40 48 Q 48 38 56 28 Q 62 16 66 8 Z"/>
+    <path d="M 63 16 L 70 16" stroke-width="1.8" opacity="0.7"/>
+    <path d="M 59 24 L 70 24" stroke-width="1.8" opacity="0.7"/>
+    <path d="M 55 32 L 68 32" stroke-width="1.8" opacity="0.7"/>
+    <path d="M 50 40 L 64 40" stroke-width="1.8" opacity="0.7"/>
+    <path d="M 44 48 L 58 48" stroke-width="1.8" opacity="0.7"/>
+    <path d="M 38 56 L 50 56" stroke-width="1.8" opacity="0.7"/>
+    <path d="M 32 66 L 28 74" stroke-width="3.5"/>
+    <path d="M 18 76 L 38 76" stroke-width="3"/>
+    <path d="M 22 76 L 22 82 M 34 76 L 34 82"/>
+    <path d="M 22 82 L 14 96 L 42 96 L 34 82 Z"/>
+    <path d="M 19 88 L 37 88" stroke-width="1.6" opacity="0.5"/>
   </g>`,
 
-  hormiga: `<g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-    <ellipse cx="32" cy="50" rx="10" ry="8"/>
-    <circle cx="50" cy="50" r="9"/>
-    <ellipse cx="72" cy="50" rx="11" ry="9"/>
-    <path d="M 28 44 L 22 36 M 36 44 L 36 32" stroke-width="1.2"/>
-    <path d="M 42 56 L 32 70 M 48 58 L 44 76 M 56 58 L 58 76 M 64 56 L 70 70" stroke-width="1.2"/>
-    <path d="M 50 42 L 50 30 M 50 30 L 44 22 M 50 30 L 56 22" stroke-width="1.2"/>
+  // Aureliano (último): la hormiga
+  hormiga: `<g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="24" cy="50" r="10" fill="currentColor" stroke="none"/>
+    <path d="M 32 50 L 40 50" stroke-width="3"/>
+    <circle cx="48" cy="50" r="8" fill="currentColor" stroke="none"/>
+    <path d="M 56 50 L 64 50" stroke-width="3"/>
+    <ellipse cx="78" cy="50" rx="14" ry="11" fill="currentColor" stroke="none"/>
+    <path d="M 18 44 Q 8 32 6 22" stroke-width="2.5"/>
+    <path d="M 20 42 Q 12 28 16 18" stroke-width="2.5"/>
+    <path d="M 42 56 L 36 72 L 32 78" stroke-width="2.5"/>
+    <path d="M 48 58 L 48 76" stroke-width="2.5"/>
+    <path d="M 54 56 L 60 72 L 64 78" stroke-width="2.5"/>
+    <path d="M 42 44 L 36 30" stroke-width="2" opacity="0.5"/>
+    <path d="M 54 44 L 60 30" stroke-width="2" opacity="0.5"/>
   </g>`,
 
-  cruzCeniza: `<g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
-    <path d="M 50 22 L 50 78"/>
-    <path d="M 26 38 L 74 38"/>
-    <circle cx="50" cy="38" r="14" stroke-width="1.2" stroke-dasharray="3 3"/>
+  // Cruz de ceniza (los 17 Aurelianos)
+  cruzCeniza: `<g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round">
+    <path d="M 50 22 L 50 78" stroke-width="6"/>
+    <path d="M 28 38 L 72 38" stroke-width="6"/>
+    <circle cx="50" cy="38" r="20" fill="none" stroke-width="1.5" stroke-dasharray="2 3" opacity="0.6"/>
   </g>`,
 
-  tren: `<g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="18" y="40" width="50" height="28"/>
-    <rect x="68" y="32" width="14" height="36"/>
-    <circle cx="28" cy="74" r="4"/>
-    <circle cx="42" cy="74" r="4"/>
-    <circle cx="58" cy="74" r="4"/>
-    <circle cx="76" cy="74" r="4"/>
-    <path d="M 75 32 L 75 20 L 88 20"/>
-    <path d="M 75 22 C 80 18, 84 14, 86 10" opacity="0.5"/>
-    <path d="M 24 50 L 30 50 M 38 50 L 48 50 M 56 50 L 62 50" opacity="0.7"/>
+  // José Arcadio Segundo: el tren
+  tren: `<g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="16" y="42" width="50" height="28" rx="2"/>
+    <path d="M 66 30 L 86 30 L 86 70 L 66 70 Z"/>
+    <rect x="72" y="38" width="10" height="10" fill="currentColor" stroke="none"/>
+    <path d="M 22 42 L 22 22 L 34 22 L 34 42"/>
+    <path d="M 28 18 Q 24 12 28 8 Q 32 12 28 6" stroke-width="2" opacity="0.6"/>
+    <circle cx="28" cy="76" r="6" stroke-width="3"/>
+    <circle cx="28" cy="76" r="2" fill="currentColor" stroke="none"/>
+    <circle cx="52" cy="76" r="6" stroke-width="3"/>
+    <circle cx="52" cy="76" r="2" fill="currentColor" stroke="none"/>
+    <circle cx="76" cy="76" r="6" stroke-width="3"/>
+    <circle cx="76" cy="76" r="2" fill="currentColor" stroke="none"/>
+    <path d="M 6 88 L 96 88" stroke-width="2" opacity="0.5"/>
   </g>`,
 };
 
