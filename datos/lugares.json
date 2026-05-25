@@ -244,13 +244,13 @@
     },
     {
       "id": "NEERLANDIA",
-      "nombre": "Neerlandia",
-      "tipo": "region",
-      "descripcion": "Lugar donde el coronel Aureliano Buendía Aureliano Buendía firma el armisticio que pone fin a la guerra civil liberal. El tratado de Neerlandia supone la derrota definitiva y la rendición de los ideales liberales. El coronel Aureliano Buendía regresa a Macondo en un tren cargado de desengaño.",
+      "nombre": "Hacienda Neerlandia",
+      "tipo": "edificio",
+      "descripcion": "Hacienda bananera de unos 105 hectáreas en la Zona Bananera del Magdalena, entre Ciénaga y Aracataca. Su nombre —voz latina para los Países Bajos— honra a sus propietarios de ascendencia neerlandesa: fue la hacienda quien dio nombre al tratado, no al revés. En el momento histórico en que se firmó el acuerdo (1902), el lugar ya llevaba ese nombre.",
       "dentro_de": null,
       "capitulo_aparicion": 10,
       "real": true,
-      "coordenadas_reales": { "lat": 10.6167, "lon": -74.85 },
+      "coordenadas_reales": { "lat": 10.75, "lon": -74.22 },
       "coordenadas_macondo": null
     },
     {
