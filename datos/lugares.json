@@ -92,7 +92,7 @@
       "id": "CUARTEL_MACONDO",
       "nombre": "Cuartel de Macondo",
       "tipo": "edificio",
-      "descripcion": "Edificio que funcionó originalmente como escuela de Macondo, construida por iniciativa de Moscote. Con la primera ocupación militar conservadora es reconvertido en cuartel y prisión. Sede del poder militar a lo largo de las guerras civiles y, posteriormente, de los jefes de la compañía bananera.",
+      "descripcion": "Edificio que funcionó originalmente como escuela de Macondo, construida por iniciativa de Moscote. Con la primera ocupación militar conservadora es reconvertido en cuartel y prisión. Tras las guerras civiles es restaurado como escuela por don Melchor Escalona. Sede del poder militar durante los conflictos y, posteriormente, de los jefes de la compañía bananera.",
       "dentro_de": "MACONDO",
       "capitulo_aparicion": 5,
       "real": false,
