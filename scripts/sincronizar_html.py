@@ -162,12 +162,15 @@ def build_l_lite():
         if lid:
             lugar_ev.setdefault(lid, []).append({
                 'id': e['id'], 'titulo': e['titulo'],
-                'capitulo': e.get('capitulo'), 'tipo': e.get('tipo')
+                'capitulo': e.get('capitulo'), 'tipo': e.get('tipo'),
+                'orden': e.get('orden_cronologico')
             })
+    def sort_key(e):
+        return (e.get('capitulo') or 999, e.get('orden') or 999999)
     return [{'id': l['id'], 'nombre': l['nombre'], 'tipo': l['tipo'],
              'desc': l.get('descripcion', ''), 'dentro': l.get('dentro_de'),
              'cap': l.get('capitulo_aparicion'), 'real': l.get('real', False),
-             'eventos': lugar_ev.get(l['id'], [])} for l in lugares]
+             'eventos': sorted(lugar_ev.get(l['id'], []), key=sort_key)} for l in lugares]
 
 p_lite = build_p_lite()
 r_lite = build_r_lite()
