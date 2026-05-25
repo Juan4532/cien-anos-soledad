@@ -72,26 +72,33 @@
   }
   .char-node.is-dimmed{opacity: 0.22}
   .char-node.is-faded{opacity: 0.15}
-  .cn-sym{
-    background: var(--bg); color:var(--accent);
-    display:flex; align-items:center; justify-content:center;
-    padding: 5px; pointer-events:auto; cursor:pointer;
+  .cn-sym, .cn-inits{
+    width: 40px; height: 40px; border-radius: 50%;
+    border: 1px solid var(--accent-soft);
+    background: var(--portrait);
+    background-image: repeating-linear-gradient(45deg, transparent 0 6px, var(--portrait-stripe) 6px 7px);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--accent);
+    pointer-events: auto; cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.45);
+    transition: border-color .15s, box-shadow .15s;
   }
-  .char-node:hover .cn-sym, .char-node.is-active .cn-sym{box-shadow: 0 0 0 2px var(--accent)}
-  .cn-dot{
-    width:14px; height:14px; border-radius: 50%;
-    border:1.5px solid var(--ink-faint); background: var(--bg);
-    pointer-events:auto; cursor:pointer;
+  .cn-inits{
+    font-family: var(--font-display); font-size: 13px; line-height: 1;
+    color: var(--ink-faint); letter-spacing: 0.02em;
   }
-  .char-node.is-active .cn-dot, .char-node:hover .cn-dot{
-    background: var(--accent); border-color: var(--accent);
+  .char-node:hover .cn-sym,  .char-node.is-active .cn-sym,
+  .char-node:hover .cn-inits,.char-node.is-active .cn-inits{
+    border-color: var(--accent); color: var(--accent);
+    box-shadow: 0 0 0 2px var(--accent), 0 0 14px rgba(232,185,74,0.22);
   }
   .cn-name{
-    font-family: var(--font-display); font-size: 12px; line-height:1.15;
-    color: var(--ink); background: var(--bg); padding: 1px 5px;
-    max-width: 100px; white-space: normal; pointer-events:none;
+    font-family: var(--font-display); font-size: 11px; line-height:1.15;
+    color: var(--ink-soft); padding: 1px 4px;
+    max-width: 90px; white-space: normal; pointer-events:none;
+    text-shadow: 0 1px 3px var(--bg), 0 0 6px var(--bg);
   }
-  html[data-mode="light"] .cn-name{font-weight:500}
+  html[data-mode="light"] .cn-name{font-weight:500; text-shadow:none}
   .char-node.is-active .cn-name{color: var(--accent)}
 
   /* DETAIL PANEL — fixed right drawer */
@@ -500,9 +507,11 @@ function drawNodes(){
       if(g) symDiv.appendChild(g);
       node.appendChild(symDiv);
     } else {
-      var dot = document.createElement('div');
-      dot.className = 'cn-dot';
-      node.appendChild(dot);
+      var initsEl = document.createElement('div');
+      initsEl.className = 'cn-inits';
+      var words = p.nombre.split(' ').filter(function(w){ return w && w[0] === w[0].toUpperCase(); });
+      initsEl.textContent = words.slice(0,2).map(function(w){ return w[0]; }).join('·');
+      node.appendChild(initsEl);
     }
 
     var nameEl = document.createElement('div');
