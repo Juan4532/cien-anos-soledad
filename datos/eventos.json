@@ -2345,10 +2345,12 @@
       "participantes": [
         "JOSE_ARCADIO_SEGUNDO",
         "AURELIANO_SEGUNDO",
-        "SANTA_SOFIA_DE_LA_PIEDAD"
+        "REMEDIOS_LA_BELLA",
+        "SANTA_SOFIA_DE_LA_PIEDAD",
+        "URSULA_IGUARAN"
       ],
-      "lugar": "MACONDO",
-      "descripcion": "Santa Sofía de la Piedad da a luz tres hijos de Arcadio: los gemelos José Arcadio Segundo y Aureliano Segundo, y una niña que recibirá el nombre de Remedios la Bella.",
+      "lugar": "CASA_BUENDIA",
+      "descripcion": "Santa Sofía de la Piedad da a luz tres hijos de Arcadio: los gemelos José Arcadio Segundo y Aureliano Segundo, y una niña que recibirá el nombre de Remedios la Bella. Úrsula recoge a los cuatro hijos de Arcadio en la casa de los Buendía y los cría como suyos.",
       "orden_cronologico": 703
     },
     {
