@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cien años de soledad — Personajes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body { height: 100%; overflow: hidden; }
+
+    body {
+      background: #0c0b09;
+      color: #e0d8cc;
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+
+    #cy {
+      width: 100%;
+      height: 100vh;
+      display: block;
+    }
+
+    /* ── Panel ────────────────────────────────────────────── */
+
+    #panel {
+      position: fixed;
+      top: 0; right: 0;
+      width: 340px;
+      height: 100vh;
+      background: rgba(12, 11, 9, 0.96);
+      border-left: 1px solid rgba(255,255,255,0.07);
+      padding: 2.25rem 1.75rem 2rem;
+      overflow-y: auto;
+      transform: translateX(100%);
+      transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+      z-index: 200;
+      backdrop-filter: blur(16px);
+    }
+
+    #panel.visible { transform: translateX(0); }
+
+    #panel-close {
+      position: absolute;
+      top: 1rem; right: 1.1rem;
+      background: none; border: none;
+      color: rgba(255,255,255,0.3);
+      font-size: 1.4rem; line-height: 1;
+      cursor: pointer; padding: 0.2rem 0.4rem;
+      transition: color 0.1s;
+    }
+    #panel-close:hover { color: rgba(255,255,255,0.8); }
+
+    .panel-badge {
+      display: inline-block;
+      padding: 0.18rem 0.55rem;
+      font-size: 0.65rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      border-left: 2px solid;
+      margin-bottom: 0.9rem;
+    }
+
+    #panel-nombre {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.55rem;
+      font-weight: 400;
+      line-height: 1.2;
+      color: #f5ede0;
+      margin-bottom: 0.3rem;
+    }
+
+    #panel-apodos {
+      font-size: 0.78rem;
+      color: rgba(255,255,255,0.35);
+      font-style: italic;
+      margin-bottom: 1.1rem;
+      min-height: 0;
+    }
+
+    .panel-meta {
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 1.25rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+    }
+
+    .meta-item { display: flex; flex-direction: column; gap: 0.2rem; }
+
+    .meta-label {
+      font-size: 0.6rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: rgba(255,255,255,0.3);
+    }
+
+    .meta-value {
+      font-size: 0.88rem;
+      color: rgba(255,255,255,0.7);
+    }
+
+    #panel-desc {
+      font-size: 0.82rem;
+      line-height: 1.75;
+      color: rgba(255,255,255,0.52);
+      margin-bottom: 1.5rem;
+    }
+
+    .rels-title {
+      font-size: 0.6rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: rgba(255,255,255,0.25);
+      margin-bottom: 0.65rem;
+    }
+
+    .rel-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.55rem;
+      padding: 0.55rem 0.65rem;
+      background: rgba(255,255,255,0.03);
+      border-radius: 3px;
+      margin-bottom: 0.4rem;
+      cursor: pointer;
+      transition: background 0.1s;
+    }
+
+    .rel-item:hover { background: rgba(255,255,255,0.07); }
+
+    .rel-dot {
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      margin-top: 0.3rem;
+      flex-shrink: 0;
+    }
+
+    .rel-body { display: flex; flex-direction: column; gap: 0.1rem; }
+
+    .rel-name {
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.7);
+    }
+
+    .rel-type {
+      font-size: 0.68rem;
+      color: rgba(255,255,255,0.3);
+    }
+
+    /* ── Header ───────────────────────────────────────────── */
+
+    #header {
+      position: fixed;
+      top: 1.4rem; left: 1.5rem;
+      z-index: 100;
+      pointer-events: none;
+    }
+
+    #header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      font-weight: 400;
+      font-style: italic;
+      color: rgba(255,255,255,0.5);
+      letter-spacing: 0.01em;
+    }
+
+    #header p {
+      font-size: 0.6rem;
+      color: rgba(255,255,255,0.2);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-top: 0.2rem;
+    }
+
+    /* ── Controls ─────────────────────────────────────────── */
+
+    #controls {
+      position: fixed;
+      top: 1.4rem; right: 1.5rem;
+      display: flex;
+      gap: 0.4rem;
+      z-index: 100;
+    }
+
+    .btn {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.09);
+      color: rgba(255,255,255,0.4);
+      padding: 0.3rem 0.65rem;
+      font-size: 0.68rem;
+      cursor: pointer;
+      border-radius: 2px;
+      font-family: 'Inter', sans-serif;
+      letter-spacing: 0.06em;
+      transition: all 0.15s;
+    }
+
+    .btn:hover {
+      background: rgba(255,255,255,0.1);
+      color: rgba(255,255,255,0.85);
+    }
+
+    .btn.active {
+      background: rgba(255,255,255,0.12);
+      color: rgba(255,255,255,0.9);
+      border-color: rgba(255,255,255,0.25);
+    }
+
+    /* ── Leyenda ──────────────────────────────────────────── */
+
+    #leyenda {
+      position: fixed;
+      bottom: 1.5rem; left: 1.5rem;
+      z-index: 100;
+    }
+
+    .ley-title {
+      font-size: 0.58rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: rgba(255,255,255,0.2);
+      margin-bottom: 0.5rem;
+    }
+
+    .ley-row {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      margin-bottom: 0.28rem;
+    }
+
+    .ley-dot {
+      width: 9px; height: 9px;
+      border-radius: 50%;
+    }
+
+    .ley-label {
+      font-size: 0.68rem;
+      color: rgba(255,255,255,0.35);
+    }
+
+    /* ── Edge leyenda ─────────────────────────────────────── */
+
+    #ley-edges {
+      position: fixed;
+      bottom: 1.5rem; left: 12rem;
+      z-index: 100;
+    }
+
+    .ley-line {
+      display: inline-block;
+      width: 18px; height: 2px;
+      vertical-align: middle;
+      margin-right: 0.45rem;
+    }
+
+    /* ── Tooltip on hover ─────────────────────────────────── */
+
+    #tooltip {
+      position: fixed;
+      background: rgba(12,11,9,0.92);
+      border: 1px solid rgba(255,255,255,0.1);
+      padding: 0.35rem 0.65rem;
+      font-size: 0.75rem;
+      color: rgba(255,255,255,0.75);
+      border-radius: 3px;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.1s;
+      z-index: 300;
+      white-space: nowrap;
+    }
+
+    #tooltip.show { opacity: 1; }
+  </style>
+</head>
+<body>
+
+<div id="header">
+  <h1>Cien años de soledad</h1>
+  <p>Árbol de personajes · Gabriel García Márquez</p>
+</div>
+
+<div id="controls">
+  <button class="btn" id="btn-fit">Encuadrar</button>
+  <button class="btn active" id="btn-all">Todas las relaciones</button>
+  <button class="btn" id="btn-parental">Solo árbol familiar</button>
+</div>
+
+<div id="cy"></div>
+<div id="tooltip"></div>
+
+<aside id="panel">
+  <button id="panel-close">×</button>
+  <span class="panel-badge" id="panel-badge"></span>
+  <h2 id="panel-nombre"></h2>
+  <p id="panel-apodos"></p>
+  <div class="panel-meta">
+    <div class="meta-item">
+      <span class="meta-label">Generación</span>
+      <span class="meta-value" id="panel-gen"></span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">Primera aparición</span>
+      <span class="meta-value" id="panel-cap"></span>
+    </div>
+  </div>
+  <p id="panel-desc"></p>
+  <div id="panel-rels">
+    <div class="rels-title">Relaciones</div>
+    <div id="panel-rels-list"></div>
+  </div>
+</aside>
+
+<div id="leyenda">
+  <div class="ley-title">Generaciones</div>
+</div>
+
+<div id="ley-edges">
+  <div class="ley-title">Relaciones</div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════════════════ -->
+
+<script src="https://unpkg.com/cytoscape@3.29.2/dist/cytoscape.min.js"></script>
+<script src="https://unpkg.com/dagre@0.8.5/dist/dagre.min.js"></script>
+<script src="https://unpkg.com/cytoscape-dagre@2.5.0/cytoscape-dagre.js"></script>
+
+<script>
+'use strict';
+
+// ── Datos ───────────────────────────────────────────────────────────────────
+
+const PERSONAJES = [
+  { id: 'JOSE_ARCADIO_BUENDIA_FUNDADOR', nombre: 'José Arcadio Buendía', apodos: ['el fundador', 'el patriarca'], generacion: 1, capitulo: 1, descripcion: 'Patriarca y fundador de Macondo. Obstinado e imaginativo, apasionado por los inventos y la alquimia. Pierde la cordura y pasa sus últimos años atado al castaño del patio hasta morir.' },
+  { id: 'URSULA_IGUARAN', nombre: 'Úrsula Iguarán', apodos: [], generacion: 1, capitulo: 1, descripcion: 'Matriarca de la familia Buendía. Prima y esposa de José Arcadio Buendía. Voz de la razón y sustento real de la familia. Emprendedora, incansable y longeva (vive más de 110 años). Pierde la vista en su vejez pero lo disimula memorizando distancias y rutinas.' },
+  { id: 'JOSE_ARCADIO_HIJO', nombre: 'José Arcadio', apodos: [], generacion: 2, capitulo: 1, descripcion: 'Hijo mayor de José Arcadio Buendía y Úrsula. Nacido en el camino hacia Macondo antes de su fundación. Físicamente enorme y tatuado. Tiene una relación con Pilar Ternera de la que nace Arcadio. Se marcha con los gitanos y regresa años después. Se casa con Rebeca. Muere asesinado de un disparo sin herida visible, con olor a pólvora.' },
+  { id: 'AURELIANO_BUENDIA_CORONEL', nombre: 'Aureliano Buendía', apodos: ['el Coronel', 'Aurelito'], generacion: 2, capitulo: 1, descripcion: 'Segundo hijo de JAB y Úrsula, primer ser humano nacido en Macondo. Silencioso y retraído, con capacidades presientes desde niño. Se convierte en coronel liberal, pierde 32 levantamientos armados, engendra 17 hijos con 17 mujeres, sobrevive 14 intentos de asesinato. Firma la rendición y pasa sus últimos años haciendo pececitos de oro en el taller. Muere olvidado por todos.' },
+  { id: 'AMARANTA_BUENDIA', nombre: 'Amaranta', apodos: [], generacion: 2, capitulo: 2, descripcion: 'Hija de JAB y Úrsula. Ama a Pietro Crespi pero lo rechaza cruelmente llevando a su suicidio. También rechaza a Gerineldo Márquez. Se quema la mano con carbones y lleva una venda negra hasta su muerte como penitencia. Muere virgen, tras coser su propio sudario, sabiendo el día exacto de su muerte.' },
+  { id: 'REBECA', nombre: 'Rebeca', apodos: [], generacion: 2, capitulo: 3, descripcion: 'Huérfana adoptada por los Buendía, supuesta prima lejana de Úrsula. Llega cargando los huesos de sus padres en una cesta. Come tierra y cal compulsivamente en momentos de ansiedad. Enamorada de Pietro Crespi, acaba casándose con José Arcadio hijo. Tras la muerte de su esposo se recluye en su casa y vive aislada del mundo hasta morir.' },
+  { id: 'ARCADIO', nombre: 'Arcadio', apodos: [], generacion: 3, capitulo: 3, descripcion: 'Hijo de José Arcadio hijo y Pilar Ternera, criado por los Buendía ignorando su verdadero origen. Gobernante civil y militar de Macondo nombrado por el Coronel, resulta un tirano despiadado. Se casa con Santa Sofía de La Piedad. Es fusilado al amanecer al final de la guerra.' },
+  { id: 'AURELIANO_JOSE', nombre: 'Aureliano José', apodos: [], generacion: 3, capitulo: 4, descripcion: 'Hijo del Coronel Aureliano Buendía y Pilar Ternera. Criado por Remedios Moscote como propio y luego por Amaranta. Desarrolla una obsesión incestuosa por su tía Amaranta, quien finalmente lo rechaza. Deserta de las tropas federalistas para regresar a casa. Es asesinado por soldados en un teatro.' },
+  { id: 'AURELIANO_TRISTE', nombre: 'Aureliano Triste', apodos: [], generacion: 3, capitulo: 11, descripcion: 'Uno de los 17 hijos del Coronel Aureliano Buendía con distintas mujeres durante la guerra. Establece una fábrica de hielo en Macondo, cumpliendo el sueño del patriarca. Trae el ferrocarril a la aldea en su segunda visita, abriendo la puerta a la llegada de la compañía bananera y la modernidad.' },
+  { id: 'AURELIANO_CENTENO', nombre: 'Aureliano Centeno', apodos: [], generacion: 3, capitulo: 11, descripcion: 'Uno de los 17 hijos del Coronel Aureliano Buendía. Se queda en Macondo para ayudar a Aureliano Triste en la producción de hielo. Descubre por casualidad cómo fabricar helados, iniciando un nuevo negocio.' },
+  { id: 'AURELIANO_AMADOR', nombre: 'Aureliano Amador', apodos: [], generacion: 3, capitulo: 11, descripcion: 'Uno de los 17 hijos del Coronel Aureliano Buendía. Único superviviente de la noche en que los 17 hermanos fueron cazados uno a uno por la marca de ceniza en la frente. Se refugia con los indios. Reaparece años después hecho jirones en la puerta de la casa Buendía, donde nadie lo reconoce, y es abatido por dos policías en el acto.' },
+  { id: 'REMEDIOS_LA_BELLA', nombre: 'Remedios la Bella', apodos: ['Remedios'], generacion: 4, capitulo: 8, descripcion: 'Hija de Arcadio y Santa Sofía de La Piedad. De belleza sobrenatural que provoca locura y muerte en los hombres que la rodean. Deambula desnuda sin entender el efecto que causa. Simple y pura hasta lo divino. Asciende al cielo un día mientras dobla sábanas en el patio con Fernanda, desapareciendo entre las nubes.' },
+  { id: 'JOSE_ARCADIO_SEGUNDO', nombre: 'José Arcadio Segundo', apodos: [], generacion: 4, capitulo: 7, descripcion: 'Gemelo de Aureliano Segundo, hijo de Arcadio y Santa Sofía. Delgado como el Coronel. Presencia un fusilamiento de niño y detesta las prácticas militares. Lidera la huelga de los trabajadores bananeros. Único superviviente de la masacre de las 3000 personas. Pasa sus últimos años oculto en el cuarto de Melquíades estudiando los pergaminos. Muere al mismo tiempo que su gemelo.' },
+  { id: 'AURELIANO_SEGUNDO', nombre: 'Aureliano Segundo', apodos: [], generacion: 4, capitulo: 7, descripcion: 'Gemelo de José Arcadio Segundo, hijo de Arcadio y Santa Sofía. Robusto y jovial. Se casa con Fernanda del Carpio pero mantiene a Petra Cotes como amante toda su vida. Amasa una fortuna gracias a la fértil multiplicación del ganado vinculada a su pasión por Petra. Muere del mismo tumor en la garganta al mismo instante que su gemelo.' },
+  { id: 'MEME', nombre: 'Meme', apodos: ['Renata Remedios', 'Renata'], generacion: 5, capitulo: 11, descripcion: 'Hija de Aureliano Segundo y Fernanda del Carpio. Social y alegre, al contrario que su madre. Clavicordista sin pasión. Se enamora del mecánico Mauricio Babilonia. Cuando Fernanda descubre la relación hace disparar a Mauricio y envía a Meme a un convento, donde pierde el habla para siempre. Muere de vieja sin haber vuelto a ser feliz, dejando un hijo, Aureliano Babilonia.' },
+  { id: 'JOSE_ARCADIO_QUINTO', nombre: 'José Arcadio', apodos: [], generacion: 5, capitulo: 11, descripcion: 'Hijo de Aureliano Segundo y Fernanda del Carpio, enviado al seminario de Roma para convertirse en papa. Regresa sin haberse ordenado, habiendo malvivido fuera. Restaura parte de la casa Buendía. Mantiene una extraña relación con los niños del vecindario. Es ahogado por ellos en la piscina, que le roban el oro de Úrsula.' },
+  { id: 'AMARANTA_URSULA', nombre: 'Amaranta Úrsula', apodos: [], generacion: 5, capitulo: 11, descripcion: 'Hija menor de Aureliano Segundo y Fernanda. Vital, hermosa y resuelta. Estudia en Bruselas y regresa con su esposo Gastón, convencida de poder revivir Macondo. Se enamora de su sobrino Aureliano Babilonia sin saber que lo es. Muere desangrada tras dar a luz al último Buendía, el niño con cola de cerdo.' },
+  { id: 'AURELIANO_BABILONIA', nombre: 'Aureliano Babilonia', apodos: [], generacion: 6, capitulo: 14, descripcion: 'Hijo de Meme y Mauricio Babilonia, criado en secreto por Fernanda. Vive recluido en el taller de Melquíades estudiando los pergaminos y aprendiendo sánscrito. Se enamora de su tía Amaranta Úrsula sin saber el parentesco. Descifra los manuscritos en el momento en que el viento arrasa Macondo, leyendo su propio destino en el instante en que ocurre.' },
+  { id: 'AURELIANO_ULTIMO', nombre: 'Aureliano', apodos: [], generacion: 7, capitulo: 20, descripcion: 'Hijo de Aureliano Babilonia y Amaranta Úrsula, producto del incesto que la estirpe temió durante siete generaciones. Nace con cola de cerdo, el signo profetizado desde los tiempos de Úrsula Iguarán. Su madre muere en el parto. Abandonado en el jardín, es devorado por las hormigas. Su muerte coincide con la destrucción de Macondo por el viento mientras Aureliano descifra los pergaminos.' },
+  { id: 'MELQUIADES', nombre: 'Melquíades', apodos: [], generacion: null, capitulo: 1, descripcion: 'Gitano anciano y sabio, jefe de la banda que visita Macondo. Introduce inventos y tecnología. Muere y regresa de entre los muertos varias veces. Escribe unos pergaminos proféticos en sánscrito que no serán descifrados hasta 100 años después.' },
+  { id: 'PILAR_TERNERA', nombre: 'Pilar Ternera', apodos: [], generacion: null, capitulo: 2, descripcion: 'Habitante original de Macondo, traída por sus padres para alejarla de un hombre que la violó con 14 años. Lectora de cartas, adivina y proxeneta. Se acuesta con José Arcadio (hijo) y con el Coronel Aureliano, engendrando hijos de ambos hermanos. Vive 145 años y muere en su mecedora en el burdel que regenta al final de la novela.' },
+  { id: 'VISITACION', nombre: 'Visitación', apodos: [], generacion: null, capitulo: 3, descripcion: 'India guajira que llegó a Macondo con su hermano huyendo de una plaga de insomnio en su tribu. Trabaja como sirvienta para los Buendía. Reconoce los síntomas del insomnio en Rebeca y advierte del peligro. Había rechazado un trono en su tribu. Muere en la casa de los Buendía.' },
+  { id: 'PIETRO_CRESPI', nombre: 'Pietro Crespi', apodos: [], generacion: null, capitulo: 3, descripcion: 'Italiano apuesto y refinado, llega a instalar la pianola de los Buendía y enseñar a bailar. Maestro de música y director de escuela de baile. Amado por Rebeca y Amaranta. Tras ser rechazado definitivamente por Amaranta después de años de espera, se suicida cortándose las muñecas en su almacén.' },
+  { id: 'FRANCISCO_EL_HOMBRE', nombre: 'Francisco el Hombre', apodos: [], generacion: null, capitulo: 3, descripcion: 'Trovador itinerante de casi 200 años que recorre las comunidades de la región narrando sus historias y noticias como un cuentacuentos ambulante. A través de él Aureliano se entera de la muerte de su madre adoptiva. Representa el medio de comunicación oral antes de que lleguen el correo, el telégrafo y el teléfono.' },
+  { id: 'APOLINAR_MOSCOTE', nombre: 'Don Apolinar Moscote', apodos: [], generacion: null, capitulo: 4, descripcion: 'Magistrado enviado por el gobierno para gobernar Macondo. JAB lo expulsa pero regresa con soldados y acaba quedándose. Conservador convencido. Padre de Remedios y Amparo Moscote. Manipula las elecciones locales a favor de los conservadores, detonando la guerra civil.' },
+  { id: 'REMEDIOS_MOSCOTE', nombre: 'Remedios Moscote', apodos: [], generacion: null, capitulo: 4, descripcion: 'Hija menor de Don Apolinar Moscote. El Coronel Aureliano se enamora de ella cuando tiene 9 años y se casan tras su primera menstruación. Serena y tranquila, cuida a JAB atado al árbol y acepta a Aureliano José como propio. Muere joven a causa de una infección tras un aborto espontáneo de gemelos. Su daguerrotipo queda colgado en la pared de la casa.' },
+  { id: 'SANTA_SOFIA_DE_LA_PIEDAD', nombre: 'Santa Sofía de La Piedad', apodos: [], generacion: null, capitulo: 4, descripcion: 'Joven virgen a quien Pilar Ternera paga para que vaya en su lugar a la cama de Arcadio. Se convierte en su esposa. Madre de Remedios la Bella, José Arcadio Segundo y Aureliano Segundo. Trabaja incansablemente en la casa Buendía durante décadas sin quejarse, tratada más como sirvienta que como matriarca. Al final abandona la casa agotada y no se vuelve a saber de ella.' },
+  { id: 'GERINELDO_MARQUEZ', nombre: 'Gerineldo Márquez', apodos: ['el coronel Gerineldo Márquez'], generacion: null, capitulo: 4, descripcion: 'Amigo de infancia y camarada del Coronel Aureliano, uno de los 21 hombres con que inicia la guerra. Leal y convencido de los ideales liberales. Ama a Amaranta, quien lo rechaza. Administra Macondo como líder civil en ausencia del Coronel. Condenado a muerte por el propio Coronel por traición; Úrsula amenaza con matar a su hijo si lo ejecuta. Muere durante el diluvio.' },
+  { id: 'PADRE_NICANOR', nombre: 'Padre Nicanor', apodos: ['el padre Nicanor'], generacion: null, capitulo: 4, descripcion: 'Sacerdote horrorizado de que Macondo viva sin religión. Decide quedarse para construir una iglesia. Demuestra el poder de Dios levitándose 12 centímetros tras beber una taza de chocolate, repitiendo la demostración hasta recaudar fondos suficientes. Intenta sin éxito convencer a José Arcadio Buendía atado al árbol de la existencia de Dios.' },
+  { id: 'JOSE_RAQUEL_MONCADA', nombre: 'José Raquel Moncada', apodos: ['el general Moncada'], generacion: null, capitulo: 5, descripcion: 'General conservador que acaba siendo alcalde de Macondo tras la guerra, convirtiendo el pueblo en un lugar pacífico. Viejo amigo del Coronel Aureliano pese a estar en bandos contrarios. Ejecutado por orden del Coronel al final del conflicto. El Coronel asume su responsabilidad excusándose en "la revolución", algo que Moncada rechaza.' },
+  { id: 'AMPARO_MOSCOTE', nombre: 'Amparo Moscote', apodos: [], generacion: null, capitulo: 3, descripcion: 'Hija de Don Apolinar Moscote y hermana de Remedios. Hace de enlace entre Pietro Crespi y Rebeca, entregando en secreto las cartas del italiano. Se casa con Bruno Crespi. Cose el vestido de novia de Rebeca cuando Amaranta destruye el primero.' },
+  { id: 'BRUNO_CRESPI', nombre: 'Bruno Crespi', apodos: [], generacion: null, capitulo: 6, descripcion: 'Hermano menor de Pietro Crespi. Administra la tienda de música mientras Pietro dirige la escuela de baile. Se casa con Amparo Moscote. Más tarde abre el primer cine de Macondo, que despierta sentimientos encontrados en la gente hasta que el alcalde explica que las imágenes son solo ilusiones.' },
+  { id: 'PRUDENCIO_AGUILAR', nombre: 'Prudencio Aguilar', apodos: [], generacion: null, capitulo: 1, descripcion: 'Vecino de Riohacha. En una pelea de gallos pone en evidencia públicamente la supuesta impotencia de José Arcadio Buendía. Este lo mata con una lanza. Su fantasma persigue al matrimonio Buendía con una tristeza tan profunda que provoca compasión, no terror, forzándoles a abandonar su pueblo y fundar Macondo. JAB sigue hablando con su espectro hasta el final de su vida.' },
+  { id: 'PETRA_COTES', nombre: 'Petra Cotes', apodos: [], generacion: null, capitulo: 10, descripcion: 'Viuda mestiza, amante permanente de Aureliano Segundo. Su pasión por él provoca la misteriosa multiplicación del ganado. Acepta con lucidez el reparto de Aureliano entre ella y Fernanda. En la vejez, con los animales muertos por el diluvio, vende rifas y envía comida a los Buendía privándose ella misma. Guarda las botas de Aureliano como garantía de que volverá.' },
+  { id: 'FERNANDA_DEL_CARPIO', nombre: 'Fernanda del Carpio', apodos: [], generacion: null, capitulo: 10, descripcion: 'Elegida como la más bella entre 5000 mujeres para ser reina de carnaval. Criada en total aislamiento por una familia venida a menos, educada en un convento. Religiosa, rígida y ajena a la realidad. Esposa de Aureliano Segundo. Solo permite relaciones 42 días al año según su calendario religioso. Lleva la casa Buendía con mano de hierro y muere sola, encontrada por Aureliano Babilonia en su cama.' },
+  { id: 'MAURICIO_BABILONIA', nombre: 'Mauricio Babilonia', apodos: [], generacion: null, capitulo: 12, descripcion: 'Mecánico pobre de la compañía bananera. Amante de Meme. Siempre rodeado de mariposas amarillas que anuncian su presencia. Recibe un disparo de un guardia cuando intenta colarse por el techo del baño para ver a Meme, quedándole paralítico de por vida. Muere de viejo, solo, atormentado por los recuerdos y las mariposas.' },
+  { id: 'GASTON', nombre: 'Gastón', apodos: [], generacion: null, capitulo: 17, descripcion: 'Belga apasionado por la aviación, esposo de Amaranta Úrsula. La conoció al aterrizar de emergencia en un campo de flores. Intenta adaptarse a Macondo mientras planea montar un servicio de correo aéreo. Cuando Amaranta Úrsula le confiesa su amor por Aureliano Babilonia, responde con ecuanimidad y se va a Bruselas, guardando sus propios intereses con calma.' },
+  { id: 'NIGROMANTA', nombre: 'Nigromanta', apodos: [], generacion: null, capitulo: 19, descripcion: 'Nieta de un viejo negro nigromante. Prostituta con quien Aureliano Babilonia tiene su primera experiencia sexual, pagada con el dinero de Amaranta Úrsula. Acaba enamorada de él y, cuando Aureliano le confiesa que ama a Amaranta Úrsula, exige que la pague como a cualquier otro cliente. Lo acoge para que duerma la borrachera tras la muerte de Amaranta Úrsula.' },
+  { id: 'GABRIEL_MARQUEZ', nombre: 'Gabriel Márquez', apodos: [], generacion: null, capitulo: 19, descripcion: 'Amigo de Aureliano Babilonia en el grupo de jóvenes que se reúne en la librería del Catalán. Tataranieto del coronel Gerineldo Márquez. El único que cree la historia del Coronel Aureliano Buendía. Gana un concurso y se va a París. Su nombre no es casual: guiño metaficcional al autor de la novela.' },
+];
+
+const RELACIONES = [
+  { id: 'REL_JAB_PADRE_JOSE_ARCADIO_HIJO',        tipo: 'parental',         subtipo: 'padre',                          origen: 'JOSE_ARCADIO_BUENDIA_FUNDADOR', destino: 'JOSE_ARCADIO_HIJO',         notas: null },
+  { id: 'REL_JAB_PADRE_CORONEL',                  tipo: 'parental',         subtipo: 'padre',                          origen: 'JOSE_ARCADIO_BUENDIA_FUNDADOR', destino: 'AURELIANO_BUENDIA_CORONEL', notas: null },
+  { id: 'REL_JAB_PADRE_AMARANTA',                 tipo: 'parental',         subtipo: 'padre',                          origen: 'JOSE_ARCADIO_BUENDIA_FUNDADOR', destino: 'AMARANTA_BUENDIA',          notas: null },
+  { id: 'REL_URSULA_MADRE_JOSE_ARCADIO_HIJO',     tipo: 'parental',         subtipo: 'madre',                          origen: 'URSULA_IGUARAN',               destino: 'JOSE_ARCADIO_HIJO',         notas: null },
+  { id: 'REL_URSULA_MADRE_CORONEL',               tipo: 'parental',         subtipo: 'madre',                          origen: 'URSULA_IGUARAN',               destino: 'AURELIANO_BUENDIA_CORONEL', notas: null },
+  { id: 'REL_URSULA_MADRE_AMARANTA',              tipo: 'parental',         subtipo: 'madre',                          origen: 'URSULA_IGUARAN',               destino: 'AMARANTA_BUENDIA',          notas: null },
+  { id: 'REL_JOSE_ARCADIO_HIJO_PADRE_ARCADIO',    tipo: 'parental',         subtipo: 'padre',                          origen: 'JOSE_ARCADIO_HIJO',            destino: 'ARCADIO',                   notas: 'Arcadio nunca supo que José Arcadio (hijo) era su padre.' },
+  { id: 'REL_PILAR_MADRE_ARCADIO',               tipo: 'parental',         subtipo: 'madre',                          origen: 'PILAR_TERNERA',                destino: 'ARCADIO',                   notas: 'Identidad materna mantenida en secreto.' },
+  { id: 'REL_CORONEL_PADRE_AURELIANO_JOSE',       tipo: 'parental',         subtipo: 'padre',                          origen: 'AURELIANO_BUENDIA_CORONEL',    destino: 'AURELIANO_JOSE',            notas: null },
+  { id: 'REL_PILAR_MADRE_AURELIANO_JOSE',         tipo: 'parental',         subtipo: 'madre',                          origen: 'PILAR_TERNERA',                destino: 'AURELIANO_JOSE',            notas: null },
+  { id: 'REL_ARCADIO_PADRE_REMEDIOS_BELLA',       tipo: 'parental',         subtipo: 'padre',                          origen: 'ARCADIO',                      destino: 'REMEDIOS_LA_BELLA',         notas: null },
+  { id: 'REL_ARCADIO_PADRE_JOSE_ARCADIO_SEGUNDO', tipo: 'parental',         subtipo: 'padre',                          origen: 'ARCADIO',                      destino: 'JOSE_ARCADIO_SEGUNDO',      notas: null },
+  { id: 'REL_ARCADIO_PADRE_AURELIANO_SEGUNDO',    tipo: 'parental',         subtipo: 'padre',                          origen: 'ARCADIO',                      destino: 'AURELIANO_SEGUNDO',         notas: null },
+  { id: 'REL_SANTA_SOFIA_MADRE_REMEDIOS_BELLA',   tipo: 'parental',         subtipo: 'madre',                          origen: 'SANTA_SOFIA_DE_LA_PIEDAD',     destino: 'REMEDIOS_LA_BELLA',         notas: null },
+  { id: 'REL_SANTA_SOFIA_MADRE_JA_SEGUNDO',       tipo: 'parental',         subtipo: 'madre',                          origen: 'SANTA_SOFIA_DE_LA_PIEDAD',     destino: 'JOSE_ARCADIO_SEGUNDO',      notas: null },
+  { id: 'REL_SANTA_SOFIA_MADRE_AUR_SEGUNDO',      tipo: 'parental',         subtipo: 'madre',                          origen: 'SANTA_SOFIA_DE_LA_PIEDAD',     destino: 'AURELIANO_SEGUNDO',         notas: null },
+  { id: 'REL_CORONEL_PADRE_AURELIANO_TRISTE',     tipo: 'parental',         subtipo: 'padre',                          origen: 'AURELIANO_BUENDIA_CORONEL',    destino: 'AURELIANO_TRISTE',          notas: 'Uno de los 17 hijos del Coronel engendrados con 17 mujeres distintas durante la guerra.' },
+  { id: 'REL_CORONEL_PADRE_AURELIANO_CENTENO',    tipo: 'parental',         subtipo: 'padre',                          origen: 'AURELIANO_BUENDIA_CORONEL',    destino: 'AURELIANO_CENTENO',         notas: 'Uno de los 17 hijos del Coronel.' },
+  { id: 'REL_CORONEL_PADRE_AURELIANO_AMADOR',     tipo: 'parental',         subtipo: 'padre',                          origen: 'AURELIANO_BUENDIA_CORONEL',    destino: 'AURELIANO_AMADOR',          notas: 'Único superviviente del exterminio de los 17 aurelianos.' },
+  { id: 'REL_AURELIANO_SEG_PADRE_JA_QUINTO',      tipo: 'parental',         subtipo: 'padre',                          origen: 'AURELIANO_SEGUNDO',            destino: 'JOSE_ARCADIO_QUINTO',       notas: null },
+  { id: 'REL_FERNANDA_MADRE_JA_QUINTO',           tipo: 'parental',         subtipo: 'madre',                          origen: 'FERNANDA_DEL_CARPIO',          destino: 'JOSE_ARCADIO_QUINTO',       notas: null },
+  { id: 'REL_AURELIANO_SEG_PADRE_MEME',           tipo: 'parental',         subtipo: 'padre',                          origen: 'AURELIANO_SEGUNDO',            destino: 'MEME',                      notas: null },
+  { id: 'REL_FERNANDA_MADRE_MEME',                tipo: 'parental',         subtipo: 'madre',                          origen: 'FERNANDA_DEL_CARPIO',          destino: 'MEME',                      notas: null },
+  { id: 'REL_AURELIANO_SEG_PADRE_AMARANTA_URSULA', tipo: 'parental',        subtipo: 'padre',                          origen: 'AURELIANO_SEGUNDO',            destino: 'AMARANTA_URSULA',           notas: null },
+  { id: 'REL_FERNANDA_MADRE_AMARANTA_URSULA',     tipo: 'parental',         subtipo: 'madre',                          origen: 'FERNANDA_DEL_CARPIO',          destino: 'AMARANTA_URSULA',           notas: null },
+  { id: 'REL_MEME_MADRE_AURELIANO_BABILONIA',     tipo: 'parental',         subtipo: 'madre',                          origen: 'MEME',                         destino: 'AURELIANO_BABILONIA',       notas: 'Meme nunca volvió a hablar tras su separación forzada de Mauricio. Su hijo fue criado por Fernanda en secreto.' },
+  { id: 'REL_MAURICIO_PADRE_AURELIANO_BABILONIA', tipo: 'parental',         subtipo: 'padre',                          origen: 'MAURICIO_BABILONIA',           destino: 'AURELIANO_BABILONIA',       notas: 'Las monjas solo conocían el apellido materno de Meme; bautizaron al niño con ese nombre.' },
+  { id: 'REL_AUR_BAB_PADRE_AURELIANO_ULTIMO',     tipo: 'parental',         subtipo: 'padre',                          origen: 'AURELIANO_BABILONIA',          destino: 'AURELIANO_ULTIMO',          notas: 'Producto del incesto entre sobrino y tía. Nace con cola de cerdo, el signo de la maldición familiar.' },
+  { id: 'REL_AMARANTA_URSULA_MADRE_AUR_ULTIMO',   tipo: 'parental',         subtipo: 'madre',                          origen: 'AMARANTA_URSULA',              destino: 'AURELIANO_ULTIMO',          notas: 'Muere en el parto al día siguiente del nacimiento. No sabía que Aureliano Babilonia era su sobrino.' },
+  { id: 'REL_MATRIMONIO_JAB_URSULA',              tipo: 'marital',          subtipo: 'esposos',                        origen: 'JOSE_ARCADIO_BUENDIA_FUNDADOR', destino: 'URSULA_IGUARAN',           notas: 'Son primos. Úrsula lleva cinturón de castidad los primeros meses ante el miedo al incesto. El matrimonio es el eje de la fundación de Macondo.' },
+  { id: 'REL_MATRIMONIO_JOSE_ARCADIO_REBECA',     tipo: 'marital',          subtipo: 'esposos',                        origen: 'JOSE_ARCADIO_HIJO',            destino: 'REBECA',                    notas: 'Boda imprevista que sorprende a la familia. Úrsula no los deja vivir en la casa.' },
+  { id: 'REL_MATRIMONIO_CORONEL_REMEDIOS',        tipo: 'marital',          subtipo: 'esposos',                        origen: 'AURELIANO_BUENDIA_CORONEL',    destino: 'REMEDIOS_MOSCOTE',          notas: 'Remedios tiene nueve años cuando el Coronel se enamora de ella. Se casan tras su primera menstruación.' },
+  { id: 'REL_MATRIMONIO_AURELIANO_SEG_FERNANDA',  tipo: 'marital',          subtipo: 'esposos',                        origen: 'AURELIANO_SEGUNDO',            destino: 'FERNANDA_DEL_CARPIO',       notas: 'Matrimonio de conveniencia social. Aureliano Segundo mantiene toda la vida su relación con Petra Cotes.' },
+  { id: 'REL_MATRIMONIO_AMARANTA_URSULA_GASTON',  tipo: 'marital',          subtipo: 'esposos',                        origen: 'AMARANTA_URSULA',              destino: 'GASTON',                    notas: 'Gastón, belga, acepta con ecuanimidad la infidelidad y regresa a Bruselas sin escenas.' },
+  { id: 'REL_AMOR_JOSE_ARCADIO_PILAR',            tipo: 'amorosa',          subtipo: 'amantes',                        origen: 'JOSE_ARCADIO_HIJO',            destino: 'PILAR_TERNERA',             notas: 'José Arcadio la visita de noche guiado por su olor. De esta unión nace Arcadio.' },
+  { id: 'REL_AMOR_CORONEL_PILAR',                 tipo: 'amorosa',          subtipo: 'amantes',                        origen: 'AURELIANO_BUENDIA_CORONEL',    destino: 'PILAR_TERNERA',             notas: 'Pilar se ofrece como intermediaria amorosa y acaban teniendo una noche juntos. De esta unión nace Aureliano José.' },
+  { id: 'REL_AMOR_AURELIANO_JOSE_AMARANTA',       tipo: 'amorosa',          subtipo: 'atracción incestuosa no consumada', origen: 'AURELIANO_JOSE',            destino: 'AMARANTA_BUENDIA',          notas: 'Aureliano José se mete en la cama de Amaranta primero por miedo y luego por deseo. Amaranta lo rechaza definitivamente tras rozar el límite.' },
+  { id: 'REL_AMOR_AMARANTA_PIETRO',               tipo: 'amorosa',          subtipo: 'amor no correspondido',          origen: 'AMARANTA_BUENDIA',             destino: 'PIETRO_CRESPI',             notas: 'Amaranta se enamora de Pietro pero lo rechaza cruelmente cuando él le propone matrimonio, impulsada por un deseo de castigarle y protegerse de ser herida. Pietro Crespi se suicida.' },
+  { id: 'REL_AMOR_REBECA_PIETRO',                 tipo: 'amorosa',          subtipo: 'novios',                         origen: 'REBECA',                       destino: 'PIETRO_CRESPI',             notas: 'Rebeca espera durante años la boda que Amaranta boicotea en repetidas ocasiones. Finalmente Rebeca se casa con José Arcadio (hijo) en lugar de con Pietro.' },
+  { id: 'REL_AMOR_AMARANTA_GERINELDO',            tipo: 'amorosa',          subtipo: 'amor rechazado',                 origen: 'GERINELDO_MARQUEZ',            destino: 'AMARANTA_BUENDIA',          notas: 'Gerineldo Márquez la corteja. Amaranta lo rechaza alegando que lo matarán en la guerra, pero en realidad es su muro autoimpuesto contra el amor.' },
+  { id: 'REL_AMOR_ARCADIO_SANTA_SOFIA',           tipo: 'amorosa',          subtipo: 'pareja',                         origen: 'ARCADIO',                      destino: 'SANTA_SOFIA_DE_LA_PIEDAD',  notas: 'Santa Sofía sustituye a Pilar Ternera en el engaño que esta tendió a Arcadio. Acaban enamorados. Tienen tres hijos juntos.' },
+  { id: 'REL_AMOR_AURELIANO_SEG_PETRA',           tipo: 'amorosa',          subtipo: 'amantes duraderos',              origen: 'AURELIANO_SEGUNDO',            destino: 'PETRA_COTES',               notas: 'Relación que dura toda la vida de Aureliano Segundo, paralela a su matrimonio con Fernanda. La fidelidad de Petra al final convierte la pasión en amor tranquilo y solidario.' },
+  { id: 'REL_AMOR_MEME_MAURICIO',                 tipo: 'amorosa',          subtipo: 'amantes',                        origen: 'MEME',                         destino: 'MAURICIO_BABILONIA',        notas: 'Meme piensa en Mauricio hasta su muerte sin haber vuelto a ser feliz.' },
+  { id: 'REL_AMOR_AURELIANO_AMARANTA_URSULA',     tipo: 'amorosa',          subtipo: 'amantes incestuosos',            origen: 'AURELIANO_BABILONIA',          destino: 'AMARANTA_URSULA',           notas: 'Sobrino y tía. Ninguno de los dos sabía con certeza el vínculo de sangre. Su unión produce el niño con cola de cerdo que cumple la profecía.' },
+  { id: 'REL_AMOR_AURELIANO_NIGROMANTA',          tipo: 'amorosa',          subtipo: 'amantes',                        origen: 'AURELIANO_BABILONIA',          destino: 'NIGROMANTA',                notas: 'Aureliano paga con el dinero de su tía a Nigromanta. Luego se hacen amantes gratuitamente hasta que él le confiesa su amor por Amaranta Úrsula.' },
+  { id: 'REL_CONFLICTO_JAB_AGUILAR',              tipo: 'conflicto',        subtipo: 'duelo mortal',                   origen: 'JOSE_ARCADIO_BUENDIA_FUNDADOR', destino: 'PRUDENCIO_AGUILAR',        notas: 'El fantasma de Aguilar acosa a la pareja Buendía con una tristeza tan profunda que despierta compasión. Finalmente, en su demencia, JAB convierte el fantasma en compañero de charla.' },
+  { id: 'REL_CONFLICTO_AMARANTA_REBECA',          tipo: 'conflicto',        subtipo: 'rivalidad',                      origen: 'AMARANTA_BUENDIA',             destino: 'REBECA',                    notas: 'Amaranta boicotea la boda de Rebeca en repetidas ocasiones: deja que las polillas devoren el vestido, inyecta arsénico en su café (nunca llega a dárselo).' },
+  { id: 'REL_POLITICA_CORONEL_CONSERVADORES',     tipo: 'politica',         subtipo: 'oposición armada',               origen: 'AURELIANO_BUENDIA_CORONEL',    destino: 'APOLINAR_MOSCOTE',          notas: 'El Coronel pierde 32 levantamientos en 20 años de guerra civil. Al final firma la rendición reconociendo que solo luchaba por orgullo.' },
+  { id: 'REL_AMISTAD_CORONEL_GERINELDO',          tipo: 'amistad',          subtipo: 'camaradas de guerra',            origen: 'AURELIANO_BUENDIA_CORONEL',    destino: 'GERINELDO_MARQUEZ',         notas: 'Amistad que sobrevive incluso al episodio en que el Coronel condena a Gerineldo a muerte por alta traición y luego lo libera.' },
+  { id: 'REL_AMISTAD_CORONEL_MONCADA',            tipo: 'amistad',          subtipo: 'amigos en bandos opuestos',      origen: 'AURELIANO_BUENDIA_CORONEL',    destino: 'JOSE_RAQUEL_MONCADA',       notas: 'Amigos a pesar de ser rivales políticos. Almuerzan juntos en casa de Úrsula antes de que el Coronel ordene su ejecución.' },
+  { id: 'REL_AMISTAD_AURELIANO_GABRIEL',          tipo: 'amistad',          subtipo: 'amigos intelectuales',           origen: 'AURELIANO_BABILONIA',          destino: 'GABRIEL_MARQUEZ',           notas: 'Gabriel es el único que cree en el relato de la masacre que vivió José Arcadio Segundo.' },
+  { id: 'REL_MENTOR_MELQUIADES_JAB',              tipo: 'mentor_discipulo', subtipo: 'maestro y aprendiz',             origen: 'MELQUIADES',                   destino: 'JOSE_ARCADIO_BUENDIA_FUNDADOR', notas: 'Melquíades introduce a JAB en la ciencia, la alquimia, la astrología y la daguerrotipia. Le regala un laboratorio completo.' },
+  { id: 'REL_MENTOR_JA_SEG_AUR_BAB',             tipo: 'mentor_discipulo', subtipo: 'legado intelectual',             origen: 'JOSE_ARCADIO_SEGUNDO',         destino: 'AURELIANO_BABILONIA',       notas: 'José Arcadio Segundo enseña a Aureliano a leer y escribir, y le muestra los pergaminos de Melquíades, asegurándose de que alguien continúe su labor de descifrarlos.' },
+];
+
+// ── Paleta ──────────────────────────────────────────────────────────────────
+
+const GEN = {
+  1:    { bg: '#9A6B1A', border: '#D4933A', label: '1ª generación' },
+  2:    { bg: '#8B3A2A', border: '#C46040', label: '2ª generación' },
+  3:    { bg: '#7A2850', border: '#B84070', label: '3ª generación' },
+  4:    { bg: '#5E2888', border: '#9145C8', label: '4ª generación' },
+  5:    { bg: '#2E3CAA', border: '#5060E8', label: '5ª generación' },
+  6:    { bg: '#1A4EA8', border: '#3378E0', label: '6ª generación' },
+  7:    { bg: '#0E6880', border: '#1AB0CC', label: '7ª generación' },
+  null: { bg: '#2E3039', border: '#5A6070', label: 'Externos / secundarios' },
+};
+
+const EDGE_C = {
+  parental:         '#666',
+  marital:          '#E05090',
+  amorosa:          '#E03050',
+  conflicto:        '#CC2020',
+  amistad:          '#4090E0',
+  mentor_discipulo: '#30B870',
+  politica:         '#C89020',
+  otro:             '#888',
+};
+
+const EDGE_LABELS = {
+  parental:         'Filiación',
+  marital:          'Matrimonio',
+  amorosa:          'Amor / Deseo',
+  conflicto:        'Conflicto',
+  amistad:          'Amistad',
+  mentor_discipulo: 'Mentor / Discípulo',
+  politica:         'Política',
+};
+
+// ── Elementos Cytoscape ─────────────────────────────────────────────────────
+
+const elements = [
+  ...PERSONAJES.map(p => ({
+    group: 'nodes',
+    data: { id: p.id, label: p.nombre, generacion: p.generacion, capitulo: p.capitulo, descripcion: p.descripcion, apodos: p.apodos },
+  })),
+  ...RELACIONES.map(r => ({
+    group: 'edges',
+    data: { id: r.id, source: r.origen, target: r.destino, tipo: r.tipo, subtipo: r.subtipo, notas: r.notas },
+  })),
+];
+
+// ── Init ────────────────────────────────────────────────────────────────────
+
+cytoscape.use(cytoscapeDagre);
+
+const cy = cytoscape({
+  container: document.getElementById('cy'),
+  elements,
+  style: [
+    {
+      selector: 'node',
+      style: {
+        'background-color':    n => (GEN[n.data('generacion')] || GEN[null]).bg,
+        'border-color':        n => (GEN[n.data('generacion')] || GEN[null]).border,
+        'border-width': 2,
+        'width': n => Math.max(22, Math.min(44, 16 + n.degree(false) * 2.2)),
+        'height': n => Math.max(22, Math.min(44, 16 + n.degree(false) * 2.2)),
+        'label': 'data(label)',
+        'color': '#d0c8bc',
+        'font-family': '"Inter", system-ui, sans-serif',
+        'font-size': '10px',
+        'font-weight': '400',
+        'text-valign': 'bottom',
+        'text-halign': 'center',
+        'text-margin-y': 5,
+        'text-max-width': '90px',
+        'text-wrap': 'ellipsis',
+        'text-background-color': '#0c0b09',
+        'text-background-opacity': 0.72,
+        'text-background-padding': '2px',
+        'transition-property': 'border-width, width, height, opacity',
+        'transition-duration': '0.18s',
+      },
+    },
+    {
+      selector: 'node.highlighted',
+      style: {
+        'border-width': 3,
+        'border-color': '#fff',
+        'width': n => Math.max(30, Math.min(52, 24 + n.degree(false) * 2.2)),
+        'height': n => Math.max(30, Math.min(52, 24 + n.degree(false) * 2.2)),
+        'color': '#fff',
+        'font-size': '11px',
+        'z-index': 999,
+      },
+    },
+    {
+      selector: 'node.faded',
+      style: { 'opacity': 0.12 },
+    },
+    {
+      selector: 'edge',
+      style: {
+        'line-color':          e => EDGE_C[e.data('tipo')] || EDGE_C.otro,
+        'target-arrow-color':  e => EDGE_C[e.data('tipo')] || EDGE_C.otro,
+        'target-arrow-shape':  e => e.data('tipo') === 'parental' ? 'triangle' : 'none',
+        'arrow-scale': 0.7,
+        'width':     e => e.data('tipo') === 'parental' ? 1 : 1.4,
+        'opacity':   e => e.data('tipo') === 'parental' ? 0.28 : 0.58,
+        'line-style': e => ['amorosa', 'conflicto'].includes(e.data('tipo')) ? 'dashed' : 'solid',
+        'line-dash-pattern': [6, 4],
+        'curve-style': 'bezier',
+        'transition-property': 'opacity, width',
+        'transition-duration': '0.18s',
+      },
+    },
+    {
+      selector: 'edge.highlighted',
+      style: { 'opacity': 0.95, 'width': 2.5, 'z-index': 99 },
+    },
+    {
+      selector: 'edge.faded',
+      style: { 'opacity': 0.03 },
+    },
+  ],
+  layout: {
+    name: 'dagre',
+    rankDir: 'TB',
+    nodeSep: 55,
+    rankSep: 85,
+    edgeSep: 8,
+    ranker: 'network-simplex',
+    animate: false,
+  },
+  minZoom: 0.06,
+  maxZoom: 4,
+  wheelSensitivity: 0.3,
+});
+
+cy.ready(() => cy.fit(undefined, 40));
+
+// ── Panel ───────────────────────────────────────────────────────────────────
+
+const panel   = document.getElementById('panel');
+const tooltip = document.getElementById('tooltip');
+
+function genLabel(g) {
+  if (g === null || g === undefined) return 'Externo';
+  return `${g}ª generación`;
+}
+
+function openPanel(node) {
+  const d = node.data();
+  const colors = GEN[d.generacion] || GEN[null];
+
+  const badge = document.getElementById('panel-badge');
+  badge.textContent = genLabel(d.generacion);
+  badge.style.background    = colors.bg + '55';
+  badge.style.color         = colors.border;
+  badge.style.borderColor   = colors.border;
+
+  document.getElementById('panel-nombre').textContent = d.label;
+
+  const apodosEl = document.getElementById('panel-apodos');
+  apodosEl.textContent = d.apodos && d.apodos.length ? d.apodos.join(' · ') : '';
+
+  document.getElementById('panel-gen').textContent = genLabel(d.generacion);
+  document.getElementById('panel-cap').textContent = `Capítulo ${d.capitulo}`;
+  document.getElementById('panel-desc').textContent = d.descripcion;
+
+  const list = document.getElementById('panel-rels-list');
+  list.innerHTML = '';
+
+  node.connectedEdges().forEach(e => {
+    const isSource  = e.data('source') === d.id;
+    const other     = isSource ? e.target() : e.source();
+    const color     = EDGE_C[e.data('tipo')] || EDGE_C.otro;
+    const direction = isSource ? '→' : '←';
+    const item = document.createElement('div');
+    item.className = 'rel-item';
+    item.innerHTML = `
+      <span class="rel-dot" style="background:${color}"></span>
+      <div class="rel-body">
+        <span class="rel-name">${direction} ${other.data('label')}</span>
+        <span class="rel-type">${e.data('subtipo') || e.data('tipo')}</span>
+      </div>`;
+    item.addEventListener('click', () => {
+      const t = cy.getElementById(other.data('id'));
+      if (t.length) {
+        cy.animate({ center: { eles: t }, zoom: Math.max(cy.zoom(), 1.2) }, { duration: 380 });
+        t.emit('tap');
+      }
+    });
+    list.appendChild(item);
+  });
+
+  if (!list.children.length) {
+    list.innerHTML = '<span style="font-size:.75rem;color:rgba(255,255,255,.2)">Sin relaciones registradas</span>';
+  }
+
+  panel.classList.add('visible');
+  highlight(node);
+}
+
+function closePanel() {
+  panel.classList.remove('visible');
+  cy.elements().removeClass('highlighted faded');
+}
+
+function highlight(node) {
+  cy.elements().removeClass('highlighted faded');
+  node.addClass('highlighted');
+  const neighborhood = node.openNeighborhood();
+  neighborhood.addClass('highlighted');
+  node.connectedEdges().addClass('highlighted');
+  cy.elements().not('.highlighted').addClass('faded');
+}
+
+// ── Eventos ─────────────────────────────────────────────────────────────────
+
+cy.on('tap', 'node', evt => openPanel(evt.target));
+cy.on('tap', evt => { if (evt.target === cy) closePanel(); });
+
+document.getElementById('panel-close').addEventListener('click', closePanel);
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closePanel(); });
+
+cy.on('mouseover', 'node', evt => {
+  const pos = evt.renderedPosition;
+  tooltip.textContent = evt.target.data('label');
+  tooltip.style.left  = (pos.x + 14) + 'px';
+  tooltip.style.top   = (pos.y - 8) + 'px';
+  tooltip.classList.add('show');
+});
+cy.on('mouseout', 'node',  () => tooltip.classList.remove('show'));
+cy.on('mousemove',         () => tooltip.classList.remove('show'));
+
+// ── Controles ────────────────────────────────────────────────────────────────
+
+document.getElementById('btn-fit').addEventListener('click', () =>
+  cy.animate({ fit: { padding: 40 } }, { duration: 450 }));
+
+document.getElementById('btn-all').addEventListener('click', function () {
+  cy.elements().show();
+  this.classList.add('active');
+  document.getElementById('btn-parental').classList.remove('active');
+});
+
+document.getElementById('btn-parental').addEventListener('click', function () {
+  cy.elements().show();
+  cy.edges().filter(e => e.data('tipo') !== 'parental').hide();
+  this.classList.add('active');
+  document.getElementById('btn-all').classList.remove('active');
+});
+
+// ── Leyenda nodos ───────────────────────────────────────────────────────────
+
+const leyenda = document.getElementById('leyenda');
+Object.entries(GEN).forEach(([gen, c]) => {
+  const row = document.createElement('div');
+  row.className = 'ley-row';
+  row.innerHTML = `<span class="ley-dot" style="background:${c.border}"></span><span class="ley-label">${c.label}</span>`;
+  leyenda.appendChild(row);
+});
+
+// ── Leyenda aristas ─────────────────────────────────────────────────────────
+
+const leyEdges = document.getElementById('ley-edges');
+Object.entries(EDGE_LABELS).forEach(([tipo, label]) => {
+  const row = document.createElement('div');
+  row.className = 'ley-row';
+  const isDashed = ['amorosa', 'conflicto'].includes(tipo);
+  row.innerHTML = `
+    <svg width="18" height="10" style="flex-shrink:0;margin-top:1px">
+      <line x1="0" y1="5" x2="18" y2="5"
+        stroke="${EDGE_C[tipo]}"
+        stroke-width="${tipo === 'parental' ? 1 : 1.5}"
+        stroke-dasharray="${isDashed ? '4 3' : 'none'}"
+        opacity="${tipo === 'parental' ? 0.5 : 0.85}"/>
+    </svg>
+    <span class="ley-label">${label}</span>`;
+  leyEdges.appendChild(row);
+});
+</script>
+</body>
+</html>

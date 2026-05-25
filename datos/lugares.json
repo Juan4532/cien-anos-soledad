@@ -144,17 +144,6 @@
       "coordenadas_macondo": null
     },
     {
-      "id": "HOTEL_FORASTEROS",
-      "nombre": "Hotel de los forasteros",
-      "tipo": "edificio",
-      "descripcion": "Hotel frecuentado por los representantes de la compañía bananera y sus visitantes. Mr. Herbert se hospeda aquí mientras examina los plátanos y convence a sus superiores del potencial de la zona.",
-      "dentro_de": "MACONDO",
-      "capitulo_aparicion": 11,
-      "real": false,
-      "coordenadas_reales": null,
-      "coordenadas_macondo": null
-    },
-    {
       "id": "TIENDA_CATARINO",
       "nombre": "Tienda de Catarino",
       "tipo": "edificio",
@@ -263,128 +252,12 @@
       "coordenadas_macondo": null
     },
     {
-      "id": "PARIS",
-      "nombre": "París",
-      "tipo": "ciudad",
-      "descripcion": "Capital de Francia. Destino al que se marcha Gabriel, el amigo de Aureliano Babilonia, al ganar un concurso literario. Representa la fuga hacia la modernidad europea que otros personajes nunca logran.",
-      "dentro_de": null,
-      "capitulo_aparicion": 20,
-      "real": true,
-      "coordenadas_reales": {
-        "lat": 48.8566,
-        "lon": 2.3522
-      },
-      "coordenadas_macondo": null
-    },
-    {
-      "id": "BRUSELAS",
-      "nombre": "Bruselas",
-      "tipo": "ciudad",
-      "descripcion": "Capital de Bélgica. Destino al que son enviados José Arcadio Quinto al seminario y Amaranta Úrsula a estudiar. Esta última regresa años después con su esposo Gastón.",
-      "dentro_de": null,
-      "capitulo_aparicion": 17,
-      "real": true,
-      "coordenadas_reales": {
-        "lat": 50.8503,
-        "lon": 4.3517
-      },
-      "coordenadas_macondo": null
-    },
-    {
-      "id": "COMEDOR",
-      "nombre": "Comedor de la casa Buendía",
-      "tipo": "habitacion",
-      "descripcion": "Comedor familiar de la casa Buendía. Úrsula amplía la mesa hasta dieciséis puestos durante la bonanza bananera para los invitados de Aureliano Segundo. Escena de comidas familiares y de los últimos desayunos caóticos de Amaranta Úrsula.",
-      "dentro_de": "CASA_BUENDIA",
-      "capitulo_aparicion": 1,
-      "real": false,
-      "coordenadas_reales": null,
-      "coordenadas_macondo": null
-    },
-    {
-      "id": "COCINA",
-      "nombre": "Cocina de la casa Buendía",
-      "tipo": "habitacion",
-      "descripcion": "Cocina donde Úrsula y luego Santa Sofía de la Piedad trabajan sin parar. Por ella llega el reguero de sangre de José Arcadio después de su asesinato, recorriendo toda la casa hasta los pies de Úrsula.",
-      "dentro_de": "CASA_BUENDIA",
-      "capitulo_aparicion": 1,
-      "real": false,
-      "coordenadas_reales": null,
-      "coordenadas_macondo": null
-    },
-    {
-      "id": "DORMITORIO_PRINCIPAL",
-      "nombre": "Dormitorio principal (JAB y Úrsula)",
-      "tipo": "habitacion",
-      "descripcion": "Dormitorio de José Arcadio Buendía y Úrsula. El fantasma de Prudencio Aguilar aparece aquí noche tras noche, empujando a la familia hacia el éxodo fundacional.",
-      "dentro_de": "CASA_BUENDIA",
-      "capitulo_aparicion": 2,
-      "real": false,
-      "coordenadas_reales": null,
-      "coordenadas_macondo": null
-    },
-    {
-      "id": "GRANERO",
-      "nombre": "Granero de la casa Buendía",
-      "tipo": "habitacion",
-      "descripcion": "Granero contiguo a la cocina. Escenario del primer encuentro erótico de José Arcadio con Pilar Ternera y, más tarde, de los amores furtivos de Aureliano José con su tía Amaranta.",
-      "dentro_de": "CASA_BUENDIA",
-      "capitulo_aparicion": 2,
-      "real": false,
-      "coordenadas_reales": null,
-      "coordenadas_macondo": null
-    },
-    {
-      "id": "SALA_VISITA",
-      "nombre": "Sala de visitas",
-      "tipo": "habitacion",
-      "descripcion": "Sala de visitas de la casa Buendía, escenario de la boda de Aureliano con Remedios Moscote y de las visitas formales de Pietro Crespi.",
-      "dentro_de": "CASA_BUENDIA",
-      "capitulo_aparicion": 3,
-      "real": false,
-      "coordenadas_reales": null,
-      "coordenadas_macondo": null
-    },
-    {
-      "id": "SALA_ESTAR",
-      "nombre": "Sala de estar",
-      "tipo": "habitacion",
-      "descripcion": "Sala de estar de la casa Buendía donde Pietro Crespi imparte lecciones de baile a Rebeca y Amaranta.",
-      "dentro_de": "CASA_BUENDIA",
-      "capitulo_aparicion": 4,
-      "real": false,
-      "coordenadas_reales": null,
-      "coordenadas_macondo": null
-    },
-    {
       "id": "CORREDOR_BEGONIAS",
       "nombre": "Corredor de las begonias",
       "tipo": "habitacion",
       "descripcion": "Corredor interior plantado de begonias y helechos donde Amaranta borda su interminable mortaja y recibe las visitas cotidianas de Gerineldo Márquez. Símbolo del encierro voluntario de Amaranta.",
       "dentro_de": "CASA_BUENDIA",
       "capitulo_aparicion": 4,
-      "real": false,
-      "coordenadas_reales": null,
-      "coordenadas_macondo": null
-    },
-    {
-      "id": "BANO_CASA",
-      "nombre": "Baño de la casa Buendía",
-      "tipo": "habitacion",
-      "descripcion": "Baño con alberca de cemento. Remedios la Bella se baña aquí hasta seis veces al día; Mauricio Babilonia es baleado cuando intenta colarse por el techo. La alberca sirve de lecho amoroso improvisado de Aureliano Babilonia y Amaranta Úrsula en el último capítulo.",
-      "dentro_de": "CASA_BUENDIA",
-      "capitulo_aparicion": 4,
-      "real": false,
-      "coordenadas_reales": null,
-      "coordenadas_macondo": null
-    },
-    {
-      "id": "ALCOBA_REMEDIOS_MOSCOTE",
-      "nombre": "Alcoba de Remedios Moscote",
-      "tipo": "habitacion",
-      "descripcion": "Alcoba cercana al taller del coronel Aureliano Buendía donde Remedios Moscote se instala tras casarse con Aureliano Buendía. Ella muere aquí poco después del matrimonio.",
-      "dentro_de": "CASA_BUENDIA",
-      "capitulo_aparicion": 5,
       "real": false,
       "coordenadas_reales": null,
       "coordenadas_macondo": null
@@ -418,17 +291,6 @@
       "descripcion": "Calle de los comerciantes árabes y turcos de Macondo. Aquí tiene su tienda Pietro Crespi. El reguero de sangre de José Arcadio recorre esta vía hasta la casa Buendía. En el ocaso de Macondo, los últimos árabes se sientan a esperar la muerte en sus puertas.",
       "dentro_de": "MACONDO",
       "capitulo_aparicion": 4,
-      "real": false,
-      "coordenadas_reales": null,
-      "coordenadas_macondo": null
-    },
-    {
-      "id": "DESPACHO_CORREGIDOR",
-      "nombre": "Despacho del corregidor",
-      "tipo": "edificio",
-      "descripcion": "Despacho oficial de Apolinar Moscote, instalado a dos cuadras de la casa Buendía. Sede de la primera administración civil de Macondo.",
-      "dentro_de": "MACONDO",
-      "capitulo_aparicion": 3,
       "real": false,
       "coordenadas_reales": null,
       "coordenadas_macondo": null
@@ -478,34 +340,12 @@
       "coordenadas_macondo": null
     },
     {
-      "id": "GALLERA_MACONDO",
-      "nombre": "Gallera de Macondo",
-      "tipo": "edificio",
-      "descripcion": "Gallera donde José Arcadio Segundo se inicia en las peleas de gallos antes de emplearse con la compañía bananera.",
-      "dentro_de": "MACONDO",
-      "capitulo_aparicion": 10,
-      "real": false,
-      "coordenadas_reales": null,
-      "coordenadas_macondo": null
-    },
-    {
       "id": "FABRICA_HIELO",
       "nombre": "Fábrica de hielo",
       "tipo": "edificio",
       "descripcion": "Fábrica de hielo instalada en las afueras del pueblo por Aureliano Triste como preludio de la modernidad. Primer indicio de la llegada del ferrocarril y la compañía bananera.",
       "dentro_de": "MACONDO",
       "capitulo_aparicion": 11,
-      "real": false,
-      "coordenadas_reales": null,
-      "coordenadas_macondo": null
-    },
-    {
-      "id": "CALLE_ANTILLANOS",
-      "nombre": "Calle de los antillanos",
-      "tipo": "calle",
-      "descripcion": "Calle marginal con casas de madera sobre pilotes habitada por trabajadores negros antillanos, que cantan salmos al caer la tarde y practican sus propios ritos.",
-      "dentro_de": "MACONDO",
-      "capitulo_aparicion": 12,
       "real": false,
       "coordenadas_reales": null,
       "coordenadas_macondo": null
@@ -621,31 +461,6 @@
       "coordenadas_macondo": null
     },
     {
-      "id": "RANCHERIA_ANCESTRAL",
-      "nombre": "Ranchería ancestral de los Buendía",
-      "tipo": "region",
-      "descripcion": "Ranchería cerca de Riohacha donde vivían las familias Buendía e Iguarán. Punto de partida del éxodo fundacional tras el asesinato de Prudencio Aguilar.",
-      "dentro_de": null,
-      "capitulo_aparicion": 2,
-      "real": true,
-      "coordenadas_reales": {
-        "lat": 11.35,
-        "lon": -72.85
-      },
-      "coordenadas_macondo": null
-    },
-    {
-      "id": "CAPITAL_PROVINCIA",
-      "nombre": "Capital de la provincia",
-      "tipo": "ciudad",
-      "descripcion": "Capital provincial innominada a la que Moscote rinde cuentas y adonde viajan algunos personajes durante la guerra civil.",
-      "dentro_de": null,
-      "capitulo_aparicion": 3,
-      "real": true,
-      "coordenadas_reales": null,
-      "coordenadas_macondo": null
-    },
-    {
       "id": "CURAZAO",
       "nombre": "Curaçao",
       "tipo": "ciudad",
@@ -688,20 +503,6 @@
       "coordenadas_macondo": null
     },
     {
-      "id": "SANTIAGO_DE_CUBA",
-      "nombre": "Santiago de Cuba",
-      "tipo": "ciudad",
-      "descripcion": "Ciudad portuaria cubana desde donde llega una carta del coronel Aureliano Buendía Aureliano Buendía durante sus campañas en el Caribe.",
-      "dentro_de": null,
-      "capitulo_aparicion": 8,
-      "real": true,
-      "coordenadas_reales": {
-        "lat": 20.0174,
-        "lon": -75.8313
-      },
-      "coordenadas_macondo": null
-    },
-    {
       "id": "CRACOVIA",
       "nombre": "Cracovia",
       "tipo": "ciudad",
@@ -716,20 +517,6 @@
       "coordenadas_macondo": null
     },
     {
-      "id": "ROMA",
-      "nombre": "Roma",
-      "tipo": "ciudad",
-      "descripcion": "Ciudad donde José Arcadio Quinto estudia en el seminario. Regresa a Macondo tras la muerte del Papa con un baúl de seda y vive recluido en sus lujos hasta ser asesinado.",
-      "dentro_de": null,
-      "capitulo_aparicion": 17,
-      "real": true,
-      "coordenadas_reales": {
-        "lat": 41.9028,
-        "lon": 12.4964
-      },
-      "coordenadas_macondo": null
-    },
-    {
       "id": "ESTACION_CIENAGA",
       "nombre": "Estación de La Ciénaga",
       "tipo": "edificio",
@@ -738,31 +525,6 @@
       "capitulo_aparicion": 15,
       "real": false,
       "coordenadas_reales": null,
-      "coordenadas_macondo": null
-    },
-    {
-      "id": "CAMPO_ATERRIZAJE",
-      "nombre": "Campo de aterrizaje de Gastón",
-      "tipo": "region",
-      "descripcion": "Aeródromo improvisado en los terrenos de la antigua plantación bananera donde Gastón espera el aeroplano que sus socios le envían. El aparato nunca llega a Macondo.",
-      "dentro_de": "MACONDO",
-      "capitulo_aparicion": 19,
-      "real": false,
-      "coordenadas_reales": null,
-      "coordenadas_macondo": null
-    },
-    {
-      "id": "TANGANYIKA",
-      "nombre": "Tanganyika",
-      "tipo": "region",
-      "descripcion": "Territorio del África oriental (actual Tanzania) donde Gastón termina por error después de que una agencia marítima lo embarca con destino equivocado. Escribe a Amaranta Úrsula desde allí a través de Leopoldville.",
-      "dentro_de": null,
-      "capitulo_aparicion": 20,
-      "real": true,
-      "coordenadas_reales": {
-        "lat": -5.0,
-        "lon": 35.0
-      },
       "coordenadas_macondo": null
     },
     {
