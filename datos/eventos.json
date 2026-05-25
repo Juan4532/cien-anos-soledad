@@ -1502,7 +1502,7 @@
       ],
       "lugar": "MACONDO",
       "descripcion": "Los gemelos, que ya confundían a todos desde niños, optan en la escuela por intercambiarse la ropa, las esclavas con sus nombres y los propios nombres. Don Melchor Escalona pierde los estribos al descubrir la suplantación. Desde entonces nadie sabe con certeza quién es quién.",
-      "orden_cronologico": 810
+      "orden_cronologico": 1000
     },
     {
       "id": "EVT_JOSE_ARCADIO_VE_FUSILAMIENTO",
@@ -1516,7 +1516,7 @@
       ],
       "lugar": "CEMENTERIO_MACONDO",
       "descripcion": "Gerineldo Márquez lleva a José Arcadio Segundo a ver un fusilamiento, contra el parecer de Úrsula. El condenado permanece erguido mientras la camisa se le empapa de sangre, y sigue sonriendo cuando lo meten en el cajón de cal. El muchacho queda convencido de que lo entierran vivo. Desde entonces detesta la guerra y lo militar.",
-      "orden_cronologico": 822
+      "orden_cronologico": 1001
     },
     {
       "id": "EVT_JOSE_ARCADIO_RELIGIOSO_GALLOS",
@@ -1530,7 +1530,7 @@
       ],
       "lugar": "MACONDO",
       "descripcion": "Traumatizado por el fusilamiento, José Arcadio Segundo toca las campanas, ayuda en misa al padre Antonio Isabel y cría gallos de pelea en el patio de la curia. El párroco le enseña teología entre los gallos. Hace su primera comunión, queda desconcertado por las preguntas del confesionario. Pronto se convierte en experto gallero y hombre de fortuna.",
-      "orden_cronologico": 823
+      "orden_cronologico": 1002
     },
     {
       "id": "EVT_AURELIANO_SEGUNDO_PETRA_COTES",
