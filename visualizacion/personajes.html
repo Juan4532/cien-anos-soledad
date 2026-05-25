@@ -795,7 +795,10 @@ renderDetail();
     elements.push({ group:'nodes', data:{
       id: p.id, label: p.nombre,
       generacion: p.generacion, grupo: p.grupo, capitulo: p.capitulo,
-    }, position: pos});
+    }, position: pos, style:{
+      'background-color': col.bg,
+      'border-color': col.border,
+    }});
   });
   RAW_RELACIONES.forEach(function(r, i){
     elements.push({ group:'edges', data:{
@@ -804,42 +807,32 @@ renderDetail();
     }});
   });
 
-  var accentColor = darkMode ? '#e8b94a' : '#9c2a1a';
-  var nodeBg      = darkMode ? '#1f1a14' : '#6b4a1e';
-  var nodeBgHl    = darkMode ? '#2a2318' : '#7d5825';
-  var nodeText    = darkMode ? textColor  : '#f0e0c0';
-
   cy = cytoscape({
     container: document.getElementById('cy'),
     elements: elements,
     style: [
       { selector:'node', style:{
-        'background-color': nodeBg,
-        'border-color': function(n){ return nodeCol(byId[n.data('id')] || {}).border || '#666'; },
-        'border-width': 2.5,
-        'width':  function(n){ return Math.max(28, Math.min(54, 18 + n.degree(false) * 2.5)); },
-        'height': function(n){ return Math.max(28, Math.min(54, 18 + n.degree(false) * 2.5)); },
+        'background-color': function(n){ return nodeCol(byId[n.data('id')] || {}).bg || '#333'; },
+        'border-color':     function(n){ return nodeCol(byId[n.data('id')] || {}).border || '#666'; },
+        'border-width': 2,
+        'width':  function(n){ return Math.max(20, Math.min(42, 14 + n.degree(false) * 2)); },
+        'height': function(n){ return Math.max(20, Math.min(42, 14 + n.degree(false) * 2)); },
         'label': 'data(label)',
-        'color': nodeText,
+        'color': textColor,
         'font-family': '"EB Garamond", "Cormorant Garamond", Georgia, serif',
-        'font-size': '11px',
+        'font-size': '10px',
         'text-valign': 'bottom',
         'text-halign': 'center',
-        'text-margin-y': 5,
-        'text-max-width': '90px',
+        'text-margin-y': 4,
+        'text-max-width': '88px',
         'text-wrap': 'ellipsis',
         'text-background-color': textBg,
-        'text-background-opacity': 0.88,
+        'text-background-opacity': 0.75,
         'text-background-padding': '2px',
         'transition-property': 'opacity, width, height',
         'transition-duration': '0.18s',
       }},
-      { selector:'node.hl', style:{
-        'border-width': 3.5,
-        'border-color': accentColor,
-        'background-color': nodeBgHl,
-        'z-index': 999,
-      }},
+      { selector:'node.hl',    style:{ 'border-width':3, 'border-color':'#fff', 'z-index':999, 'color':'#fff' }},
       { selector:'node.faded', style:{ 'opacity': 0.08 }},
       { selector:'edge', style:{
         'line-color': function(e){ return EDGE_COL[e.data('tipo')] || EDGE_COL.otro; },
