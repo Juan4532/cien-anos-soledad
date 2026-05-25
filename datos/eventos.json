@@ -1456,7 +1456,7 @@
         "AURELIANO_ARCAYA",
         "AURELIANO_AMADOR"
       ],
-      "lugar": "MACONDO",
+      "lugar": null,
       "descripcion": "En el curso de una semana, los 17 hijos del coronel Aureliano Buendía son cazados como conejos en distintos lugares del litoral. La marca imborrable de ceniza en la frente los identifica para los asesinos. Aureliano Triste recibe un balazo en la frente; Aureliano Centeno es hallado en su hamaca con un punzón de picar hielo entre las cejas; Aureliano Serrador cae en un caldero de manteca hirviendo en la Calle de los Turcos; Aureliano Arcaya es abatido con una descarga de máuser al abrir la puerta. Solo Aureliano Amador escapa saltando la cerca de su patio y refugiándose con los indios de la sierra.",
       "orden_cronologico": 1200
     },
@@ -1485,7 +1485,7 @@
         "AURELIANO_BUENDIA_CORONEL",
         "AURELIANO_SEGUNDO"
       ],
-      "lugar": "MACONDO",
+      "lugar": "PLANTACION_BANANERA",
       "descripcion": "Tras la visita de míster Herbert, llegan ingenieros, agrónomos y topógrafos; luego el señor Jack Brown en su vagón laminado de plata. Macondo se convierte en un campamento de casas de cinc; los gringos construyen su barrio aparte cercado con malla electrificada y amanecido negro de golondrinas achicharradas. Las autoridades locales son sustituidas por forasteros autoritarios y sicarios de machete.",
       "orden_cronologico": 1201
     },
@@ -1700,7 +1700,7 @@
         "AMARANTA_BUENDIA",
         "URSULA_IGUARAN"
       ],
-      "lugar": "CASA_BUENDIA",
+      "lugar": "PATIO_CASA_BUENDIA",
       "descripcion": "Una tarde de marzo, mientras doblan sábanas en el patio, Remedios la Bella palidece y dice sentirse mejor que nunca. Un viento de luz le arranca las sábanas a Fernanda; Amaranta trata de agarrarse para no caer. Úrsula, casi ciega, es la única que comprende la naturaleza del viento y deja ir las sábanas. Remedios la Bella se eleva y desaparece para siempre en los altos aires.",
       "orden_cronologico": 1202
     },
@@ -2759,7 +2759,7 @@
         "AURELIANO_SERRADOR",
         "AURELIANO_ARCAYA"
       ],
-      "lugar": "MACONDO",
+      "lugar": "PLANTACION_BANANERA",
       "descripcion": "Remedios la Bella va con amigas a las plantaciones de banano; su hálito desencadena fascinación y deseos irresistibles en los trabajadores. Los cuatro Aurelianos con cruces de ceniza las rescatan del asalto. Un hombre que le agredió el vientre se jacta esa noche en la Calle de los Turcos, y minutos después la patada de un caballo le destroza el pecho.",
       "orden_cronologico": 1206
     },
@@ -3013,7 +3013,7 @@
       "participantes": [
         "SENOR_JACK_BROWN"
       ],
-      "lugar": "MACONDO",
+      "lugar": "PLANTACION_BANANERA",
       "descripcion": "Los gringos, con recursos antes reservados a la Divina Providencia, modifican el régimen de lluvias, aceleran el ciclo de las cosechas y trasladan el río de donde estuvo siempre al otro extremo de la población, detrás del cementerio. Sobre la tumba descolorida de José Arcadio construyen una fortaleza de hormigón para que el olor a pólvora del cadáver no contamine las aguas.",
       "orden_cronologico": 1212
     },
@@ -3026,7 +3026,7 @@
       "participantes": [
         "JOSE_ARCADIO_BUENDIA_FUNDADOR"
       ],
-      "lugar": "CASA_BUENDIA",
+      "lugar": "EL_CASTANO",
       "descripcion": "El intrincado frangollo de verdades y espejismos que traen la electricidad, el cine, el teléfono y el gramófono convulsiona al espectro de José Arcadio Buendía bajo el castaño y lo obliga a caminar por toda la casa aun a pleno día.",
       "orden_cronologico": 1213
     },
