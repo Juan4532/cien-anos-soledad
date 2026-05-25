@@ -919,7 +919,7 @@
       ],
       "lugar": "MACONDO",
       "descripcion": "En menos de dos años el gobierno anuncia cuatro veces la muerte del coronel Aureliano Buendía. El cuarto informe se tiene por cierto durante casi seis meses. Úrsula y Amaranta superponen lutos hasta que llega la noticia de que está vivo en el Caribe.",
-      "orden_cronologico": 805
+      "orden_cronologico": null
     },
     {
       "id": "EVT_CORONEL_FEDERALISMO_CARIBE",
