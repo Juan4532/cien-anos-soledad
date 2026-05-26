@@ -48,6 +48,12 @@
     border: none; border-top: var(--border-double);
     margin: 0 0 56px;
   }
+  .sobre-section p a{
+    color: var(--accent); text-decoration: none;
+    border-bottom: 1px solid var(--accent-soft);
+    transition: border-color .15s;
+  }
+  .sobre-section p a:hover{ border-color: var(--accent); }
 </style>
 </head>
 <body>
@@ -63,7 +69,6 @@
     <a href="personajes.html">Personajes</a>
     <a href="cronologia.html">Narración</a>
     <a href="lugares.html">Lugares</a>
-    <a href="sobre.html" class="is-active">Sobre esto</a>
   </nav>
   <div class="ctl">
     <button class="toggle" data-mode-toggle aria-label="Alternar modo">
@@ -76,53 +81,51 @@
   <h3 class="page-title">Sobre esto</h3>
 
   <div class="sobre-section">
-    <h2>El proyecto</h2>
     <p>
-      Una edición digital interactiva de <em>Cien años de soledad</em> de Gabriel García Márquez.
-      Un intento de cartografiar la estirpe de los Buendía: sus personajes, sus relaciones,
-      la cronología de los hechos y la geografía de Macondo.
+      Bueno, básicamente, un atlas interactivo de <em>Cien años de soledad</em>, de Gabriel García Márquez.
+      Un intento de cartografiar la estirpe de los Buendía, sus relaciones, la cronología de los hechos
+      y la geografía de Macondo. Un mapa para perderse mejor.
     </p>
     <p>
-      No es un análisis académico ni una guía de lectura. Es un mapa para perderse mejor.
-    </p>
-  </div>
-
-  <hr class="sobre-rule" />
-
-  <div class="sobre-section">
-    <h2>Los datos</h2>
-    <p>
-      La base de datos se construyó capítulo a capítulo, registrando personajes, eventos,
-      lugares y relaciones tal como aparecen en el texto. Ninguna relación o fecha
-      fue inventada: lo que no está atestiguado en la novela, no está aquí.
+      La frikada esta sale del cruce de tres cosas: el análisis de la novela de
+      <a href="https://www.youtube.com/@NOLBAC" target="_blank" rel="noopener">Nolbac</a>,
+      la metodología que usó Jaime Gómez-Obregón en su
+      <a href="https://ladonacion.es" target="_blank" rel="noopener">proyecto de investigación</a>
+      sobre la trama de corrupción del emérito, y ciertas tendencias obsesivas.
+      Las dos primeras recomiendo bichear, lo otro no tanto.
     </p>
     <p>
-      Cuando la cronología no es explícita, se marca como inferida. Los IDs de los personajes
-      son estables y nunca se reutilizan — necesario en una novela donde siete generaciones
-      comparten los mismos nombres.
+      Empecé queriendo hacer un simple grafo interactivo para asimilar el entramado de la novela
+      (o porque me gustan los grafos). De ahí fue creciendo, en sucesivos inútiles arranques de
+      productividad noctívagos, hasta esto. Leía una frase aparentemente sobre un detalle nimio
+      y me iba a releer cinco capítulos atrás a ver si resignificaba algo entero. A veces sí.
+      La mayoría de las veces no. O es que soy tonto.
     </p>
-  </div>
-
-  <hr class="sobre-rule" />
-
-  <div class="sobre-section">
-    <h2>La visualización</h2>
     <p>
-      HTML, CSS y JavaScript vanilla. Los datos viven en JSON y se sincronizan
-      al HTML mediante un script de Python. Sin frameworks, sin base de datos,
-      sin servidor: un archivo que se abre en el navegador.
+      Sobre el orden cronológico de los hechos no tardé en darme cuenta de que ordenar linealmente
+      algo que no tiene intención de serlo es tarea imposible, o por lo menos a mi gusto. Me causaron
+      especial interés las subtramas de las guerras del coronel Aureliano y de la huelga de la
+      plantación bananera. La de las guerras está particularmente revuelta en el texto, además de
+      la posibilidad de correspondencia con figuras y hechos reales, me llamó la atención. Hay algún
+      artículo por ahí sobre las dos cosas:
+      <a href="https://historia-actual.org/Publicaciones/index.php/hao/article/view/284" target="_blank" rel="noopener">Ivonne Suárez Pinzón</a>
+      sobre el paralelismo entre Aureliano Buendía y Rafael Uribe Uribe,
+      <a href="https://www.persee.fr/doc/hispa_0007-4640_1972_num_74_3_4082" target="_blank" rel="noopener">Lucila Inés Mena</a>
+      sobre los hechos detrás de la huelga, por si a alguien le pica.
     </p>
-  </div>
-
-  <hr class="sobre-rule" />
-
-  <div class="sobre-section">
-    <h2>Créditos</h2>
-    <ul>
-      <li>Gabriel García Márquez, <em>Cien años de soledad</em>, 1967</li>
-      <li>Proyecto independiente · juan · 2026</li>
-      <li>CC BY-NC 4.0</li>
-    </ul>
+    <p>
+      La cronología que aquí aparece recomiendo mirarla muy orientativamente, o que ni se mire.
+      La alinealidad del texto sigue siendo un problema de modelado, y me fastidia. Me hace falta
+      darle un par de vueltas más, y seguramente otra relectura más profunda, en cuanto disponga
+      de más tiempo, lo actualizaré.
+    </p>
+    <p>
+      Todos los contenidos del proyecto, incluyendo el modelo de registros, se distribuyen bajo
+      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" target="_blank" rel="noopener">Creative Commons BY-NC-SA 4.0</a>.
+      Lo que quiere decir que todo esto puede usarse y modificarse para lo que sea siempre que
+      no tenga fines comerciales y se me cite con un enlace al original. O no, en verdad me la pela.
+      Repositorio en <a href="https://github.com/Juan4532/cien-anos-soledad" target="_blank" rel="noopener">github.com/Juan4532/cien-anos-soledad</a>.
+    </p>
   </div>
 </div>
 
